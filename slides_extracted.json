@@ -1,0 +1,254 @@
+[
+  {
+    "slide_num": 1,
+    "texts": [
+      "01",
+      "Art of",
+      "Intelligence"
+    ]
+  },
+  {
+    "slide_num": 2,
+    "texts": [
+      "02",
+      "Presenting AI not as artificial, but as the true",
+      "ART OF INTELLIGENCE \u2013",
+      "where precision meets creativity in CCTV innovation"
+    ]
+  },
+  {
+    "slide_num": 3,
+    "texts": [
+      "03",
+      "WHY AI?",
+      "01",
+      "Real Time Fault Detection and Reliability",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "Predictive Maintenance and Reduced Downtime",
+      "Automated, Intelligent System Control",
+      "Advanced Design and Intelligent Planning",
+      "Strategic Decision Making and Forecasting",
+      "Empowering Management with clear, actionable insights"
+    ]
+  },
+  {
+    "slide_num": 4,
+    "texts": [
+      "04",
+      "How do we Solve it",
+      "AFFORDABLE\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 USABLE\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0 DEPLOYABLE AT SCALE"
+    ]
+  },
+  {
+    "slide_num": 5,
+    "texts": [
+      "05",
+      "Key Features",
+      "01",
+      "All insights with video proof automatically available at central without any human involvement",
+      "Only stores non-compliance proof thus reducing video storage 1/10th",
+      "AI based BOTS using Deep Learning and no image processing",
+      "Works with existing IP camera and don\u2019t need any specialised 3D/Stereo camera/setup",
+      "Can trigger various IOT devices as action for an event like Open Boom Barrier, Magnetic Door Lock, LED, Speaker, Hooter, Display etc",
+      "Real-time / Proactive notifications via Email/SMS/WhatsApp/Slack",
+      "Centralized dashboards with role-based access is there."
+    ]
+  },
+  {
+    "slide_num": 6,
+    "texts": [
+      "06",
+      "04",
+      "Turning Surveillance into Intelligence",
+      "Precision, Proactivity, Protection"
+    ]
+  },
+  {
+    "slide_num": 7,
+    "texts": [
+      "07",
+      "PPE Violation Detection",
+      "AI-driven PPE detection systems utilize computer vision and deep learning algorithms to monitor workers in real-time through existing CCTV infrastructure. These systems identify whether individuals are wearing mandatory safety gear such as helmets, vests, gloves, and goggles. Upon detecting non-compliance, immediate alerts are sent to supervisors, enabling prompt corrective actions and reducing the risk of workplace injuries"
+    ]
+  },
+  {
+    "slide_num": 8,
+    "texts": [
+      "08"
+    ]
+  },
+  {
+    "slide_num": 9,
+    "texts": [
+      "09",
+      "AI-powered ANPR systems use standard or specialized CCTV cameras (often IR\u2011enabled) to detect, read, and log vehicle registration plates in real time through deep learning and OCR-based computer vision pipelines.",
+      "These systems typically follow a multi-stage process:",
+      "Image capture using high-resolution or infrared cameras to ensure clarity under varied lighting or speed.",
+      "Plate localization identifying potential plate regions via contrast and shape, followed by filtering algorithms to refine detection.",
+      "OCR or AI-based recognition converts plate images into text using deep neural nets trained on diverse fonts, languages, and environmental conditions.",
+      "Data processing & integration matches the extracted plate data against databases (e.g. stolen vehicles or authorized access lists) to trigger actions like alerts, access control, or automatic challan issuance",
+      "Automatic Number Plate Recognition"
+    ]
+  },
+  {
+    "slide_num": 10,
+    "texts": [
+      "10"
+    ]
+  },
+  {
+    "slide_num": 11,
+    "texts": [
+      "11",
+      "AI-enhanced fire and smoke detection transforms standard CCTV cameras into early warning systems, capable of identifying flames or plumes of smoke in real\u2011time through visual anomalies, flame movement patterns, or pixel\u2011area thresholds.",
+      "These systems can operate on existing ONVIF cameras\u2014and often at the edge\u2014eliminating the need for expensive sensors or cloud processing, minimizing latency and enabling on-site alerting for faster response.",
+      "By monitoring subtle cues before conventional detectors trigger, they significantly reduce response times and false alarms, sending instant alerts via mobile, VMS, or alarms to help prevent escalation and damage.",
+      "Fire & Smoke Detection"
+    ]
+  },
+  {
+    "slide_num": 12,
+    "texts": [
+      "12"
+    ]
+  },
+  {
+    "slide_num": 13,
+    "texts": [
+      "13",
+      "AI-based video analytics track and measure vehicle speed directly from CCTV feeds by detecting each vehicle, following its movement across frames, and calculating speed using calibrated pixel-to-distance mapping or dual line zone crossings.",
+      "Accuracy and enforcement-grade versions use high-precision radar paired with cameras to capture real-time speed, license plate, vehicle type, and time data, even in low-light or adverse weather.",
+      "Automated alerts and integration with traffic management systems enable immediate notification of violations, real-time enforcement dashboards, and analytics on speeding patterns for proactive traffic safety interventions.",
+      "Speed Detection"
+    ]
+  },
+  {
+    "slide_num": 14,
+    "texts": [
+      "14"
+    ]
+  },
+  {
+    "slide_num": 15,
+    "texts": [
+      "15",
+      "AI-powered object detection and counting systems analyze live video feeds from cameras to detect, classify, and count products or items on shelves, conveyor belts, or in packaging lines in real time.",
+      "These modules combine deep-learning models to identify individual items and track their movement across frames, allowing accurate counts even when items overlap or move quickly.",
+      "The solution can be deployed edge\u2011based or cloud\u2011based for seamless reporting, dashboards, and analytics",
+      "Product Counting"
+    ]
+  },
+  {
+    "slide_num": 16,
+    "texts": [
+      "16"
+    ]
+  },
+  {
+    "slide_num": 17,
+    "texts": [
+      "17",
+      "AI\u2011based video analytics utilize camera feeds (often installed overhead or at entry points) to detect and count individuals\u2014typically by identifying human heads or full bodies\u2014while tracking movement across frames efficiently.",
+      "Core process:",
+      "Detection via deep learning models to locate each person in frame",
+      "Tracking to follow movement across frames",
+      "Counting using virtual lines or zones for entries/exits",
+      "Filtering to prevent double\u2011counting and manage occlusion using tracking and calibration algorithms",
+      "Head/People Counting"
+    ]
+  },
+  {
+    "slide_num": 18,
+    "texts": [
+      "18"
+    ]
+  },
+  {
+    "slide_num": 19,
+    "texts": [
+      "19",
+      "The system performs face detection on video frames, isolating facial regions from background elements. Then it maps key landmark points (eyes, nose, jawline, etc.) and converts them into a unique numerical template or faceprint that is matched against stored identities.",
+      "Face Recognition"
+    ]
+  },
+  {
+    "slide_num": 20,
+    "texts": [
+      "20"
+    ]
+  },
+  {
+    "slide_num": 21,
+    "texts": [
+      "21",
+      "Using AI-powered cameras or proximity sensors, these systems detect obstacles \u2014 including humans, visible object and fixed infrastructure \u2014 as a forklift moves. Once a threat enters a defined safety zone, an immediate audible beep or alarm is triggered to alert the operator.",
+      "Forklift Automation"
+    ]
+  },
+  {
+    "slide_num": 22,
+    "texts": [
+      "22"
+    ]
+  },
+  {
+    "slide_num": 23,
+    "texts": [
+      "23",
+      "Vision-based, contactless monitoring: Uses standard camera video streams to continuously monitor zones (e.g. hallways, patient rooms, living areas). No wearables required\u2014individuals can move freely without carrying devices.",
+      "AI-driven detection of falls: Combines pose estimation, posture analysis, optical flow, and fall classification to detect sudden vertical-to-horizontal motion or prone positions. Algorithms flag likely fall events and avoid false alarms from normal movement.",
+      "Real-time alerts & seamless integration: Generates immediate notifications\u2014via SMS, mobile app, VMS alerts, or dashboards\u2014to caregivers or staff.",
+      "Fall Detection"
+    ]
+  },
+  {
+    "slide_num": 24,
+    "texts": [
+      "24"
+    ]
+  },
+  {
+    "slide_num": 25,
+    "texts": [
+      "25",
+      "AI-based PIDS monitors defined perimeter boundaries (e.g., fences, walls, virtual zones) via CCTV cameras and intelligent video analytics to detect unauthorized entries by humans or vehicles in real time. It transforms passive CCTV into proactive, defense-grade surveillance.",
+      "Perimeter Intrusion Detection"
+    ]
+  },
+  {
+    "slide_num": 26,
+    "texts": [
+      "26"
+    ]
+  },
+  {
+    "slide_num": 27,
+    "texts": [
+      "27",
+      "Our AI-driven system is designed to identify and respond to movements of large animals in sensitive areas like highways, industrial zones, and forest boundaries. By analyzing live camera feeds, it provides instant alerts, reduces the risk of accidents, and ensures safety for both people and wildlife. This solution not only protects human lives but also contributes to conservation efforts by preventing harmful encounters.",
+      "Animal Behavioural Detection"
+    ]
+  },
+  {
+    "slide_num": 28,
+    "texts": [
+      "28"
+    ]
+  },
+  {
+    "slide_num": 29,
+    "texts": [
+      "29",
+      "CONTACT US",
+      "+91 98240 93685",
+      "www.nimitelectronics.com",
+      "nimit@nimitelectronics.com",
+      "457 GIDC Makarpura, Vadodara, Gujarat",
+      "THANK YOU"
+    ]
+  }
+]

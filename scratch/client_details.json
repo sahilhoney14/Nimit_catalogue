@@ -1,0 +1,497 @@
+[
+  {
+    "name": "Aarti Industries Limited",
+    "short": "Aarti Industries",
+    "category": "Industrial Chemicals"
+  },
+  {
+    "name": "ABB",
+    "short": "ABB",
+    "category": "Automation & Robotics"
+  },
+  {
+    "name": "Aditya Birla (Hindalco)",
+    "short": "Aditya Birla",
+    "category": "Metals & Conglomerate"
+  },
+  {
+    "name": "Adani",
+    "short": "Adani",
+    "category": "Infrastructure & Energy"
+  },
+  {
+    "name": "Alembic",
+    "short": "Alembic",
+    "category": "Pharmaceuticals"
+  },
+  {
+    "name": "Ajanta Pharma",
+    "short": "Ajanta Pharma",
+    "category": "Pharmaceuticals"
+  },
+  {
+    "name": "Anoopam Mission",
+    "short": "Anoopam Mission",
+    "category": "Spiritual & Social"
+  },
+  {
+    "name": "Apollo Hospitals",
+    "short": "Apollo Hospitals",
+    "category": "Healthcare"
+  },
+  {
+    "name": "Apothecon Pharmaceuticals",
+    "short": "Apothecon",
+    "category": "Pharmaceuticals"
+  },
+  {
+    "name": "Armein Pharmaceuticals",
+    "short": "Armein Pharma",
+    "category": "Pharmaceuticals"
+  },
+  {
+    "name": "Alliance Tire Group (Yokohama)",
+    "short": "ATG Yokohama",
+    "category": "Automotive & Tires"
+  },
+  {
+    "name": "Arkel",
+    "short": "Arkel",
+    "category": "Elevators & Systems"
+  },
+  {
+    "name": "Anupam",
+    "short": "Anupam",
+    "category": "Cranes & Material Handling"
+  },
+  {
+    "name": "Aadicura Superspeciality Hospital",
+    "short": "Aadicura Hospital",
+    "category": "Healthcare"
+  },
+  {
+    "name": "Anant National University",
+    "short": "Anant University",
+    "category": "Education"
+  },
+  {
+    "name": "Agni Fiber Boards",
+    "short": "Agni Fiber Boards",
+    "category": "Manufacturing"
+  },
+  {
+    "name": "Atul",
+    "short": "Atul",
+    "category": "Chemicals & Materials"
+  },
+  {
+    "name": "Borosil Renewables",
+    "short": "Borosil",
+    "category": "Solar Glass & Consumer"
+  },
+  {
+    "name": "Bhaikaka University",
+    "short": "Bhaikaka University",
+    "category": "Healthcare & Education"
+  },
+  {
+    "name": "Baroda Dairy",
+    "short": "Baroda Dairy",
+    "category": "Dairy & FMCG"
+  },
+  {
+    "name": "CGSM",
+    "short": "CGSM",
+    "category": "Industrial"
+  },
+  {
+    "name": "Cipla",
+    "short": "Cipla",
+    "category": "Pharmaceuticals"
+  },
+  {
+    "name": "CHARUSAT University",
+    "short": "CHARUSAT",
+    "category": "Higher Education"
+  },
+  {
+    "name": "DLFA",
+    "short": "DLFA",
+    "category": "Manufacturing"
+  },
+  {
+    "name": "Darshnam Life Space",
+    "short": "Darshnam",
+    "category": "Real Estate & Infrastructure"
+  },
+  {
+    "name": "Gujarat Industries Power Company (GIPCL)",
+    "short": "GIPCL",
+    "category": "Power & Energy"
+  },
+  {
+    "name": "Elmex",
+    "short": "Elmex",
+    "category": "Electrical & Connectivity"
+  },
+  {
+    "name": "Epoxy House",
+    "short": "Epoxy House",
+    "category": "Electrical Insulation"
+  },
+  {
+    "name": "ERDA",
+    "short": "ERDA",
+    "category": "Electrical Research"
+  },
+  {
+    "name": "FMC",
+    "short": "FMC",
+    "category": "Agricultural Sciences"
+  },
+  {
+    "name": "Flint Group",
+    "short": "Flint Group",
+    "category": "Printing & Packaging"
+  },
+  {
+    "name": "Gujarat Alkalies and Chemicals (GACL)",
+    "short": "GACL",
+    "category": "Chemicals"
+  },
+  {
+    "name": "Gujarat State Fertilizers & Chemicals (GSFC)",
+    "short": "GSFC",
+    "category": "Fertilizers & Chemicals"
+  },
+  {
+    "name": "Gala",
+    "short": "Gala",
+    "category": "Consumer Goods & Springs"
+  },
+  {
+    "name": "Gujarat Chemical Port Limited (GCPL)",
+    "short": "GCPL",
+    "category": "Ports & Logistics"
+  },
+  {
+    "name": "Gandhi Special Tubes",
+    "short": "Gandhi Special Tubes",
+    "category": "Automotive & Engineering"
+  },
+  {
+    "name": "Encube Ethicals",
+    "short": "Encube Ethicals",
+    "category": "Pharmaceuticals"
+  },
+  {
+    "name": "JSW Steel",
+    "short": "JSW Steel",
+    "category": "Steel & Heavy Industries"
+  },
+  {
+    "name": "Kaizen Switchgear Products (KSP)",
+    "short": "KSP",
+    "category": "Switchgear & Electrical"
+  },
+  {
+    "name": "KP Group",
+    "short": "KP Group",
+    "category": "Renewable Energy & Solar"
+  },
+  {
+    "name": "KPGU Vadodara",
+    "short": "KPGU Vadodara",
+    "category": "Higher Education"
+  },
+  {
+    "name": "INEOS",
+    "short": "INEOS",
+    "category": "Petrochemicals & Polymers"
+  },
+  {
+    "name": "Indo-GSP",
+    "short": "Indo-GSP",
+    "category": "Industrial Gases & Equipment"
+  },
+  {
+    "name": "Indian Railways",
+    "short": "Indian Railways",
+    "category": "Transportation & Rail"
+  },
+  {
+    "name": "MetTube",
+    "short": "MetTube",
+    "category": "Copper Tubes & HVAC"
+  },
+  {
+    "name": "Meghmani Group",
+    "short": "Meghmani Group",
+    "category": "Chemicals & Pigments"
+  },
+  {
+    "name": "National Foods",
+    "short": "National Foods",
+    "category": "Food & FMCG"
+  },
+  {
+    "name": "NJ Group",
+    "short": "NJ Group",
+    "category": "Financial Services"
+  },
+  {
+    "name": "Larsen & Toubro (L&T)",
+    "short": "Larsen & Toubro",
+    "category": "Engineering & EPC"
+  },
+  {
+    "name": "ONGC Petro additions (OPaL)",
+    "short": "OPaL",
+    "category": "Petrochemicals"
+  },
+  {
+    "name": "PCP Glass",
+    "short": "PCP Glass",
+    "category": "Glass & Packaging"
+  },
+  {
+    "name": "Pakona Engineers",
+    "short": "Pakona Engineers",
+    "category": "Packaging Machinery"
+  },
+  {
+    "name": "Toyo Engineering",
+    "short": "Toyo Engineering",
+    "category": "Plant Engineering & EPC"
+  },
+  {
+    "name": "Maharaja Sayajirao University of Baroda (MSU)",
+    "short": "MSU Baroda",
+    "category": "Premier University"
+  },
+  {
+    "name": "Amneal Pharmaceuticals",
+    "short": "Amneal Pharma",
+    "category": "Pharmaceuticals"
+  },
+  {
+    "name": "Banco Products",
+    "short": "Banco",
+    "category": "Gaskets & Radiators"
+  },
+  {
+    "name": "Deepak Nitrite",
+    "short": "Deepak Nitrite",
+    "category": "Chemicals & Phenolics"
+  },
+  {
+    "name": "Gujarat Metal Cast",
+    "short": "Gujarat Metal Cast",
+    "category": "Precision Castings"
+  },
+  {
+    "name": "Gujarat Energy Transmission (GETCO)",
+    "short": "GETCO",
+    "category": "Power Transmission"
+  },
+  {
+    "name": "Gujarat Narmada Valley Fertilizers (GNFC)",
+    "short": "GNFC",
+    "category": "Fertilizers & Chemicals"
+  },
+  {
+    "name": "Greens Zoological Rescue (GZRRC)",
+    "short": "GZRRC",
+    "category": "Wildlife & Conservation"
+  },
+  {
+    "name": "GSP Crop Science",
+    "short": "GSP Crop Science",
+    "category": "Agrochemicals"
+  },
+  {
+    "name": "Madhya Gujarat Vij Company (MGVCL)",
+    "short": "MGVCL",
+    "category": "Power Distribution"
+  },
+  {
+    "name": "Paramount Enterprises (PE)",
+    "short": "Paramount (PE)",
+    "category": "Industrial Products"
+  },
+  {
+    "name": "Pragati Glass",
+    "short": "Pragati Glass",
+    "category": "Glass Packaging"
+  },
+  {
+    "name": "Polycab",
+    "short": "Polycab",
+    "category": "Wires, Cables & Fast Moving Electrical"
+  },
+  {
+    "name": "Reliance Industries",
+    "short": "Reliance",
+    "category": "Energy, Telecom & Retail"
+  },
+  {
+    "name": "Shannen International School",
+    "short": "Shannen School",
+    "category": "Education"
+  },
+  {
+    "name": "Shaily Engineering Plastics",
+    "short": "Shaily Plastics",
+    "category": "Precision Plastics"
+  },
+  {
+    "name": "Silox India",
+    "short": "Silox India",
+    "category": "Inorganic Chemicals"
+  },
+  {
+    "name": "Sudeep Pharma",
+    "short": "Sudeep Pharma",
+    "category": "Mineral Actives & Pharma"
+  },
+  {
+    "name": "Shiva Pharmachem",
+    "short": "Shiva Pharmachem",
+    "category": "Speciality Chemicals"
+  },
+  {
+    "name": "Signify",
+    "short": "Signify",
+    "category": "Smart & Connected Lighting"
+  },
+  {
+    "name": "Sintex",
+    "short": "Sintex",
+    "category": "Plastics & Storage Solutions"
+  },
+  {
+    "name": "Sisecam",
+    "short": "Sisecam",
+    "category": "Flat Glass & Glassware"
+  },
+  {
+    "name": "Statue of Unity",
+    "short": "Statue of Unity",
+    "category": "National Monument & Tourism"
+  },
+  {
+    "name": "Sumandeep Vidyapeeth",
+    "short": "Sumandeep Vidyapeeth",
+    "category": "Deemed Medical University"
+  },
+  {
+    "name": "Sun Pharma",
+    "short": "Sun Pharma",
+    "category": "Global Pharmaceuticals"
+  },
+  {
+    "name": "Tara Suns",
+    "short": "Tara Suns",
+    "category": "Hospitality & Luxury"
+  },
+  {
+    "name": "Torrent Power",
+    "short": "Torrent Power",
+    "category": "Power Generation & Distribution"
+  },
+  {
+    "name": "TTK Prestige",
+    "short": "TTK Prestige",
+    "category": "Kitchen & Home Appliances"
+  },
+  {
+    "name": "Pratibha Elecinfra",
+    "short": "Pratibha Elecinfra",
+    "category": "Electrical Contracting & EPC"
+  },
+  {
+    "name": "Vedanta",
+    "short": "Vedanta",
+    "category": "Natural Resources & Metals"
+  },
+  {
+    "name": "NDDB Dairy Services",
+    "short": "NDDB Dairy",
+    "category": "Dairy Development"
+  },
+  {
+    "name": "Central Warehousing Corporation (CWC)",
+    "short": "CWC",
+    "category": "Logistics & Warehousing"
+  },
+  {
+    "name": "United Phosphorus Limited (UPL)",
+    "short": "UPL",
+    "category": "Agrochemicals & Crop Solutions"
+  },
+  {
+    "name": "Avadh Utopia",
+    "short": "Avadh Utopia",
+    "category": "Luxury Lifestyle Club"
+  },
+  {
+    "name": "Vadodara Chamber of Commerce & Industry (VCCI)",
+    "short": "VCCI",
+    "category": "Trade & Industry Chamber"
+  },
+  {
+    "name": "Welcare Hospital",
+    "short": "Welcare Hospital",
+    "category": "Multi-Speciality Healthcare"
+  },
+  {
+    "name": "Welspun Group",
+    "short": "Welspun",
+    "category": "Textiles, Pipes & Infrastructure"
+  },
+  {
+    "name": "Indian Air Force (IAF)",
+    "short": "Indian Air Force",
+    "category": "Defense & Armed Forces"
+  },
+  {
+    "name": "Anand Mercantile Co-operative Bank",
+    "short": "Anand Mercantile Bank",
+    "category": "Banking & Finance"
+  },
+  {
+    "name": "Gujarat Prisons Department",
+    "short": "Gujarat Prisons",
+    "category": "Law Enforcement & Corrections"
+  },
+  {
+    "name": "Central GST & Central Excise (Govt of India)",
+    "short": "Central GST",
+    "category": "Government & Revenue"
+  },
+  {
+    "name": "Vadodara Municipal Corporation (VMC)",
+    "short": "VMC",
+    "category": "Civic Administration"
+  },
+  {
+    "name": "Gujarat Home Guards & Civil Defence",
+    "short": "Home Guards Gujarat",
+    "category": "Emergency & Homeland Security"
+  },
+  {
+    "name": "Ahmedabad Traffic Police",
+    "short": "Ahmedabad Traffic Police",
+    "category": "Traffic & Law Enforcement"
+  },
+  {
+    "name": "Vadodara City Police",
+    "short": "Vadodara City Police",
+    "category": "Law Enforcement & Public Safety"
+  },
+  {
+    "name": "Zydus Cadila",
+    "short": "Zydus Cadila",
+    "category": "Healthcare & Life Sciences"
+  }
+]

@@ -1,0 +1,695 @@
+[
+  {
+    "order": 1,
+    "filename": "logo_01.png",
+    "path": "assets/client_logos/logo_01.png",
+    "name": "Aadicura Super Speciality Hospital",
+    "orig_idx": 13
+  },
+  {
+    "order": 2,
+    "filename": "logo_02.png",
+    "path": "assets/client_logos/logo_02.png",
+    "name": "Aarts Industries",
+    "orig_idx": 0
+  },
+  {
+    "order": 3,
+    "filename": "logo_03.png",
+    "path": "assets/client_logos/logo_03.png",
+    "name": "ABB",
+    "orig_idx": 1
+  },
+  {
+    "order": 4,
+    "filename": "logo_04.png",
+    "path": "assets/client_logos/logo_04.png",
+    "name": "Adani",
+    "orig_idx": 3
+  },
+  {
+    "order": 5,
+    "filename": "logo_05.png",
+    "path": "assets/client_logos/logo_05.png",
+    "name": "Aditya Birla",
+    "orig_idx": 2
+  },
+  {
+    "order": 6,
+    "filename": "logo_06.png",
+    "path": "assets/client_logos/logo_06.png",
+    "name": "Agni Solar / Agni",
+    "orig_idx": 15
+  },
+  {
+    "order": 7,
+    "filename": "logo_07.png",
+    "path": "assets/client_logos/logo_07.png",
+    "name": "Ajanta Pharma",
+    "orig_idx": 5
+  },
+  {
+    "order": 8,
+    "filename": "logo_08.png",
+    "path": "assets/client_logos/logo_08.png",
+    "name": "Alembic",
+    "orig_idx": 4
+  },
+  {
+    "order": 9,
+    "filename": "logo_09.png",
+    "path": "assets/client_logos/logo_09.png",
+    "name": "Amneal Pharmaceuticals",
+    "orig_idx": 54
+  },
+  {
+    "order": 10,
+    "filename": "logo_10.png",
+    "path": "assets/client_logos/logo_10.png",
+    "name": "Anant National University",
+    "orig_idx": 14
+  },
+  {
+    "order": 11,
+    "filename": "logo_11.png",
+    "path": "assets/client_logos/logo_11.png",
+    "name": "Anoopam Mission",
+    "orig_idx": 6
+  },
+  {
+    "order": 12,
+    "filename": "logo_12.png",
+    "path": "assets/client_logos/logo_12.png",
+    "name": "Anupam",
+    "orig_idx": 12
+  },
+  {
+    "order": 13,
+    "filename": "logo_13.png",
+    "path": "assets/client_logos/logo_13.png",
+    "name": "Apollo Hospitals",
+    "orig_idx": 7
+  },
+  {
+    "order": 14,
+    "filename": "logo_14.png",
+    "path": "assets/client_logos/logo_14.png",
+    "name": "Apothecon Pharmaceuticals",
+    "orig_idx": 8
+  },
+  {
+    "order": 15,
+    "filename": "logo_15.png",
+    "path": "assets/client_logos/logo_15.png",
+    "name": "Arkel",
+    "orig_idx": 11
+  },
+  {
+    "order": 16,
+    "filename": "logo_16.png",
+    "path": "assets/client_logos/logo_16.png",
+    "name": "Armein Pharmaceuticals",
+    "orig_idx": 9
+  },
+  {
+    "order": 17,
+    "filename": "logo_17.png",
+    "path": "assets/client_logos/logo_17.png",
+    "name": "ATE",
+    "orig_idx": 10
+  },
+  {
+    "order": 18,
+    "filename": "logo_18.png",
+    "path": "assets/client_logos/logo_18.png",
+    "name": "Atul",
+    "orig_idx": 16
+  },
+  {
+    "order": 19,
+    "filename": "logo_19.png",
+    "path": "assets/client_logos/logo_19.png",
+    "name": "Banco",
+    "orig_idx": 55
+  },
+  {
+    "order": 20,
+    "filename": "logo_20.png",
+    "path": "assets/client_logos/logo_20.png",
+    "name": "Baroda Dairy",
+    "orig_idx": 19
+  },
+  {
+    "order": 21,
+    "filename": "logo_21.png",
+    "path": "assets/client_logos/logo_21.png",
+    "name": "Bhalakia University / Bhalakia",
+    "orig_idx": 18
+  },
+  {
+    "order": 22,
+    "filename": "logo_22.png",
+    "path": "assets/client_logos/logo_22.png",
+    "name": "Borosil Renewables",
+    "orig_idx": 17
+  },
+  {
+    "order": 23,
+    "filename": "logo_23.png",
+    "path": "assets/client_logos/logo_23.png",
+    "name": "Central Industrial Security Force (CISF)",
+    "orig_idx": 93
+  },
+  {
+    "order": 24,
+    "filename": "logo_24.png",
+    "path": "assets/client_logos/logo_24.png",
+    "name": "Central Warehousing Corporation",
+    "orig_idx": 84
+  },
+  {
+    "order": 25,
+    "filename": "logo_25.png",
+    "path": "assets/client_logos/logo_25.png",
+    "name": "CGSM",
+    "orig_idx": 20
+  },
+  {
+    "order": 26,
+    "filename": "logo_26.png",
+    "path": "assets/client_logos/logo_26.png",
+    "name": "CHARUSAT",
+    "orig_idx": 22
+  },
+  {
+    "order": 27,
+    "filename": "logo_27.png",
+    "path": "assets/client_logos/logo_27.png",
+    "name": "Cipla",
+    "orig_idx": 21
+  },
+  {
+    "order": 28,
+    "filename": "logo_28.png",
+    "path": "assets/client_logos/logo_28.png",
+    "name": "Deepak Nitrite / Phenolics",
+    "orig_idx": 56
+  },
+  {
+    "order": 29,
+    "filename": "logo_29.png",
+    "path": "assets/client_logos/logo_29.png",
+    "name": "DLFA",
+    "orig_idx": 23
+  },
+  {
+    "order": 30,
+    "filename": "logo_30.png",
+    "path": "assets/client_logos/logo_30.png",
+    "name": "Echjay Industries",
+    "orig_idx": 24
+  },
+  {
+    "order": 31,
+    "filename": "logo_31.png",
+    "path": "assets/client_logos/logo_31.png",
+    "name": "Elecon",
+    "orig_idx": 25
+  },
+  {
+    "order": 32,
+    "filename": "logo_32.png",
+    "path": "assets/client_logos/logo_32.png",
+    "name": "Elmex",
+    "orig_idx": 26
+  },
+  {
+    "order": 33,
+    "filename": "logo_33.png",
+    "path": "assets/client_logos/logo_33.png",
+    "name": "Encube Ethicals",
+    "orig_idx": 36
+  },
+  {
+    "order": 34,
+    "filename": "logo_34.png",
+    "path": "assets/client_logos/logo_34.png",
+    "name": "Epoxy House",
+    "orig_idx": 27
+  },
+  {
+    "order": 35,
+    "filename": "logo_35.png",
+    "path": "assets/client_logos/logo_35.png",
+    "name": "ERDA",
+    "orig_idx": 28
+  },
+  {
+    "order": 36,
+    "filename": "logo_36.png",
+    "path": "assets/client_logos/logo_36.png",
+    "name": "Flint Group",
+    "orig_idx": 30
+  },
+  {
+    "order": 37,
+    "filename": "logo_37.png",
+    "path": "assets/client_logos/logo_37.png",
+    "name": "FMC",
+    "orig_idx": 29
+  },
+  {
+    "order": 38,
+    "filename": "logo_38.png",
+    "path": "assets/client_logos/logo_38.png",
+    "name": "GACL (Gujarat Alkalies and Chemicals)",
+    "orig_idx": 31
+  },
+  {
+    "order": 39,
+    "filename": "logo_39.png",
+    "path": "assets/client_logos/logo_39.png",
+    "name": "Gala",
+    "orig_idx": 32
+  },
+  {
+    "order": 40,
+    "filename": "logo_40.png",
+    "path": "assets/client_logos/logo_40.png",
+    "name": "Gandhi Special Tubes",
+    "orig_idx": 34
+  },
+  {
+    "order": 41,
+    "filename": "logo_41.png",
+    "path": "assets/client_logos/logo_41.png",
+    "name": "GCPL (Gujarat Chemical Port / Godrej)",
+    "orig_idx": 33
+  },
+  {
+    "order": 42,
+    "filename": "logo_42.png",
+    "path": "assets/client_logos/logo_42.png",
+    "name": "GETCO",
+    "orig_idx": 58
+  },
+  {
+    "order": 43,
+    "filename": "logo_43.png",
+    "path": "assets/client_logos/logo_43.png",
+    "name": "GGRC (Gujarat Green Revolution Company)",
+    "orig_idx": 35
+  },
+  {
+    "order": 44,
+    "filename": "logo_44.png",
+    "path": "assets/client_logos/logo_44.png",
+    "name": "GNFC",
+    "orig_idx": 59
+  },
+  {
+    "order": 45,
+    "filename": "logo_45.png",
+    "path": "assets/client_logos/logo_45.png",
+    "name": "Government of India / Gujarat",
+    "orig_idx": 95
+  },
+  {
+    "order": 46,
+    "filename": "logo_46.png",
+    "path": "assets/client_logos/logo_46.png",
+    "name": "GSP Crop Science",
+    "orig_idx": 61
+  },
+  {
+    "order": 47,
+    "filename": "logo_47.png",
+    "path": "assets/client_logos/logo_47.png",
+    "name": "GSRTC",
+    "orig_idx": 60
+  },
+  {
+    "order": 48,
+    "filename": "logo_48.png",
+    "path": "assets/client_logos/logo_48.png",
+    "name": "Gujarat Metal Cast",
+    "orig_idx": 57
+  },
+  {
+    "order": 49,
+    "filename": "logo_49.png",
+    "path": "assets/client_logos/logo_49.png",
+    "name": "Gujarat Police",
+    "orig_idx": 96
+  },
+  {
+    "order": 50,
+    "filename": "logo_50.png",
+    "path": "assets/client_logos/logo_50.png",
+    "name": "Indian Air Force (IAF)",
+    "orig_idx": 90
+  },
+  {
+    "order": 51,
+    "filename": "logo_51.png",
+    "path": "assets/client_logos/logo_51.png",
+    "name": "Indian Oil (IOCL)",
+    "orig_idx": 43
+  },
+  {
+    "order": 52,
+    "filename": "logo_52.png",
+    "path": "assets/client_logos/logo_52.png",
+    "name": "INEOS",
+    "orig_idx": 41
+  },
+  {
+    "order": 53,
+    "filename": "logo_53.png",
+    "path": "assets/client_logos/logo_53.png",
+    "name": "INOX-GSP / INOX",
+    "orig_idx": 42
+  },
+  {
+    "order": 54,
+    "filename": "logo_54.png",
+    "path": "assets/client_logos/logo_54.png",
+    "name": "JSW Steel",
+    "orig_idx": 37
+  },
+  {
+    "order": 55,
+    "filename": "logo_55.png",
+    "path": "assets/client_logos/logo_55.png",
+    "name": "KP Group",
+    "orig_idx": 39
+  },
+  {
+    "order": 56,
+    "filename": "logo_56.png",
+    "path": "assets/client_logos/logo_56.png",
+    "name": "KPGU Vadodara",
+    "orig_idx": 40
+  },
+  {
+    "order": 57,
+    "filename": "logo_57.png",
+    "path": "assets/client_logos/logo_57.png",
+    "name": "KSP",
+    "orig_idx": 38
+  },
+  {
+    "order": 58,
+    "filename": "logo_58.png",
+    "path": "assets/client_logos/logo_58.png",
+    "name": "Larsen & Toubro (L&T)",
+    "orig_idx": 48
+  },
+  {
+    "order": 59,
+    "filename": "logo_59.png",
+    "path": "assets/client_logos/logo_59.png",
+    "name": "Meghmani Group",
+    "orig_idx": 45
+  },
+  {
+    "order": 60,
+    "filename": "logo_60.png",
+    "path": "assets/client_logos/logo_60.png",
+    "name": "MetTube",
+    "orig_idx": 44
+  },
+  {
+    "order": 61,
+    "filename": "logo_61.png",
+    "path": "assets/client_logos/logo_61.png",
+    "name": "MGVCL",
+    "orig_idx": 62
+  },
+  {
+    "order": 62,
+    "filename": "logo_62.png",
+    "path": "assets/client_logos/logo_62.png",
+    "name": "National Foods",
+    "orig_idx": 46
+  },
+  {
+    "order": 63,
+    "filename": "logo_63.png",
+    "path": "assets/client_logos/logo_63.png",
+    "name": "NDDB Dairy Services",
+    "orig_idx": 83
+  },
+  {
+    "order": 64,
+    "filename": "logo_64.png",
+    "path": "assets/client_logos/logo_64.png",
+    "name": "NJ Group",
+    "orig_idx": 47
+  },
+  {
+    "order": 65,
+    "filename": "logo_65.png",
+    "path": "assets/client_logos/logo_65.png",
+    "name": "OPAL (ONGC Petro additions)",
+    "orig_idx": 49
+  },
+  {
+    "order": 66,
+    "filename": "logo_66.png",
+    "path": "assets/client_logos/logo_66.png",
+    "name": "ORBIT / Oerlikon",
+    "orig_idx": 50
+  },
+  {
+    "order": 67,
+    "filename": "logo_67.png",
+    "path": "assets/client_logos/logo_67.png",
+    "name": "Pakona Engineers",
+    "orig_idx": 51
+  },
+  {
+    "order": 68,
+    "filename": "logo_68.png",
+    "path": "assets/client_logos/logo_68.png",
+    "name": "Paramount Enterprises (PE)",
+    "orig_idx": 63
+  },
+  {
+    "order": 69,
+    "filename": "logo_69.png",
+    "path": "assets/client_logos/logo_69.png",
+    "name": "Polycab",
+    "orig_idx": 65
+  },
+  {
+    "order": 70,
+    "filename": "logo_70.png",
+    "path": "assets/client_logos/logo_70.png",
+    "name": "Pragati Glass",
+    "orig_idx": 64
+  },
+  {
+    "order": 71,
+    "filename": "logo_71.png",
+    "path": "assets/client_logos/logo_71.png",
+    "name": "Pratibha Elecinfra",
+    "orig_idx": 81
+  },
+  {
+    "order": 72,
+    "filename": "logo_72.png",
+    "path": "assets/client_logos/logo_72.png",
+    "name": "Railway Protection Force / Police",
+    "orig_idx": 97
+  },
+  {
+    "order": 73,
+    "filename": "logo_73.png",
+    "path": "assets/client_logos/logo_73.png",
+    "name": "Reliance Industries",
+    "orig_idx": 66
+  },
+  {
+    "order": 74,
+    "filename": "logo_74.png",
+    "path": "assets/client_logos/logo_74.png",
+    "name": "Sardar Sarovar Narmada Nigam (SSNNL)",
+    "orig_idx": 53
+  },
+  {
+    "order": 75,
+    "filename": "logo_75.png",
+    "path": "assets/client_logos/logo_75.png",
+    "name": "Shaily Engineering Plastics",
+    "orig_idx": 68
+  },
+  {
+    "order": 76,
+    "filename": "logo_76.png",
+    "path": "assets/client_logos/logo_76.png",
+    "name": "Shannen International School",
+    "orig_idx": 67
+  },
+  {
+    "order": 77,
+    "filename": "logo_77.png",
+    "path": "assets/client_logos/logo_77.png",
+    "name": "Shiva Pharmachem",
+    "orig_idx": 71
+  },
+  {
+    "order": 78,
+    "filename": "logo_78.png",
+    "path": "assets/client_logos/logo_78.png",
+    "name": "Signify",
+    "orig_idx": 72
+  },
+  {
+    "order": 79,
+    "filename": "logo_79.png",
+    "path": "assets/client_logos/logo_79.png",
+    "name": "Silox",
+    "orig_idx": 69
+  },
+  {
+    "order": 80,
+    "filename": "logo_80.png",
+    "path": "assets/client_logos/logo_80.png",
+    "name": "Sintex",
+    "orig_idx": 73
+  },
+  {
+    "order": 81,
+    "filename": "logo_81.png",
+    "path": "assets/client_logos/logo_81.png",
+    "name": "Sisecam",
+    "orig_idx": 74
+  },
+  {
+    "order": 82,
+    "filename": "logo_82.png",
+    "path": "assets/client_logos/logo_82.png",
+    "name": "Sudeep Pharma",
+    "orig_idx": 70
+  },
+  {
+    "order": 83,
+    "filename": "logo_83.png",
+    "path": "assets/client_logos/logo_83.png",
+    "name": "Sun Pharma",
+    "orig_idx": 77
+  },
+  {
+    "order": 84,
+    "filename": "logo_84.png",
+    "path": "assets/client_logos/logo_84.png",
+    "name": "Tara Suns",
+    "orig_idx": 78
+  },
+  {
+    "order": 85,
+    "filename": "logo_85.png",
+    "path": "assets/client_logos/logo_85.png",
+    "name": "Torrent Power",
+    "orig_idx": 79
+  },
+  {
+    "order": 86,
+    "filename": "logo_86.png",
+    "path": "assets/client_logos/logo_86.png",
+    "name": "Toyo Engineering",
+    "orig_idx": 52
+  },
+  {
+    "order": 87,
+    "filename": "logo_87.png",
+    "path": "assets/client_logos/logo_87.png",
+    "name": "TTK Prestige",
+    "orig_idx": 80
+  },
+  {
+    "order": 88,
+    "filename": "logo_88.png",
+    "path": "assets/client_logos/logo_88.png",
+    "name": "Unaty",
+    "orig_idx": 75
+  },
+  {
+    "order": 89,
+    "filename": "logo_89.png",
+    "path": "assets/client_logos/logo_89.png",
+    "name": "United Phosphorus (UPL)",
+    "orig_idx": 76
+  },
+  {
+    "order": 90,
+    "filename": "logo_90.png",
+    "path": "assets/client_logos/logo_90.png",
+    "name": "UPL (United Phosphorus Limited)",
+    "orig_idx": 85
+  },
+  {
+    "order": 91,
+    "filename": "logo_91.png",
+    "path": "assets/client_logos/logo_91.png",
+    "name": "Utopia",
+    "orig_idx": 86
+  },
+  {
+    "order": 92,
+    "filename": "logo_92.png",
+    "path": "assets/client_logos/logo_92.png",
+    "name": "Vadodara City Police",
+    "orig_idx": 92
+  },
+  {
+    "order": 93,
+    "filename": "logo_93.png",
+    "path": "assets/client_logos/logo_93.png",
+    "name": "Vadodara Municipal Corporation (VMC)",
+    "orig_idx": 94
+  },
+  {
+    "order": 94,
+    "filename": "logo_94.png",
+    "path": "assets/client_logos/logo_94.png",
+    "name": "VCCI",
+    "orig_idx": 87
+  },
+  {
+    "order": 95,
+    "filename": "logo_95.png",
+    "path": "assets/client_logos/logo_95.png",
+    "name": "Vedanta",
+    "orig_idx": 82
+  },
+  {
+    "order": 96,
+    "filename": "logo_96.png",
+    "path": "assets/client_logos/logo_96.png",
+    "name": "Welcare Hospital",
+    "orig_idx": 88
+  },
+  {
+    "order": 97,
+    "filename": "logo_97.png",
+    "path": "assets/client_logos/logo_97.png",
+    "name": "Welspun",
+    "orig_idx": 89
+  },
+  {
+    "order": 98,
+    "filename": "logo_98.png",
+    "path": "assets/client_logos/logo_98.png",
+    "name": "Western Railway",
+    "orig_idx": 91
+  },
+  {
+    "order": 99,
+    "filename": "logo_99.png",
+    "path": "assets/client_logos/logo_99.png",
+    "name": "Zydus Cadila",
+    "orig_idx": 98
+  }
+]

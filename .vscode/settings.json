@@ -1,0 +1,19 @@
+{
+  "python.defaultInterpreterPath": "C:\\Users\\sahil\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}",
+    "${workspaceFolder}/tools",
+    "${workspaceFolder}/builders",
+    "${workspaceFolder}/data"
+  ],
+  "python.analysis.autoSearchPaths": true,
+  "python.analysis.typeCheckingMode": "off",
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingImports": "none",
+    "reportMissingModuleSource": "none"
+  },
+  "pyrefly.typeCheckingMode": "off",
+  "pyrefly.analysis.diagnosticSeverityOverrides": {
+    "reportMissingImports": "none"
+  }
+}
