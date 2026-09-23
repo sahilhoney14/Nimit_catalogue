@@ -426,9 +426,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Multi-Class PPE Detection</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <div class="analytics-topic-card">
@@ -439,9 +436,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Instant Violation Alerts</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <div class="analytics-topic-card">
@@ -455,9 +449,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Safety Monitoring &amp; Reporting</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
               </div>
             </div>
@@ -498,9 +489,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Real-Time Number Plate Recognition</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <div class="analytics-topic-card">
@@ -511,9 +499,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Automated Gate Access</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <div class="analytics-topic-card">
@@ -525,9 +510,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Blacklist &amp; Security Alerts</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
               </div>
             </div>
@@ -567,9 +549,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Real-Time Fire &amp; Smoke Detection</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <div class="analytics-topic-card">
@@ -587,9 +566,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Smart False Alarm Filtering</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <div class="analytics-topic-card">
@@ -600,9 +576,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Instant Alerts &amp; Siren Triggers</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
               </div>
             </div>
@@ -643,9 +616,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Real-Time Speed Detection</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <div class="analytics-topic-card">
@@ -655,9 +625,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Speed Violation Logging</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <div class="analytics-topic-card">
@@ -668,9 +635,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Driver Safety Monitoring</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
               </div>
             </div>
@@ -711,9 +675,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Real-Time Product Counting</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <div class="analytics-topic-card">
@@ -725,9 +686,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Item Classification &amp; Tracking</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <div class="analytics-topic-card">
@@ -739,9 +697,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Production Data &amp; Reporting</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
               </div>
             </div>
@@ -784,9 +739,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Real-Time IN/OUT Counting</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <div class="analytics-topic-card">
@@ -796,9 +748,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Occupancy &amp; Overcrowding Alerts</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <div class="analytics-topic-card">
@@ -809,9 +758,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Footfall Trends &amp; Heatmaps</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
               </div>
             </div>
@@ -852,9 +798,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Real-Time Face Recognition</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <div class="analytics-topic-card">
@@ -865,9 +808,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Touchless Access Control</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <div class="analytics-topic-card">
@@ -879,9 +819,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">VIP &amp; Blacklist Alerts</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
               </div>
             </div>
@@ -923,9 +860,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Blindspot &amp; Proximity Detection</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <div class="analytics-topic-card">
@@ -936,9 +870,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Instant Audio-Visual Warnings</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <div class="analytics-topic-card">
@@ -949,9 +880,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Operator Safety Monitoring</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
               </div>
             </div>
@@ -991,9 +919,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Real-Time Fall Detection</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <div class="analytics-topic-card">
@@ -1005,9 +930,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Instant Emergency Alerts</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <div class="analytics-topic-card">
@@ -1017,9 +939,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Worker Safety Monitoring</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
               </div>
             </div>
@@ -1059,9 +978,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Virtual Tripwires &amp; Security Zones</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <div class="analytics-topic-card">
@@ -1072,9 +988,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Real-Time Intrusion Detection</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <div class="analytics-topic-card">
@@ -1085,9 +998,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Instant Security Alerts</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
               </div>
             </div>
@@ -1127,9 +1037,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Large Animal Detection</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <div class="analytics-topic-card">
@@ -1140,9 +1047,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Real-Time Safety Alerts</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <div class="analytics-topic-card">
@@ -1153,9 +1057,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Wildlife Collision Prevention</h3>
-                  <div class="premise-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
               </div>
             </div>
