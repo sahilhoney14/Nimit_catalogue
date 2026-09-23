@@ -140,55 +140,37 @@ slides_data = [
                 <div class="analytics-icon-box badge-blue">
                   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
                 </div>
-                <div class="premise-card-content">
-                  <h3 class="premise-card-title">Real Time Fault Detection</h3>
-                  <span class="analytics-desc-lead" style="margin-top:0.2rem;">Instant anomaly detection and continuous 24/7 reliability monitoring without human fatigue.</span>
-                </div>
+                <h3 class="analytics-card-title">Real Time Fault Detection</h3>
               </div>
               <div class="analytics-topic-card">
                 <div class="analytics-icon-box badge-amber">
                   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
                 </div>
-                <div class="premise-card-content">
-                  <h3 class="premise-card-title">Predictive Maintenance</h3>
-                  <span class="analytics-desc-lead" style="margin-top:0.2rem;">Predictive equipment health diagnostics to prevent costly downtime and operational halts.</span>
-                </div>
+                <h3 class="analytics-card-title">Predictive Maintenance</h3>
               </div>
               <div class="analytics-topic-card">
                 <div class="analytics-icon-box badge-emerald">
                   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
                 </div>
-                <div class="premise-card-content">
-                  <h3 class="premise-card-title">Automated Intelligent Control</h3>
-                  <span class="analytics-desc-lead" style="margin-top:0.2rem;">Direct automated triggers for access boom barriers, sirens, strobes, and emergency locks.</span>
-                </div>
+                <h3 class="analytics-card-title">Automated Intelligent Control</h3>
               </div>
               <div class="analytics-topic-card">
                 <div class="analytics-icon-box badge-red">
                   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
                 </div>
-                <div class="premise-card-content">
-                  <h3 class="premise-card-title">Advanced Safety &amp; Planning</h3>
-                  <span class="analytics-desc-lead" style="margin-top:0.2rem;">Continuous workplace safety compliance monitoring and intelligent traffic layout planning.</span>
-                </div>
+                <h3 class="analytics-card-title">Advanced Safety &amp; Planning</h3>
               </div>
               <div class="analytics-topic-card">
                 <div class="analytics-icon-box badge-purple">
                   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
                 </div>
-                <div class="premise-card-content">
-                  <h3 class="premise-card-title">Strategic Decision Making</h3>
-                  <span class="analytics-desc-lead" style="margin-top:0.2rem;">Accurate footfall, visitor, and vehicle flow analytics for executive forecasting.</span>
-                </div>
+                <h3 class="analytics-card-title">Strategic Decision Making</h3>
               </div>
               <div class="analytics-topic-card">
                 <div class="analytics-icon-box badge-slate">
                   <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>
                 </div>
-                <div class="premise-card-content">
-                  <h3 class="premise-card-title">Actionable Leadership Insights</h3>
-                  <span class="analytics-desc-lead" style="margin-top:0.2rem;">Instant alert notifications delivered directly to the user for zero-delay decisions.</span>
-                </div>
+                <h3 class="analytics-card-title">Actionable Leadership Insights</h3>
               </div>
             </div>
           </div>
@@ -298,7 +280,7 @@ slides_data = [
                 </div>
                 <div class="premise-card-content">
                   <h3 class="premise-card-title">All Insights With Video Proof</h3>
-                  <span class="analytics-desc-lead" style="margin-top:0.2rem;">All insights with video proof automatically available centrally without any human involvement.</span>
+                  <p class="premise-card-desc">All insights with video proof automatically available at central without any human involvement.</p>
                 </div>
               </div>
 
@@ -313,7 +295,7 @@ slides_data = [
                 </div>
                 <div class="premise-card-content">
                   <h3 class="premise-card-title">1/10th Storage Optimization</h3>
-                  <span class="analytics-desc-lead" style="margin-top:0.2rem;">Only stores non-compliance proof thus reducing video storage footprint to 1/10th.</span>
+                  <p class="premise-card-desc">Only stores non-compliance proof thus reducing video storage footprint to 1/10th.</p>
                 </div>
               </div>
 
@@ -328,7 +310,7 @@ slides_data = [
                 </div>
                 <div class="premise-card-content">
                   <h3 class="premise-card-title">Deep Learning AI Bots</h3>
-                  <span class="analytics-desc-lead" style="margin-top:0.2rem;">AI BOTS using deep learning work with standard IP cameras without requiring 3D/stereo hardware.</span>
+                  <p class="premise-card-desc">AI-based vision bots powered by deep neural networks for accurate real-time inference.</p>
                 </div>
               </div>
 
@@ -344,7 +326,7 @@ slides_data = [
                 </div>
                 <div class="premise-card-content">
                   <h3 class="premise-card-title">Direct IoT Hardware Triggers</h3>
-                  <span class="analytics-desc-lead" style="margin-top:0.2rem;">Directly triggers boom barriers, magnetic locks, strobes, sirens, speakers, and matrix displays.</span>
+                  <p class="premise-card-desc">Directly triggers IoT relays, boom barriers, magnetic door locks, hooters, strobes, and access doors.</p>
                 </div>
               </div>
 
@@ -357,7 +339,7 @@ slides_data = [
                 </div>
                 <div class="premise-card-content">
                   <h3 class="premise-card-title">Real-Time Proactive Alerts</h3>
-                  <span class="analytics-desc-lead" style="margin-top:0.2rem;">Instant real-time proactive push notifications sent directly to operators and mobile apps.</span>
+                  <p class="premise-card-desc">Instant automated alert logs sent via SMS, WhatsApp, Email, and webhook dashboards.</p>
                 </div>
               </div>
 
@@ -375,7 +357,7 @@ slides_data = [
                 </div>
                 <div class="premise-card-content">
                   <h3 class="premise-card-title">Centralized Dashboards</h3>
-                  <span class="analytics-desc-lead" style="margin-top:0.2rem;">Unified enterprise dashboards with role-based access control and multi-site drill-down analytics.</span>
+                  <p class="premise-card-desc">Centralized web dashboard with role-based access control and live multi-site telemetry.</p>
                 </div>
               </div>
             </div>
@@ -427,10 +409,9 @@ slides_data = [
             <!-- Left Column: Header + 3 Capability Cards -->
             <div class="analytics-left-column">
               <div class="analytics-header-block">
-                <span class="topic-category-badge">MODULE 01 &bull; SAFETY COMPLIANCE</span>
                 <h1 class="slide-main-heading">PPE Violation <span class="highlight-red-text">Detection System</span></h1>
                 <p class="analytics-desc-lead">
-                  Computer vision monitors workers through existing CCTV cameras and detects whether required safety equipment is being worn in real time. It helps identify PPE violations quickly and supports faster action to maintain workplace safety.
+                  Continuous safety monitoring automatically checks workers across active zones for required helmets, vests, and protective gear, dispatching instant notifications to safety officers.
                 </p>
               </div>
 
@@ -444,10 +425,7 @@ slides_data = [
                       <path d="M7 18.5a5 5 0 0 1 10 0"></path>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Multi-Class PPE Detection</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Automated detection of helmets, safety vests, boots, gloves, and protective eyewear.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Multi-Class PPE Detection</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -460,10 +438,7 @@ slides_data = [
                       <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Instant Violation Alerts</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Real-time notifications sent to safety officers with snapshot and video proof of non-compliance.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Instant Violation Alerts</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -479,10 +454,7 @@ slides_data = [
                       <polyline points="10 9 9 9 8 9"></polyline>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Safety Monitoring &amp; Reporting</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Shift-wise compliance trends, department KPIs, and automated safety audit export reports.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Safety Monitoring &amp; Reporting</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -495,10 +467,6 @@ slides_data = [
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
                   <video class="brochure-video-player" src="assets/media1.mp4" controls autoplay loop playsinline></video>
-                </div>
-                <div class="usecases-image-overlay-badge">
-                  <span class="matrix-live-dot"></span>
-                  <span>LIVE CCTV AI STREAM &bull; PPE TELEMETRY</span>
                 </div>
               </div>
             </div>
@@ -515,10 +483,9 @@ slides_data = [
             <!-- Left Column: Header + 3 Capability Cards -->
             <div class="analytics-left-column">
               <div class="analytics-header-block">
-                <span class="topic-category-badge">MODULE 02 &bull; VEHICLE OCR</span>
                 <h1 class="slide-main-heading">Automatic Number <span class="highlight-red-text">Plate Recognition</span></h1>
                 <p class="analytics-desc-lead">
-                  ANPR systems use CCTV and OCR technology to detect and read vehicle number plates in real time. It helps automate gate access, improve security, and identify restricted vehicles.
+                  High-accuracy license plate recognition captures vehicle numbers in real time at entry and exit gates to automate boom barriers and record complete access audit logs.
                 </p>
               </div>
 
@@ -530,10 +497,7 @@ slides_data = [
                       <path d="M7 12h10"></path>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Real-Time Number Plate Recognition</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">High-accuracy OCR for standard and high-security registration plates under all lighting.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Real-Time Number Plate Recognition</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -546,10 +510,7 @@ slides_data = [
                       <line x1="9" y1="3" x2="9" y2="21"></line>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Automated Gate Access</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Instant trigger for boom barriers and automated gates for whitelisted authorized vehicles.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Automated Gate Access</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -563,10 +524,7 @@ slides_data = [
                       <line x1="12" y1="16" x2="12.01" y2="16"></line>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Blacklist &amp; Security Alerts</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Instant alarm trigger on detection of unauthorized, expired, or blacklisted vehicle plates.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Blacklist &amp; Security Alerts</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -579,10 +537,6 @@ slides_data = [
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
                   <video class="brochure-video-player" src="assets/media2.mp4" controls autoplay loop playsinline></video>
-                </div>
-                <div class="usecases-image-overlay-badge">
-                  <span class="matrix-live-dot"></span>
-                  <span>LIVE ANPR OCR STREAM &bull; BARRIER TELEMETRY</span>
                 </div>
               </div>
             </div>
@@ -599,10 +553,9 @@ slides_data = [
             <!-- Left Column: Header + 3 Capability Cards -->
             <div class="analytics-left-column">
               <div class="analytics-header-block">
-                <span class="topic-category-badge">MODULE 03 &bull; HAZARD PREVENTION</span>
                 <h1 class="slide-main-heading">Fire &amp; Smoke <span class="highlight-red-text">Early Detection</span></h1>
                 <p class="analytics-desc-lead">
-                  Smart camera systems use existing CCTV cameras to detect fire and smoke in real time. They identify visual signs of danger and send early alerts, helping teams respond quickly and reduce the risk of serious damage.
+                  Early hazard detection identifies visual flame and smoke patterns in real time, delivering instant alarms to plant response teams to mitigate critical fire risks.
                 </p>
               </div>
 
@@ -613,10 +566,7 @@ slides_data = [
                       <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Real-Time Fire &amp; Smoke Detection</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Sub-second visual flame and smoke pattern recognition across indoor and outdoor spaces.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Real-Time Fire &amp; Smoke Detection</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -636,10 +586,7 @@ slides_data = [
                       <line x1="17" y1="16" x2="23" y2="16"></line>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Smart False Alarm Filtering</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Advanced AI neural filters differentiate between genuine smoke, steam, shadows, and dust.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Smart False Alarm Filtering</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -652,10 +599,7 @@ slides_data = [
                       <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.08"></path>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Instant Alerts &amp; Siren Triggers</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Automatic triggers for building sirens, SMS broadcasts, control room hooters, and sprinklers.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Instant Alerts &amp; Siren Triggers</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -668,10 +612,6 @@ slides_data = [
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
                   <video class="brochure-video-player" src="assets/Screen Recording 2026-09-15 163024.mp4" controls autoplay loop playsinline></video>
-                </div>
-                <div class="usecases-image-overlay-badge">
-                  <span class="matrix-live-dot"></span>
-                  <span>LIVE THERMAL &bull; FIRE VISION TELEMETRY</span>
                 </div>
               </div>
             </div>
@@ -688,10 +628,9 @@ slides_data = [
             <!-- Left Column: Header + 3 Capability Cards -->
             <div class="analytics-left-column">
               <div class="analytics-header-block">
-                <span class="topic-category-badge">MODULE 04 &bull; TRAFFIC TELEMETRY</span>
                 <h1 class="slide-main-heading">Vehicle Speed <span class="highlight-red-text">Detection &amp; Analytics</span></h1>
                 <p class="analytics-desc-lead">
-                  CCTV analytics track vehicle movement, estimate speed, and identify speeding violations in real time. It records details such as number plates and time to support safer roads and faster action.
+                  Real-time velocity tracking monitors campus and highway traffic to identify speeding violations instantly with timestamped vehicle plate logs.
                 </p>
               </div>
 
@@ -703,10 +642,7 @@ slides_data = [
                       <polyline points="12 6 12 12 16 14"></polyline>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Real-Time Speed Detection</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Optical flow vehicle tracking to accurately calculate speeds without buried induction loops.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Real-Time Speed Detection</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -718,10 +654,7 @@ slides_data = [
                       <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Speed Violation Logging</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Automatic photographic capture with timestamp, lane index, and speed telemetry logs.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Speed Violation Logging</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -734,10 +667,7 @@ slides_data = [
                       <path d="m9 12 2 2 4-4"></path>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Driver Safety Monitoring</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Ensures speed compliance across plant premises, industrial campuses, and university roads.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Driver Safety Monitoring</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -750,10 +680,6 @@ slides_data = [
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
                   <video class="brochure-video-player" src="assets/Screen Recording 2026-09-15 162207.mp4" controls autoplay loop muted playsinline></video>
-                </div>
-                <div class="usecases-image-overlay-badge">
-                  <span class="matrix-live-dot"></span>
-                  <span>LIVE SPEED RADAR &bull; OPTICAL FLOW TELEMETRY</span>
                 </div>
               </div>
             </div>
@@ -770,10 +696,9 @@ slides_data = [
             <!-- Left Column: Header + 3 Capability Cards -->
             <div class="analytics-left-column">
               <div class="analytics-header-block">
-                <span class="topic-category-badge">MODULE 05 &bull; INDUSTRIAL AUTOMATION</span>
                 <h1 class="slide-main-heading">Product &amp; Conveyor <span class="highlight-red-text">Counting System</span></h1>
                 <p class="analytics-desc-lead">
-                  Computer vision detects and counts products moving through factory conveyors in real time. It helps reduce manual counting errors, track production, and improve inventory management.
+                  Automated optical tracking counts and categorizes products moving along factory assembly lines, eliminating manual counting errors and providing live inventory metrics.
                 </p>
               </div>
 
@@ -785,10 +710,7 @@ slides_data = [
                       <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Real-Time Product Counting</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">High-speed optical tracking of items on assembly lines and industrial conveyors.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Real-Time Product Counting</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -802,10 +724,7 @@ slides_data = [
                       <polyline points="2 12 12 17 22 12"></polyline>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Item Classification &amp; Tracking</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Categorizes packages by shape, size, color, and packaging condition simultaneously.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Item Classification &amp; Tracking</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -819,10 +738,7 @@ slides_data = [
                       <line x1="6" y1="20" x2="6" y2="14"></line>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Production Data &amp; Reporting</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Direct ERP and SCADA data integration for shift outputs, yield tracking, and inventory logs.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Production Data &amp; Reporting</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -835,10 +751,6 @@ slides_data = [
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
                   <video class="brochure-video-player" src="assets/media5.mp4" controls autoplay loop playsinline></video>
-                </div>
-                <div class="usecases-image-overlay-badge">
-                  <span class="matrix-live-dot"></span>
-                  <span>LIVE CONVEYOR &bull; INDUSTRIAL YIELD TELEMETRY</span>
                 </div>
               </div>
             </div>
@@ -855,10 +767,9 @@ slides_data = [
             <!-- Left Column: Header + 3 Capability Cards -->
             <div class="analytics-left-column">
               <div class="analytics-header-block">
-                <span class="topic-category-badge">MODULE 06 &bull; OCCUPANCY ANALYTICS</span>
                 <h1 class="slide-main-heading">People Counting &amp; <span class="highlight-red-text">Footfall Analytics</span></h1>
                 <p class="analytics-desc-lead">
-                  CCTV analytics detect and track people to count entries and exits in real time. It helps monitor footfall, understand movement patterns, and manage occupancy across different areas.
+                  Bi-directional footfall tracking measures visitor entries and exits in real time, providing accurate occupancy numbers, flow patterns, and density heatmaps.
                 </p>
               </div>
 
@@ -872,10 +783,7 @@ slides_data = [
                       <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Real-Time IN/OUT Counting</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Bi-directional line-crossing tracking with automatic compensation for crowds and occlusions.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Real-Time IN/OUT Counting</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -887,10 +795,7 @@ slides_data = [
                       <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Occupancy &amp; Overcrowding Alerts</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Automated live alerts when room capacity limits are reached or sudden bottlenecks form.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Occupancy &amp; Overcrowding Alerts</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -903,10 +808,7 @@ slides_data = [
                       <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Footfall Trends &amp; Heatmaps</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Hourly visitor heatmaps, dwell time analytics, and peak flow density reporting.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Footfall Trends &amp; Heatmaps</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -919,10 +821,6 @@ slides_data = [
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
                   <video class="brochure-video-player" src="assets/media6.mp4" controls autoplay loop playsinline></video>
-                </div>
-                <div class="usecases-image-overlay-badge">
-                  <span class="matrix-live-dot"></span>
-                  <span>LIVE FOOTFALL TRACKING &bull; DENSITY TELEMETRY</span>
                 </div>
               </div>
             </div>
@@ -939,10 +837,9 @@ slides_data = [
             <!-- Left Column: Header + 3 Capability Cards -->
             <div class="analytics-left-column">
               <div class="analytics-header-block">
-                <span class="topic-category-badge">MODULE 07 &bull; BIOMETRIC SECURITY</span>
                 <h1 class="slide-main-heading">Face Recognition <span class="highlight-red-text">Access Control</span></h1>
                 <p class="analytics-desc-lead">
-                  Face recognition detects faces and matches them with registered profiles in real time. It helps enable secure, touchless access and identify authorized or restricted individuals.
+                  Contactless biometric recognition matches faces against authorized employee profiles in milliseconds, enabling seamless entry and immediate blacklist alerts.
                 </p>
               </div>
 
@@ -954,10 +851,7 @@ slides_data = [
                       <circle cx="12" cy="7" r="4"></circle>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Real-Time Face Recognition</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Sub-second multi-face identification with anti-spoofing and liveness validation.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Real-Time Face Recognition</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -970,10 +864,7 @@ slides_data = [
                       <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Touchless Access Control</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Frictionless entry through automated turnstiles, magnetic speed gates, and secure doors.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Touchless Access Control</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -987,10 +878,7 @@ slides_data = [
                       <line x1="12" y1="17" x2="12.01" y2="17"></line>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">VIP &amp; Blacklist Alerts</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Custom greeting alerts for executive VIP guests and immediate alarms for barred persons.</span>
-                  </div>
+                  <h3 class="analytics-card-title">VIP &amp; Blacklist Alerts</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -1003,10 +891,6 @@ slides_data = [
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
                   <video class="brochure-video-player" src="assets/media7.mp4" controls autoplay loop playsinline></video>
-                </div>
-                <div class="usecases-image-overlay-badge">
-                  <span class="matrix-live-dot"></span>
-                  <span>LIVE FACE RECOGNITION &bull; BIOMETRIC TELEMETRY</span>
                 </div>
               </div>
             </div>
@@ -1023,10 +907,9 @@ slides_data = [
             <!-- Left Column: Header + 3 Capability Cards -->
             <div class="analytics-left-column">
               <div class="analytics-header-block">
-                <span class="topic-category-badge">MODULE 08 &bull; WAREHOUSE SAFETY</span>
                 <h1 class="slide-main-heading">Forklift Safety &amp; <span class="highlight-red-text">Proximity Detection</span></h1>
                 <p class="analytics-desc-lead">
-                  Smart cameras detect people, vehicles, and obstacles near moving forklifts. When someone or something enters a defined safety zone, the system alerts the operator to help prevent collisions.
+                  Proximity hazard detection monitors moving forklift blindspots in real time, triggering instant operator cab alarms to prevent warehouse collisions.
                 </p>
               </div>
 
@@ -1039,10 +922,7 @@ slides_data = [
                       <circle cx="12" cy="12" r="2"></circle>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Blindspot &amp; Proximity Detection</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Dynamic 360-degree perimeter protection around moving forklifts and heavy equipment.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Blindspot &amp; Proximity Detection</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -1055,10 +935,7 @@ slides_data = [
                       <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.08"></path>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Instant Audio-Visual Warnings</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Immediate cab-mounted audio beepers, strobe lights, and operator display warnings.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Instant Audio-Visual Warnings</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -1071,10 +948,7 @@ slides_data = [
                       <path d="m9 12 2 2 4-4"></path>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Operator Safety Monitoring</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Tracks pedestrian near-miss incidents, driver adherence, and high-risk warehouse intersections.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Operator Safety Monitoring</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -1087,10 +961,6 @@ slides_data = [
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
                   <video class="brochure-video-player" src="assets/media8.mp4" controls autoplay loop playsinline></video>
-                </div>
-                <div class="usecases-image-overlay-badge">
-                  <span class="matrix-live-dot"></span>
-                  <span>LIVE FORKLIFT RADAR &bull; PROXIMITY TELEMETRY</span>
                 </div>
               </div>
             </div>
@@ -1107,10 +977,9 @@ slides_data = [
             <!-- Left Column: Header + 3 Capability Cards -->
             <div class="analytics-left-column">
               <div class="analytics-header-block">
-                <span class="topic-category-badge">MODULE 09 &bull; WORKPLACE HEALTH</span>
                 <h1 class="slide-main-heading">Worker Fall <span class="highlight-red-text">Detection System</span></h1>
                 <p class="analytics-desc-lead">
-                  CCTV analytics detect falls and sudden changes in posture using body movement and pose tracking. It sends real-time alerts to staff, helping them respond quickly and improve worker safety.
+                  Human pose estimation detects slips, trips, and sudden posture collapse in real time, alerting floor supervisors and safety personnel for rapid emergency response.
                 </p>
               </div>
 
@@ -1121,10 +990,7 @@ slides_data = [
                       <path d="M18 15l-6-6-6 6"></path>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Real-Time Fall Detection</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Human pose estimation identifies slips, trips, falls, and collapsed worker posture instantly.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Real-Time Fall Detection</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -1138,10 +1004,7 @@ slides_data = [
                       <line x1="12" y1="16" x2="12.01" y2="16"></line>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Instant Emergency Alerts</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Zero-delay alerts dispatched to plant medical emergency teams and floor supervisors.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Instant Emergency Alerts</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -1153,10 +1016,7 @@ slides_data = [
                       <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Worker Safety Monitoring</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Continuous lone-worker safety oversight in high-risk chemical, boiler, and scaffolding areas.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Worker Safety Monitoring</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -1168,10 +1028,6 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <img class="usecases-matrix-img" src="assets/image18.png" alt="Skeletal Pose Analysis" />
-                <div class="usecases-image-overlay-badge">
-                  <span class="matrix-live-dot"></span>
-                  <span>SKELETAL POSE ESTIMATION &bull; FALL TELEMETRY</span>
-                </div>
               </div>
             </div>
           </div>
@@ -1187,10 +1043,9 @@ slides_data = [
             <!-- Left Column: Header + 3 Capability Cards -->
             <div class="analytics-left-column">
               <div class="analytics-header-block">
-                <span class="topic-category-badge">MODULE 10 &bull; PERIMETER SECURITY</span>
                 <h1 class="slide-main-heading">Perimeter Intrusion <span class="highlight-red-text">Detection (PIDS)</span></h1>
                 <p class="analytics-desc-lead">
-                  CCTV analytics monitor fences, walls, and virtual boundaries to detect unauthorized entry by people or vehicles. It turns regular surveillance into an active security system with real-time intrusion alerts.
+                  Virtual boundary surveillance monitors fence lines, perimeter walls, and sterile zones in real time, delivering instant alarms to prevent unauthorized human and vehicle intrusions.
                 </p>
               </div>
 
@@ -1203,10 +1058,7 @@ slides_data = [
                       <polyline points="6 16 2 12 6 8"></polyline>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Virtual Tripwires &amp; Security Zones</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Custom multi-line boundary tripwires and sterile zones with directional intrusion logic.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Virtual Tripwires &amp; Security Zones</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -1219,10 +1071,7 @@ slides_data = [
                       <circle cx="12" cy="12" r="3"></circle>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Real-Time Intrusion Detection</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Classification of humans vs animals vs shadows with zero false alarm susceptibility.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Real-Time Intrusion Detection</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -1235,10 +1084,7 @@ slides_data = [
                       <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.08"></path>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Instant Security Alerts</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Automatic PTZ camera slew-to-cue tracking, perimeter floodlight triggers, and siren broadcast.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Instant Security Alerts</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -1251,10 +1097,6 @@ slides_data = [
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
                   <video class="brochure-video-player" src="assets/media9.mp4" controls autoplay loop playsinline></video>
-                </div>
-                <div class="usecases-image-overlay-badge">
-                  <span class="matrix-live-dot"></span>
-                  <span>LIVE INTRUSION TRIPWIRE &bull; PIDS TELEMETRY</span>
                 </div>
               </div>
             </div>
@@ -1271,10 +1113,9 @@ slides_data = [
             <!-- Left Column: Header + 3 Capability Cards -->
             <div class="analytics-left-column">
               <div class="analytics-header-block">
-                <span class="topic-category-badge">MODULE 11 &bull; WILDLIFE MONITORING</span>
                 <h1 class="slide-main-heading">Animal Behavioral <span class="highlight-red-text">Tracking System</span></h1>
                 <p class="analytics-desc-lead">
-                  CCTV analytics detect large animals near highways, industrial areas, and forest boundaries. It sends early alerts to help prevent accidents, protect people, and support wildlife conservation.
+                  Wildlife telemetry detects large animals approaching roadways, industrial corridors, and forest perimeters, dispatching early alerts to prevent collisions and ensure public safety.
                 </p>
               </div>
 
@@ -1285,10 +1126,7 @@ slides_data = [
                       <path d="M12 2a10 10 0 0 0-10 10c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"></path>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Large Animal Detection</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Automated visual classification of cattle, elephants, leopards, and wildlife along corridors.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Large Animal Detection</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -1301,10 +1139,7 @@ slides_data = [
                       <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.08"></path>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Real-Time Safety Alerts</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Automated road VMS display warnings, forest department notifications, and siren triggers.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Real-Time Safety Alerts</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -1317,10 +1152,7 @@ slides_data = [
                       <path d="m9 12 2 2 4-4"></path>
                     </svg>
                   </div>
-                  <div class="premise-card-content">
-                    <h3 class="premise-card-title">Wildlife Collision Prevention</h3>
-                    <span class="analytics-desc-lead" style="margin-top:0.15rem;">Protects highway drivers and trains while enabling safe wildlife migratory corridor preservation.</span>
-                  </div>
+                  <h3 class="analytics-card-title">Wildlife Collision Prevention</h3>
                   <div class="premise-card-arrow">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
                   </div>
@@ -1332,10 +1164,6 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <img class="usecases-matrix-img" src="assets/image20.jpg" alt="Wildlife Corridor Analysis" />
-                <div class="usecases-image-overlay-badge">
-                  <span class="matrix-live-dot"></span>
-                  <span>WILDLIFE CORRIDOR &bull; ECOLOGICAL TELEMETRY</span>
-                </div>
               </div>
             </div>
           </div>
@@ -1936,22 +1764,33 @@ html_template = f'''<!DOCTYPE html>
       border: 1px solid rgba(30, 41, 59, 0.25);
     }}
 
-    .premise-card-content {{
-      display: flex;
-      flex-direction: column;
-      gap: 0.15rem;
-      min-width: 0;
-      flex-grow: 1;
-    }}
-
+    .analytics-card-title,
     .premise-card-title {{
       font-family: var(--font-display);
       font-size: clamp(0.85rem, 1vw, 1.05rem);
       font-weight: 800;
       color: var(--charcoal);
       line-height: 1.25;
+      margin: 0;
     }}
 
+    .premise-card-content {{
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      flex-grow: 1;
+      gap: 0.15rem;
+    }}
+
+    .premise-card-desc {{
+      font-size: clamp(0.72rem, 0.82vw, 0.84rem);
+      color: #64748b;
+      line-height: 1.35;
+      font-weight: 500;
+      margin: 0;
+    }}
+
+    .analytics-card-arrow,
     .premise-card-arrow {{
       color: #cbd5e1;
       display: flex;
@@ -1961,6 +1800,7 @@ html_template = f'''<!DOCTYPE html>
       flex-shrink: 0;
     }}
 
+    .analytics-topic-card:hover .analytics-card-arrow,
     .analytics-topic-card:hover .premise-card-arrow {{
       color: var(--primary-red);
       transform: translateX(3px);
