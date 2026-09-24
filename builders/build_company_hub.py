@@ -255,21 +255,16 @@ slides_data = [
     {
         'num': 4,
         'tag': '04 // SOLUTIONS',
-        'title': 'We Provide Solutions',
+        'title': 'Explore Solutions & Modules',
         'type': 'solutions_map',
         'html': '''
           <div class="slide-solutions-diagram-layout">
-            <!-- Header Section -->
-            <div class="sol-diagram-header">
-              <h1 class="sol-main-title">We Provide <span class="highlight-red-text">Solutions</span></h1>
-            </div>
-
             <!-- Central Symmetrical Hub Stage -->
             <div class="sol-central-hub-stage">
               <!-- Left Card: AI Modules (Centered) -->
               <a href="modules.html" class="sol-executive-card card-left">
                 <div class="sol-icon-box box-red">
-                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+                  <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
                 </div>
                 <h2 class="sol-card-title">Explore AI Modules</h2>
               </a>
@@ -293,7 +288,7 @@ slides_data = [
               <!-- Right Card: Industry Solutions (Centered) -->
               <a href="solutions.html" class="sol-executive-card card-right">
                 <div class="sol-icon-box box-red">
-                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                  <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
                 </div>
                 <h2 class="sol-card-title">Explore Solutions</h2>
               </a>
@@ -1660,49 +1655,24 @@ html_template = '''<!DOCTYPE html>
       width: 100%;
       max-width: 1140px;
       height: 100%;
+      min-height: clamp(400px, 60vh, 560px);
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       margin: 0 auto;
       position: relative;
-      padding: clamp(0.4rem, 1vh, 0.8rem) clamp(0.6rem, 1.2vw, 1.2rem);
-      gap: clamp(1rem, 2.4vh, 1.8rem);
+      padding: clamp(1rem, 2.5vh, 2.5rem) clamp(0.8rem, 1.5vw, 1.8rem);
       max-height: calc(100vh - 130px);
-    }
-
-    .sol-diagram-header {
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0.25rem;
-      z-index: 2;
-    }
-
-    .sol-main-title {
-      font-family: var(--font-display);
-      font-size: clamp(1.8rem, 2.8vw, 2.6rem);
-      font-weight: 900;
-      letter-spacing: -0.03em;
-      color: #0f172a;
-      line-height: 1.1;
-    }
-
-    .sol-sub-title {
-      font-size: clamp(0.78rem, 0.9vw, 0.88rem);
-      color: var(--slate-muted);
-      font-weight: 500;
-      line-height: 1.35;
     }
 
     .sol-central-hub-stage {
       display: grid;
-      grid-template-columns: 1fr 140px 1fr;
+      grid-template-columns: 1fr clamp(140px, 13vw, 175px) 1fr;
       align-items: center;
       width: 100%;
-      max-width: 960px;
-      gap: clamp(0.5rem, 1.2vw, 1.2rem);
+      max-width: 1020px;
+      gap: clamp(1rem, 2.2vw, 2.4rem);
       position: relative;
       z-index: 2;
     }
@@ -1710,15 +1680,15 @@ html_template = '''<!DOCTYPE html>
     .sol-executive-card {
       background: #ffffff;
       border: 1.5px solid #e2e8f0;
-      border-radius: 22px;
-      padding: clamp(1.6rem, 3.2vh, 2.2rem) clamp(1.4rem, 2vw, 2rem);
+      border-radius: 26px;
+      padding: clamp(2rem, 4.5vh, 3rem) clamp(1.6rem, 2.5vw, 2.5rem);
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       text-align: center;
-      gap: clamp(12px, 1.8vh, 18px);
-      min-height: clamp(190px, 26vh, 230px);
+      gap: clamp(14px, 2.2vh, 20px);
+      min-height: clamp(230px, 34vh, 290px);
       text-decoration: none;
       box-shadow: 0 10px 30px rgba(15, 23, 42, 0.04);
       transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
@@ -1754,9 +1724,9 @@ html_template = '''<!DOCTYPE html>
     }
 
     .sol-icon-box {
-      width: 56px;
-      height: 56px;
-      border-radius: 16px;
+      width: clamp(64px, 5.5vw, 76px);
+      height: clamp(64px, 5.5vw, 76px);
+      border-radius: 20px;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -1781,7 +1751,7 @@ html_template = '''<!DOCTYPE html>
 
     .sol-card-title {
       font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
-      font-size: clamp(1.35rem, 1.8vw, 1.7rem);
+      font-size: clamp(1.45rem, 2.1vw, 1.95rem);
       font-weight: 800;
       color: #0f172a;
       letter-spacing: -0.02em;
@@ -1807,7 +1777,7 @@ html_template = '''<!DOCTYPE html>
 
     .sol-connector-rays {
       position: absolute;
-      width: 220px;
+      width: 260px;
       height: 100%;
       top: 0;
       left: 50%;
@@ -1829,8 +1799,8 @@ html_template = '''<!DOCTYPE html>
 
     .sol-central-core-orb {
       position: relative;
-      width: clamp(120px, 11vw, 145px);
-      height: clamp(120px, 11vw, 145px);
+      width: clamp(135px, 12.5vw, 165px);
+      height: clamp(135px, 12.5vw, 165px);
       z-index: 3;
       display: flex;
       align-items: center;
