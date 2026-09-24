@@ -3136,6 +3136,15 @@ html_template = '''<!DOCTYPE html>
        ===================================================== */
     const certData = [
       {
+        title: 'CMMI Maturity Level 3',
+        standard: 'Process & Software Integration Maturity',
+        category: 'CMMI-DEV v1.3',
+        certNo: 'CMMI3E65/1224',
+        accred: 'UASL (United Accreditation Services Ltd) & ABIS',
+        scope: 'Integration of Building Management System, Sales & Services of Electronic Security Products & Low Voltage System.',
+        img: 'assets/cert_cmmi.png'
+      },
+      {
         title: 'ISO 9001:2015 (QMS)',
         standard: 'Quality Management System',
         category: 'ISO 9001:2015',
@@ -3161,15 +3170,6 @@ html_template = '''<!DOCTYPE html>
         accred: 'Quality Control Certification (UK & India) & UASL',
         scope: 'Integration of Building Management System, Sales & Services of Electronic Security Products & Low Voltage System.',
         img: 'assets/cert_ohsas.png'
-      },
-      {
-        title: 'CMMI Maturity Level 3',
-        standard: 'Process & Software Integration Maturity',
-        category: 'CMMI-DEV v1.3',
-        certNo: 'CMMI3E65/1224',
-        accred: 'UASL (United Accreditation Services Ltd) & ABIS',
-        scope: 'Integration of Building Management System, Sales & Services of Electronic Security Products & Low Voltage System.',
-        img: 'assets/cert_cmmi.png'
       }
     ];
 
