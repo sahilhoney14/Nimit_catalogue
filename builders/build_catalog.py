@@ -42,10 +42,6 @@ slides_data = [
 
             <!-- Right Column: Editorial & Headline Card -->
             <div class="cover-content-column">
-              <div class="cover-top-eyebrow">
-                <span class="topic-category-badge">CCTV AI VISION PLATFORM</span>
-              </div>
-
               <!-- Prominent Headline Card -->
               <div class="cover-headline-card">
                 <h1 class="cover-headline-text">ART OF <span class="highlight-red-text">INTELLIGENCE</span></h1>
@@ -131,7 +127,6 @@ slides_data = [
         'html': '''
           <div class="slide-topic-layout">
             <div class="slide-topic-header">
-              <span class="topic-category-badge">STRATEGY &bull; CCTV TRANSFORMATION</span>
               <h1 class="slide-main-heading">WHY AI IN <span class="highlight-red-text">SURVEILLANCE?</span></h1>
               <p class="slide-sub-heading">Transforming passive video recording into autonomous, real-time proactive intelligence</p>
             </div>
@@ -184,7 +179,6 @@ slides_data = [
         'html': '''
           <div class="slide-topic-layout" style="gap: clamp(0.55rem, 1.2vh, 1.1rem);">
             <div class="slide-topic-header">
-              <span class="topic-category-badge">ARCHITECTURE &bull; ENTERPRISE ADOPTION</span>
               <h1 class="slide-main-heading">HOW DO WE <span class="highlight-red-text">SOLVE IT</span></h1>
               <p class="slide-sub-heading">Engineered for seamless enterprise adoption with zero infrastructure disruption</p>
             </div>
@@ -263,7 +257,6 @@ slides_data = [
         'html': '''
           <div class="slide-topic-layout">
             <div class="slide-topic-header">
-              <span class="topic-category-badge">CAPABILITIES &bull; DEEP LEARNING</span>
               <h1 class="slide-main-heading">KEY <span class="highlight-red-text">FEATURES</span></h1>
               <p class="slide-sub-heading">Cutting-edge deep learning capabilities tailored for industrial CCTV environments</p>
             </div>
@@ -1079,7 +1072,6 @@ slides_data = [
           <div class="slide-contact-clean-layout">
             <!-- Clean Header Block -->
             <div class="clean-contact-header">
-              <span class="topic-category-badge">CONNECT</span>
               <h1 class="slide-main-heading">CONTACT US</h1>
               <p class="slide-sub-heading">Partner with Nimit AI for intelligent, scalable vision surveillance solutions</p>
             </div>

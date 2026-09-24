@@ -49,7 +49,6 @@ slides_data = [
             <div class="analytics-left-column">
               <!-- Header Section with Exact Definition -->
               <div class="analytics-header-block">
-                <span class="topic-category-badge">SMART PREMISES</span>
                 <h1 class="slide-main-heading">Smart Premises <span class="highlight-red-text">Solution</span></h1>
                 <p class="analytics-desc-lead">
                   A technology-driven system that integrates automation, sensors, and AI to manage and monitor buildings, enhancing security, energy efficiency, comfort, and operational control in residential, commercial, or industrial spaces through real-time data, remote access, and smart devices.
@@ -153,10 +152,6 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <img src="assets/smart_premises_visual.jpg" alt="Smart Premises AI Drone & Command Center" class="analytics-matrix-img" onerror="this.src='assets/cover_ai_neural_brain.jpg'" />
-                <div class="usecases-image-overlay-badge">
-                  <span class="matrix-live-dot"></span>
-                  <span>SMART PREMISES • IOT & DRONE TELEMETRY</span>
-                </div>
               </div>
             </div>
           </div>
@@ -172,7 +167,6 @@ slides_data = [
             <!-- Left Column: Exact PPT 12 Checkmark Items -->
             <div class="usecases-left-column">
               <div class="usecases-header-block">
-                <span class="topic-category-badge">COMPUTER VISION</span>
                 <h1 class="slide-main-heading">AI Used <span class="highlight-red-text">Cases</span></h1>
               </div>
 
@@ -283,7 +277,6 @@ slides_data = [
             <div class="analytics-left-column">
               <!-- Header Section with Exact Definition from PPT Slide 12 -->
               <div class="analytics-header-block">
-                <span class="topic-category-badge">PROCESS ANALYTICS</span>
                 <h1 class="slide-main-heading">Standard Process <span class="highlight-red-text">Analytics</span></h1>
                 <p class="analytics-desc-lead">
                   A systematic approach to analyzing workflows using data and KPIs to identify inefficiencies, optimize performance, and drive continuous improvement. It ensures consistency, transparency, and informed decision-making across operations through real-time monitoring, dashboards, and actionable insights.
@@ -382,10 +375,6 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <img src="assets/process_analytics_visual.jpg" alt="Industrial Process Analytics & Thermal AI" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.jpg'" />
-                <div class="usecases-image-overlay-badge">
-                  <span class="matrix-live-dot"></span>
-                  <span>EX-PROOF • THERMAL IMAGING • KPI TELEMETRY</span>
-                </div>
               </div>
             </div>
           </div>
@@ -402,7 +391,6 @@ slides_data = [
             <div class="analytics-left-column">
               <!-- Header Section with Exact Definition from PPT Slide 14 & 15 -->
               <div class="analytics-header-block">
-                <span class="topic-category-badge">HR MANAGEMENT</span>
                 <h1 class="slide-main-heading">HR Management <span class="highlight-red-text">Solution</span></h1>
                 <p class="analytics-desc-lead">
                   A digital system designed to streamline and automate human resource functions such as recruitment, attendance, payroll, performance tracking, and employee data management—enhancing organizational efficiency, compliance, and workforce engagement through centralized, real-time, and user-friendly tools.
@@ -495,10 +483,6 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <img src="assets/hrms_facility_visual.jpg" alt="HRMS & Biometric Speed Gates Facility Automation" class="analytics-matrix-img" onerror="this.src='assets/cover_ai_neural_brain.jpg'" />
-                <div class="usecases-image-overlay-badge">
-                  <span class="matrix-live-dot"></span>
-                  <span>BIOMETRIC ACCESS • HRMS & ATTENDANCE TELEMETRY</span>
-                </div>
               </div>
             </div>
           </div>
@@ -515,7 +499,6 @@ slides_data = [
             <div class="analytics-left-column">
               <!-- Header Section with Exact Definition from PPT Slide 16 -->
               <div class="analytics-header-block">
-                <span class="topic-category-badge">GATE AUTOMATION</span>
                 <h1 class="slide-main-heading">Gate Automation <span class="highlight-red-text">Solution</span></h1>
                 <p class="analytics-desc-lead">
                   A smart security system that automates gate operations using sensors, remote controls, RFID, or face recognition. It enhances safety, convenience, and access control by enabling seamless, contactless entry and exit for residential, commercial, or industrial premises.
@@ -563,10 +546,6 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <img src="assets/gate_automation_visual.jpg" alt="Gate Automation & Electric Perimeter Security" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.jpg'" />
-                <div class="usecases-image-overlay-badge">
-                  <span class="matrix-live-dot"></span>
-                  <span>ANPR ACCESS • BOOM BARRIERS • ELECTRIC PERIMETER</span>
-                </div>
               </div>
             </div>
           </div>
@@ -583,7 +562,6 @@ slides_data = [
             <div class="analytics-left-column">
               <!-- Header Section with Exact Definition from PPT Slide 18 -->
               <div class="analytics-header-block">
-                <span class="topic-category-badge">LIFE SAVING</span>
                 <h1 class="slide-main-heading">Life Saving <span class="highlight-red-text">Solution</span></h1>
                 <p class="analytics-desc-lead">
                   A technology or system designed to prevent accidents, detect emergencies, and respond rapidly—using sensors, AI, and real-time alerts to protect lives in environments like homes, workplaces, hospitals, or public spaces, ensuring timely intervention and enhanced personal safety.
@@ -664,10 +642,6 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <img src="assets/life_saving_visual.jpg" alt="Life Saving Solution, Fire Detection & PPE Telemetry" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.jpg'" />
-                <div class="usecases-image-overlay-badge">
-                  <span class="matrix-live-dot"></span>
-                  <span>AI PPE VERIFICATION • FIRE SUPPRESSION • SMART SENSORS</span>
-                </div>
               </div>
             </div>
           </div>
@@ -684,7 +658,6 @@ slides_data = [
             <div class="analytics-left-column">
               <!-- Header Section with Exact Definition from PPT Slide 20 -->
               <div class="analytics-header-block">
-                <span class="topic-category-badge">BUILDING MANAGEMENT</span>
                 <h1 class="slide-main-heading">Building Management <span class="highlight-red-text">Solution</span></h1>
                 <p class="analytics-desc-lead">
                   An integrated system that monitors and controls a building's electrical, mechanical, and safety infrastructure. It enhances energy efficiency, comfort, and security through automation, real-time data, and centralized control of lighting, HVAC, access, fire systems, and other facility operations.
@@ -782,10 +755,6 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <img src="assets/bms_smart_building_visual.jpg" alt="Building Management Solution BMS Smart Building IoT" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.jpg'" />
-                <div class="usecases-image-overlay-badge">
-                  <span class="matrix-live-dot"></span>
-                  <span>BMS IOT AUTOMATION • DDC CONTROLLERS • HVAC TELEMETRY</span>
-                </div>
               </div>
             </div>
           </div>
@@ -802,7 +771,6 @@ slides_data = [
             <div class="analytics-left-column">
               <!-- Header Section with Exact Definition from PPT Slide 22 -->
               <div class="analytics-header-block">
-                <span class="topic-category-badge">DIGITAL SOLUTION</span>
                 <h1 class="slide-main-heading">Digital <span class="highlight-red-text">Solution</span></h1>
                 <p class="analytics-desc-lead">
                   A technology-driven approach that leverages software, cloud, AI, or automation to solve business challenges, improve efficiency, enhance customer experience, and enable innovation. It transforms traditional processes into streamlined, scalable, and intelligent systems across various industries and functions.
@@ -834,10 +802,6 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <img src="assets/digital_solution_visual.jpg" alt="Integrated IT Infrastructure and Cybersecurity" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.jpg'" />
-                <div class="usecases-image-overlay-badge">
-                  <span class="matrix-live-dot"></span>
-                  <span>CLOUD INFRASTRUCTURE • CYBERSECURITY • ENTERPRISE IT</span>
-                </div>
               </div>
             </div>
           </div>
@@ -854,7 +818,6 @@ slides_data = [
             <div class="analytics-left-column">
               <!-- Header Section with Exact Definition from PPT Slide 24 -->
               <div class="analytics-header-block">
-                <span class="topic-category-badge">EDUCATION SOLUTION</span>
                 <h1 class="slide-main-heading">Education <span class="highlight-red-text">Solution</span></h1>
                 <p class="analytics-desc-lead">
                   A smart system using digital tools, AI, and automation to enhance teaching, learning, and administration. It supports virtual classrooms, student tracking, content delivery, and performance analysis—improving engagement, accessibility, and efficiency in schools, colleges, and training institutions.
@@ -948,10 +911,6 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <img src="assets/smart_education_visual.jpg" alt="Smart Education Campus Classroom AI and Telemetry" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.jpg'" />
-                <div class="usecases-image-overlay-badge">
-                  <span class="matrix-live-dot"></span>
-                  <span>SMART CLASSROOM • BROADCAST STUDIO • BUS TELEMETRY</span>
-                </div>
               </div>
             </div>
           </div>
@@ -968,7 +927,6 @@ slides_data = [
             <div class="analytics-left-column">
               <!-- Header Section with Exact Definition from PPT Slide 26 -->
               <div class="analytics-header-block">
-                <span class="topic-category-badge">MOBILE SURVEILLANCE</span>
                 <h1 class="slide-main-heading">Mobile Surveillance <span class="highlight-red-text">Solution</span></h1>
                 <p class="analytics-desc-lead">
                   A portable security system using cameras, wireless connectivity, and real-time monitoring to track and record activities in remote or moving locations. Ideal for events, construction sites, and law enforcement, it ensures flexible, on-the-go surveillance and rapid incident response.
@@ -1042,10 +1000,6 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <img src="assets/mobile_surveillance_visual.jpg" alt="Mobile Surveillance Solution MSS and Rapid Deployment Unit" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.jpg'" />
-                <div class="usecases-image-overlay-badge">
-                  <span class="matrix-live-dot"></span>
-                  <span>MOBILE COMMAND • SOLAR MAST • FLEET TELEMETRY</span>
-                </div>
               </div>
             </div>
           </div>
@@ -1062,7 +1016,6 @@ slides_data = [
             <div class="analytics-left-column">
               <!-- Header Section with Exact Definition from PPT Slide 28 -->
               <div class="analytics-header-block">
-                <span class="topic-category-badge">TRAFFIC MANAGEMENT</span>
                 <h1 class="slide-main-heading">Traffic Management <span class="highlight-red-text">Solution</span></h1>
                 <p class="analytics-desc-lead">
                   An intelligent system that uses sensors, cameras, and AI to monitor, analyze, and control traffic flow. It reduces congestion, enhances road safety, and optimizes signal timing—supporting smart city infrastructure and efficient transportation through real-time data and automation.
@@ -1099,10 +1052,6 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <img src="assets/traffic_management_visual.jpg" alt="Smart Traffic and GPS Vehicle Tracking System" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.jpg'" />
-                <div class="usecases-image-overlay-badge">
-                  <span class="matrix-live-dot"></span>
-                  <span>SMART TRAFFIC • VIDS RADAR • GPS FLEET TRACKING</span>
-                </div>
               </div>
             </div>
           </div>
@@ -1119,7 +1068,6 @@ slides_data = [
             <div class="analytics-left-column">
               <!-- Header Section with Exact Definition from PPT Slide 30 -->
               <div class="analytics-header-block">
-                <span class="topic-category-badge">PARKING MANAGEMENT</span>
                 <h1 class="slide-main-heading">Parking Management <span class="highlight-red-text">Solution</span></h1>
                 <p class="analytics-desc-lead">
                   A smart system that automates vehicle entry, exit, and space allocation using sensors, cameras, and software. It improves space utilization, reduces congestion, enables digital payments, and provides real-time availability updates—enhancing convenience and efficiency in public and private parking areas.
@@ -1205,10 +1153,6 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <img src="assets/parking_management_visual.jpg" alt="Smart Parking Multi-Level Structure and ANPR Camera System" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.jpg'" />
-                <div class="usecases-image-overlay-badge">
-                  <span class="matrix-live-dot"></span>
-                  <span>ANPR ACCESS • RADAR SAFETY • REAL-TIME GUIDANCE</span>
-                </div>
               </div>
             </div>
           </div>
@@ -1225,7 +1169,6 @@ slides_data = [
             <div class="analytics-left-column">
               <!-- Header Section with Exact Definition from PPT Slide 32 -->
               <div class="analytics-header-block">
-                <span class="topic-category-badge">HOSPITALITY SOLUTION</span>
                 <h1 class="slide-main-heading">Hospitality <span class="highlight-red-text">Solution</span></h1>
                 <p class="analytics-desc-lead">
                   A comprehensive system designed to enhance guest experience and streamline hotel operations using automation, IoT, and digital tools. It manages bookings, check-ins, room controls, and services—improving efficiency, personalization, and satisfaction in hotels, resorts, and other hospitality environments.
@@ -1287,10 +1230,6 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <img src="assets/hospitality_solution_visual.jpg" alt="Smart Facility Communication and Access Systems" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.jpg'" />
-                <div class="usecases-image-overlay-badge">
-                  <span class="matrix-live-dot"></span>
-                  <span>NURSE CALL • UNIFIED COMMUNICATIONS • BIOMETRIC LOCKS</span>
-                </div>
               </div>
             </div>
           </div>
@@ -1328,7 +1267,6 @@ slides_data = [
           <div class="slide-sectors-ecosystem-layout">
             <!-- Header Section with Exact Quote Title from PPT Slide 36 -->
             <div class="sectors-header-block">
-              <span class="topic-category-badge">ENTERPRISE ECOSYSTEM</span>
               <h1 class="sectors-main-quote">“Smart Solutions for Every Sector, Secure Lives Everywhere”</h1>
             </div>
 
@@ -1442,7 +1380,6 @@ slides_data = [
           <div class="slide-core-team-layout">
             <!-- Header Section with Heading CORE TEAM -->
             <div class="core-team-header-block">
-              <span class="topic-category-badge">OUR PEOPLE & STRENGTH</span>
               <h1 class="slide-main-heading">CORE <span class="highlight-red-text">TEAM</span></h1>
               <p class="slide-sub-heading">Dedicated engineers, system architects, and field specialists driving surveillance innovation across India</p>
             </div>
@@ -1465,7 +1402,6 @@ slides_data = [
           <div class="slide-contact-clean-layout">
             <!-- Clean Header Block -->
             <div class="clean-contact-header">
-              <span class="topic-category-badge">CONNECT</span>
               <h1 class="slide-main-heading">CONTACT US</h1>
               <p class="slide-sub-heading">Partner with Nimit AI for intelligent, scalable vision surveillance solutions</p>
             </div>

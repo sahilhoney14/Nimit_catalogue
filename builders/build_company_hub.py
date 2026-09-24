@@ -110,14 +110,6 @@ slides_data = [
         'html': '''
           <div class="slide-welcome-layout">
             <div class="welcome-left-content">
-              <div class="welcome-badge-row">
-                <span class="welcome-section-pill">
-                  <span class="pill-red-dot"></span>
-                  COMPANY PROFILE &bull; EST. 2003
-                </span>
-                <span class="welcome-iso-tag">CMMI-3 &bull; ISO CERTIFIED</span>
-              </div>
-
               <div class="welcome-titles-group">
                 <h1 class="welcome-main-heading">Welcome to <span class="highlight-red-text">NIMIT</span></h1>
                 <div class="welcome-sub-strip">
@@ -172,13 +164,7 @@ slides_data = [
             <div class="welcome-right-image">
               <div class="welcome-photo-container">
                 <img src="assets/nimit_ai_safety_leader.jpg" alt="Nimit Intelligent Safety &amp; Command Center">
-                <div class="photo-glass-hud-bar">
-                  <div class="hud-live-pill">
-                    <span class="hud-blink-dot"></span>
-                    <span>AI VISION &amp; SAFETY COMMAND CENTER</span>
-                  </div>
-                  <div class="hud-sub-caption">Autonomous CCTV Intelligence</div>
-                </div>
+              </div>
               </div>
             </div>
           </div>
@@ -383,7 +369,6 @@ slides_data = [
           <div class="slide-contact-clean-layout">
             <!-- Clean Header Block -->
             <div class="clean-contact-header">
-              <span class="topic-category-badge">CONNECT</span>
               <h1 class="slide-main-heading">CONTACT US</h1>
               <p class="slide-sub-heading">Partner with Nimit AI for intelligent, scalable vision surveillance solutions</p>
             </div>
