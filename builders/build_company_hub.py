@@ -13,29 +13,19 @@ slides_data = [
         'type': 'cover',
         'html': '''
           <div class="slide-brochure-cover-layout">
-            <!-- Top Navigation & Brand Header Inside Card -->
-            <div class="brochure-card-topbar">
-              <div class="brochure-top-right-url">
-                <a href="https://www.nimitelectronics.com" target="_blank" class="brochure-url-link">
-                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="12" cy="12" r="10"/>
-                    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
-                    <path d="M2 12h20"/>
-                  </svg>
-                  <span>www.nimitelectronics.com</span>
-                </a>
-              </div>
-            </div>
-
             <!-- Main Body Grid: Left Content + Right Architecture Visual -->
             <div class="brochure-card-body">
               <!-- Left Main Content Stage -->
               <div class="brochure-content-stage">
                 <div class="brochure-headline-group">
-                  <div class="brochure-eyebrow-badge">
-                    <span class="eyebrow-accent-dot"></span>
-                    <span class="eyebrow-badge-text">AI SURVEILLANCE &bull; IOT ECOSYSTEM</span>
-                  </div>
+                  <a href="https://www.nimitelectronics.com" target="_blank" class="brochure-eyebrow-badge" title="Visit www.nimitelectronics.com">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="10"/>
+                      <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+                      <path d="M2 12h20"/>
+                    </svg>
+                    <span class="eyebrow-badge-text">www.nimitelectronics.com</span>
+                  </a>
                   <h1 class="brochure-main-title">
                     <span class="title-line-1">SOLUTION BY</span>
                     <span class="title-line-2">TECHNOLOGY</span>
@@ -859,12 +849,22 @@ html_template = '''<!DOCTYPE html>
     .brochure-eyebrow-badge {
       display: inline-flex;
       align-items: center;
-      gap: 8px;
-      padding: 4px 12px;
+      gap: 7px;
+      padding: 5px 14px;
       background: rgba(229, 25, 36, 0.07);
       border: 1px solid rgba(229, 25, 36, 0.22);
-      border-radius: 6px;
+      border-radius: 999px;
       width: fit-content;
+      text-decoration: none;
+      color: var(--primary-red);
+      transition: all 0.2s ease;
+    }
+
+    .brochure-eyebrow-badge:hover {
+      background: rgba(229, 25, 36, 0.13);
+      border-color: var(--primary-red);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(229, 25, 36, 0.15);
     }
 
     .eyebrow-accent-dot {
@@ -878,11 +878,10 @@ html_template = '''<!DOCTYPE html>
 
     .eyebrow-badge-text {
       font-family: var(--font-mono);
-      font-size: clamp(0.68rem, 0.76vw, 0.74rem);
+      font-size: clamp(0.72rem, 0.8vw, 0.78rem);
       font-weight: 700;
       color: var(--primary-red);
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
+      letter-spacing: 0.04em;
     }
 
     .brochure-main-title {
