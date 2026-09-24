@@ -122,49 +122,58 @@ slides_data = [
                 Since 2003, Nimit has been a pioneer in advanced safety and security solutions across India. Certified under <strong>CMMI Level 3, ISO 9001:2015, ISO 14001:2015</strong>, and <strong>ISO 45001:2018</strong>, we deliver smart, scalable protection systems trusted by <strong>4,000+ clients nationwide</strong>. With a <strong>250+ member expert team</strong>, we blend innovation, integrity, and impact to provide reliable, real-time security solutions. With the evolution of intelligent cameras, we have further enhanced our systems by integrating advanced computer vision capabilities&mdash;building not just systems, but comprehensive safety ecosystems that redefine protection.
               </p>
 
-              <!-- 4 High-Impact Metric Cards (2x2 Grid) -->
-              <div class="welcome-metrics-grid">
-                <div class="welcome-metric-box">
-                  <div class="metric-number-row">
-                    <span class="metric-big-val">20+</span>
-                    <span class="metric-unit">Yrs</span>
+              <!-- 4 Strategic Value Pillars (2x2 Grid) -->
+              <div class="welcome-pillars-grid">
+                <div class="welcome-pillar-card">
+                  <div class="pillar-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                      <polyline points="22 4 12 14.01 9 11.01"/>
+                    </svg>
                   </div>
-                  <div class="metric-label-title">Pioneering Legacy</div>
-                  <div class="metric-label-sub">Established in 2003</div>
+                  <h3 class="pillar-heading">Proven Expertise</h3>
                 </div>
 
-                <div class="welcome-metric-box">
-                  <div class="metric-number-row">
-                    <span class="metric-big-val">4,000+</span>
+                <div class="welcome-pillar-card">
+                  <div class="pillar-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24A2.5 2.5 0 0 1 9.5 2Z"/>
+                      <path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24A2.5 2.5 0 0 0 14.5 2Z"/>
+                    </svg>
                   </div>
-                  <div class="metric-label-title">Enterprise Clients</div>
-                  <div class="metric-label-sub">Pan-India Deployment</div>
+                  <h3 class="pillar-heading">AI Powered Innovation</h3>
                 </div>
 
-                <div class="welcome-metric-box">
-                  <div class="metric-number-row">
-                    <span class="metric-big-val">250+</span>
-                    <span class="metric-unit">Team</span>
+                <div class="welcome-pillar-card">
+                  <div class="pillar-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="18" cy="5" r="3"/>
+                      <circle cx="6" cy="12" r="3"/>
+                      <circle cx="18" cy="19" r="3"/>
+                      <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+                      <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+                    </svg>
                   </div>
-                  <div class="metric-label-title">Engineering Experts</div>
-                  <div class="metric-label-sub">Dedicated R&amp;D &amp; Support</div>
+                  <h3 class="pillar-heading">Tailored End-to-End Integration</h3>
                 </div>
 
-                <div class="welcome-metric-box">
-                  <div class="metric-number-row">
-                    <span class="metric-big-val">CMMI-3</span>
+                <div class="welcome-pillar-card">
+                  <div class="pillar-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"/>
+                      <line x1="8" y1="2" x2="8" y2="18"/>
+                      <line x1="16" y1="6" x2="16" y2="22"/>
+                    </svg>
                   </div>
-                  <div class="metric-label-title">Quality Standards</div>
-                  <div class="metric-label-sub">ISO 9001 &bull; 14001 &bull; 45001</div>
+                  <h3 class="pillar-heading">National Reach</h3>
                 </div>
               </div>
             </div>
 
-            <!-- Right Visual: Framed AI Command Center with Glass HUD -->
+            <!-- Right Visual: Framed AI Command Center -->
             <div class="welcome-right-image">
               <div class="welcome-photo-container">
                 <img src="assets/nimit_ai_safety_leader.jpg" alt="Nimit Intelligent Safety &amp; Command Center">
-              </div>
               </div>
             </div>
           </div>
@@ -1220,62 +1229,51 @@ html_template = '''<!DOCTYPE html>
       color: var(--slate-muted);
     }
 
-    .welcome-metrics-grid {
+    .welcome-pillars-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 0.65rem;
-      margin-top: 0.2rem;
+      gap: 0.75rem 0.95rem;
+      margin-top: 0.4rem;
     }
 
-    .welcome-metric-box {
+    .welcome-pillar-card {
       background: #ffffff;
       border: 1px solid #e2e8f0;
       border-radius: 12px;
-      padding: 0.65rem 0.85rem;
+      padding: 0.8rem 1rem;
       display: flex;
-      flex-direction: column;
-      gap: 0.12rem;
-      transition: all 0.2s ease;
+      align-items: center;
+      gap: 0.8rem;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
     }
 
-    .welcome-metric-box:hover {
-      border-color: var(--primary-red);
+    .welcome-pillar-card:hover {
+      border-color: rgba(229, 25, 36, 0.4);
       transform: translateY(-2px);
-      box-shadow: 0 6px 16px rgba(229, 25, 36, 0.08);
+      box-shadow: 0 6px 18px rgba(229, 25, 36, 0.08);
     }
 
-    .metric-number-row {
-      display: flex;
-      align-items: baseline;
-      gap: 0.25rem;
-    }
-
-    .metric-big-val {
-      font-family: var(--font-display);
-      font-size: 1.45rem;
-      font-weight: 900;
+    .pillar-icon-box {
+      width: 38px;
+      height: 38px;
+      min-width: 38px;
+      border-radius: 10px;
+      background: rgba(229, 25, 36, 0.08);
       color: var(--primary-red);
-      line-height: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
     }
 
-    .metric-unit {
+    .pillar-heading {
       font-family: var(--font-display);
-      font-size: 0.9rem;
+      font-size: clamp(0.82rem, 1.02vw, 0.94rem);
       font-weight: 800;
       color: var(--charcoal);
-    }
-
-    .metric-label-title {
-      font-family: var(--font-display);
-      font-size: 0.8rem;
-      font-weight: 800;
-      color: var(--charcoal);
-    }
-
-    .metric-label-sub {
-      font-size: 0.7rem;
-      color: var(--slate-light);
+      line-height: 1.25;
+      margin: 0;
     }
 
     .welcome-right-image {
@@ -2686,49 +2684,38 @@ html_template = '''<!DOCTYPE html>
         color: #334155 !important;
         margin: 0.15rem 0 !important;
       }
-      .welcome-metrics-grid {
+      .welcome-pillars-grid {
         display: grid !important;
         grid-template-columns: repeat(2, 1fr) !important;
-        gap: 0.45rem !important;
+        gap: 0.5rem !important;
         width: 100% !important;
-        margin-top: 0.15rem !important;
+        margin-top: 0.25rem !important;
       }
-      .welcome-metric-box {
-        padding: 0.5rem 0.6rem !important;
+      .welcome-pillar-card {
+        padding: 0.55rem 0.7rem !important;
         border-radius: 10px !important;
         background: #ffffff !important;
         border: 1.2px solid rgba(226, 232, 240, 0.95) !important;
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02) !important;
         display: flex !important;
-        flex-direction: column !important;
-        gap: 0.08rem !important;
+        align-items: center !important;
+        gap: 0.55rem !important;
       }
-      .metric-number-row {
-        display: flex !important;
-        align-items: baseline !important;
-        gap: 0.2rem !important;
+      .pillar-icon-box {
+        width: 28px !important;
+        height: 28px !important;
+        min-width: 28px !important;
+        border-radius: 8px !important;
       }
-      .metric-big-val {
-        font-size: 1.25rem !important;
-        font-weight: 900 !important;
-        color: var(--primary-red) !important;
-        line-height: 1.1 !important;
+      .pillar-icon-box svg {
+        width: 15px !important;
+        height: 15px !important;
       }
-      .metric-unit {
-        font-size: 0.72rem !important;
-        font-weight: 800 !important;
-        color: var(--primary-red) !important;
-      }
-      .metric-label-title {
-        font-size: 0.68rem !important;
+      .pillar-heading {
+        font-size: 0.74rem !important;
         font-weight: 800 !important;
         color: #0f172a !important;
-        line-height: 1.2 !important;
-      }
-      .metric-label-sub {
-        font-size: 0.56rem !important;
-        color: #64748b !important;
-        line-height: 1.2 !important;
+        margin: 0 !important;
       }
       .welcome-right-image {
         display: block !important;
