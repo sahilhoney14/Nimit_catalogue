@@ -105,10 +105,6 @@ slides_data = [
         'html': '''
           <div class="slide-manifesto-layout">
             <div class="manifesto-card-stage">
-              <div class="manifesto-pill-tag">
-                <span class="manifesto-pill-dot"></span>
-                CORE PHILOSOPHY
-              </div>
               <p class="manifesto-line-1">Presenting AI not as artificial, but as the true</p>
               <div class="manifesto-headline-box">
                 <h1 class="manifesto-line-2">ART OF <span class="highlight-red-text">INTELLIGENCE</span></h1>
@@ -1040,16 +1036,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Real-Time Safety Alerts</h3>
-                </div>
-
-                <div class="analytics-topic-card">
-                  <div class="analytics-icon-box badge-blue">
-                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                      <path d="m9 12 2 2 4-4"></path>
-                    </svg>
-                  </div>
-                  <h3 class="analytics-card-title">Wildlife Collision Prevention</h3>
                 </div>
               </div>
             </div>

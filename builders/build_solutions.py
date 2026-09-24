@@ -568,71 +568,51 @@ slides_data = [
                 </p>
               </div>
 
-              <!-- Exactly the 4 Modules from PPT Slide 19 with Exact Verbatim Content -->
-              <div class="lifesaving-modules-grid">
+              <!-- 4 Strategic Module Headings -->
+              <div class="analytics-cards-grid">
                 
                 <!-- Module 1: Fire Detection System -->
-                <div class="lifesaving-module-card">
-                  <div class="lifesaving-card-header">
-                    <div class="analytics-icon-box badge-red">
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path>
-                      </svg>
-                    </div>
-                    <h3 class="lifesaving-card-title">Fire Detection System</h3>
+                <div class="analytics-topic-card">
+                  <div class="analytics-icon-box badge-red">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path>
+                    </svg>
                   </div>
-                  <p class="lifesaving-card-desc">
-                    Early smoke, heat, and flame detection with instant alerts for minimal risk and response time.
-                  </p>
+                  <h3 class="analytics-card-title">Fire Detection System</h3>
                 </div>
 
                 <!-- Module 2: Fire Suppression Solutions -->
-                <div class="lifesaving-module-card">
-                  <div class="lifesaving-card-header">
-                    <div class="analytics-icon-box badge-amber">
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                        <path d="m9 12 2 2 4-4"></path>
-                      </svg>
-                    </div>
-                    <h3 class="lifesaving-card-title">Fire Suppression Solutions</h3>
+                <div class="analytics-topic-card">
+                  <div class="analytics-icon-box badge-amber">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                      <path d="m9 12 2 2 4-4"></path>
+                    </svg>
                   </div>
-                  <p class="lifesaving-card-desc">
-                    Clean gas agents for sensitive zones + hydrants and extinguishers for industrial areas.
-                  </p>
+                  <h3 class="analytics-card-title">Fire Suppression Solutions</h3>
                 </div>
 
                 <!-- Module 3: PPE & Compliance -->
-                <div class="lifesaving-module-card">
-                  <div class="lifesaving-card-header">
-                    <div class="analytics-icon-box badge-blue">
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                        <circle cx="12" cy="11" r="3"></circle>
-                        <path d="M7 18.5a5 5 0 0 1 10 0"></path>
-                      </svg>
-                    </div>
-                    <h3 class="lifesaving-card-title">PPE & Compliance</h3>
+                <div class="analytics-topic-card">
+                  <div class="analytics-icon-box badge-blue">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                      <circle cx="12" cy="11" r="3"></circle>
+                      <path d="M7 18.5a5 5 0 0 1 10 0"></path>
+                    </svg>
                   </div>
-                  <p class="lifesaving-card-desc">
-                    Durable PPE for all industries with smart software to track usage, inventory, and safety compliance.
-                  </p>
+                  <h3 class="analytics-card-title">PPE & Compliance</h3>
                 </div>
 
                 <!-- Module 4: Smart Home Guarding -->
-                <div class="lifesaving-module-card">
-                  <div class="lifesaving-card-header">
-                    <div class="analytics-icon-box badge-emerald">
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                      </svg>
-                    </div>
-                    <h3 class="lifesaving-card-title">Smart Home Guarding</h3>
+                <div class="analytics-topic-card">
+                  <div class="analytics-icon-box badge-emerald">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                      <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                    </svg>
                   </div>
-                  <p class="lifesaving-card-desc">
-                    Wireless intrusion detection with facial recognition and mobile-based remote monitoring.
-                  </p>
+                  <h3 class="analytics-card-title">Smart Home Guarding</h3>
                 </div>
 
               </div>
@@ -664,88 +644,68 @@ slides_data = [
                 </p>
               </div>
 
-              <!-- Exactly the 4 Modules from PPT Slide 21 with Exact Verbatim Content -->
-              <div class="lifesaving-modules-grid">
+              <!-- 4 Strategic Module Headings -->
+              <div class="analytics-cards-grid">
                 
                 <!-- Module 1: Building Management Solution (BMS) -->
-                <div class="lifesaving-module-card">
-                  <div class="lifesaving-card-header">
-                    <div class="analytics-icon-box badge-blue">
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                        <rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect>
-                        <line x1="9" y1="22" x2="9" y2="22.01"></line>
-                        <line x1="15" y1="22" x2="15" y2="22.01"></line>
-                        <line x1="8" y1="6" x2="8" y2="6.01"></line>
-                        <line x1="12" y1="6" x2="12" y2="6.01"></line>
-                        <line x1="16" y1="6" x2="16" y2="6.01"></line>
-                        <line x1="8" y1="10" x2="8" y2="10.01"></line>
-                        <line x1="12" y1="10" x2="12" y2="10.01"></line>
-                        <line x1="16" y1="10" x2="16" y2="10.01"></line>
-                        <line x1="8" y1="14" x2="8" y2="14.01"></line>
-                        <line x1="12" y1="14" x2="12" y2="14.01"></line>
-                        <line x1="16" y1="14" x2="16" y2="14.01"></line>
-                      </svg>
-                    </div>
-                    <h3 class="lifesaving-card-title">Building Management Solution (BMS)</h3>
+                <div class="analytics-topic-card">
+                  <div class="analytics-icon-box badge-blue">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect>
+                      <line x1="9" y1="22" x2="9" y2="22.01"></line>
+                      <line x1="15" y1="22" x2="15" y2="22.01"></line>
+                      <line x1="8" y1="6" x2="8" y2="6.01"></line>
+                      <line x1="12" y1="6" x2="12" y2="6.01"></line>
+                      <line x1="16" y1="6" x2="16" y2="6.01"></line>
+                      <line x1="8" y1="10" x2="8" y2="10.01"></line>
+                      <line x1="12" y1="10" x2="12" y2="10.01"></line>
+                      <line x1="16" y1="10" x2="16" y2="10.01"></line>
+                      <line x1="8" y1="14" x2="8" y2="14.01"></line>
+                      <line x1="12" y1="14" x2="12" y2="14.01"></line>
+                      <line x1="16" y1="14" x2="16" y2="14.01"></line>
+                    </svg>
                   </div>
-                  <p class="lifesaving-card-desc">
-                    A smart ecosystem that automates and integrates HVAC, lighting, security, and energy systems for seamless building operations.
-                  </p>
+                  <h3 class="analytics-card-title">Building Management Solution (BMS)</h3>
                 </div>
 
                 <!-- Module 2: DDC Controllers -->
-                <div class="lifesaving-module-card">
-                  <div class="lifesaving-card-header">
-                    <div class="analytics-icon-box badge-purple">
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                        <rect x="4" y="4" width="16" height="16" rx="2"></rect>
-                        <rect x="9" y="9" width="6" height="6"></rect>
-                        <line x1="9" y1="1" x2="9" y2="4"></line>
-                        <line x1="15" y1="1" x2="15" y2="4"></line>
-                        <line x1="9" y1="20" x2="9" y2="23"></line>
-                        <line x1="15" y1="20" x2="15" y2="23"></line>
-                        <line x1="20" y1="9" x2="23" y2="9"></line>
-                        <line x1="20" y1="14" x2="23" y2="14"></line>
-                        <line x1="1" y1="9" x2="4" y2="9"></line>
-                        <line x1="1" y1="14" x2="4" y2="14"></line>
-                      </svg>
-                    </div>
-                    <h3 class="lifesaving-card-title">DDC Controllers</h3>
+                <div class="analytics-topic-card">
+                  <div class="analytics-icon-box badge-purple">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                      <rect x="9" y="9" width="6" height="6"></rect>
+                      <line x1="9" y1="1" x2="9" y2="4"></line>
+                      <line x1="15" y1="1" x2="15" y2="4"></line>
+                      <line x1="9" y1="20" x2="9" y2="23"></line>
+                      <line x1="15" y1="20" x2="15" y2="23"></line>
+                      <line x1="20" y1="9" x2="23" y2="9"></line>
+                      <line x1="20" y1="14" x2="23" y2="14"></line>
+                      <line x1="1" y1="9" x2="4" y2="9"></line>
+                      <line x1="1" y1="14" x2="4" y2="14"></line>
+                    </svg>
                   </div>
-                  <p class="lifesaving-card-desc">
-                    The brain of BMS—precisely controlling building systems based on real-time sensor data for efficiency and comfort.
-                  </p>
+                  <h3 class="analytics-card-title">DDC Controllers</h3>
                 </div>
 
                 <!-- Module 3: Field Devices -->
-                <div class="lifesaving-module-card">
-                  <div class="lifesaving-card-header">
-                    <div class="analytics-icon-box badge-amber">
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="3"></circle>
-                        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
-                      </svg>
-                    </div>
-                    <h3 class="lifesaving-card-title">Field Devices</h3>
+                <div class="analytics-topic-card">
+                  <div class="analytics-icon-box badge-amber">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="3"></circle>
+                      <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                    </svg>
                   </div>
-                  <p class="lifesaving-card-desc">
-                    Sensors and actuators collect real-time data and execute commands to maintain optimal building performance.
-                  </p>
+                  <h3 class="analytics-card-title">Field Devices</h3>
                 </div>
 
                 <!-- Module 4: Smart Building -->
-                <div class="lifesaving-module-card">
-                  <div class="lifesaving-card-header">
-                    <div class="analytics-icon-box badge-emerald">
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-                      </svg>
-                    </div>
-                    <h3 class="lifesaving-card-title">Smart Building</h3>
+                <div class="analytics-topic-card">
+                  <div class="analytics-icon-box badge-emerald">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                    </svg>
                   </div>
-                  <p class="lifesaving-card-desc">
-                    Combining IoT and analytics, smart buildings enhance comfort, cut energy costs, and ensure operational excellence.
-                  </p>
+                  <h3 class="analytics-card-title">Smart Building</h3>
                 </div>
 
               </div>
@@ -777,10 +737,36 @@ slides_data = [
                 </p>
               </div>
 
-              <!-- Integrated IT Infrastructure from PPT Slide 23 with Exact Verbatim Content -->
-              <div class="gate-module-card" style="border-left: 3.5px solid var(--primary-red); padding: clamp(0.75rem, 1.1vw, 1.15rem);">
-                <div class="gate-module-header">
+              <!-- 4 Strategic Module Headings -->
+              <div class="analytics-cards-grid">
+                
+                <!-- Topic 1: Advanced Networking & Cybersecurity -->
+                <div class="analytics-topic-card">
                   <div class="analytics-icon-box badge-blue">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                      <path d="m9 12 2 2 4-4"></path>
+                    </svg>
+                  </div>
+                  <h3 class="analytics-card-title">Advanced Networking &amp; Cybersecurity</h3>
+                </div>
+
+                <!-- Topic 2: Wireless Communication -->
+                <div class="analytics-topic-card">
+                  <div class="analytics-icon-box badge-purple">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+                      <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+                      <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+                      <line x1="12" y1="20" x2="12.01" y2="20"></line>
+                    </svg>
+                  </div>
+                  <h3 class="analytics-card-title">Wireless Communication</h3>
+                </div>
+
+                <!-- Topic 3: Smart Racks & Data Center -->
+                <div class="analytics-topic-card">
+                  <div class="analytics-icon-box badge-amber">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
                       <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
                       <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
@@ -788,13 +774,28 @@ slides_data = [
                       <line x1="6" y1="18" x2="6.01" y2="18"></line>
                     </svg>
                   </div>
-                  <h3 class="gate-module-title" style="font-size: clamp(0.85rem, 1.05vw, 1.12rem);">
-                    Integrated IT Infrastructure for Smart Connectivity and Cybersecurity
-                  </h3>
+                  <h3 class="analytics-card-title">Smart Racks &amp; Data Center</h3>
                 </div>
-                <p class="gate-module-desc" style="font-size: clamp(0.74rem, 0.85vw, 0.9rem); line-height: 1.52; color: #475569; margin-top: 0.35rem;">
-                  Empower your enterprise with a fully integrated IT ecosystem that combines automated networking, advanced cybersecurity, wireless communication, and intelligent data infrastructure. Our solutions deliver secure, real-time connectivity through high-performance switches, encrypted wireless links, and cloud-managed systems—enabling seamless operation across corporate and industrial environments. With scalable smart racks, precision-cooled data centers, and high-efficiency servers, you gain centralized control, remote monitoring, and enhanced uptime protection. Designed to meet the demands of modern infrastructure, this robust system ensures resilience, performance, and security—from edge devices to core networks.
-                </p>
+
+                <!-- Topic 4: Servers & IT Infrastructure -->
+                <div class="analytics-topic-card">
+                  <div class="analytics-icon-box badge-emerald">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                      <rect x="9" y="9" width="6" height="6"></rect>
+                      <line x1="9" y1="1" x2="9" y2="4"></line>
+                      <line x1="15" y1="1" x2="15" y2="4"></line>
+                      <line x1="9" y1="20" x2="9" y2="23"></line>
+                      <line x1="15" y1="20" x2="15" y2="23"></line>
+                      <line x1="20" y1="9" x2="23" y2="9"></line>
+                      <line x1="20" y1="14" x2="23" y2="14"></line>
+                      <line x1="1" y1="9" x2="4" y2="9"></line>
+                      <line x1="1" y1="14" x2="4" y2="14"></line>
+                    </svg>
+                  </div>
+                  <h3 class="analytics-card-title">Servers &amp; IT Infrastructure</h3>
+                </div>
+
               </div>
             </div>
 
@@ -824,7 +825,7 @@ slides_data = [
                 </p>
               </div>
 
-              <!-- All 5 Solution Topics (Titles Only) from PPT Slide 25 -->
+              <!-- 4 Strategic Module Headings (Titles Only) -->
               <div class="analytics-cards-grid">
                 
                 <!-- Topic 1: Classroom Monitoring System -->
@@ -836,9 +837,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Classroom Monitoring System</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <!-- Topic 2: Broadcasting Solution -->
@@ -853,9 +851,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Broadcasting Solution</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <!-- Topic 3: Attendance & Access Control -->
@@ -867,31 +862,12 @@ slides_data = [
                       <path d="M7 17.5a5 5 0 0 1 10 0"></path>
                     </svg>
                   </div>
-                  <h3 class="analytics-card-title">Attendance & Access Control</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
+                  <h3 class="analytics-card-title">Attendance &amp; Access Control</h3>
                 </div>
 
-                <!-- Topic 4: Transport Monitoring -->
+                <!-- Topic 4: Interactive Display -->
                 <div class="analytics-topic-card">
                   <div class="analytics-icon-box badge-amber">
-                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                      <rect x="3" y="4" width="18" height="13" rx="2"></rect>
-                      <circle cx="7.5" cy="17.5" r="2.5"></circle>
-                      <circle cx="16.5" cy="17.5" r="2.5"></circle>
-                      <line x1="3" y1="10" x2="21" y2="10"></line>
-                    </svg>
-                  </div>
-                  <h3 class="analytics-card-title">Transport Monitoring</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
-                </div>
-
-                <!-- Topic 5: Interactive Display -->
-                <div class="analytics-topic-card card-span-2">
-                  <div class="analytics-icon-box badge-red">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
                       <rect x="2" y="3" width="20" height="14" rx="2"></rect>
                       <line x1="8" y1="21" x2="16" y2="21"></line>
@@ -899,9 +875,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Interactive Display</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
               </div>
@@ -933,66 +906,56 @@ slides_data = [
                 </p>
               </div>
 
-              <!-- MSS Detailed Section from PPT Slide 27 with Verbatim Content -->
-              <div class="gate-module-card" style="border-left: 3.5px solid var(--primary-red); padding: clamp(0.75rem, 1.1vw, 1.15rem);">
-                <div class="gate-module-header">
-                  <div class="analytics-icon-box badge-amber">
+              <!-- 4 Strategic Module Headings -->
+              <div class="analytics-cards-grid">
+                
+                <!-- Topic 1: Mobile Surveillance Vehicle (MSV) -->
+                <div class="analytics-topic-card">
+                  <div class="analytics-icon-box badge-blue">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                      <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
-                      <circle cx="12" cy="13" r="4"></circle>
+                      <rect x="1" y="3" width="15" height="13"></rect>
+                      <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                      <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                      <circle cx="18.5" cy="18.5" r="2.5"></circle>
                     </svg>
                   </div>
-                  <h3 class="gate-module-title" style="font-size: clamp(0.88rem, 1.08vw, 1.15rem);">
-                    Mobile Surveillance Solution (MSS)
-                  </h3>
+                  <h3 class="analytics-card-title">Mobile Surveillance Vehicle (MSV)</h3>
                 </div>
-                <p class="gate-module-desc" style="font-size: clamp(0.74rem, 0.85vw, 0.88rem); line-height: 1.5; color: #475569; margin-top: 0.35rem;">
-                  An advanced vehicle monitoring system for buses, taxis, trucks, and mobile units—offering real-time interior and exterior surveillance, GPS tracking, and automated video telemetry. It enhances driver security, passenger safety, and law enforcement support with instant alerts and forensic-ready video evidence.
-                </p>
 
-                <!-- Key Benefits List (Exact Verbatim from PPT Slide 27) -->
-                <div style="margin-top: 0.65rem; padding-top: 0.55rem; border-top: 1px solid #f1f5f9;">
-                  <span style="font-size: clamp(0.75rem, 0.88vw, 0.92rem); font-weight: 800; color: var(--navy-dark); text-transform: uppercase; letter-spacing: 0.05em; display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.45rem;">
-                    <span style="display:inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--primary-red);"></span>
-                    Key Benefits
-                  </span>
-                  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 0.4rem;">
-                    <div style="display: flex; align-items: center; gap: 0.45rem; background: #ffffff; padding: 0.35rem 0.6rem; border-radius: 6px; border: 1px solid #e2e8f0;">
-                      <div style="color: #059669; display: flex; align-items: center; flex-shrink: 0;">
-                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><polyline points="20 6 9 17 4 12"/></svg>
-                      </div>
-                      <span style="font-size: clamp(0.72rem, 0.82vw, 0.85rem); font-weight: 600; color: #1e293b;">Real-time remote monitoring</span>
-                    </div>
-
-                    <div style="display: flex; align-items: center; gap: 0.45rem; background: #ffffff; padding: 0.35rem 0.6rem; border-radius: 6px; border: 1px solid #e2e8f0;">
-                      <div style="color: #059669; display: flex; align-items: center; flex-shrink: 0;">
-                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><polyline points="20 6 9 17 4 12"/></svg>
-                      </div>
-                      <span style="font-size: clamp(0.72rem, 0.82vw, 0.85rem); font-weight: 600; color: #1e293b;">Enhanced safety for drivers and passengers</span>
-                    </div>
-
-                    <div style="display: flex; align-items: center; gap: 0.45rem; background: #ffffff; padding: 0.35rem 0.6rem; border-radius: 6px; border: 1px solid #e2e8f0;">
-                      <div style="color: #059669; display: flex; align-items: center; flex-shrink: 0;">
-                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><polyline points="20 6 9 17 4 12"/></svg>
-                      </div>
-                      <span style="font-size: clamp(0.72rem, 0.82vw, 0.85rem); font-weight: 600; color: #1e293b;">Theft and violence prevention</span>
-                    </div>
-
-                    <div style="display: flex; align-items: center; gap: 0.45rem; background: #ffffff; padding: 0.35rem 0.6rem; border-radius: 6px; border: 1px solid #e2e8f0;">
-                      <div style="color: #059669; display: flex; align-items: center; flex-shrink: 0;">
-                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><polyline points="20 6 9 17 4 12"/></svg>
-                      </div>
-                      <span style="font-size: clamp(0.72rem, 0.82vw, 0.85rem); font-weight: 600; color: #1e293b;">Evidence collection for investigations</span>
-                    </div>
-
-                    <div style="display: flex; align-items: center; gap: 0.45rem; background: #ffffff; padding: 0.35rem 0.6rem; border-radius: 6px; border: 1px solid #e2e8f0;" class="card-span-2">
-                      <div style="color: #059669; display: flex; align-items: center; flex-shrink: 0;">
-                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><polyline points="20 6 9 17 4 12"/></svg>
-                      </div>
-                      <span style="font-size: clamp(0.72rem, 0.82vw, 0.85rem); font-weight: 600; color: #1e293b;">Enforces rules and improves compliance</span>
-                    </div>
+                <!-- Topic 2: Real-Time Transport Monitoring -->
+                <div class="analytics-topic-card">
+                  <div class="analytics-icon-box badge-purple">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="2" y="3" width="20" height="14" rx="2"></rect>
+                      <line x1="8" y1="21" x2="16" y2="21"></line>
+                      <line x1="12" y1="17" x2="12" y2="21"></line>
+                      <path d="M6 8h.01M10 8h.01M14 8h.01M18 8h.01"></path>
+                    </svg>
                   </div>
+                  <h3 class="analytics-card-title">Real-Time Transport Monitoring</h3>
                 </div>
+
+                <!-- Topic 3: GPS Tracking & Fleet Management -->
+                <div class="analytics-topic-card">
+                  <div class="analytics-icon-box badge-amber">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <polygon points="12 2 19 21 12 17 5 21 12 2"></polygon>
+                    </svg>
+                  </div>
+                  <h3 class="analytics-card-title">GPS Tracking &amp; Fleet Management</h3>
+                </div>
+
+                <!-- Topic 4: Video Analytics & Safety Alerts -->
+                <div class="analytics-topic-card">
+                  <div class="analytics-icon-box badge-emerald">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                      <path d="m9 12 2 2 4-4"></path>
+                    </svg>
+                  </div>
+                  <h3 class="analytics-card-title">Video Analytics &amp; Safety Alerts</h3>
+                </div>
+
               </div>
             </div>
 
@@ -1022,29 +985,54 @@ slides_data = [
                 </p>
               </div>
 
-              <!-- Detailed Section from PPT Slide 29 with Verbatim Content -->
-              <div class="gate-module-card" style="border-left: 3.5px solid var(--primary-red); padding: clamp(0.75rem, 1.1vw, 1.15rem);">
-                <div class="gate-module-header">
+              <!-- 4 Strategic Module Headings -->
+              <div class="analytics-cards-grid">
+                
+                <!-- Topic 1: Smart Traffic & Vehicle Tracking -->
+                <div class="analytics-topic-card">
                   <div class="analytics-icon-box badge-blue">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
                       <polygon points="12 2 19 21 12 17 5 21 12 2"></polygon>
                     </svg>
                   </div>
-                  <h3 class="gate-module-title" style="font-size: clamp(0.88rem, 1.08vw, 1.15rem);">
-                    Smart Traffic & Vehicle Tracking Solution
-                  </h3>
+                  <h3 class="analytics-card-title">Smart Traffic &amp; Vehicle Tracking</h3>
                 </div>
-                
-                <p class="gate-module-desc" style="font-size: clamp(0.74rem, 0.85vw, 0.88rem); line-height: 1.5; color: #475569; margin-top: 0.35rem;">
-                  An integrated system using advanced technologies like CCTV, VIDS, radar displays, and GPS tracking to enhance road safety, traffic flow, and fleet efficiency. It enables real-time monitoring, incident detection, illegal parking alerts, and travel time estimation.
-                </p>
 
-                <!-- Second Paragraph in styled accent container from PPT Slide 29 -->
-                <div style="margin-top: 0.6rem; padding: 0.55rem 0.8rem; background: linear-gradient(135deg, rgba(239, 246, 255, 0.8), rgba(248, 250, 252, 0.95)); border-radius: 8px; border: 1px solid #bfdbfe;">
-                  <p style="font-size: clamp(0.73rem, 0.83vw, 0.86rem); line-height: 1.52; color: #1e3a8a; margin: 0; font-weight: 500;">
-                    With GPS tracking, users gain live location data, fuel insights, route monitoring, emergency response, and security alerts—boosting operational control, safety, and decision-making across all transportation networks.
-                  </p>
+                <!-- Topic 2: Traffic Surveillance & Incident Detection -->
+                <div class="analytics-topic-card">
+                  <div class="analytics-icon-box badge-amber">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+                      <circle cx="12" cy="13" r="4"></circle>
+                    </svg>
+                  </div>
+                  <h3 class="analytics-card-title">Traffic Surveillance &amp; Incident Detection</h3>
                 </div>
+
+                <!-- Topic 3: Intelligent Traffic Control & Communication -->
+                <div class="analytics-topic-card">
+                  <div class="analytics-icon-box badge-purple">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="6" y="2" width="12" height="20" rx="4"></rect>
+                      <circle cx="12" cy="6" r="1.5" fill="currentColor"></circle>
+                      <circle cx="12" cy="12" r="1.5" fill="currentColor"></circle>
+                      <circle cx="12" cy="18" r="1.5" fill="currentColor"></circle>
+                    </svg>
+                  </div>
+                  <h3 class="analytics-card-title">Intelligent Traffic Control &amp; Communication</h3>
+                </div>
+
+                <!-- Topic 4: Traffic Analytics & Command Center -->
+                <div class="analytics-topic-card">
+                  <div class="analytics-icon-box badge-emerald">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M2 12h5l3 7 4-14 3 7h5"></path>
+                      <circle cx="12" cy="12" r="1"></circle>
+                    </svg>
+                  </div>
+                  <h3 class="analytics-card-title">Traffic Analytics &amp; Command Center</h3>
+                </div>
+
               </div>
             </div>
 
@@ -1074,78 +1062,45 @@ slides_data = [
                 </p>
               </div>
 
-              <!-- Detailed Module & Features from PPT Slide 31 -->
-              <div class="gate-module-card" style="border-left: 3.5px solid var(--primary-red); padding: clamp(0.7rem, 1vw, 1.1rem);">
-                <div class="gate-module-header">
-                  <div class="analytics-icon-box badge-emerald">
+              <!-- 3 Strategic Module Headings -->
+              <div class="analytics-cards-grid">
+                
+                <!-- Topic 1: ANPR Camera Systems -->
+                <div class="analytics-topic-card card-span-2">
+                  <div class="analytics-icon-box badge-blue">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
                       <rect x="2" y="5" width="20" height="14" rx="2"></rect>
-                      <line x1="2" y1="10" x2="22" y2="10"></line>
+                      <circle cx="12" cy="12" r="3.5"></circle>
+                      <path d="M19 8h.01"></path>
                     </svg>
                   </div>
-                  <h3 class="gate-module-title" style="font-size: clamp(0.88rem, 1.08vw, 1.15rem);">
-                    Smart Parking Security Solution
-                  </h3>
+                  <h3 class="analytics-card-title">ANPR Camera Systems</h3>
                 </div>
-                
-                <p class="gate-module-desc" style="font-size: clamp(0.73rem, 0.84vw, 0.88rem); line-height: 1.48; color: #475569; margin-top: 0.3rem;">
-                  Ensure 24/7 secure, efficient, and hands-free parking operations with our intelligent system. Featuring ANPR-based access, radar-triggered barriers, and real-time monitoring, it automates entry, enhances surveillance, and delivers actionable data insights—minimizing manual work and maximizing convenience.
-                </p>
 
-                <!-- Core Features at a Glance Section -->
-                <div style="margin-top: 0.55rem; padding-top: 0.45rem; border-top: 1px solid #f1f5f9;">
-                  <span style="font-size: clamp(0.74rem, 0.86vw, 0.9rem); font-weight: 800; color: var(--navy-dark); text-transform: uppercase; letter-spacing: 0.05em; display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.4rem;">
-                    <span style="display:inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--primary-red);"></span>
-                    Core Features at a Glance
-                  </span>
-                  
-                  <div style="display: flex; flex-direction: column; gap: 0.35rem;">
-                    <div style="display: flex; align-items: flex-start; gap: 0.45rem; background: #ffffff; padding: 0.35rem 0.55rem; border-radius: 6px; border: 1px solid #e2e8f0;">
-                      <div style="color: #059669; display: flex; align-items: center; flex-shrink: 0; margin-top: 0.15rem;">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><polyline points="20 6 9 17 4 12"/></svg>
-                      </div>
-                      <div style="font-size: clamp(0.7rem, 0.8vw, 0.84rem); color: #475569; line-height: 1.4;">
-                        <strong style="color: #0f172a;">Automated Access Control</strong> — ANPR cameras and fast-action barriers ensure smooth, secure entry/exit.
-                      </div>
-                    </div>
-
-                    <div style="display: flex; align-items: flex-start; gap: 0.45rem; background: #ffffff; padding: 0.35rem 0.55rem; border-radius: 6px; border: 1px solid #e2e8f0;">
-                      <div style="color: #059669; display: flex; align-items: center; flex-shrink: 0; margin-top: 0.15rem;">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><polyline points="20 6 9 17 4 12"/></svg>
-                      </div>
-                      <div style="font-size: clamp(0.7rem, 0.8vw, 0.84rem); color: #475569; line-height: 1.4;">
-                        <strong style="color: #0f172a;">Advanced Surveillance</strong> — High-res cameras with night vision and real-time alerts.
-                      </div>
-                    </div>
-
-                    <div style="display: flex; align-items: flex-start; gap: 0.45rem; background: #ffffff; padding: 0.35rem 0.55rem; border-radius: 6px; border: 1px solid #e2e8f0;">
-                      <div style="color: #059669; display: flex; align-items: center; flex-shrink: 0; margin-top: 0.15rem;">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><polyline points="20 6 9 17 4 12"/></svg>
-                      </div>
-                      <div style="font-size: clamp(0.7rem, 0.8vw, 0.84rem); color: #475569; line-height: 1.4;">
-                        <strong style="color: #0f172a;">Intelligent Reporting</strong> — Track vehicle history, access patterns, and usage analytics.
-                      </div>
-                    </div>
-
-                    <div style="display: flex; align-items: flex-start; gap: 0.45rem; background: #ffffff; padding: 0.35rem 0.55rem; border-radius: 6px; border: 1px solid #e2e8f0;">
-                      <div style="color: #059669; display: flex; align-items: center; flex-shrink: 0; margin-top: 0.15rem;">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><polyline points="20 6 9 17 4 12"/></svg>
-                      </div>
-                      <div style="font-size: clamp(0.7rem, 0.8vw, 0.84rem); color: #475569; line-height: 1.4;">
-                        <strong style="color: #0f172a;">Radar Safety & Detection</strong> — Vehicle-only detection and barrier safety management.
-                      </div>
-                    </div>
-
-                    <div style="display: flex; align-items: flex-start; gap: 0.45rem; background: #ffffff; padding: 0.35rem 0.55rem; border-radius: 6px; border: 1px solid #e2e8f0;">
-                      <div style="color: #059669; display: flex; align-items: center; flex-shrink: 0; margin-top: 0.15rem;">
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8"><polyline points="20 6 9 17 4 12"/></svg>
-                      </div>
-                      <div style="font-size: clamp(0.7rem, 0.8vw, 0.84rem); color: #475569; line-height: 1.4;">
-                        <strong style="color: #0f172a;">Smart Parking Guidance</strong> — Guides drivers to free spaces and helps locate parked vehicles with kiosks.
-                      </div>
-                    </div>
+                <!-- Topic 2: Automatic Barrier Systems -->
+                <div class="analytics-topic-card card-span-2">
+                  <div class="analytics-icon-box badge-amber">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="3" y="11" width="4" height="10" rx="1"></rect>
+                      <path d="M7 13l14-5"></path>
+                      <circle cx="5" cy="13" r="1.5"></circle>
+                    </svg>
                   </div>
+                  <h3 class="analytics-card-title">Automatic Barrier Systems</h3>
                 </div>
+
+                <!-- Topic 3: Radar Detection Technology -->
+                <div class="analytics-topic-card card-span-2">
+                  <div class="analytics-icon-box badge-emerald">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16z"></path>
+                      <path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"></path>
+                      <path d="M12 2v2M12 20v2M2 12h2M20 12h2"></path>
+                    </svg>
+                  </div>
+                  <h3 class="analytics-card-title">Radar Detection Technology</h3>
+                </div>
+
               </div>
             </div>
 
@@ -1260,14 +1215,14 @@ slides_data = [
     },
     {
         'num': 16,
-        'tag': '16 // SECTOR ECOSYSTEM',
-        'title': 'Smart Solutions for Every Sector',
+        'tag': '16 // NIMIT ECO SYSTEM',
+        'title': 'NIMIT Eco System',
         'type': 'content',
         'html': '''
           <div class="slide-sectors-ecosystem-layout">
-            <!-- Header Section with Exact Quote Title from PPT Slide 36 -->
+            <!-- Header Section with NIMIT Eco System Heading -->
             <div class="sectors-header-block">
-              <h1 class="sectors-main-quote">“Smart Solutions for Every Sector, Secure Lives Everywhere”</h1>
+              <h1 class="slide-main-heading">NIMIT <span class="highlight-red-text">Eco System</span></h1>
             </div>
 
             <!-- 9 Sectors Matrix in 2 Balanced Rows (4 on Top, 5 on Bottom) matching PPT Slide 36 -->
@@ -1381,7 +1336,6 @@ slides_data = [
             <!-- Header Section with Heading CORE TEAM -->
             <div class="core-team-header-block">
               <h1 class="slide-main-heading">CORE <span class="highlight-red-text">TEAM</span></h1>
-              <p class="slide-sub-heading">Dedicated engineers, system architects, and field specialists driving surveillance innovation across India</p>
             </div>
 
             <!-- Central Showcase Stage with Team Photo -->
