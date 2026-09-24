@@ -181,139 +181,71 @@ slides_data = [
     },
     {
         'num': 3,
-        'tag': '03 // CERTIFICATIONS',
-        'title': 'Global Accreditations & Standards',
+        'tag': '03 // QUALITY & COMPLIANCES',
+        'title': 'Quality and Compliances',
         'type': 'certifications',
         'html': '''
           <div class="slide-certifications-layout">
             <!-- Executive Section Header -->
             <div class="slide-cert-header">
-              <h1 class="cert-main-title">Enterprise <span class="highlight-red-text">Certifications</span></h1>
+              <h1 class="cert-main-title">Quality and <span class="highlight-red-text">Compliances</span></h1>
             </div>
 
             <!-- 4 Executive Showcase Cards -->
             <div class="cert-cards-grid">
-              <!-- Card 1: CMMI Level 3 -->
-              <div class="cert-card-item" onclick="openCertLightbox(0)">
+              <!-- Card 1: QMS ISO 9001:2015 -->
+              <div class="cert-card-item">
                 <div class="card-accent-bar"></div>
-                <div class="cert-card-topbar">
-                  <span class="cert-badge-pill">
-                    <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                    <span>CMMI-DEV v1.3</span>
-                  </span>
-                  <span class="cert-authority-tag">UASL ACCREDITED</span>
-                </div>
-                
-                <div class="cert-stage-box">
-                  <img src="assets/cert_cmmi.png" alt="CMMI Maturity Level 3 Certificate - Nimit Electronics" class="cert-plaque-img">
-                  <div class="cert-hover-reveal">
-                    <div class="cert-inspect-pill">
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-                      <span>View Certificate</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="cert-card-info">
-                  <h3 class="cert-card-heading">CMMI Level 3</h3>
-                  <p class="cert-card-desc">Process &amp; Software Integration Maturity</p>
-                  <div class="cert-card-meta-row">
-                    <span class="cert-id-code">CMMI3E65/1224</span>
-                    <span class="cert-card-arrow">&rarr;</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Card 2: EMS ISO 14001:2015 -->
-              <div class="cert-card-item" onclick="openCertLightbox(1)">
-                <div class="card-accent-bar"></div>
-                <div class="cert-card-topbar">
-                  <span class="cert-badge-pill">
-                    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                    <span>ISO 14001:2015</span>
-                  </span>
-                  <span class="cert-authority-tag">ENVIRONMENTAL</span>
-                </div>
-                
-                <div class="cert-stage-box">
-                  <img src="assets/cert_ems.png" alt="ISO 14001:2015 Environmental Management Certificate - Nimit Electronics" class="cert-plaque-img">
-                  <div class="cert-hover-reveal">
-                    <div class="cert-inspect-pill">
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-                      <span>View Certificate</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="cert-card-info">
-                  <h3 class="cert-card-heading">EMS Standard</h3>
-                  <p class="cert-card-desc">Environmental Management System</p>
-                  <div class="cert-card-meta-row">
-                    <span class="cert-id-code">EMS/05782/0118</span>
-                    <span class="cert-card-arrow">&rarr;</span>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Card 3: QMS ISO 9001:2015 -->
-              <div class="cert-card-item" onclick="openCertLightbox(2)">
-                <div class="card-accent-bar"></div>
-                <div class="cert-card-topbar">
-                  <span class="cert-badge-pill">
-                    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                    <span>ISO 9001:2015</span>
-                  </span>
-                  <span class="cert-authority-tag">QUALITY ASSURED</span>
-                </div>
                 
                 <div class="cert-stage-box">
                   <img src="assets/cert_qms.png" alt="ISO 9001:2015 Quality Management Certificate - Nimit Electronics" class="cert-plaque-img">
-                  <div class="cert-hover-reveal">
-                    <div class="cert-inspect-pill">
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-                      <span>View Certificate</span>
-                    </div>
-                  </div>
                 </div>
 
                 <div class="cert-card-info">
                   <h3 class="cert-card-heading">QMS Standard</h3>
                   <p class="cert-card-desc">Quality Management System</p>
-                  <div class="cert-card-meta-row">
-                    <span class="cert-id-code">QMS/04391/0317</span>
-                    <span class="cert-card-arrow">&rarr;</span>
-                  </div>
                 </div>
               </div>
 
-              <!-- Card 4: OHSAS ISO 45001:2018 -->
-              <div class="cert-card-item" onclick="openCertLightbox(3)">
+              <!-- Card 2: EMS ISO 14001:2015 -->
+              <div class="cert-card-item">
                 <div class="card-accent-bar"></div>
-                <div class="cert-card-topbar">
-                  <span class="cert-badge-pill">
-                    <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
-                    <span>ISO 45001:2018</span>
-                  </span>
-                  <span class="cert-authority-tag">HEALTH &amp; SAFETY</span>
+                
+                <div class="cert-stage-box">
+                  <img src="assets/cert_ems.png" alt="ISO 14001:2015 Environmental Management Certificate - Nimit Electronics" class="cert-plaque-img">
                 </div>
+
+                <div class="cert-card-info">
+                  <h3 class="cert-card-heading">EMS Standard</h3>
+                  <p class="cert-card-desc">Environmental Management System</p>
+                </div>
+              </div>
+
+              <!-- Card 3: OHSAS ISO 45001:2018 -->
+              <div class="cert-card-item">
+                <div class="card-accent-bar"></div>
                 
                 <div class="cert-stage-box">
                   <img src="assets/cert_ohsas.png" alt="ISO 45001:2018 Occupational Health &amp; Safety Certificate - Nimit Electronics" class="cert-plaque-img">
-                  <div class="cert-hover-reveal">
-                    <div class="cert-inspect-pill">
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-                      <span>View Certificate</span>
-                    </div>
-                  </div>
                 </div>
 
                 <div class="cert-card-info">
                   <h3 class="cert-card-heading">OHSAS Standard</h3>
                   <p class="cert-card-desc">Occupational Health &amp; Safety</p>
-                  <div class="cert-card-meta-row">
-                    <span class="cert-id-code">OHSMS/020919/0221</span>
-                    <span class="cert-card-arrow">&rarr;</span>
-                  </div>
+                </div>
+              </div>
+
+              <!-- Card 4: CMMI Level 3 -->
+              <div class="cert-card-item">
+                <div class="card-accent-bar"></div>
+                
+                <div class="cert-stage-box">
+                  <img src="assets/cert_cmmi.png" alt="CMMI Maturity Level 3 Certificate - Nimit Electronics" class="cert-plaque-img">
+                </div>
+
+                <div class="cert-card-info">
+                  <h3 class="cert-card-heading">CMMI Level 3</h3>
+                  <p class="cert-card-desc">Process &amp; Software Integration Maturity</p>
                 </div>
               </div>
             </div>
@@ -1394,13 +1326,13 @@ html_template = '''<!DOCTYPE html>
       background: #ffffff;
       border: 1px solid #e2e8f0;
       border-radius: 16px;
-      padding: 0.85rem 0.75rem;
+      padding: 1.1rem 0.9rem;
       display: flex;
       flex-direction: column;
       align-items: center;
       position: relative;
       overflow: hidden;
-      cursor: pointer;
+      cursor: default;
       box-shadow: 0 4px 18px rgba(0, 0, 0, 0.03);
       transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
     }
@@ -1416,56 +1348,23 @@ html_template = '''<!DOCTYPE html>
     }
 
     .cert-card-item:hover .card-accent-bar {
-      height: 5px;
+      height: 4.5px;
     }
 
     .cert-card-item:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 16px 32px -8px rgba(229, 25, 36, 0.14), 0 0 18px rgba(229, 25, 36, 0.06);
-      border-color: rgba(229, 25, 36, 0.4);
-    }
-
-    .cert-card-topbar {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 0.55rem;
-      padding: 0 0.15rem;
-    }
-
-    .cert-badge-pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.3rem;
-      padding: 0.2rem 0.55rem;
-      border-radius: 6px;
-      font-family: var(--font-mono);
-      font-size: 0.6rem;
-      font-weight: 800;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      background: #fef2f2;
-      color: var(--primary-red);
-      border: 1px solid #fecaca;
-    }
-
-    .cert-authority-tag {
-      font-family: var(--font-mono);
-      font-size: 0.56rem;
-      font-weight: 700;
-      color: var(--slate-light);
-      letter-spacing: 0.06em;
+      transform: translateY(-4px);
+      box-shadow: 0 14px 28px -6px rgba(0, 0, 0, 0.08), 0 0 16px rgba(229, 25, 36, 0.05);
+      border-color: rgba(229, 25, 36, 0.3);
     }
 
     .cert-stage-box {
       width: 100%;
-      height: clamp(150px, 24vh, 210px);
+      height: clamp(170px, 28vh, 230px);
       display: flex;
       align-items: center;
       justify-content: center;
       position: relative;
-      margin-bottom: 0.65rem;
+      margin-bottom: 0.75rem;
       border-radius: 8px;
     }
 
@@ -1474,47 +1373,10 @@ html_template = '''<!DOCTYPE html>
       max-width: 100%;
       object-fit: contain;
       border-radius: 4px;
-      box-shadow: 0 8px 20px -4px rgba(15, 23, 42, 0.14), 0 2px 5px rgba(0, 0, 0, 0.05);
+      box-shadow: 0 8px 20px -4px rgba(15, 23, 42, 0.12), 0 2px 5px rgba(0, 0, 0, 0.04);
       border: 1px solid rgba(0, 0, 0, 0.07);
       transition: all 0.3s ease;
       background: #ffffff;
-    }
-
-    .cert-card-item:hover .cert-plaque-img {
-      transform: translateY(-3px) scale(1.02);
-      box-shadow: 0 14px 28px -4px rgba(15, 23, 42, 0.2);
-    }
-
-    .cert-hover-reveal {
-      position: absolute;
-      inset: 0;
-      background: rgba(15, 23, 42, 0.4);
-      backdrop-filter: blur(2px);
-      -webkit-backdrop-filter: blur(2px);
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      opacity: 0;
-      transition: opacity 0.2s ease;
-    }
-
-    .cert-card-item:hover .cert-hover-reveal {
-      opacity: 1;
-    }
-
-    .cert-inspect-pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-      background: #ffffff;
-      color: var(--charcoal);
-      font-family: var(--font-display);
-      font-size: 0.72rem;
-      font-weight: 800;
-      padding: 0.38rem 0.8rem;
-      border-radius: 999px;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
     }
 
     .cert-card-info {
@@ -1523,24 +1385,24 @@ html_template = '''<!DOCTYPE html>
       flex-direction: column;
       align-items: center;
       text-align: center;
-      padding-top: 0.15rem;
+      padding-top: 0.2rem;
     }
 
     .cert-card-heading {
       font-family: var(--font-display);
-      font-size: 0.98rem;
+      font-size: 1.02rem;
       font-weight: 800;
       color: var(--charcoal);
       line-height: 1.2;
-      margin-bottom: 0.12rem;
+      margin-bottom: 0.18rem;
     }
 
     .cert-card-desc {
-      font-size: 0.68rem;
+      font-size: 0.72rem;
       color: var(--slate-muted);
       font-weight: 500;
-      line-height: 1.3;
-      margin-bottom: 0.35rem;
+      line-height: 1.35;
+      margin-bottom: 0;
     }
 
     .cert-card-meta-row {
@@ -2786,7 +2648,7 @@ html_template = '''<!DOCTYPE html>
         width: 100% !important;
       }
       .cert-card-item {
-        padding: 0.45rem 0.5rem !important;
+        padding: 0.6rem 0.55rem !important;
         border-radius: 10px !important;
         background: #ffffff !important;
         border: 1.2px solid rgba(226, 232, 240, 0.95) !important;
@@ -2794,27 +2656,10 @@ html_template = '''<!DOCTYPE html>
         display: flex !important;
         flex-direction: column !important;
         gap: 0.2rem !important;
-        cursor: pointer !important;
-      }
-      .cert-card-topbar {
-        display: flex !important;
-        justify-content: space-between !important;
-        align-items: center !important;
-        margin-bottom: 0.1rem !important;
-      }
-      .cert-badge-pill {
-        font-size: 0.56rem !important;
-        font-weight: 800 !important;
-        padding: 0.12rem 0.35rem !important;
-        border-radius: 9999px !important;
-      }
-      .cert-authority-tag {
-        font-size: 0.5rem !important;
-        font-weight: 700 !important;
-        color: #64748b !important;
+        cursor: default !important;
       }
       .cert-stage-box {
-        height: 90px !important;
+        height: 110px !important;
         border-radius: 6px !important;
         background: #f8fafc !important;
         overflow: hidden !important;
@@ -3291,13 +3136,13 @@ html_template = '''<!DOCTYPE html>
        ===================================================== */
     const certData = [
       {
-        title: 'CMMI Maturity Level 3',
-        standard: 'Process & Software Integration Maturity',
-        category: 'CMMI-DEV v1.3',
-        certNo: 'CMMI3E65/1224',
-        accred: 'UASL (United Accreditation Services Ltd) & ABIS',
+        title: 'ISO 9001:2015 (QMS)',
+        standard: 'Quality Management System',
+        category: 'ISO 9001:2015',
+        certNo: 'QMS/04391/0317',
+        accred: 'Quality Control Certification (UK & India) & UASL',
         scope: 'Integration of Building Management System, Sales & Services of Electronic Security Products & Low Voltage System.',
-        img: 'assets/cert_cmmi.png'
+        img: 'assets/cert_qms.png'
       },
       {
         title: 'ISO 14001:2015 (EMS)',
@@ -3309,15 +3154,6 @@ html_template = '''<!DOCTYPE html>
         img: 'assets/cert_ems.png'
       },
       {
-        title: 'ISO 9001:2015 (QMS)',
-        standard: 'Quality Management System',
-        category: 'ISO 9001:2015',
-        certNo: 'QMS/04391/0317',
-        accred: 'Quality Control Certification (UK & India) & UASL',
-        scope: 'Integration of Building Management System, Sales & Services of Electronic Security Products & Low Voltage System.',
-        img: 'assets/cert_qms.png'
-      },
-      {
         title: 'ISO 45001:2018 (OHSAS)',
         standard: 'Occupational Health & Safety Management',
         category: 'ISO 45001:2018',
@@ -3325,6 +3161,15 @@ html_template = '''<!DOCTYPE html>
         accred: 'Quality Control Certification (UK & India) & UASL',
         scope: 'Integration of Building Management System, Sales & Services of Electronic Security Products & Low Voltage System.',
         img: 'assets/cert_ohsas.png'
+      },
+      {
+        title: 'CMMI Maturity Level 3',
+        standard: 'Process & Software Integration Maturity',
+        category: 'CMMI-DEV v1.3',
+        certNo: 'CMMI3E65/1224',
+        accred: 'UASL (United Accreditation Services Ltd) & ABIS',
+        scope: 'Integration of Building Management System, Sales & Services of Electronic Security Products & Low Voltage System.',
+        img: 'assets/cert_cmmi.png'
       }
     ];
 
