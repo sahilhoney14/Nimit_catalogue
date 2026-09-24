@@ -119,7 +119,7 @@ slides_data = [
               </div>
 
               <p class="welcome-body-paragraph">
-                Since 2003, Nimit has been a pioneer in advanced safety and security solutions across India. Certified under <strong>CMMI Level 3, ISO 9001:2015, ISO 14001:2015</strong>, and <strong>ISO 45001:2018</strong>, we deliver smart, scalable protection systems trusted by <strong>4,000+ clients nationwide</strong>. With a <strong>250+ member expert team</strong>, we blend innovation, integrity, and impact to provide reliable, real-time security solutions. With the evolution of intelligent cameras, we have further enhanced our systems by integrating advanced computer vision capabilities&mdash;building not just systems, but comprehensive safety ecosystems that redefine protection.
+                Since 2003, Nimit has been a pioneer in advanced safety and security solutions across India. Certified under <strong>ISO 9001:2015, ISO 14001:2015, ISO 45001:2018</strong>, and <strong>CMMI Level 3</strong>, we deliver smart, scalable protection systems trusted by <strong>4,000+ clients nationwide</strong>. With a <strong>250+ member expert team</strong>, we blend innovation, integrity, and impact to provide reliable, real-time security solutions. With the evolution of intelligent cameras, we have further enhanced our systems by integrating advanced computer vision capabilities&mdash;building not just systems, but comprehensive safety ecosystems that redefine protection.
               </p>
 
               <!-- 4 Strategic Value Pillars (2x2 Grid) -->
