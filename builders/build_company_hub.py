@@ -474,20 +474,27 @@ html_template = '''<!DOCTYPE html>
       justify-content: space-between;
       width: 100%;
       flex-shrink: 0;
-      padding-bottom: 0.15rem;
     }
 
     .brand-logo-block {
       display: flex;
       flex-direction: column;
+      cursor: pointer;
       text-decoration: none;
     }
 
     .logo-img {
-      width: clamp(140px, 14vw, 210px);
+      width: clamp(140px, 12vw, 185px);
       height: auto;
-      max-height: 40px;
+      max-height: 38px;
+      display: block;
       object-fit: contain;
+      filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.06));
+      transition: transform 0.25s ease;
+    }
+
+    .logo-img:hover {
+      transform: scale(1.02);
     }
 
     /* Portal Navigation Bar (Aesthetic Floating Glass Pill) */
@@ -2240,8 +2247,8 @@ html_template = '''<!DOCTYPE html>
         -webkit-backdrop-filter: blur(12px) !important;
       }
       .brand-logo-block .logo-img {
-        width: 95px !important;
-        max-height: 22px !important;
+        width: 100px !important;
+        max-height: 24px !important;
         object-fit: contain !important;
       }
       .brand-tagline {
@@ -3028,11 +3035,11 @@ html_template = '''<!DOCTYPE html>
     <canvas id="neuralCanvas"></canvas>
 
     <div class="foreground-content">
-      
-      <!-- Top Header Row -->
-      <div class="header-row">
-        <a href="index.html" class="brand-logo-block">
-          <img src="assets/nimit_logo_transparent.png" alt="Nimit Electronics" class="logo-img" onerror="this.src='assets/nimit_logo.png'">
+      <!-- 1. HEADER ROW (Identical across Hub, Solutions & AI Modules) -->
+      <header class="header-row">
+        <!-- Logo Block linking to index.html -->
+        <a href="index.html" class="brand-logo-block" title="Back to Nimit Home">
+          <img src="assets/nimit_logo_transparent.png" alt="NIMIT" class="logo-img" onerror="this.src='assets/nimit_logo.png'" />
         </a>
 
         <!-- Portal Navigation Bar (Matching Solutions & Modules) -->
@@ -3072,7 +3079,7 @@ html_template = '''<!DOCTYPE html>
             <span>All Slides</span>
           </button>
         </div>
-      </div>
+      </header>
 
       <!-- Middle Stage Viewport -->
       <div class="slide-stage-viewport">

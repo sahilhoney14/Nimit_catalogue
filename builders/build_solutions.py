@@ -1594,14 +1594,16 @@ html_template = f'''<!DOCTYPE html>
       display: flex;
       flex-direction: column;
       cursor: pointer;
+      text-decoration: none;
     }}
 
     .logo-img {{
-      width: clamp(180px, 18vw, 290px);
+      width: clamp(140px, 12vw, 185px);
       height: auto;
+      max-height: 38px;
       display: block;
       object-fit: contain;
-      filter: drop-shadow(0 4px 14px rgba(0, 0, 0, 0.08));
+      filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.06));
       transition: transform 0.25s ease;
     }}
 
@@ -3144,8 +3146,8 @@ html_template = f'''<!DOCTYPE html>
         -webkit-backdrop-filter: blur(12px) !important;
       }}
       .brand-logo-block .logo-img {{
-        width: 95px !important;
-        max-height: 22px !important;
+        width: 100px !important;
+        max-height: 24px !important;
         object-fit: contain !important;
       }}
       .brand-tagline {{
