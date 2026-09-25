@@ -1546,48 +1546,714 @@
     /* =====================================================
        RESPONSIVE BREAKPOINTS
        ===================================================== */
-    @media (max-width: 1024px) {
-      .slide-analytics-split-layout {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-        overflow-y: auto;
-      }
-      .analytics-cards-grid {
-        grid-template-columns: 1fr;
-      }
+    /* =====================================================
+       COMPREHENSIVE PROFESSIONAL MOBILE & TABLET RESPONSIVE
+       ===================================================== */
+    @media (max-width: 1024px) and (min-width: 901px) {
       .slide-cover-layout {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1.1fr;
+        gap: 1.5rem;
+        max-height: calc(100vh - 130px);
+      }
+      .cover-headline-text {
+        font-size: 2.8rem;
+      }
+      .slide-analytics-split-layout {
+        grid-template-columns: 1.05fr 0.95fr;
+        gap: 1.4rem;
+        max-height: calc(100vh - 130px);
+      }
+      .analytics-matrix-img {
+        max-height: 38vh;
+      }
+      .slide-contact-clean-layout {
+        max-height: calc(100vh - 130px);
       }
     }
 
-    @media (max-width: 768px) {
-      .header-row {
-        flex-wrap: wrap;
-        gap: 0.5rem;
+    @media (max-width: 900px) {
+      html, body {
+        overflow-x: hidden !important;
+        overflow-y: auto !important;
+        height: auto !important;
+        min-height: 100% !important;
+        -webkit-overflow-scrolling: touch !important;
       }
-      .brand-logo-block {
-        order: 1;
+
+      .app-screen-canvas {
+        height: auto !important;
+        min-height: 100dvh !important;
+        overflow-x: hidden !important;
+        overflow-y: visible !important;
+        position: relative !important;
+        display: flex !important;
+        flex-direction: column !important;
+      }
+
+      .foreground-content {
+        min-height: 100dvh !important;
+        height: auto !important;
+        padding: 0.35rem 0.65rem 6.5rem 0.65rem !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        align-items: stretch !important;
+        overflow: visible !important;
+        box-sizing: border-box !important;
+        width: 100% !important;
+      }
+
+      .slide-stage-viewport {
+        flex: 1 0 auto !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        align-items: stretch !important;
+        height: auto !important;
+        min-height: 0 !important;
+        overflow: visible !important;
+        margin: 0.25rem 0 0 0 !important;
+        width: 100% !important;
+      }
+
+      .slide-page-container {
+        height: auto !important;
+        min-height: 0 !important;
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        align-items: stretch !important;
+      }
+
+      /* 1. Header Row Mobile */
+      .header-row {
+        padding: 0.15rem 0 !important;
+        gap: 0.25rem !important;
+        height: 38px !important;
+        min-height: 38px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        width: 100% !important;
+        flex-shrink: 0 !important;
+        position: sticky !important;
+        top: 0 !important;
+        z-index: 50 !important;
+        background: rgba(248, 250, 252, 0.94) !important;
+        backdrop-filter: blur(12px) !important;
+        -webkit-backdrop-filter: blur(12px) !important;
+      }
+      .brand-logo-block .logo-img {
+        width: 95px !important;
+        max-height: 22px !important;
+        object-fit: contain !important;
+      }
+      .brand-tagline {
+        display: none !important;
       }
       .portal-nav-bar {
-        order: 2;
+        display: inline-flex !important;
+        padding: 0.14rem 0.22rem !important;
+        gap: 0.18rem !important;
+        background: rgba(255, 255, 255, 0.96) !important;
+        border: 1px solid rgba(226, 232, 240, 0.95) !important;
+        border-radius: 9999px !important;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
       }
-      .header-right-tools {
-        order: 3;
+      .portal-nav-link {
+        font-size: 0.65rem !important;
+        font-weight: 700 !important;
+        padding: 0.18rem 0.42rem 0.18rem 0.22rem !important;
+        gap: 0.25rem !important;
+        color: #334155 !important;
+        white-space: nowrap !important;
       }
-      .logo-img {
-        width: 140px;
+      .portal-nav-link .nav-icon-badge {
+        width: 18px !important;
+        height: 18px !important;
       }
-      .clean-contact-grid {
-        grid-template-columns: 1fr;
+      .portal-nav-link .nav-icon-badge svg {
+        width: 10px !important;
+        height: 10px !important;
       }
-      .solve-capabilities-grid {
-        grid-template-columns: repeat(3, 1fr);
+      .portal-nav-link.active {
+        background: var(--primary-red) !important;
+        color: #ffffff !important;
       }
-      .slide-cards-grid-3col {
-        grid-template-columns: 1fr;
+      .btn-toc-drawer {
+        padding: 0.28rem 0.52rem !important;
+        font-size: 0.68rem !important;
+        border-radius: 8px !important;
+        background: #ffffff !important;
+        border: 1px solid #cbd5e1 !important;
+        flex-shrink: 0 !important;
+      }
+      .btn-toc-drawer span {
+        display: none !important;
+      }
+
+      /* Floating Bottom Controller */
+      .floating-book-bar {
+        position: fixed !important;
+        bottom: 12px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        padding: 0.28rem 0.52rem !important;
+        max-width: calc(100vw - 24px) !important;
+        border-radius: 9999px !important;
+        background: rgba(15, 23, 42, 0.94) !important;
+        backdrop-filter: blur(16px) !important;
+        -webkit-backdrop-filter: blur(16px) !important;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35) !important;
+        border: 1px solid rgba(255, 255, 255, 0.12) !important;
+        z-index: 1000 !important;
+        display: flex !important;
+        align-items: center !important;
+        gap: 0.35rem !important;
+      }
+      .nav-btn {
+        padding: 0.35rem 0.75rem !important;
+        font-size: 0.72rem !important;
+        font-weight: 700 !important;
+        border-radius: 9999px !important;
+        gap: 0.3rem !important;
+      }
+      .nav-btn.btn-next {
+        background: #e51924 !important;
+        color: #ffffff !important;
+        box-shadow: 0 4px 14px rgba(229, 25, 36, 0.45) !important;
+      }
+      .slide-counter-badge {
+        font-family: var(--font-mono) !important;
+        font-size: 0.74rem !important;
+        font-weight: 800 !important;
+        color: #ffffff !important;
+        letter-spacing: 0.05em !important;
+        padding: 0 0.35rem !important;
+      }
+
+      /* 2. Slide 1 (Cover Slide) Mobile */
+      .slide-cover-layout {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        gap: 0.85rem !important;
+        width: 100% !important;
+        max-height: none !important;
+        padding: 0.2rem 0 1.5rem 0 !important;
+        text-align: center !important;
+      }
+      .cover-diamond-stage {
+        width: 100% !important;
+        height: auto !important;
+        min-height: unset !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: 1.2rem auto 0.6rem auto !important;
+      }
+      .cover-diamond-stage::before {
+        width: 200px !important;
+        height: 200px !important;
+        filter: blur(18px) !important;
+      }
+      .diamond-cluster-box {
+        width: 165px !important;
+        height: 165px !important;
+        margin: 0 auto !important;
+      }
+      .diamond-photo-container {
+        border-width: 4px !important;
+        border-radius: 12px !important;
+      }
+      .diamond-shape-charcoal {
+        width: 56% !important;
+        height: 56% !important;
+        border-radius: 10px !important;
+        border-width: 1px !important;
+      }
+      .diamond-row-ai {
+        font-size: 0.68rem !important;
+      }
+      .diamond-row-smart {
+        font-size: 0.44rem !important;
+      }
+      .diamond-row-platform {
+        font-size: 0.38rem !important;
+      }
+      .cover-content-column {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+        gap: 0.55rem !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 0 0.25rem !important;
+      }
+      .cover-headline-card {
+        width: 100% !important;
+        text-align: center !important;
+      }
+      .cover-headline-text {
+        font-size: clamp(1.45rem, 5.8vw, 1.85rem) !important;
+        font-weight: 900 !important;
+        line-height: 1.15 !important;
+        letter-spacing: -0.02em !important;
+        text-align: center !important;
+        margin: 0 !important;
+        word-break: break-word !important;
+      }
+      .cover-content-column .analytics-desc-lead {
+        font-size: clamp(0.72rem, 3.2vw, 0.76rem) !important;
+        line-height: 1.46 !important;
+        color: #334155 !important;
+        text-align: center !important;
+        max-width: 360px !important;
+        margin: 0 auto !important;
+      }
+      .cover-bottom-block {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 0.65rem !important;
+        width: 100% !important;
+      }
+      .cover-badges-row {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 0.45rem !important;
+        padding: 0.55rem 0.75rem !important;
+        width: 100% !important;
+        max-width: 360px !important;
+        border-radius: 12px !important;
+        margin: 0 auto !important;
+        background: #ffffff !important;
+        border: 1.2px solid rgba(226, 232, 240, 0.95) !important;
+      }
+      .cover-badge-item {
+        display: flex !important;
+        align-items: center !important;
+        gap: 0.6rem !important;
+        width: 100% !important;
+        text-align: left !important;
+      }
+      .cover-badge-divider {
+        display: none !important;
+      }
+      .cover-badge-circle {
+        width: 30px !important;
+        height: 30px !important;
+        min-width: 30px !important;
+        border-radius: 8px !important;
+      }
+      .cover-badge-label {
+        font-size: 0.54rem !important;
+      }
+      .cover-badge-val {
+        font-size: 0.76rem !important;
+      }
+
+      /* 3. Slide 2 Manifesto Mobile */
+      .slide-manifesto-layout {
+        width: 100% !important;
+        min-height: calc(100dvh - 125px) !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        margin: auto 0 !important;
+        padding: 0.5rem 0 1.5rem 0 !important;
+        max-height: none !important;
+      }
+      .manifesto-card-stage {
+        padding: 1.4rem 1rem !important;
+        border-radius: 18px !important;
+        width: 100% !important;
+        max-width: 360px !important;
+        margin: 0 auto !important;
+      }
+      .manifesto-line-1 {
+        font-size: 0.72rem !important;
+      }
+      .manifesto-line-2 {
+        font-size: clamp(1.45rem, 5.8vw, 1.85rem) !important;
+        line-height: 1.15 !important;
+      }
+      .manifesto-line-3 {
+        font-size: 0.8rem !important;
+        line-height: 1.35 !important;
+      }
+      .manifesto-values-strip {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 0.38rem !important;
+        width: 100% !important;
+        margin-top: 0.8rem !important;
+      }
+      .manifesto-val-pill {
+        width: 100% !important;
+        justify-content: center !important;
+        font-size: 0.76rem !important;
+        padding: 0.38rem 0.6rem !important;
+      }
+
+      /* 4. Slides 3, 4, 5 (Topic & Capability Layouts: Why AI, How We Solve It, Key Features) Mobile */
+      .slide-topic-layout {
+        width: 100% !important;
+        min-height: calc(100dvh - 125px) !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        margin: auto 0 !important;
+        padding: 0.5rem 0 2rem 0 !important;
+        max-height: none !important;
+        flex: 1 0 auto !important;
+        gap: clamp(0.75rem, 2.2vh, 1.4rem) !important;
+      }
+      .slide-topic-header {
+        margin-bottom: 0.15rem !important;
+        gap: 0.2rem !important;
+        text-align: center !important;
+        width: 100% !important;
+      }
+      .slide-topic-header .slide-main-heading {
+        font-size: clamp(1.42rem, 5.8vw, 1.75rem) !important;
+        font-weight: 900 !important;
+        letter-spacing: -0.02em !important;
+        line-height: 1.15 !important;
+        text-align: center !important;
+      }
+      .slide-topic-header .slide-sub-heading {
+        font-size: 0.72rem !important;
+        color: #64748b !important;
+        line-height: 1.38 !important;
+        max-width: 360px !important;
+        margin: 0 auto !important;
+        text-align: center !important;
       }
       .slide-cards-grid-2col {
-        grid-template-columns: 1fr;
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 0.52rem 0.58rem !important;
+        width: 100% !important;
+        max-width: 390px !important;
+        margin: 0 auto !important;
+      }
+      .slide-cards-grid-2col .analytics-topic-card {
+        padding: 0.68rem 0.65rem !important;
+        border-radius: 12px !important;
+        background: #ffffff !important;
+        border: 1.2px solid rgba(226, 232, 240, 0.95) !important;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.03) !important;
+        display: flex !important;
+        align-items: center !important;
+        gap: 0.55rem !important;
+        min-height: 52px !important;
+      }
+      .slide-cards-grid-2col .analytics-icon-box {
+        width: 34px !important;
+        height: 34px !important;
+        min-width: 34px !important;
+        border-radius: 9px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+      }
+      .slide-cards-grid-2col .analytics-icon-box svg {
+        width: 17px !important;
+        height: 17px !important;
+      }
+      .slide-cards-grid-2col .analytics-card-title {
+        font-size: 0.72rem !important;
+        font-weight: 800 !important;
+        color: #0f172a !important;
+        line-height: 1.22 !important;
+        text-align: left !important;
+        flex: 1 !important;
+      }
+      .slide-cards-grid-2col .premise-card-content {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 0.12rem !important;
+        text-align: left !important;
+        flex: 1 !important;
+      }
+      .slide-cards-grid-2col .premise-card-title {
+        font-size: 0.68rem !important;
+        font-weight: 800 !important;
+        color: #0f172a !important;
+        line-height: 1.2 !important;
+      }
+      .slide-cards-grid-2col .premise-card-desc {
+        font-size: 0.58rem !important;
+        color: #64748b !important;
+        line-height: 1.25 !important;
+      }
+
+      /* Slide 4 Specifics (Capabilities + 3 Pillars) */
+      .solve-capabilities-grid {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+        gap: 0.45rem 0.35rem !important;
+        width: 100% !important;
+        max-width: 390px !important;
+        padding: 0.55rem 0.45rem !important;
+        border-radius: 12px !important;
+        margin: 0 auto !important;
+      }
+      .solve-cap-item {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+        gap: 0.25rem !important;
+      }
+      .solve-cap-icon-bubble {
+        width: 32px !important;
+        height: 32px !important;
+        min-width: 32px !important;
+        border-radius: 9px !important;
+      }
+      .solve-cap-icon-bubble svg {
+        width: 15px !important;
+        height: 15px !important;
+      }
+      .solve-cap-label {
+        font-size: 0.56rem !important;
+        line-height: 1.15 !important;
+      }
+      .slide-cards-grid-3col {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 0.42rem !important;
+        width: 100% !important;
+        max-width: 390px !important;
+        margin: 0 auto !important;
+      }
+      .pillar-card-item {
+        padding: 0.55rem 0.75rem !important;
+        border-radius: 10px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        text-align: left !important;
+        gap: 0.15rem !important;
+      }
+      .pillar-card-num {
+        font-size: 0.95rem !important;
+        line-height: 1 !important;
+      }
+      .pillar-title {
+        font-size: 0.78rem !important;
+        margin-top: 0.1rem !important;
+      }
+      .pillar-desc {
+        font-size: 0.65rem !important;
+        line-height: 1.35 !important;
+        margin-top: 0.15rem !important;
+      }
+
+      /* 5. Slides 7-17 Analytics Split Layouts with Live Video Mobile */
+      .slide-analytics-split-layout {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        gap: 0.65rem !important;
+        width: 100% !important;
+        min-height: calc(100dvh - 125px) !important;
+        margin: auto 0 !important;
+        padding: 0.2rem 0 2rem 0 !important;
+        max-height: none !important;
+        flex: 1 0 auto !important;
+        text-align: left !important;
+      }
+      .analytics-left-column {
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        text-align: left !important;
+        gap: 0.45rem !important;
+      }
+      .analytics-header-block {
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        text-align: left !important;
+        gap: 0.25rem !important;
+      }
+      .analytics-header-block .slide-main-heading {
+        font-size: clamp(1.35rem, 5.5vw, 1.65rem) !important;
+        font-weight: 900 !important;
+        line-height: 1.15 !important;
+        text-align: left !important;
+      }
+      .analytics-header-block .analytics-desc-lead {
+        font-size: 0.74rem !important;
+        color: #475569 !important;
+        line-height: 1.42 !important;
+        text-align: left !important;
+        margin: 0 !important;
+        max-width: 100% !important;
+      }
+      .analytics-cards-grid {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 0.42rem !important;
+        width: 100% !important;
+      }
+      .card-span-2 {
+        grid-column: span 1 !important;
+      }
+      .analytics-topic-card {
+        padding: 0.55rem 0.7rem !important;
+        border-radius: 10px !important;
+        gap: 0.55rem !important;
+      }
+      .analytics-icon-box {
+        width: 30px !important;
+        height: 30px !important;
+        min-width: 30px !important;
+        border-radius: 8px !important;
+      }
+      .analytics-icon-box svg {
+        width: 16px !important;
+        height: 16px !important;
+      }
+      .analytics-card-title {
+        font-size: 0.74rem !important;
+      }
+      .gate-modules-stack {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 0.42rem !important;
+        width: 100% !important;
+      }
+      .gate-module-card {
+        padding: 0.55rem 0.7rem !important;
+        border-radius: 10px !important;
+      }
+      .gate-module-title {
+        font-size: 0.78rem !important;
+      }
+      .gate-module-desc {
+        font-size: 0.66rem !important;
+        line-height: 1.35 !important;
+      }
+      .lifesaving-modules-grid {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 0.42rem !important;
+        width: 100% !important;
+      }
+      .lifesaving-module-card {
+        padding: 0.55rem 0.7rem !important;
+        border-radius: 10px !important;
+      }
+      .lifesaving-card-title {
+        font-size: 0.78rem !important;
+      }
+      .lifesaving-card-desc {
+        font-size: 0.66rem !important;
+        line-height: 1.35 !important;
+      }
+      .analytics-right-column {
+        width: 100% !important;
+        margin-top: 0.25rem !important;
+      }
+      .analytics-image-frame {
+        width: 100% !important;
+        border-radius: 12px !important;
+        overflow: hidden !important;
+      }
+      .brochure-video-wrapper {
+        width: 100% !important;
+        aspect-ratio: 16 / 9.5 !important;
+        border-radius: 12px !important;
+      }
+      .analytics-matrix-img {
+        width: 100% !important;
+        max-height: 200px !important;
+        object-fit: cover !important;
+        display: block !important;
+      }
+
+      /* 6. Slide 18 Contact Us Mobile */
+      .slide-contact-clean-layout {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 0.65rem !important;
+        width: 100% !important;
+        min-height: calc(100dvh - 125px) !important;
+        margin: auto 0 !important;
+        padding: 0.5rem 0 2rem 0 !important;
+        max-height: none !important;
+        flex: 1 0 auto !important;
+      }
+      .clean-contact-header {
+        margin-bottom: 0.15rem !important;
+        gap: 0.1rem !important;
+        text-align: center !important;
+      }
+      .clean-contact-header .slide-main-heading {
+        font-size: clamp(1.42rem, 5.8vw, 1.75rem) !important;
+        font-weight: 900 !important;
+        letter-spacing: -0.02em !important;
+      }
+      .clean-contact-header .slide-sub-heading {
+        font-size: 0.72rem !important;
+        color: #64748b !important;
+        line-height: 1.35 !important;
+        max-width: 340px !important;
+      }
+      .clean-contact-grid {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 0.48rem !important;
+        width: 100% !important;
+        max-width: 360px !important;
+        margin: 0 auto !important;
+      }
+      .clean-contact-card {
+        padding: 0.65rem 0.8rem !important;
+        border-radius: 10px !important;
+      }
+      .clean-contact-icon-circle {
+        width: 38px !important;
+        height: 38px !important;
+        min-width: 38px !important;
+        border-radius: 8px !important;
+      }
+      .clean-contact-label {
+        font-size: 0.58rem !important;
+      }
+      .clean-contact-val {
+        font-size: 0.84rem !important;
+      }
+      .clean-contact-sub {
+        font-size: 0.64rem !important;
+      }
+    }
+
+    @media (max-width: 380px) {
+      .cover-headline-text {
+        font-size: 1.35rem !important;
+      }
+      .diamond-cluster-box {
+        width: 140px !important;
+        height: 140px !important;
+      }
+      .manifesto-line-2 {
+        font-size: 1.35rem !important;
       }
     }
   </style>

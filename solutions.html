@@ -1651,85 +1651,121 @@
         overflow-x: hidden !important;
         overflow-y: auto !important;
         height: auto !important;
-        min-height: 100%;
-        -webkit-overflow-scrolling: touch;
+        min-height: 100% !important;
+        -webkit-overflow-scrolling: touch !important;
       }
 
       .app-screen-canvas {
         height: auto !important;
-        min-height: 100vh !important;
+        min-height: 100dvh !important;
         overflow-x: hidden !important;
         overflow-y: visible !important;
-        position: relative;
+        position: relative !important;
+        display: flex !important;
+        flex-direction: column !important;
       }
 
       .foreground-content {
+        min-height: 100dvh !important;
         height: auto !important;
-        min-height: 100vh !important;
-        padding: 0.65rem 0.85rem 5.5rem 0.85rem !important;
+        padding: 0.35rem 0.65rem 6.5rem 0.65rem !important;
         display: flex !important;
         flex-direction: column !important;
         justify-content: flex-start !important;
-        gap: 1rem !important;
+        align-items: stretch !important;
+        overflow: visible !important;
+        box-sizing: border-box !important;
+        width: 100% !important;
       }
 
       .slide-stage-viewport {
+        flex: 1 0 auto !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        align-items: stretch !important;
         height: auto !important;
-        min-height: auto !important;
+        min-height: 0 !important;
         overflow: visible !important;
-        margin: 0.35rem 0 1rem 0 !important;
-        display: block !important;
+        margin: 0.25rem 0 0 0 !important;
+        width: 100% !important;
       }
 
       .slide-page-container {
         height: auto !important;
-        min-height: auto !important;
-        display: block !important;
+        min-height: 0 !important;
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: flex-start !important;
+        align-items: stretch !important;
       }
 
       /* 1. Top Header */
       .header-row {
-        padding: 0.2rem 0;
-        gap: 0.5rem;
+        padding: 0.15rem 0 !important;
+        gap: 0.25rem !important;
+        height: 38px !important;
+        min-height: 38px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        width: 100% !important;
+        flex-shrink: 0 !important;
+        position: sticky !important;
+        top: 0 !important;
+        z-index: 50 !important;
+        background: rgba(248, 250, 252, 0.94) !important;
+        backdrop-filter: blur(12px) !important;
+        -webkit-backdrop-filter: blur(12px) !important;
       }
       .brand-logo-block .logo-img {
-        width: 135px;
+        width: 95px !important;
+        max-height: 22px !important;
+        object-fit: contain !important;
       }
       .brand-tagline {
         display: none !important;
       }
       .portal-nav-bar {
         display: inline-flex !important;
-        padding: 0.15rem 0.22rem !important;
+        padding: 0.14rem 0.22rem !important;
         gap: 0.18rem !important;
-        background: rgba(255, 255, 255, 0.92) !important;
+        background: rgba(255, 255, 255, 0.96) !important;
         border: 1px solid rgba(226, 232, 240, 0.95) !important;
+        border-radius: 9999px !important;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
       }
       .portal-nav-link {
-        font-size: 0.68rem !important;
+        font-size: 0.65rem !important;
         font-weight: 700 !important;
-        padding: 0.22rem 0.55rem 0.22rem 0.3rem !important;
-        gap: 0.3rem !important;
+        padding: 0.18rem 0.42rem 0.18rem 0.22rem !important;
+        gap: 0.25rem !important;
         color: #334155 !important;
+        white-space: nowrap !important;
       }
       .portal-nav-link .nav-icon-badge {
-        width: 20px !important;
-        height: 20px !important;
+        width: 18px !important;
+        height: 18px !important;
       }
       .portal-nav-link .nav-icon-badge svg {
-        width: 11px !important;
-        height: 11px !important;
+        width: 10px !important;
+        height: 10px !important;
       }
       .portal-nav-link.active {
         background: var(--primary-red) !important;
         color: #ffffff !important;
       }
       .btn-toc-drawer {
-        padding: 0.32rem 0.65rem;
-        font-size: 0.72rem;
+        padding: 0.28rem 0.52rem !important;
+        font-size: 0.68rem !important;
+        border-radius: 8px !important;
+        background: #ffffff !important;
+        border: 1px solid #cbd5e1 !important;
+        flex-shrink: 0 !important;
       }
       .btn-toc-drawer span {
-        display: none;
+        display: none !important;
       }
 
       /* 2. Slide 1 Manifesto (Vertically & Horizontally Centered on Mobile) */
@@ -1889,19 +1925,35 @@
         height: auto !important;
         gap: 0.95rem !important;
         width: 100% !important;
+        text-align: left !important;
       }
       .analytics-left-column {
         width: 100% !important;
         gap: 0.65rem !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        text-align: left !important;
       }
       .analytics-header-block {
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        text-align: left !important;
         gap: 0.25rem !important;
+      }
+      .analytics-header-block .slide-main-heading {
+        text-align: left !important;
       }
       .analytics-desc-lead {
         font-size: 0.78rem !important;
         line-height: 1.44 !important;
         color: #475569 !important;
         margin-top: 0.15rem !important;
+        text-align: left !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
       }
       .analytics-cards-grid {
         grid-template-columns: 1fr !important;
