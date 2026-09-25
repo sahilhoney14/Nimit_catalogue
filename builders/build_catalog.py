@@ -8,98 +8,7 @@ ROOT_DIR = os.path.dirname(SCRIPT_DIR) if os.path.basename(SCRIPT_DIR) == 'build
 slides_data = [
     {
         'num': 1,
-        'tag': '01 // COVER',
-        'title': 'Art of Intelligence',
-        'type': 'cover',
-        'html': '''
-          <div class="slide-cover-layout">
-            <!-- Left Column: Geometric Diamond Composition -->
-            <div class="cover-diamond-stage">
-              <div class="diamond-cluster-box">
-                <!-- Background Red Diamond -->
-                <div class="diamond-shape-red-top"></div>
-                
-                <!-- Background Burgundy Diamond -->
-                <div class="diamond-shape-burgundy-bottom"></div>
-                
-                <!-- Charcoal Diamond Badge -->
-                <div class="diamond-shape-charcoal">
-                  <div class="diamond-charcoal-inner">
-                    <div class="diamond-row-ai">
-                      <span class="highlight-ai">AI</span><span class="text-vision">VISION</span>
-                    </div>
-                    <div class="diamond-row-smart">SMART SURVEILLANCE</div>
-                    <div class="diamond-row-platform">PLATFORM</div>
-                  </div>
-                </div>
-
-                <!-- Central Diamond Image with Thick White Border -->
-                <div class="diamond-photo-container">
-                  <img class="diamond-photo-img" src="assets/cover_ai_neural_brain.jpg" alt="Art of Intelligence AI Neural Brain" />
-                </div>
-              </div>
-            </div>
-
-            <!-- Right Column: Editorial & Headline Card -->
-            <div class="cover-content-column">
-              <!-- Prominent Headline Card -->
-              <div class="cover-headline-card">
-                <h1 class="cover-headline-text">ART OF <span class="highlight-red-text">INTELLIGENCE</span></h1>
-              </div>
-
-              <!-- Bottom Overview & Contact Badges -->
-              <div class="cover-bottom-block">
-                <p class="analytics-desc-lead">
-                  Deep-learning computer vision empowering standard IP cameras with real-time proactive safety compliance, automated gate control, and zero-human-dependency incident alerts.
-                </p>
-
-                <div class="cover-badges-row">
-                  <a href="tel:+919824093685" class="cover-badge-item" title="Call +91 98240 93685">
-                    <div class="cover-badge-circle">
-                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                    </div>
-                    <div class="cover-badge-info">
-                      <span class="cover-badge-label">PHONE</span>
-                      <span class="cover-badge-val">+91 98240 93685</span>
-                    </div>
-                  </a>
-
-                  <div class="cover-badge-divider"></div>
-
-                  <a href="https://www.nimitelectronics.com/" target="_blank" rel="noopener noreferrer" class="cover-badge-item" title="Visit www.nimitelectronics.com">
-                    <div class="cover-badge-circle">
-                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="10"/>
-                        <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
-                        <path d="M2 12h20"/>
-                      </svg>
-                    </div>
-                    <div class="cover-badge-info">
-                      <span class="cover-badge-label">WEBSITE</span>
-                      <span class="cover-badge-val">www.nimitelectronics.com</span>
-                    </div>
-                  </a>
-
-                  <div class="cover-badge-divider"></div>
-
-                  <a href="https://www.google.com/maps/place/Nimit+Electronics+And+Equipment/@22.2541064,73.1770643,17z/data=!4m14!1m7!3m6!1s0x395fc58df93df51b:0x8156a02152f176f2!2sNimit+Electronics+And+Equipment!8m2!3d22.2541015!4d73.1796392!16s%2Fg%2F11h2mcb2qr!3m5!1s0x395fc58df93df51b:0x8156a02152f176f2!8m2!3d22.2541015!4d73.1796392!16s%2Fg%2F11h2mcb2qr?entry=ttu&amp;g_ep=EgoyMDI2MDkxNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="cover-badge-item" title="View Head Office on Google Maps">
-                    <div class="cover-badge-circle">
-                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                    </div>
-                    <div class="cover-badge-info">
-                      <span class="cover-badge-label">HEAD OFFICE</span>
-                      <span class="cover-badge-val">Vadodara, India</span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        '''
-    },
-    {
-        'num': 2,
-        'tag': '02 // MANIFESTO',
+        'tag': '01 // MANIFESTO',
         'title': 'Art of Intelligence Manifesto',
         'type': 'manifesto',
         'html': '''
@@ -116,8 +25,8 @@ slides_data = [
         '''
     },
     {
-        'num': 3,
-        'tag': '03 // WHY AI?',
+        'num': 2,
+        'tag': '02 // WHY AI?',
         'title': 'Why AI in Surveillance?',
         'type': 'content',
         'html': '''
@@ -168,8 +77,8 @@ slides_data = [
         '''
     },
     {
-        'num': 4,
-        'tag': '04 // SOLUTION',
+        'num': 3,
+        'tag': '03 // SOLUTION',
         'title': 'How do we Solve it',
         'type': 'content',
         'html': '''
@@ -229,25 +138,22 @@ slides_data = [
               <div class="pillar-card-item">
                 <span class="pillar-card-num">01</span>
                 <h3 class="pillar-title">AFFORDABLE</h3>
-                <p class="pillar-desc">Leverage your existing IP CCTV camera infrastructure without requiring costly camera replacements or specialized stereo sensors.</p>
               </div>
               <div class="pillar-card-item">
                 <span class="pillar-card-num">02</span>
                 <h3 class="pillar-title">USABLE</h3>
-                <p class="pillar-desc">Zero human dependency for alert monitoring; instant automated alert logs sent directly to the user in real-time.</p>
               </div>
               <div class="pillar-card-item">
                 <span class="pillar-card-num">03</span>
                 <h3 class="pillar-title">DEPLOYABLE AT SCALE</h3>
-                <p class="pillar-desc">Scale effortlessly from 4 to 256+ cameras per site with high-efficiency on-premise Edge Gateways and 1/10th storage reduction.</p>
               </div>
             </div>
           </div>
         '''
     },
     {
-        'num': 5,
-        'tag': '05 // FEATURES',
+        'num': 4,
+        'tag': '04 // FEATURES',
         'title': 'Key Features & Capabilities',
         'type': 'content',
         'html': '''
@@ -354,8 +260,8 @@ slides_data = [
         '''
     },
     {
-        'num': 6,
-        'tag': '06 // VISION',
+        'num': 5,
+        'tag': '05 // VISION',
         'title': 'Surveillance into Intelligence',
         'type': 'manifesto',
         'html': '''
@@ -389,8 +295,8 @@ slides_data = [
         '''
     },
     {
-        'num': 7,
-        'tag': '07 // MODULE 01',
+        'num': 6,
+        'tag': '06 // MODULE 01',
         'title': 'PPE Violation Detection',
         'type': 'split',
         'html': '''
@@ -454,8 +360,8 @@ slides_data = [
         '''
     },
     {
-        'num': 8,
-        'tag': '08 // MODULE 02',
+        'num': 7,
+        'tag': '07 // MODULE 02',
         'title': 'Automatic Number Plate Recognition',
         'type': 'split',
         'html': '''
@@ -515,8 +421,8 @@ slides_data = [
         '''
     },
     {
-        'num': 9,
-        'tag': '09 // MODULE 03',
+        'num': 8,
+        'tag': '08 // MODULE 03',
         'title': 'Fire & Smoke Detection',
         'type': 'split',
         'html': '''
@@ -581,8 +487,8 @@ slides_data = [
         '''
     },
     {
-        'num': 10,
-        'tag': '10 // MODULE 04',
+        'num': 9,
+        'tag': '09 // MODULE 04',
         'title': 'Vehicle Speed Detection',
         'type': 'split',
         'html': '''
@@ -640,8 +546,8 @@ slides_data = [
         '''
     },
     {
-        'num': 11,
-        'tag': '11 // MODULE 05',
+        'num': 10,
+        'tag': '10 // MODULE 05',
         'title': 'Product & Conveyor Counting',
         'type': 'split',
         'html': '''
@@ -702,8 +608,8 @@ slides_data = [
         '''
     },
     {
-        'num': 12,
-        'tag': '12 // MODULE 06',
+        'num': 11,
+        'tag': '11 // MODULE 06',
         'title': 'People Counting & Footfall Analytics',
         'type': 'split',
         'html': '''
@@ -763,8 +669,8 @@ slides_data = [
         '''
     },
     {
-        'num': 13,
-        'tag': '13 // MODULE 07',
+        'num': 12,
+        'tag': '12 // MODULE 07',
         'title': 'Face Recognition Access',
         'type': 'split',
         'html': '''
@@ -824,8 +730,8 @@ slides_data = [
         '''
     },
     {
-        'num': 14,
-        'tag': '14 // MODULE 08',
+        'num': 13,
+        'tag': '13 // MODULE 08',
         'title': 'Forklift Safety & Proximity Detection',
         'type': 'split',
         'html': '''
@@ -885,8 +791,8 @@ slides_data = [
         '''
     },
     {
-        'num': 15,
-        'tag': '15 // MODULE 09',
+        'num': 14,
+        'tag': '14 // MODULE 09',
         'title': 'Worker Fall Detection',
         'type': 'split',
         'html': '''
@@ -942,8 +848,8 @@ slides_data = [
         '''
     },
     {
-        'num': 16,
-        'tag': '16 // MODULE 10',
+        'num': 15,
+        'tag': '15 // MODULE 10',
         'title': 'Perimeter Intrusion Detection',
         'type': 'split',
         'html': '''
@@ -1003,8 +909,8 @@ slides_data = [
         '''
     },
     {
-        'num': 17,
-        'tag': '17 // MODULE 11',
+        'num': 16,
+        'tag': '16 // MODULE 11',
         'title': 'Animal Behavioural',
         'type': 'split',
         'html': '''
@@ -1050,8 +956,8 @@ slides_data = [
         '''
     },
     {
-        'num': 18,
-        'tag': '18 // CONTACT',
+        'num': 17,
+        'tag': '17 // CONTACT',
         'title': 'Contact Us & Headquarters',
         'type': 'content',
         'html': '''
@@ -3162,32 +3068,38 @@ html_template = f'''<!DOCTYPE html>
       .slide-cards-grid-3col {{
         display: flex !important;
         flex-direction: column !important;
-        gap: 0.42rem !important;
+        gap: 0.45rem !important;
         width: 100% !important;
         max-width: 390px !important;
         margin: 0 auto !important;
       }}
       .pillar-card-item {{
-        padding: 0.55rem 0.75rem !important;
-        border-radius: 10px !important;
+        padding: 0.65rem 0.95rem !important;
+        border-radius: 12px !important;
         display: flex !important;
-        flex-direction: column !important;
-        align-items: flex-start !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
         text-align: left !important;
-        gap: 0.15rem !important;
+        gap: 0.75rem !important;
+        background: #ffffff !important;
+        border: 1.2px solid rgba(226, 232, 240, 0.95) !important;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.03) !important;
       }}
       .pillar-card-num {{
-        font-size: 0.95rem !important;
+        font-family: var(--font-mono) !important;
+        font-size: 1.05rem !important;
         line-height: 1 !important;
+        font-weight: 900 !important;
+        color: var(--primary-red) !important;
+        min-width: 24px !important;
       }}
       .pillar-title {{
-        font-size: 0.78rem !important;
-        margin-top: 0.1rem !important;
-      }}
-      .pillar-desc {{
-        font-size: 0.65rem !important;
-        line-height: 1.35 !important;
-        margin-top: 0.15rem !important;
+        font-size: 0.8rem !important;
+        font-weight: 800 !important;
+        color: #0f172a !important;
+        margin-top: 0 !important;
+        letter-spacing: -0.01em !important;
       }}
 
       /* 5. Slides 7-17 Analytics Split Layouts with Live Video Mobile */
@@ -3397,7 +3309,7 @@ html_template = f'''<!DOCTYPE html>
   </div>
 
   <!-- Master Canvas Presentation Screen Container -->
-  <div class="app-screen-canvas is-cover-slide" id="mainCanvasContainer">
+  <div class="app-screen-canvas is-content-slide" id="mainCanvasContainer">
 
     <!-- 60FPS Dynamic Particle Canvas -->
     <canvas id="neuralCanvas"></canvas>
@@ -3564,7 +3476,7 @@ html_template = f'''<!DOCTYPE html>
 
         const currentVideo = container.querySelector('video');
         if (currentVideo) {{
-          const isMuted = currentVideo.hasAttribute('muted') || pageNum === 10;
+          const isMuted = currentVideo.hasAttribute('muted') || pageNum === 9;
           currentVideo.muted = isMuted;
           if (!isMuted) currentVideo.volume = 1.0;
           const playPromise = currentVideo.play();
@@ -3589,7 +3501,7 @@ html_template = f'''<!DOCTYPE html>
 
     function unlockVideoSound() {{
       const activeVideo = document.querySelector('.slide-page-container video');
-      if (activeVideo && currentSlide !== 10 && !activeVideo.hasAttribute('muted')) {{
+      if (activeVideo && currentSlide !== 9 && !activeVideo.hasAttribute('muted')) {{
         activeVideo.muted = false;
         activeVideo.volume = 1.0;
       }}
