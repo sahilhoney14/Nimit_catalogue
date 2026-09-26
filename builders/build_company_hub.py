@@ -8,7 +8,7 @@ ROOT_DIR = os.path.dirname(SCRIPT_DIR) if os.path.basename(SCRIPT_DIR) == 'build
 slides_data = [
     {
         'num': 1,
-        'tag': '01 // OVERVIEW',
+        'tag': '01 OVERVIEW',
         'title': 'Solution by Technology',
         'type': 'cover',
         'html': '''
@@ -44,7 +44,7 @@ slides_data = [
                       </svg>
                     </div>
                     <div class="stat-info-col">
-                      <span class="stat-number">100+</span>
+                      <span class="stat-number" data-target="100" data-suffix="+">100+</span>
                       <span class="stat-label">Cities Nationwide</span>
                     </div>
                   </div>
@@ -58,7 +58,7 @@ slides_data = [
                       </svg>
                     </div>
                     <div class="stat-info-col">
-                      <span class="stat-number">4500+</span>
+                      <span class="stat-number" data-target="4500" data-suffix="+">4500+</span>
                       <span class="stat-label">Happy Clients</span>
                     </div>
                   </div>
@@ -72,7 +72,7 @@ slides_data = [
                       </svg>
                     </div>
                     <div class="stat-info-col">
-                      <span class="stat-number">250+</span>
+                      <span class="stat-number" data-target="250" data-suffix="+">250+</span>
                       <span class="stat-label">Expert Team</span>
                     </div>
                   </div>
@@ -94,7 +94,7 @@ slides_data = [
     },
     {
         'num': 2,
-        'tag': '02 // ABOUT NIMIT',
+        'tag': '02 ABOUT NIMIT',
         'title': 'Welcome to NIMIT',
         'type': 'welcome',
         'html': '''
@@ -171,7 +171,7 @@ slides_data = [
     },
     {
         'num': 3,
-        'tag': '03 // QUALITY & COMPLIANCES',
+        'tag': '03 QUALITY & COMPLIANCES',
         'title': 'Quality and Compliances',
         'type': 'certifications',
         'html': '''
@@ -244,7 +244,7 @@ slides_data = [
     },
     {
         'num': 4,
-        'tag': '04 // SOLUTIONS',
+        'tag': '04 SOLUTIONS',
         'title': 'Explore Solutions & Modules',
         'type': 'solutions_map',
         'html': '''
@@ -288,7 +288,7 @@ slides_data = [
     },
     {
         'num': 5,
-        'tag': '05 // CONTACT',
+        'tag': '05 CONTACT',
         'title': 'Contact Us & Headquarters',
         'type': 'content',
         'html': '''
@@ -992,6 +992,9 @@ html_template = '''<!DOCTYPE html>
       color: #0f172a;
       line-height: 1.1;
       letter-spacing: -0.02em;
+      font-variant-numeric: tabular-nums;
+      display: inline-block;
+      min-width: 2.8ch;
     }
 
     .stat-label {
@@ -2256,36 +2259,36 @@ html_template = '''<!DOCTYPE html>
       }
       .portal-nav-bar {
         display: inline-flex !important;
-        padding: 0.14rem 0.22rem !important;
-        gap: 0.18rem !important;
+        padding: 0.18rem 0.28rem !important;
+        gap: 0.22rem !important;
         background: rgba(255, 255, 255, 0.96) !important;
         border: 1px solid rgba(226, 232, 240, 0.95) !important;
         border-radius: 9999px !important;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
       }
       .portal-nav-link {
-        font-size: 0.65rem !important;
-        font-weight: 700 !important;
-        padding: 0.18rem 0.42rem 0.18rem 0.22rem !important;
-        gap: 0.25rem !important;
+        font-size: 0.74rem !important;
+        font-weight: 800 !important;
+        padding: 0.22rem 0.52rem 0.22rem 0.3rem !important;
+        gap: 0.32rem !important;
         color: #334155 !important;
         white-space: nowrap !important;
       }
       .portal-nav-link .nav-icon-badge {
-        width: 18px !important;
-        height: 18px !important;
+        width: 20px !important;
+        height: 20px !important;
       }
       .portal-nav-link .nav-icon-badge svg {
-        width: 10px !important;
-        height: 10px !important;
+        width: 12px !important;
+        height: 12px !important;
       }
       .portal-nav-link.active {
         background: var(--primary-red) !important;
         color: #ffffff !important;
       }
       .btn-toc-drawer {
-        padding: 0.28rem 0.52rem !important;
-        font-size: 0.68rem !important;
+        padding: 0.32rem 0.6rem !important;
+        font-size: 0.76rem !important;
         border-radius: 8px !important;
         background: #ffffff !important;
         border: 1px solid #cbd5e1 !important;
@@ -2301,7 +2304,7 @@ html_template = '''<!DOCTYPE html>
         bottom: 12px !important;
         left: 50% !important;
         transform: translateX(-50%) !important;
-        padding: 0.28rem 0.52rem !important;
+        padding: 0.32rem 0.65rem !important;
         max-width: calc(100vw - 24px) !important;
         border-radius: 9999px !important;
         background: rgba(15, 23, 42, 0.94) !important;
@@ -2312,14 +2315,14 @@ html_template = '''<!DOCTYPE html>
         z-index: 1000 !important;
         display: flex !important;
         align-items: center !important;
-        gap: 0.35rem !important;
+        gap: 0.45rem !important;
       }
       .btn-float-nav {
-        padding: 0.35rem 0.75rem !important;
-        font-size: 0.72rem !important;
-        font-weight: 700 !important;
+        padding: 0.42rem 0.88rem !important;
+        font-size: 0.8rem !important;
+        font-weight: 800 !important;
         border-radius: 9999px !important;
-        gap: 0.3rem !important;
+        gap: 0.35rem !important;
       }
       .btn-float-nav.btn-float-next {
         background: #e51924 !important;
@@ -2328,11 +2331,11 @@ html_template = '''<!DOCTYPE html>
       }
       .float-page-indicator {
         font-family: var(--font-mono) !important;
-        font-size: 0.74rem !important;
+        font-size: 0.82rem !important;
         font-weight: 800 !important;
         color: #ffffff !important;
         letter-spacing: 0.05em !important;
-        padding: 0 0.35rem !important;
+        padding: 0 0.4rem !important;
       }
 
       /* Slide 1: Brochure Cover Mobile */
@@ -2356,15 +2359,15 @@ html_template = '''<!DOCTYPE html>
         border-bottom: 1px solid #f1f5f9 !important;
       }
       .brochure-url-link {
-        font-size: 0.62rem !important;
+        font-size: 0.72rem !important;
         font-weight: 700 !important;
-        padding: 0.18rem 0.45rem !important;
+        padding: 0.2rem 0.55rem !important;
       }
       .brochure-card-body {
         display: flex !important;
         flex-direction: column !important;
         gap: 0.75rem !important;
-        padding: 0.75rem !important;
+        padding: 0.85rem !important;
         width: 100% !important;
       }
       .brochure-content-stage {
@@ -2375,19 +2378,28 @@ html_template = '''<!DOCTYPE html>
         width: 100% !important;
       }
       .brochure-eyebrow-badge {
-        font-size: 0.6rem !important;
-        padding: 0.18rem 0.5rem !important;
+        font-size: 0.72rem !important;
+        padding: 0.22rem 0.65rem !important;
+      }
+      .eyebrow-badge-text {
+        font-size: 0.72rem !important;
       }
       .brochure-main-title {
-        font-size: clamp(1.6rem, 6.2vw, 2.05rem) !important;
+        font-size: clamp(1.75rem, 6.8vw, 2.25rem) !important;
         font-weight: 900 !important;
         line-height: 1.12 !important;
         letter-spacing: -0.02em !important;
         margin: 0.1rem 0 !important;
       }
+      .brochure-main-title .title-line-1 {
+        font-size: clamp(1.65rem, 6.4vw, 2.05rem) !important;
+      }
+      .brochure-main-title .title-line-2 {
+        font-size: clamp(2.05rem, 8vw, 2.6rem) !important;
+      }
       .brochure-desc-para {
-        font-size: 0.76rem !important;
-        line-height: 1.45 !important;
+        font-size: clamp(0.82rem, 3.4vw, 0.92rem) !important;
+        line-height: 1.5 !important;
         color: #475569 !important;
       }
       .brochure-metrics-row {
@@ -2395,8 +2407,8 @@ html_template = '''<!DOCTYPE html>
         flex-direction: row !important;
         justify-content: space-between !important;
         gap: 4px !important;
-        padding: 0.5rem 0.55rem !important;
-        border-radius: 10px !important;
+        padding: 0.6rem 0.65rem !important;
+        border-radius: 12px !important;
         background: #f8fafc !important;
         border: 1.2px solid rgba(226, 232, 240, 0.95) !important;
         width: 100% !important;
@@ -2404,30 +2416,30 @@ html_template = '''<!DOCTYPE html>
       .brochure-stat-unit {
         display: flex !important;
         align-items: center !important;
-        gap: 5px !important;
+        gap: 6px !important;
         flex: 1 !important;
       }
       .stat-icon-circle {
-        width: 26px !important;
-        height: 26px !important;
+        width: 30px !important;
+        height: 30px !important;
       }
       .stat-icon-circle svg {
-        width: 13px !important;
-        height: 13px !important;
+        width: 15px !important;
+        height: 15px !important;
       }
       .stat-number {
-        font-size: 0.86rem !important;
+        font-size: 1.02rem !important;
         font-weight: 900 !important;
         color: #0f172a !important;
         line-height: 1.1 !important;
       }
       .stat-label {
-        font-size: 0.52rem !important;
-        font-weight: 600 !important;
+        font-size: 0.62rem !important;
+        font-weight: 700 !important;
         color: #64748b !important;
       }
       .stat-divider-line {
-        height: 18px !important;
+        height: 22px !important;
       }
       .brochure-hero-building-layer {
         display: block !important;
@@ -2505,7 +2517,7 @@ html_template = '''<!DOCTYPE html>
         gap: 0.1rem !important;
       }
       .welcome-main-heading {
-        font-size: clamp(1.42rem, 5.8vw, 1.75rem) !important;
+        font-size: clamp(1.6rem, 6.5vw, 2.05rem) !important;
         font-weight: 900 !important;
         line-height: 1.15 !important;
         color: #0f172a !important;
@@ -2520,54 +2532,54 @@ html_template = '''<!DOCTYPE html>
       }
       .sub-accent-bar {
         width: 3px !important;
-        height: 12px !important;
+        height: 14px !important;
         background: var(--primary-red) !important;
         border-radius: 2px !important;
         flex-shrink: 0 !important;
       }
       .welcome-sub-heading {
-        font-size: clamp(0.62rem, 2.5vw, 0.7rem) !important;
+        font-size: clamp(0.72rem, 2.9vw, 0.82rem) !important;
         font-weight: 800 !important;
         color: #64748b !important;
-        line-height: 1.25 !important;
+        line-height: 1.28 !important;
         letter-spacing: 0.03em !important;
       }
       .welcome-body-paragraph {
-        font-size: clamp(0.72rem, 3.2vw, 0.76rem) !important;
-        line-height: 1.46 !important;
+        font-size: clamp(0.82rem, 3.4vw, 0.92rem) !important;
+        line-height: 1.52 !important;
         color: #334155 !important;
         margin: 0.08rem 0 !important;
       }
       .welcome-pillars-grid {
         display: grid !important;
         grid-template-columns: repeat(2, 1fr) !important;
-        gap: 0.42rem !important;
+        gap: 0.45rem !important;
         width: 100% !important;
-        margin-top: 0.18rem !important;
+        margin-top: 0.2rem !important;
       }
       .welcome-pillar-card {
-        padding: 0.45rem 0.58rem !important;
+        padding: 0.55rem 0.65rem !important;
         border-radius: 10px !important;
         background: #ffffff !important;
         border: 1.2px solid rgba(226, 232, 240, 0.95) !important;
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02) !important;
         display: flex !important;
         align-items: center !important;
-        gap: 0.45rem !important;
-        min-height: 42px !important;
+        gap: 0.5rem !important;
+        min-height: 44px !important;
       }
       .pillar-icon-box {
-        width: 26px !important;
-        height: 26px !important;
-        min-width: 26px !important;
+        width: 28px !important;
+        height: 28px !important;
+        min-width: 28px !important;
         border-radius: 8px !important;
       }
       .pillar-icon-box svg {
-        width: 13px !important;
-        height: 13px !important;
+        width: 14px !important;
+        height: 14px !important;
       }
       .pillar-heading {
-        font-size: clamp(0.66rem, 2.6vw, 0.72rem) !important;
+        font-size: clamp(0.74rem, 2.8vw, 0.84rem) !important;
         font-weight: 800 !important;
         color: #0f172a !important;
         margin: 0 !important;
@@ -2615,44 +2627,44 @@ html_template = '''<!DOCTYPE html>
         border: 1px solid rgba(255, 255, 255, 0.12) !important;
       }
       .photo-glass-hud-bar .hud-live-pill {
-        font-size: 0.52rem !important;
+        font-size: 0.58rem !important;
         font-weight: 800 !important;
         letter-spacing: 0.05em !important;
       }
       .photo-glass-hud-bar .hud-sub-caption {
-        font-size: 0.48rem !important;
+        font-size: 0.52rem !important;
         color: #94a3b8 !important;
       }
 
     @media (max-width: 380px) {
       .welcome-main-heading {
-        font-size: 1.35rem !important;
+        font-size: 1.45rem !important;
       }
       .welcome-sub-heading {
-        font-size: 0.58rem !important;
+        font-size: 0.68rem !important;
       }
       .welcome-body-paragraph {
-        font-size: 0.69rem !important;
-        line-height: 1.42 !important;
+        font-size: 0.78rem !important;
+        line-height: 1.46 !important;
       }
       .welcome-pillars-grid {
-        gap: 0.35rem !important;
-      }
-      .welcome-pillar-card {
-        padding: 0.38rem 0.48rem !important;
         gap: 0.38rem !important;
       }
+      .welcome-pillar-card {
+        padding: 0.42rem 0.52rem !important;
+        gap: 0.42rem !important;
+      }
       .pillar-icon-box {
-        width: 22px !important;
-        height: 22px !important;
-        min-width: 22px !important;
+        width: 24px !important;
+        height: 24px !important;
+        min-width: 24px !important;
       }
       .pillar-icon-box svg {
-        width: 11px !important;
-        height: 11px !important;
+        width: 12px !important;
+        height: 12px !important;
       }
       .pillar-heading {
-        font-size: 0.62rem !important;
+        font-size: 0.72rem !important;
       }
       .welcome-photo-container {
         aspect-ratio: 16 / 9 !important;
@@ -2661,53 +2673,53 @@ html_template = '''<!DOCTYPE html>
 
       /* Slide 3 Compact */
       .cert-main-title {
-        font-size: 1.35rem !important;
+        font-size: 1.45rem !important;
       }
       .cert-cards-grid {
-        gap: 0.38rem !important;
+        gap: 0.42rem !important;
       }
       .cert-card-item {
-        padding: 0.45rem 0.35rem !important;
-        gap: 0.2rem !important;
+        padding: 0.5rem 0.4rem !important;
+        gap: 0.25rem !important;
       }
       .cert-stage-box {
-        height: 108px !important;
-        padding: 0.25rem !important;
+        height: 115px !important;
+        padding: 0.28rem !important;
       }
       .cert-card-heading {
-        font-size: 0.68rem !important;
+        font-size: 0.76rem !important;
       }
       .cert-card-desc {
-        font-size: 0.52rem !important;
-        line-height: 1.22 !important;
+        font-size: 0.62rem !important;
+        line-height: 1.25 !important;
       }
 
       /* Slide 4 Compact */
       .sol-central-hub-stage {
-        max-width: 300px !important;
-        gap: 0.65rem !important;
+        max-width: 320px !important;
+        gap: 0.75rem !important;
       }
       .sol-executive-card {
-        padding: 0.85rem 1rem !important;
-        gap: 6px !important;
+        padding: 1rem 1.1rem !important;
+        gap: 8px !important;
       }
       .sol-icon-box {
-        width: 40px !important;
-        height: 40px !important;
+        width: 46px !important;
+        height: 46px !important;
       }
       .sol-icon-box svg {
-        width: 20px !important;
-        height: 20px !important;
+        width: 24px !important;
+        height: 24px !important;
       }
       .sol-card-title {
-        font-size: 1.02rem !important;
+        font-size: 1.22rem !important;
       }
       .sol-central-core-orb {
-        width: 76px !important;
-        height: 76px !important;
+        width: 80px !important;
+        height: 80px !important;
       }
       .sol-orb-logo-img {
-        width: 48px !important;
+        width: 52px !important;
       }
     }
 
@@ -2716,7 +2728,7 @@ html_template = '''<!DOCTYPE html>
         display: flex !important;
         flex-direction: column !important;
         justify-content: center !important;
-        gap: 0.55rem !important;
+        gap: 0.65rem !important;
         width: 100% !important;
         max-height: none !important;
         padding-top: 0.1rem !important;
@@ -2727,7 +2739,7 @@ html_template = '''<!DOCTYPE html>
         text-align: center !important;
       }
       .cert-main-title {
-        font-size: clamp(1.42rem, 5.8vw, 1.75rem) !important;
+        font-size: clamp(1.6rem, 6.5vw, 2.05rem) !important;
         font-weight: 900 !important;
         line-height: 1.15 !important;
         letter-spacing: -0.02em !important;
@@ -2735,11 +2747,11 @@ html_template = '''<!DOCTYPE html>
       .cert-cards-grid {
         display: grid !important;
         grid-template-columns: repeat(2, 1fr) !important;
-        gap: 0.5rem !important;
+        gap: 0.55rem !important;
         width: 100% !important;
       }
       .cert-card-item {
-        padding: 0.65rem 0.5rem !important;
+        padding: 0.75rem 0.6rem !important;
         border-radius: 12px !important;
         background: #ffffff !important;
         border: 1.2px solid rgba(226, 232, 240, 0.95) !important;
@@ -2748,7 +2760,7 @@ html_template = '''<!DOCTYPE html>
         flex-direction: column !important;
         align-items: center !important;
         text-align: center !important;
-        gap: 0.3rem !important;
+        gap: 0.35rem !important;
         cursor: pointer !important;
         position: relative !important;
         overflow: hidden !important;
@@ -2784,7 +2796,7 @@ html_template = '''<!DOCTYPE html>
         padding: 0 !important;
       }
       .cert-card-heading {
-        font-size: clamp(0.72rem, 2.8vw, 0.8rem) !important;
+        font-size: clamp(0.82rem, 3.2vw, 0.92rem) !important;
         font-weight: 800 !important;
         color: #0f172a !important;
         line-height: 1.2 !important;
@@ -2792,9 +2804,9 @@ html_template = '''<!DOCTYPE html>
         text-align: center !important;
       }
       .cert-card-desc {
-        font-size: clamp(0.56rem, 2.2vw, 0.63rem) !important;
+        font-size: clamp(0.66rem, 2.6vw, 0.74rem) !important;
         color: #64748b !important;
-        line-height: 1.28 !important;
+        line-height: 1.3 !important;
         display: block !important;
         -webkit-line-clamp: unset !important;
         overflow: visible !important;
@@ -2822,7 +2834,7 @@ html_template = '''<!DOCTYPE html>
         flex-direction: column !important;
         align-items: center !important;
         justify-content: center !important;
-        gap: clamp(0.75rem, 2vh, 1.25rem) !important;
+        gap: clamp(0.85rem, 2.2vh, 1.35rem) !important;
         width: 100% !important;
         max-width: 360px !important;
         margin: auto !important;
@@ -2846,8 +2858,8 @@ html_template = '''<!DOCTYPE html>
         display: none !important;
       }
       .sol-central-core-orb {
-        width: 90px !important;
-        height: 90px !important;
+        width: 92px !important;
+        height: 92px !important;
         margin: 0 auto !important;
       }
       .sol-orb-glow {
@@ -2868,12 +2880,12 @@ html_template = '''<!DOCTYPE html>
         box-shadow: 0 8px 28px rgba(229, 25, 36, 0.4), 0 2px 8px rgba(0, 0, 0, 0.08) !important;
       }
       .sol-orb-logo-img {
-        width: 58px !important;
+        width: 60px !important;
         height: auto !important;
         object-fit: contain !important;
       }
       .sol-executive-card {
-        padding: clamp(1rem, 2.4vh, 1.35rem) 1.2rem !important;
+        padding: clamp(1.15rem, 2.8vh, 1.55rem) 1.35rem !important;
         border-radius: 18px !important;
         background: #ffffff !important;
         border: 1.5px solid rgba(226, 232, 240, 0.95) !important;
@@ -2884,7 +2896,7 @@ html_template = '''<!DOCTYPE html>
         align-items: center !important;
         justify-content: center !important;
         text-align: center !important;
-        gap: 8px !important;
+        gap: 10px !important;
         min-height: unset !important;
         height: auto !important;
         width: 100% !important;
@@ -2897,22 +2909,23 @@ html_template = '''<!DOCTYPE html>
         border-color: #e51924 !important;
       }
       .sol-icon-box {
-        width: 48px !important;
-        height: 48px !important;
-        border-radius: 12px !important;
+        width: 52px !important;
+        height: 52px !important;
+        border-radius: 14px !important;
       }
       .sol-icon-box svg {
-        width: 24px !important;
-        height: 24px !important;
+        width: 26px !important;
+        height: 26px !important;
       }
       .sol-card-title {
         font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif !important;
-        font-size: clamp(1.1rem, 3.6vw, 1.25rem) !important;
-        font-weight: 800 !important;
+        font-size: clamp(1.3rem, 4.6vw, 1.55rem) !important;
+        font-weight: 900 !important;
         color: #0f172a !important;
-        line-height: 1.2 !important;
+        line-height: 1.25 !important;
         text-align: center !important;
         margin: 0 !important;
+        letter-spacing: -0.01em !important;
       }
 
       /* Slide 5: Clean Contact Us Mobile */
@@ -2935,12 +2948,12 @@ html_template = '''<!DOCTYPE html>
         text-align: center !important;
       }
       .clean-contact-header .slide-main-heading {
-        font-size: clamp(1.42rem, 5.8vw, 1.75rem) !important;
+        font-size: clamp(1.6rem, 6.5vw, 2.05rem) !important;
         font-weight: 900 !important;
         letter-spacing: -0.02em !important;
       }
       .clean-contact-header .slide-sub-heading {
-        font-size: 0.72rem !important;
+        font-size: 0.82rem !important;
         color: #64748b !important;
         line-height: 1.35 !important;
         max-width: 340px !important;
@@ -2948,7 +2961,7 @@ html_template = '''<!DOCTYPE html>
       .clean-contact-grid {
         display: flex !important;
         flex-direction: column !important;
-        gap: 0.48rem !important;
+        gap: 0.5rem !important;
         width: 100% !important;
         max-width: 360px !important;
         margin: 0 auto !important;
@@ -2956,45 +2969,45 @@ html_template = '''<!DOCTYPE html>
       .clean-contact-card {
         display: flex !important;
         align-items: center !important;
-        gap: 0.65rem !important;
-        padding: 0.65rem 0.8rem !important;
-        border-radius: 10px !important;
+        gap: 0.75rem !important;
+        padding: 0.75rem 0.9rem !important;
+        border-radius: 12px !important;
         background: #ffffff !important;
         border: 1.2px solid rgba(226, 232, 240, 0.95) !important;
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02) !important;
         text-decoration: none !important;
       }
       .clean-contact-icon-circle {
-        width: 38px !important;
-        height: 38px !important;
-        min-width: 38px !important;
-        border-radius: 8px !important;
+        width: 42px !important;
+        height: 42px !important;
+        min-width: 42px !important;
+        border-radius: 10px !important;
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
         flex-shrink: 0 !important;
       }
       .clean-contact-icon-circle svg {
-        width: 18px !important;
-        height: 18px !important;
+        width: 20px !important;
+        height: 20px !important;
       }
       .clean-contact-label {
-        font-size: 0.58rem !important;
+        font-size: 0.68rem !important;
         font-weight: 800 !important;
         letter-spacing: 0.05em !important;
         margin-bottom: 0.1rem !important;
       }
       .clean-contact-val {
-        font-size: 0.84rem !important;
-        font-weight: 700 !important;
+        font-size: 0.95rem !important;
+        font-weight: 800 !important;
         color: #0f172a !important;
         line-height: 1.3 !important;
       }
       .clean-contact-val.hq-addr-val {
-        font-size: 0.8rem !important;
+        font-size: 0.88rem !important;
       }
       .clean-contact-sub {
-        font-size: 0.64rem !important;
+        font-size: 0.74rem !important;
         color: #64748b !important;
       }
 
@@ -3212,7 +3225,58 @@ html_template = '''<!DOCTYPE html>
         window.scrollTo({ top: 0, behavior: 'smooth' });
         const fg = document.querySelector('.foreground-content');
         if (fg) fg.scrollTop = 0;
+
+        animateCounters();
       }, 150);
+    }
+
+    function animateCounters() {
+      const counters = document.querySelectorAll('.stat-number');
+      if (!counters || counters.length === 0) return;
+
+      counters.forEach(counter => {
+        const rawTarget = counter.getAttribute('data-target');
+        let target = 0;
+        let suffix = '+';
+
+        if (rawTarget) {
+          target = parseInt(rawTarget, 10);
+          suffix = counter.getAttribute('data-suffix') || '+';
+        } else {
+          const text = counter.textContent.trim();
+          const match = text.match(/([0-9]+)/);
+          if (match) {
+            target = parseInt(match[1], 10);
+            suffix = text.replace(match[1], '');
+          }
+        }
+
+        if (!target) return;
+
+        const duration = 1800;
+        let startTimestamp = null;
+
+        function easeOutQuart(t) {
+          return 1 - Math.pow(1 - t, 4);
+        }
+
+        function step(timestamp) {
+          if (!startTimestamp) startTimestamp = timestamp;
+          const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+          const currentCount = Math.floor(easeOutQuart(progress) * target);
+          
+          counter.textContent = currentCount + suffix;
+
+          if (progress < 1) {
+            requestAnimationFrame(step);
+          } else {
+            counter.textContent = target + suffix;
+          }
+        }
+
+        counter.textContent = '0' + suffix;
+        requestAnimationFrame(step);
+      });
     }
 
     function renderToc() {

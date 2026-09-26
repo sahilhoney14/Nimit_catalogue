@@ -8,7 +8,7 @@ ROOT_DIR = os.path.dirname(SCRIPT_DIR) if os.path.basename(SCRIPT_DIR) == 'build
 slides_data = [
     {
         'num': 1,
-        'tag': '01 // MANIFESTO',
+        'tag': '01 MANIFESTO',
         'title': 'Art of Intelligence Manifesto',
         'type': 'manifesto',
         'html': '''
@@ -26,7 +26,7 @@ slides_data = [
     },
     {
         'num': 2,
-        'tag': '02 // WHY AI?',
+        'tag': '02 WHY AI?',
         'title': 'Why AI in Surveillance?',
         'type': 'content',
         'html': '''
@@ -78,7 +78,7 @@ slides_data = [
     },
     {
         'num': 3,
-        'tag': '03 // SOLUTION',
+        'tag': '03 SOLUTION',
         'title': 'How do we Solve it',
         'type': 'content',
         'html': '''
@@ -153,7 +153,7 @@ slides_data = [
     },
     {
         'num': 4,
-        'tag': '04 // FEATURES',
+        'tag': '04 FEATURES',
         'title': 'Key Features & Capabilities',
         'type': 'content',
         'html': '''
@@ -261,7 +261,7 @@ slides_data = [
     },
     {
         'num': 5,
-        'tag': '05 // VISION',
+        'tag': '05 VISION',
         'title': 'Surveillance into Intelligence',
         'type': 'manifesto',
         'html': '''
@@ -296,7 +296,7 @@ slides_data = [
     },
     {
         'num': 6,
-        'tag': '06 // MODULE 01',
+        'tag': '06 MODULE 01',
         'title': 'PPE Violation Detection',
         'type': 'split',
         'html': '''
@@ -361,7 +361,7 @@ slides_data = [
     },
     {
         'num': 7,
-        'tag': '07 // MODULE 02',
+        'tag': '07 MODULE 02',
         'title': 'Automatic Number Plate Recognition',
         'type': 'split',
         'html': '''
@@ -422,7 +422,7 @@ slides_data = [
     },
     {
         'num': 8,
-        'tag': '08 // MODULE 03',
+        'tag': '08 MODULE 03',
         'title': 'Fire & Smoke Detection',
         'type': 'split',
         'html': '''
@@ -488,7 +488,7 @@ slides_data = [
     },
     {
         'num': 9,
-        'tag': '09 // MODULE 04',
+        'tag': '09 MODULE 04',
         'title': 'Vehicle Speed Detection',
         'type': 'split',
         'html': '''
@@ -547,7 +547,7 @@ slides_data = [
     },
     {
         'num': 10,
-        'tag': '10 // MODULE 05',
+        'tag': '10 MODULE 05',
         'title': 'Product & Conveyor Counting',
         'type': 'split',
         'html': '''
@@ -609,7 +609,7 @@ slides_data = [
     },
     {
         'num': 11,
-        'tag': '11 // MODULE 06',
+        'tag': '11 MODULE 06',
         'title': 'People Counting & Footfall Analytics',
         'type': 'split',
         'html': '''
@@ -670,7 +670,7 @@ slides_data = [
     },
     {
         'num': 12,
-        'tag': '12 // MODULE 07',
+        'tag': '12 MODULE 07',
         'title': 'Face Recognition Access',
         'type': 'split',
         'html': '''
@@ -731,7 +731,7 @@ slides_data = [
     },
     {
         'num': 13,
-        'tag': '13 // MODULE 08',
+        'tag': '13 MODULE 08',
         'title': 'Forklift Safety & Proximity Detection',
         'type': 'split',
         'html': '''
@@ -792,7 +792,7 @@ slides_data = [
     },
     {
         'num': 14,
-        'tag': '14 // MODULE 09',
+        'tag': '14 MODULE 09',
         'title': 'Worker Fall Detection',
         'type': 'split',
         'html': '''
@@ -849,7 +849,7 @@ slides_data = [
     },
     {
         'num': 15,
-        'tag': '15 // MODULE 10',
+        'tag': '15 MODULE 10',
         'title': 'Perimeter Intrusion Detection',
         'type': 'split',
         'html': '''
@@ -910,7 +910,7 @@ slides_data = [
     },
     {
         'num': 16,
-        'tag': '16 // MODULE 11',
+        'tag': '16 MODULE 11',
         'title': 'Animal Behavioural',
         'type': 'split',
         'html': '''
@@ -957,7 +957,7 @@ slides_data = [
     },
     {
         'num': 17,
-        'tag': '17 // CONTACT',
+        'tag': '17 CONTACT',
         'title': 'Contact Us & Headquarters',
         'type': 'content',
         'html': '''
@@ -2692,36 +2692,36 @@ html_template = f'''<!DOCTYPE html>
       }}
       .portal-nav-bar {{
         display: inline-flex !important;
-        padding: 0.14rem 0.22rem !important;
-        gap: 0.18rem !important;
+        padding: 0.18rem 0.28rem !important;
+        gap: 0.22rem !important;
         background: rgba(255, 255, 255, 0.96) !important;
         border: 1px solid rgba(226, 232, 240, 0.95) !important;
         border-radius: 9999px !important;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
       }}
       .portal-nav-link {{
-        font-size: 0.65rem !important;
-        font-weight: 700 !important;
-        padding: 0.18rem 0.42rem 0.18rem 0.22rem !important;
-        gap: 0.25rem !important;
+        font-size: 0.74rem !important;
+        font-weight: 800 !important;
+        padding: 0.22rem 0.52rem 0.22rem 0.3rem !important;
+        gap: 0.32rem !important;
         color: #334155 !important;
         white-space: nowrap !important;
       }}
       .portal-nav-link .nav-icon-badge {{
-        width: 18px !important;
-        height: 18px !important;
+        width: 20px !important;
+        height: 20px !important;
       }}
       .portal-nav-link .nav-icon-badge svg {{
-        width: 10px !important;
-        height: 10px !important;
+        width: 12px !important;
+        height: 12px !important;
       }}
       .portal-nav-link.active {{
         background: var(--primary-red) !important;
         color: #ffffff !important;
       }}
       .btn-toc-drawer {{
-        padding: 0.28rem 0.52rem !important;
-        font-size: 0.68rem !important;
+        padding: 0.32rem 0.6rem !important;
+        font-size: 0.76rem !important;
         border-radius: 8px !important;
         background: #ffffff !important;
         border: 1px solid #cbd5e1 !important;
@@ -2737,7 +2737,7 @@ html_template = f'''<!DOCTYPE html>
         bottom: 12px !important;
         left: 50% !important;
         transform: translateX(-50%) !important;
-        padding: 0.28rem 0.52rem !important;
+        padding: 0.32rem 0.65rem !important;
         max-width: calc(100vw - 24px) !important;
         border-radius: 9999px !important;
         background: rgba(15, 23, 42, 0.94) !important;
@@ -2748,14 +2748,14 @@ html_template = f'''<!DOCTYPE html>
         z-index: 1000 !important;
         display: flex !important;
         align-items: center !important;
-        gap: 0.35rem !important;
+        gap: 0.45rem !important;
       }}
       .nav-btn {{
-        padding: 0.35rem 0.75rem !important;
-        font-size: 0.72rem !important;
-        font-weight: 700 !important;
+        padding: 0.42rem 0.88rem !important;
+        font-size: 0.8rem !important;
+        font-weight: 800 !important;
         border-radius: 9999px !important;
-        gap: 0.3rem !important;
+        gap: 0.35rem !important;
       }}
       .nav-btn.btn-next {{
         background: #e51924 !important;
@@ -2764,11 +2764,11 @@ html_template = f'''<!DOCTYPE html>
       }}
       .slide-counter-badge {{
         font-family: var(--font-mono) !important;
-        font-size: 0.74rem !important;
+        font-size: 0.82rem !important;
         font-weight: 800 !important;
         color: #ffffff !important;
         letter-spacing: 0.05em !important;
-        padding: 0 0.35rem !important;
+        padding: 0 0.4rem !important;
       }}
 
       /* 2. Slide 1 (Cover Slide) Mobile */
@@ -2813,13 +2813,13 @@ html_template = f'''<!DOCTYPE html>
         border-width: 1px !important;
       }}
       .diamond-row-ai {{
-        font-size: 0.68rem !important;
+        font-size: 0.76rem !important;
       }}
       .diamond-row-smart {{
-        font-size: 0.44rem !important;
+        font-size: 0.52rem !important;
       }}
       .diamond-row-platform {{
-        font-size: 0.38rem !important;
+        font-size: 0.46rem !important;
       }}
       .cover-content-column {{
         display: flex !important;
@@ -2836,7 +2836,7 @@ html_template = f'''<!DOCTYPE html>
         text-align: center !important;
       }}
       .cover-headline-text {{
-        font-size: clamp(1.45rem, 5.8vw, 1.85rem) !important;
+        font-size: clamp(1.6rem, 6.4vw, 2.05rem) !important;
         font-weight: 900 !important;
         line-height: 1.15 !important;
         letter-spacing: -0.02em !important;
@@ -2845,8 +2845,8 @@ html_template = f'''<!DOCTYPE html>
         word-break: break-word !important;
       }}
       .cover-content-column .analytics-desc-lead {{
-        font-size: clamp(0.72rem, 3.2vw, 0.76rem) !important;
-        line-height: 1.46 !important;
+        font-size: clamp(0.82rem, 3.4vw, 0.92rem) !important;
+        line-height: 1.5 !important;
         color: #334155 !important;
         text-align: center !important;
         max-width: 360px !important;
@@ -2882,16 +2882,16 @@ html_template = f'''<!DOCTYPE html>
         display: none !important;
       }}
       .cover-badge-circle {{
-        width: 30px !important;
-        height: 30px !important;
-        min-width: 30px !important;
+        width: 32px !important;
+        height: 32px !important;
+        min-width: 32px !important;
         border-radius: 8px !important;
       }}
       .cover-badge-label {{
-        font-size: 0.54rem !important;
+        font-size: 0.62rem !important;
       }}
       .cover-badge-val {{
-        font-size: 0.76rem !important;
+        font-size: 0.86rem !important;
       }}
 
       /* 3. Slide 2 Manifesto Mobile */
@@ -2908,22 +2908,22 @@ html_template = f'''<!DOCTYPE html>
         max-height: none !important;
       }}
       .manifesto-card-stage {{
-        padding: 1.4rem 1rem !important;
-        border-radius: 18px !important;
+        padding: 1.6rem 1.2rem !important;
+        border-radius: 20px !important;
         width: 100% !important;
         max-width: 360px !important;
         margin: 0 auto !important;
       }}
       .manifesto-line-1 {{
-        font-size: 0.72rem !important;
+        font-size: 0.85rem !important;
       }}
       .manifesto-line-2 {{
-        font-size: clamp(1.45rem, 5.8vw, 1.85rem) !important;
+        font-size: clamp(1.75rem, 6.8vw, 2.25rem) !important;
         line-height: 1.15 !important;
       }}
       .manifesto-line-3 {{
-        font-size: 0.8rem !important;
-        line-height: 1.35 !important;
+        font-size: 0.92rem !important;
+        line-height: 1.4 !important;
       }}
       .manifesto-values-strip {{
         display: flex !important;
@@ -2935,8 +2935,8 @@ html_template = f'''<!DOCTYPE html>
       .manifesto-val-pill {{
         width: 100% !important;
         justify-content: center !important;
-        font-size: 0.76rem !important;
-        padding: 0.38rem 0.6rem !important;
+        font-size: 0.82rem !important;
+        padding: 0.42rem 0.65rem !important;
       }}
 
       /* 4. Slides 3, 4, 5 (Topic & Capability Layouts: Why AI, How We Solve It, Key Features) Mobile */
@@ -2961,77 +2961,78 @@ html_template = f'''<!DOCTYPE html>
         width: 100% !important;
       }}
       .slide-topic-header .slide-main-heading {{
-        font-size: clamp(1.42rem, 5.8vw, 1.75rem) !important;
+        font-size: clamp(1.55rem, 6.4vw, 1.95rem) !important;
         font-weight: 900 !important;
         letter-spacing: -0.02em !important;
         line-height: 1.15 !important;
         text-align: center !important;
       }}
       .slide-topic-header .slide-sub-heading {{
-        font-size: 0.72rem !important;
+        font-size: 0.82rem !important;
         color: #64748b !important;
-        line-height: 1.38 !important;
+        line-height: 1.4 !important;
         max-width: 360px !important;
         margin: 0 auto !important;
         text-align: center !important;
       }}
       .slide-cards-grid-2col {{
         display: grid !important;
-        grid-template-columns: repeat(2, 1fr) !important;
-        gap: 0.52rem 0.58rem !important;
+        grid-template-columns: 1fr !important;
+        gap: 0.55rem !important;
         width: 100% !important;
-        max-width: 390px !important;
+        max-width: 440px !important;
         margin: 0 auto !important;
       }}
       .slide-cards-grid-2col .analytics-topic-card {{
-        padding: 0.68rem 0.65rem !important;
+        padding: 0.65rem 0.95rem !important;
         border-radius: 12px !important;
         background: #ffffff !important;
         border: 1.2px solid rgba(226, 232, 240, 0.95) !important;
         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.03) !important;
         display: flex !important;
         align-items: center !important;
-        gap: 0.55rem !important;
-        min-height: 52px !important;
+        gap: 0.85rem !important;
+        min-height: auto !important;
       }}
       .slide-cards-grid-2col .analytics-icon-box {{
-        width: 34px !important;
-        height: 34px !important;
-        min-width: 34px !important;
-        border-radius: 9px !important;
+        width: 38px !important;
+        height: 38px !important;
+        min-width: 38px !important;
+        border-radius: 10px !important;
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
+        flex-shrink: 0 !important;
       }}
       .slide-cards-grid-2col .analytics-icon-box svg {{
-        width: 17px !important;
-        height: 17px !important;
+        width: 20px !important;
+        height: 20px !important;
       }}
       .slide-cards-grid-2col .analytics-card-title {{
-        font-size: 0.72rem !important;
+        font-size: 0.88rem !important;
         font-weight: 800 !important;
         color: #0f172a !important;
-        line-height: 1.22 !important;
+        line-height: 1.25 !important;
         text-align: left !important;
         flex: 1 !important;
       }}
       .slide-cards-grid-2col .premise-card-content {{
         display: flex !important;
         flex-direction: column !important;
-        gap: 0.12rem !important;
+        gap: 0.2rem !important;
         text-align: left !important;
         flex: 1 !important;
       }}
       .slide-cards-grid-2col .premise-card-title {{
-        font-size: 0.68rem !important;
+        font-size: 0.88rem !important;
         font-weight: 800 !important;
         color: #0f172a !important;
-        line-height: 1.2 !important;
+        line-height: 1.25 !important;
       }}
       .slide-cards-grid-2col .premise-card-desc {{
-        font-size: 0.58rem !important;
+        font-size: 0.74rem !important;
         color: #64748b !important;
-        line-height: 1.25 !important;
+        line-height: 1.38 !important;
       }}
 
       /* Slide 4 Specifics (Capabilities + 3 Pillars) */
@@ -3053,18 +3054,19 @@ html_template = f'''<!DOCTYPE html>
         gap: 0.25rem !important;
       }}
       .solve-cap-icon-bubble {{
-        width: 32px !important;
-        height: 32px !important;
-        min-width: 32px !important;
-        border-radius: 9px !important;
+        width: 34px !important;
+        height: 34px !important;
+        min-width: 34px !important;
+        border-radius: 10px !important;
       }}
       .solve-cap-icon-bubble svg {{
-        width: 15px !important;
-        height: 15px !important;
+        width: 16px !important;
+        height: 16px !important;
       }}
       .solve-cap-label {{
-        font-size: 0.56rem !important;
-        line-height: 1.15 !important;
+        font-size: 0.65rem !important;
+        line-height: 1.18 !important;
+        font-weight: 700 !important;
       }}
       .slide-cards-grid-3col {{
         display: flex !important;
@@ -3075,28 +3077,28 @@ html_template = f'''<!DOCTYPE html>
         margin: 0 auto !important;
       }}
       .pillar-card-item {{
-        padding: 0.65rem 0.95rem !important;
+        padding: 0.75rem 1rem !important;
         border-radius: 12px !important;
         display: flex !important;
         flex-direction: row !important;
         align-items: center !important;
         justify-content: flex-start !important;
         text-align: left !important;
-        gap: 0.75rem !important;
+        gap: 0.85rem !important;
         background: #ffffff !important;
         border: 1.2px solid rgba(226, 232, 240, 0.95) !important;
         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.03) !important;
       }}
       .pillar-card-num {{
         font-family: var(--font-mono) !important;
-        font-size: 1.05rem !important;
+        font-size: 1.18rem !important;
         line-height: 1 !important;
         font-weight: 900 !important;
         color: var(--primary-red) !important;
         min-width: 24px !important;
       }}
       .pillar-title {{
-        font-size: 0.8rem !important;
+        font-size: 0.9rem !important;
         font-weight: 800 !important;
         color: #0f172a !important;
         margin-top: 0 !important;
@@ -3134,15 +3136,15 @@ html_template = f'''<!DOCTYPE html>
         gap: 0.25rem !important;
       }}
       .analytics-header-block .slide-main-heading {{
-        font-size: clamp(1.35rem, 5.5vw, 1.65rem) !important;
+        font-size: clamp(1.55rem, 6.4vw, 1.95rem) !important;
         font-weight: 900 !important;
         line-height: 1.15 !important;
         text-align: left !important;
       }}
       .analytics-header-block .analytics-desc-lead {{
-        font-size: 0.74rem !important;
+        font-size: clamp(0.82rem, 3.4vw, 0.92rem) !important;
         color: #475569 !important;
-        line-height: 1.42 !important;
+        line-height: 1.5 !important;
         text-align: left !important;
         margin: 0 !important;
         max-width: 100% !important;
@@ -3150,63 +3152,66 @@ html_template = f'''<!DOCTYPE html>
       .analytics-cards-grid {{
         display: grid !important;
         grid-template-columns: 1fr !important;
-        gap: 0.42rem !important;
+        gap: 0.45rem !important;
         width: 100% !important;
       }}
       .card-span-2 {{
         grid-column: span 1 !important;
       }}
       .analytics-topic-card {{
-        padding: 0.55rem 0.7rem !important;
-        border-radius: 10px !important;
-        gap: 0.55rem !important;
+        padding: 0.65rem 0.85rem !important;
+        border-radius: 12px !important;
+        gap: 0.7rem !important;
       }}
       .analytics-icon-box {{
-        width: 30px !important;
-        height: 30px !important;
-        min-width: 30px !important;
-        border-radius: 8px !important;
+        width: 34px !important;
+        height: 34px !important;
+        min-width: 34px !important;
+        border-radius: 9px !important;
       }}
       .analytics-icon-box svg {{
-        width: 16px !important;
-        height: 16px !important;
+        width: 17px !important;
+        height: 17px !important;
       }}
       .analytics-card-title {{
-        font-size: 0.74rem !important;
+        font-size: 0.86rem !important;
+        font-weight: 800 !important;
       }}
       .gate-modules-stack {{
         display: flex !important;
         flex-direction: column !important;
-        gap: 0.42rem !important;
+        gap: 0.45rem !important;
         width: 100% !important;
       }}
       .gate-module-card {{
-        padding: 0.55rem 0.7rem !important;
-        border-radius: 10px !important;
+        padding: 0.7rem 0.85rem !important;
+        border-radius: 12px !important;
       }}
       .gate-module-title {{
-        font-size: 0.78rem !important;
+        font-size: 0.92rem !important;
+        font-weight: 800 !important;
       }}
       .gate-module-desc {{
-        font-size: 0.66rem !important;
-        line-height: 1.35 !important;
+        font-size: 0.78rem !important;
+        line-height: 1.4 !important;
       }}
       .lifesaving-modules-grid {{
         display: grid !important;
         grid-template-columns: 1fr !important;
-        gap: 0.42rem !important;
+        gap: 0.45rem !important;
         width: 100% !important;
       }}
       .lifesaving-module-card {{
-        padding: 0.55rem 0.7rem !important;
-        border-radius: 10px !important;
+        padding: 0.7rem 0.85rem !important;
+        border-radius: 12px !important;
       }}
       .lifesaving-card-title {{
-        font-size: 0.78rem !important;
+        font-size: 0.92rem !important;
+        font-weight: 800 !important;
       }}
       .lifesaving-card-desc {{
-        font-size: 0.66rem !important;
-        line-height: 1.35 !important;
+        font-size: 0.78rem !important;
+        line-height: 1.4 !important;
       }}
       .analytics-right-column {{
         width: 100% !important;
@@ -3214,13 +3219,13 @@ html_template = f'''<!DOCTYPE html>
       }}
       .analytics-image-frame {{
         width: 100% !important;
-        border-radius: 12px !important;
+        border-radius: 14px !important;
         overflow: hidden !important;
       }}
       .brochure-video-wrapper {{
         width: 100% !important;
         aspect-ratio: 16 / 9.5 !important;
-        border-radius: 12px !important;
+        border-radius: 14px !important;
       }}
       .analytics-matrix-img {{
         width: 100% !important;
@@ -3249,12 +3254,12 @@ html_template = f'''<!DOCTYPE html>
         text-align: center !important;
       }}
       .clean-contact-header .slide-main-heading {{
-        font-size: clamp(1.42rem, 5.8vw, 1.75rem) !important;
+        font-size: clamp(1.6rem, 6.5vw, 2.05rem) !important;
         font-weight: 900 !important;
         letter-spacing: -0.02em !important;
       }}
       .clean-contact-header .slide-sub-heading {{
-        font-size: 0.72rem !important;
+        font-size: 0.82rem !important;
         color: #64748b !important;
         line-height: 1.35 !important;
         max-width: 340px !important;
@@ -3262,29 +3267,31 @@ html_template = f'''<!DOCTYPE html>
       .clean-contact-grid {{
         display: flex !important;
         flex-direction: column !important;
-        gap: 0.48rem !important;
+        gap: 0.5rem !important;
         width: 100% !important;
         max-width: 360px !important;
         margin: 0 auto !important;
       }}
       .clean-contact-card {{
-        padding: 0.65rem 0.8rem !important;
-        border-radius: 10px !important;
+        padding: 0.75rem 0.9rem !important;
+        border-radius: 12px !important;
       }}
       .clean-contact-icon-circle {{
-        width: 38px !important;
-        height: 38px !important;
-        min-width: 38px !important;
-        border-radius: 8px !important;
+        width: 42px !important;
+        height: 42px !important;
+        min-width: 42px !important;
+        border-radius: 10px !important;
       }}
       .clean-contact-label {{
-        font-size: 0.58rem !important;
+        font-size: 0.68rem !important;
+        font-weight: 800 !important;
       }}
       .clean-contact-val {{
-        font-size: 0.84rem !important;
+        font-size: 0.96rem !important;
+        font-weight: 800 !important;
       }}
       .clean-contact-sub {{
-        font-size: 0.64rem !important;
+        font-size: 0.74rem !important;
       }}
     }}
 

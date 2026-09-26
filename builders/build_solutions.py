@@ -24,7 +24,7 @@ client_cards_html = '\n'.join(client_cards_list)
 slides_data = [
     {
         'num': 1,
-        'tag': '01 // SOLUTIONS MATRIX',
+        'tag': '01 SOLUTIONS MATRIX',
         'title': 'AI Industry Solutions',
         'type': 'manifesto',
         'html': '''
@@ -40,7 +40,7 @@ slides_data = [
     },
     {
         'num': 2,
-        'tag': '02 // SMART PREMISES',
+        'tag': '02 SMART PREMISES',
         'title': 'Smart Premises Solution',
         'type': 'content',
         'html': '''
@@ -67,9 +67,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Audio & Video Solutions</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <!-- Topic 2: GPS & Drone Solutions -->
@@ -82,9 +79,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">GPS & Drone Solutions</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <!-- Topic 3: Customizable Software Solutions -->
@@ -97,9 +91,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Customizable Software Solutions</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <!-- Topic 4: Video Surveillance -->
@@ -111,9 +102,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Video Surveillance</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <!-- Topic 5: Video Analytics -->
@@ -125,9 +113,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Video Analytics</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <!-- Topic 6: Command and Control Centre -->
@@ -140,9 +125,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Command and Control Centre</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
               </div>
@@ -159,7 +141,7 @@ slides_data = [
     },
     {
         'num': 3,
-        'tag': '03 // AI CAPABILITIES',
+        'tag': '03 AI CAPABILITIES',
         'title': 'AI Used Cases',
         'type': 'content',
         'html': '''
@@ -268,7 +250,7 @@ slides_data = [
     },
     {
         'num': 4,
-        'tag': '04 // PROCESS ANALYTICS',
+        'tag': '04 PROCESS ANALYTICS',
         'title': 'Standard Process Analytics',
         'type': 'content',
         'html': '''
@@ -295,9 +277,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">AR & Ex-Proof Industrial Camera Monitoring</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <!-- Topic 2: Thermal Imaging for Proactive Maintenance -->
@@ -308,9 +287,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Thermal Imaging for Proactive Maintenance</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <!-- Topic 3: Production Compliance & Digital Oversight -->
@@ -322,9 +298,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Production Compliance & Digital Oversight</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <!-- Topic 4: Leakage & Spillage Detection System -->
@@ -335,9 +308,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Leakage & Spillage Detection System</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <!-- Topic 5: Early Flame Detection System -->
@@ -348,9 +318,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Early Flame Detection System</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <!-- Topic 6: Real-Time Dashboards & Actionable Insights -->
@@ -363,9 +330,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Real-Time Dashboards & Actionable Insights</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
               </div>
@@ -382,7 +346,7 @@ slides_data = [
     },
     {
         'num': 5,
-        'tag': '05 // HR MANAGEMENT',
+        'tag': '05 HR MANAGEMENT',
         'title': 'HR Management Solution',
         'type': 'content',
         'html': '''
@@ -409,9 +373,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Access Attendance Solution</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <!-- Topic 2: Payroll Software -->
@@ -424,9 +385,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Payroll Software</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <!-- Topic 3: Canteen Management Software -->
@@ -441,9 +399,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Canteen Management Software</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <!-- Topic 4: Head Count Solution -->
@@ -457,9 +412,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Head Count Solution</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <!-- Topic 5: Visitor Management Solution -->
@@ -471,9 +423,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Visitor Management Solution</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
               </div>
@@ -490,7 +439,7 @@ slides_data = [
     },
     {
         'num': 6,
-        'tag': '06 // GATE AUTOMATION',
+        'tag': '06 GATE AUTOMATION',
         'title': 'Gate Automation Solution',
         'type': 'content',
         'html': '''
@@ -553,7 +502,7 @@ slides_data = [
     },
     {
         'num': 7,
-        'tag': '07 // LIFE SAVING',
+        'tag': '07 LIFE SAVING',
         'title': 'Life Saving Solution',
         'type': 'content',
         'html': '''
@@ -629,7 +578,7 @@ slides_data = [
     },
     {
         'num': 8,
-        'tag': '08 // BUILDING MANAGEMENT',
+        'tag': '08 BUILDING MANAGEMENT',
         'title': 'Building Management Solution',
         'type': 'content',
         'html': '''
@@ -722,7 +671,7 @@ slides_data = [
     },
     {
         'num': 9,
-        'tag': '09 // DIGITAL SOLUTION',
+        'tag': '09 DIGITAL SOLUTION',
         'title': 'Digital Solution',
         'type': 'content',
         'html': '''
@@ -810,7 +759,7 @@ slides_data = [
     },
     {
         'num': 10,
-        'tag': '10 // EDUCATION SOLUTION',
+        'tag': '10 EDUCATION SOLUTION',
         'title': 'Education Solution',
         'type': 'content',
         'html': '''
@@ -891,7 +840,7 @@ slides_data = [
     },
     {
         'num': 11,
-        'tag': '11 // MOBILE SURVEILLANCE',
+        'tag': '11 MOBILE SURVEILLANCE',
         'title': 'Mobile Surveillance Solution',
         'type': 'content',
         'html': '''
@@ -970,7 +919,7 @@ slides_data = [
     },
     {
         'num': 12,
-        'tag': '12 // TRAFFIC MANAGEMENT',
+        'tag': '12 TRAFFIC MANAGEMENT',
         'title': 'Traffic Management Solution',
         'type': 'content',
         'html': '''
@@ -1047,7 +996,7 @@ slides_data = [
     },
     {
         'num': 13,
-        'tag': '13 // PARKING MANAGEMENT',
+        'tag': '13 PARKING MANAGEMENT',
         'title': 'Parking Management Solution',
         'type': 'content',
         'html': '''
@@ -1115,7 +1064,7 @@ slides_data = [
     },
     {
         'num': 14,
-        'tag': '14 // HOSPITALITY SOLUTION',
+        'tag': '14 HOSPITALITY SOLUTION',
         'title': 'Hospitality Solution',
         'type': 'content',
         'html': '''
@@ -1142,9 +1091,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Nurse/Attendant Calling System</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <!-- Topic 2: Unified Communications Platform -->
@@ -1159,9 +1105,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Unified Communications Platform</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
                 <!-- Topic 3: Finger/Card Lock System -->
@@ -1173,9 +1116,6 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="analytics-card-title">Finger/Card Lock System</h3>
-                  <div class="analytics-card-arrow">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
-                  </div>
                 </div>
 
               </div>
@@ -1192,7 +1132,7 @@ slides_data = [
     },
     {
         'num': 15,
-        'tag': '15 // PRESTIGIOUS CLIENTS',
+        'tag': '15 PRESTIGIOUS CLIENTS',
         'title': 'Our Few Prestigious Clients',
         'type': 'content',
         'html': f'''
@@ -1215,7 +1155,7 @@ slides_data = [
     },
     {
         'num': 16,
-        'tag': '16 // NIMIT ECO SYSTEM',
+        'tag': '16 NIMIT ECO SYSTEM',
         'title': 'NIMIT Eco System',
         'type': 'content',
         'html': '''
@@ -1328,7 +1268,7 @@ slides_data = [
     },
     {
         'num': 17,
-        'tag': '17 // OUR PEOPLE',
+        'tag': '17 OUR PEOPLE',
         'title': 'Core Team',
         'type': 'content',
         'html': '''
@@ -1349,7 +1289,7 @@ slides_data = [
     },
     {
         'num': 18,
-        'tag': '18 // CONTACT',
+        'tag': '18 CONTACT',
         'title': 'Contact Us & Headquarters',
         'type': 'content',
         'html': '''
@@ -2217,19 +2157,6 @@ html_template = f'''<!DOCTYPE html>
       grid-column: span 2;
     }}
 
-    .analytics-card-arrow {{
-      color: #cbd5e1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: all 0.2s ease;
-      flex-shrink: 0;
-    }}
-
-    .analytics-topic-card:hover .analytics-card-arrow {{
-      color: var(--primary-red);
-      transform: translateX(3px);
-    }}
 
     .gate-modules-stack {{
       display: flex;
@@ -3155,36 +3082,36 @@ html_template = f'''<!DOCTYPE html>
       }}
       .portal-nav-bar {{
         display: inline-flex !important;
-        padding: 0.14rem 0.22rem !important;
-        gap: 0.18rem !important;
+        padding: 0.18rem 0.28rem !important;
+        gap: 0.22rem !important;
         background: rgba(255, 255, 255, 0.96) !important;
         border: 1px solid rgba(226, 232, 240, 0.95) !important;
         border-radius: 9999px !important;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
       }}
       .portal-nav-link {{
-        font-size: 0.65rem !important;
-        font-weight: 700 !important;
-        padding: 0.18rem 0.42rem 0.18rem 0.22rem !important;
-        gap: 0.25rem !important;
+        font-size: 0.74rem !important;
+        font-weight: 800 !important;
+        padding: 0.22rem 0.52rem 0.22rem 0.3rem !important;
+        gap: 0.32rem !important;
         color: #334155 !important;
         white-space: nowrap !important;
       }}
       .portal-nav-link .nav-icon-badge {{
-        width: 18px !important;
-        height: 18px !important;
+        width: 20px !important;
+        height: 20px !important;
       }}
       .portal-nav-link .nav-icon-badge svg {{
-        width: 10px !important;
-        height: 10px !important;
+        width: 12px !important;
+        height: 12px !important;
       }}
       .portal-nav-link.active {{
         background: var(--primary-red) !important;
         color: #ffffff !important;
       }}
       .btn-toc-drawer {{
-        padding: 0.28rem 0.52rem !important;
-        font-size: 0.68rem !important;
+        padding: 0.32rem 0.6rem !important;
+        font-size: 0.76rem !important;
         border-radius: 8px !important;
         background: #ffffff !important;
         border: 1px solid #cbd5e1 !important;
@@ -3228,7 +3155,7 @@ html_template = f'''<!DOCTYPE html>
         margin: 0 !important;
       }}
       .vision-title-text {{
-        font-size: clamp(1.65rem, 6.8vw, 2.2rem) !important;
+        font-size: clamp(1.8rem, 7.2vw, 2.35rem) !important;
         line-height: 1.2 !important;
         text-align: center !important;
         letter-spacing: -0.02em !important;
@@ -3245,7 +3172,7 @@ html_template = f'''<!DOCTYPE html>
         gap: 1rem !important;
       }}
       .premises-desc-lead {{
-        font-size: 0.84rem;
+        font-size: 0.9rem;
         line-height: 1.5;
       }}
       .premises-topics-grid-6 {{
@@ -3284,15 +3211,15 @@ html_template = f'''<!DOCTYPE html>
       .usecases-list-grid {{
         display: grid !important;
         grid-template-columns: repeat(2, 1fr) !important;
-        gap: 0.42rem 0.5rem !important;
+        gap: 0.45rem 0.55rem !important;
         width: 100% !important;
       }}
       .usecase-item {{
         display: flex !important;
         align-items: center !important;
-        gap: 0.45rem !important;
-        padding: 0.42rem 0.55rem !important;
-        border-radius: 9px !important;
+        gap: 0.5rem !important;
+        padding: 0.48rem 0.6rem !important;
+        border-radius: 10px !important;
         background: #ffffff !important;
         border: 1.2px solid rgba(226, 232, 240, 0.95) !important;
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02) !important;
@@ -3300,9 +3227,9 @@ html_template = f'''<!DOCTYPE html>
         box-sizing: border-box !important;
       }}
       .usecase-check-circle {{
-        width: 20px !important;
-        height: 20px !important;
-        min-width: 20px !important;
+        width: 22px !important;
+        height: 22px !important;
+        min-width: 22px !important;
         border-radius: 50% !important;
         background: rgba(229, 25, 36, 0.09) !important;
         color: var(--primary-red) !important;
@@ -3312,13 +3239,13 @@ html_template = f'''<!DOCTYPE html>
         flex-shrink: 0 !important;
       }}
       .usecase-check-circle svg {{
-        width: 13px !important;
-        height: 13px !important;
+        width: 14px !important;
+        height: 14px !important;
       }}
       .usecase-name {{
-        font-size: 0.74rem !important;
-        font-weight: 700 !important;
-        line-height: 1.2 !important;
+        font-size: 0.8rem !important;
+        font-weight: 800 !important;
+        line-height: 1.22 !important;
         color: #0f172a !important;
         word-break: break-word !important;
       }}
@@ -3373,8 +3300,8 @@ html_template = f'''<!DOCTYPE html>
         text-align: left !important;
       }}
       .analytics-desc-lead {{
-        font-size: 0.78rem !important;
-        line-height: 1.44 !important;
+        font-size: clamp(0.82rem, 3.4vw, 0.92rem) !important;
+        line-height: 1.5 !important;
         color: #475569 !important;
         margin-top: 0.15rem !important;
         text-align: left !important;
@@ -3392,11 +3319,11 @@ html_template = f'''<!DOCTYPE html>
         grid-column: auto !important;
       }}
       .analytics-topic-card {{
-        padding: 0.6rem 0.85rem !important;
+        padding: 0.65rem 0.9rem !important;
         border-radius: 12px !important;
         display: flex !important;
         align-items: center !important;
-        gap: 0.7rem !important;
+        gap: 0.75rem !important;
         width: 100% !important;
         box-sizing: border-box !important;
         background: #ffffff !important;
@@ -3404,26 +3331,19 @@ html_template = f'''<!DOCTYPE html>
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02) !important;
       }}
       .analytics-icon-box {{
-        width: 34px !important;
-        height: 34px !important;
-        min-width: 34px !important;
-        border-radius: 9px !important;
+        width: 36px !important;
+        height: 36px !important;
+        min-width: 36px !important;
+        border-radius: 10px !important;
         flex-shrink: 0 !important;
       }}
       .analytics-card-title {{
-        font-size: 0.84rem !important;
-        font-weight: 700 !important;
+        font-size: 0.88rem !important;
+        font-weight: 800 !important;
         line-height: 1.25 !important;
         flex: 1 !important;
         color: #0f172a !important;
         margin: 0 !important;
-      }}
-      .analytics-card-arrow {{
-        margin-left: auto !important;
-        flex-shrink: 0 !important;
-        color: #94a3b8 !important;
-        display: flex !important;
-        align-items: center !important;
       }}
       .gate-modules-stack {{
         gap: 0.55rem !important;
@@ -3434,10 +3354,11 @@ html_template = f'''<!DOCTYPE html>
         border-radius: 12px !important;
       }}
       .gate-module-title {{
-        font-size: 0.92rem !important;
+        font-size: 0.94rem !important;
+        font-weight: 800 !important;
       }}
       .gate-module-desc {{
-        font-size: 0.78rem !important;
+        font-size: 0.82rem !important;
       }}
       .lifesaving-modules-grid {{
         grid-template-columns: 1fr !important;
@@ -3449,10 +3370,11 @@ html_template = f'''<!DOCTYPE html>
         border-radius: 12px !important;
       }}
       .lifesaving-card-title {{
-        font-size: 0.88rem !important;
+        font-size: 0.92rem !important;
+        font-weight: 800 !important;
       }}
       .lifesaving-card-desc {{
-        font-size: 0.76rem !important;
+        font-size: 0.8rem !important;
       }}
       .analytics-right-column {{
         width: 100% !important;
@@ -3483,7 +3405,7 @@ html_template = f'''<!DOCTYPE html>
         border: 1px solid rgba(255, 255, 255, 0.15) !important;
         border-radius: 8px !important;
         padding: 0.32rem 0.55rem !important;
-        font-size: 0.62rem !important;
+        font-size: 0.68rem !important;
         color: #f8fafc !important;
         white-space: normal !important;
         display: flex !important;
@@ -3553,7 +3475,7 @@ html_template = f'''<!DOCTYPE html>
         width: 100% !important;
       }}
       .sectors-main-quote {{
-        font-size: 1.12rem !important;
+        font-size: 1.18rem !important;
         line-height: 1.35 !important;
         padding: 0 0.25rem !important;
       }}
@@ -3588,7 +3510,8 @@ html_template = f'''<!DOCTYPE html>
         height: 24px !important;
       }}
       .sector-card-title {{
-        font-size: 0.82rem !important;
+        font-size: 0.86rem !important;
+        font-weight: 800 !important;
       }}
 
       /* 8. Slide 17 Core Team */
@@ -3630,25 +3553,34 @@ html_template = f'''<!DOCTYPE html>
         height: 42px !important;
         border-radius: 10px !important;
       }}
+      .clean-contact-label {{
+        font-size: 0.68rem !important;
+        font-weight: 800 !important;
+      }}
       .clean-contact-val {{
         font-size: 1.02rem !important;
+        font-weight: 800 !important;
       }}
       .clean-contact-val.hq-addr-val {{
         font-size: 0.92rem !important;
       }}
+      .clean-contact-sub {{
+        font-size: 0.74rem !important;
+      }}
 
       /* 10. General Titles & Badges */
       .slide-main-heading {{
-        font-size: 1.35rem !important;
-        line-height: 1.25 !important;
+        font-size: clamp(1.55rem, 6.4vw, 1.95rem) !important;
+        line-height: 1.2 !important;
+        font-weight: 900 !important;
       }}
       .slide-sub-heading {{
-        font-size: 0.82rem !important;
+        font-size: 0.84rem !important;
         line-height: 1.45 !important;
       }}
       .topic-category-badge {{
-        font-size: 0.64rem !important;
-        padding: 0.2rem 0.55rem !important;
+        font-size: 0.7rem !important;
+        padding: 0.22rem 0.6rem !important;
       }}
       .slide-cards-grid-2col {{
         grid-template-columns: 1fr !important;
@@ -3661,17 +3593,19 @@ html_template = f'''<!DOCTYPE html>
         width: calc(100% - 1.5rem) !important;
         max-width: 340px !important;
         padding: 0.32rem 0.65rem !important;
-        gap: 0.35rem !important;
+        gap: 0.45rem !important;
         justify-content: space-between !important;
         box-shadow: 0 10px 28px rgba(0, 0, 0, 0.45) !important;
         z-index: 100 !important;
       }}
       .nav-btn {{
-        padding: 0.32rem 0.75rem !important;
-        font-size: 0.74rem !important;
+        padding: 0.42rem 0.88rem !important;
+        font-size: 0.8rem !important;
+        font-weight: 800 !important;
       }}
       .slide-counter-badge {{
-        font-size: 0.72rem !important;
+        font-size: 0.82rem !important;
+        font-weight: 800 !important;
         padding: 0.22rem 0.45rem !important;
       }}
 
@@ -3688,7 +3622,7 @@ html_template = f'''<!DOCTYPE html>
       }}
       .drawer-grid-item {{
         padding: 0.55rem 0.75rem !important;
-        font-size: 0.8rem !important;
+        font-size: 0.82rem !important;
       }}
     }}
 
