@@ -1,78 +1,85 @@
 # NIMIT AI Vision — Presentation & Web Portal Ecosystem
 
-A modern, high-performance, and beautifully unified web application ecosystem showcasing NIMIT's Vision AI, Edge Surveillance, and Intelligent Industry Solutions.
+A modern, high-performance, and unified web application ecosystem showcasing NIMIT's Vision AI, Edge Surveillance, and Intelligent Industry Solutions.
 
 ---
 
 ## 🚀 Quick Start & Build
 
+### 1. Prerequisites & Dependencies
+```powershell
+pip install -r requirements.txt
+```
+
+### 2. Build Everything
 Compile all 3 web portals into standalone HTML deliverables with a single command:
 
-```bash
-# Compile everything in <0.2 seconds
+```powershell
+# Compiles index.html, solutions.html, and modules.html
 python build_all.py
 ```
 
-Or compile individual portals:
-```bash
-python builders/build_company_hub.py  # Builds index.html (Company Hub)
-python builders/build_solutions.py    # Builds solutions.html (Solutions Ecosystem)
-python builders/build_catalog.py      # Builds modules.html (AI Modules Catalog)
+### 3. Individual Portal Compilers
+```powershell
+python build_company_hub.py  # Compiles index.html (Company Hub)
+python build_solutions.py    # Compiles solutions.html (Solutions Ecosystem)
+python build_catalog.py      # Compiles modules.html (AI Modules Catalog)
+```
+
+### 4. Client Logo Pipeline
+```powershell
+# Extract, clean, sort A-Z and export all 99 client logos
+python tools/extract_client_logos.py
 ```
 
 ---
 
-## 📁 Clean Workspace Structure
+## 📁 Project Architecture & Structure
 
-```
-c:\nimit\
+```text
+nimit/
 │
 ├── 🌐 Core Web Deliverables (Standalone Production HTML)
 │   ├── index.html                  # 1. Company Hub & Executive Overview
 │   ├── solutions.html              # 2. Intelligent Industry Solutions (18 Slides)
 │   └── modules.html                # 3. Art of Intelligence AI Modules (18 Slides)
 │
-├── ⚡ Master Compilers & Build Tools
-│   ├── build_all.py                # One-click master build runner
-│   │
-│   ├── builders/                   # Core Production HTML Compilers
-│   │   ├── build_company_hub.py    # Generator for index.html
-│   │   ├── build_solutions.py      # Generator for solutions.html
-│   │   └── build_catalog.py        # Generator for modules.html
-│   │
-│   └── tools/                      # Asset, Visual & Logo Generation Utilities
-│       ├── generate_isometric_hospitality.py
-│       ├── generate_sectors_visual.py
-│       ├── generate_hospitality_visual.py
-│       ├── generate_luxury_hospitality.py
-│       ├── generate_engaging_hospitality.py
-│       ├── generate_perfect_logos.py
-│       ├── export_all_logos.py
-│       ├── generate_alphabetical_clients.py
-│       ├── generate_clients_mobile.py
-│       ├── combine_clients_unified.py
-│       ├── process_combined_clients.py
-│       ├── rebuild_master_images.py
-│       └── inspect_modules.py
+├── ⚡ Master Compilers & Runners
+│   ├── build_all.py                # Master build runner (all 3 portals)
+│   ├── build_company_hub.py        # Shortcut runner for index.html
+│   ├── build_solutions.py          # Shortcut runner for solutions.html
+│   └── build_catalog.py            # Shortcut runner for modules.html
 │
-├── 📊 Structured Data Models
-│   └── data/
-│       ├── slides_data.json        # Single source of truth for slide content
-│       ├── slides_extracted.json   # Extracted presentation content metadata
-│       └── logo_manifest.json      # Structured manifest for client logo wall
+├── 🏗️ builders/                     # Core HTML Template Generators
+│   ├── build_company_hub.py        # Generator for index.html
+│   ├── build_solutions.py          # Generator for solutions.html
+│   └── build_catalog.py            # Generator for modules.html
 │
-├── 🎨 Production Media & Assets
-│   └── assets/
-│       ├── client_logos/           # High-resolution, cleanly isolated client logos
-│       ├── *.mp4                   # 16:9 MP4 video feeds for live analytics
-│       └── *.png / *.jpg           # Diagrams, architecture mockups, and logos
+├── 📊 data/                        # Canonical Data Models & Source of Truth
+│   ├── client_names.json           # Canonical Brand Names mapping (Index 0-98)
+│   ├── logo_manifest.json          # Alphabetical metadata & asset paths for all 99 logos
+│   ├── slides_data.json            # Content model for solution slides
+│   └── slides_extracted.json       # Presentation metadata
 │
-├── 📦 Raw Sources & Archives
-│   └── raw_sources/
-│       └── Nimit AI.pptx           # Original source presentation
+├── 🛠️ tools/                       # Production Utilities & Asset Pipelines
+│   ├── extract_client_logos.py     # End-to-end client card cropper & A-Z logo exporter
+│   ├── process_combined_clients.py # Master side-by-side & stacked grid assembler
+│   └── inspect_modules.py          # Slide content inspector
 │
-└── 🧪 Scratch & Exploratory Files
-    └── scratch/                    # Historical inspection and crop experiments
+├── 🎨 assets/                      # Production Media & Static Assets
+│   ├── client_logos/               # 99 normalized, clean client brand logos
+│   ├── *.mp4                       # 16:9 MP4 video feeds for live analytics
+│   └── *.png / *.jpg               # Architecture diagrams, mockups, and icons
+│
+├── 📦 raw_sources/                 # Original Raw Source Presentations
+│   └── Nimit AI.pptx               # Source PowerPoint presentation
+│
+├── 🧪 scratch/                     # Sandbox for Experiments & Diagnostics
+│   ├── assign_names.py             # Name mapping module & diagnostic validator
+│   └── clean_export_all.py         # Background cleaning sandbox
+│
+├── requirements.txt                # Python environment dependencies
+└── .gitignore                      # Git ignore patterns for clean version control
 ```
 
 ---
