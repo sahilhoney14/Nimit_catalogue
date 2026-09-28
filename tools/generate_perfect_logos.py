@@ -95,15 +95,15 @@ def run_generate_perfect_logos():
     ]
 
     all_crops = []
-    # Crop Part 1
-    idx = 1
+    # Crop Part 1 (indices 0..53)
+    idx = 0
     for (y_top, y_bot), x_pairs in p1_logo_boxes:
         for x_left, x_right in x_pairs:
             c = im1.crop((x_left, y_top, x_right, y_bot))
             all_crops.append((idx, c))
             idx += 1
 
-    # Crop Part 2
+    # Crop Part 2 (indices 54..98)
     for (y_top, y_bot), x_pairs in p2_logo_boxes:
         for x_left, x_right in x_pairs:
             c = im2.crop((x_left, y_top, x_right, y_bot))
@@ -111,17 +111,17 @@ def run_generate_perfect_logos():
             idx += 1
 
     # Load brand names
-    details_path = os.path.join(ROOT_DIR, 'scratch', 'client_details.json')
-    if os.path.exists(details_path):
-        with open(details_path, 'r', encoding='utf-8') as f:
-            details = json.load(f)
+    names_path = os.path.join(ROOT_DIR, 'data', 'client_names.json')
+    if os.path.exists(names_path):
+        with open(names_path, 'r', encoding='utf-8') as f:
+            names_dict = json.load(f)
     else:
-        details = {}
+        names_dict = {}
 
     # Sort alphabetically
     named_crops = []
     for idx, crop in all_crops:
-        brand = details.get(str(idx), f"Client {idx}")
+        brand = names_dict.get(str(idx), f"Client #{idx:02d}")
         named_crops.append((idx, brand, crop))
 
     named_crops.sort(key=lambda x: x[1].lower())
@@ -132,7 +132,7 @@ def run_generate_perfect_logos():
     manifest = []
     for i, (idx, brand, raw_crop) in enumerate(named_crops):
         cw, ch = raw_crop.size
-        # Find tight bounding box
+        # Find tight bounding box of non-white pixels
         min_x, max_x, min_y, max_y = cw, 0, ch, 0
         pad = 2
         for y in range(pad, ch - pad):
@@ -147,13 +147,13 @@ def run_generate_perfect_logos():
         if min_x >= max_x or min_y >= max_y:
             tight_logo = raw_crop
         else:
-            min_x = max(0, min_x - 2)
-            min_y = max(0, min_y - 2)
-            max_x = min(cw, max_x + 2)
-            max_y = min(ch, max_y + 2)
+            min_x = max(0, min_x - 3)
+            min_y = max(0, min_y - 3)
+            max_x = min(cw, max_x + 3)
+            max_y = min(ch, max_y + 3)
             tight_logo = raw_crop.crop((min_x, min_y, max_x, max_y))
             
-        # Render onto clean white 220 x 140 card
+        # Render onto clean pure white 220 x 140 card
         card_img = Image.new('RGB', (220, 140), (255, 255, 255))
         max_w, max_h = 184, 110
         lw, lh = tight_logo.size
@@ -180,9 +180,9 @@ def run_generate_perfect_logos():
 
     manifest_path = os.path.join(ROOT_DIR, 'data', 'logo_manifest.json')
     with open(manifest_path, 'w', encoding='utf-8') as f:
-        json.dump(manifest, f, indent=2)
+        json.dump(manifest, f, indent=2, ensure_ascii=False)
 
-    print(f"Generated {len(manifest)} client logo files into assets/client_logos/ and updated data/logo_manifest.json.")
+    print(f"[+] Successfully generated {len(manifest)} perfect client logos into assets/client_logos/ and updated data/logo_manifest.json.")
 
 if __name__ == '__main__':
     run_generate_perfect_logos()
