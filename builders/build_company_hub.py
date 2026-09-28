@@ -1,9 +1,22 @@
-# -*- coding: utf-8 -*-
 import json
 import os
+from PIL import Image
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(SCRIPT_DIR) if os.path.basename(SCRIPT_DIR) == 'builders' else SCRIPT_DIR
+
+# Ensure 35% left-cropped mobile building image exists
+orig_bld_path = os.path.join(ROOT_DIR, 'assets', 'NIMIT_Building.png')
+mob_bld_path = os.path.join(ROOT_DIR, 'assets', 'NIMIT_Building_mobile.png')
+if os.path.exists(orig_bld_path):
+    try:
+        with Image.open(orig_bld_path) as im:
+            w, h = im.size
+            crop_x = int(w * 0.35)
+            cropped = im.crop((crop_x, 0, w, h))
+            cropped.save(mob_bld_path, 'PNG')
+    except Exception as e:
+        print(f"Warning: Could not create mobile cropped image: {e}")
 
 slides_data = [
     {
@@ -13,79 +26,41 @@ slides_data = [
         'type': 'cover',
         'html': '''
           <div class="slide-brochure-cover-layout">
-            <!-- Main Body Grid: Left Content + Right Architecture Visual -->
+            <img src="assets/NIMIT_Building.png" alt="Nimit Electronics Vadodara Head Office" class="cover-full-backdrop-img">
+            <div class="cover-legibility-veil"></div>
+
             <div class="brochure-card-body">
-              <!-- Left Main Content Stage -->
               <div class="brochure-content-stage">
                 <div class="brochure-headline-group">
-                  <a href="https://www.nimitelectronics.com" target="_blank" class="brochure-eyebrow-badge" title="Visit www.nimitelectronics.com">
-                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                      <circle cx="12" cy="12" r="10"/>
-                      <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
-                      <path d="M2 12h20"/>
-                    </svg>
-                    <span class="eyebrow-badge-text">www.nimitelectronics.com</span>
-                  </a>
                   <h1 class="brochure-main-title">
-                    <span class="title-line-1">SOLUTION BY</span>
-                    <span class="title-line-2">TECHNOLOGY</span>
+                    <span class="title-solution-by">SOLUTION BY</span>
+                    <span class="title-technology">TECHNOLOGY</span>
                   </h1>
-                  <p class="brochure-desc-para">
-                    Next-generation safety, computer vision surveillance, and integrated security solutions designed for businesses, institutions and communities across India.
-                  </p>
                 </div>
 
-                <!-- 3 Executive Stat Badges -->
-                <div class="brochure-metrics-row">
-                  <div class="brochure-stat-unit">
-                    <div class="stat-icon-circle">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="#e51924">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
-                      </svg>
-                    </div>
-                    <div class="stat-info-col">
-                      <span class="stat-number" data-target="100" data-suffix="+">100+</span>
-                      <span class="stat-label">Cities Nationwide</span>
-                    </div>
-                  </div>
-
-                  <div class="stat-divider-line"></div>
-
-                  <div class="brochure-stat-unit">
-                    <div class="stat-icon-circle">
-                      <svg width="19" height="19" viewBox="0 0 24 24" fill="#e51924">
-                        <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
-                      </svg>
-                    </div>
-                    <div class="stat-info-col">
-                      <span class="stat-number" data-target="4500" data-suffix="+">4500+</span>
-                      <span class="stat-label">Happy Clients</span>
-                    </div>
-                  </div>
-
-                  <div class="stat-divider-line"></div>
-
-                  <div class="brochure-stat-unit">
-                    <div class="stat-icon-circle">
-                      <svg width="18" height="18" viewBox="0 0 24 24" fill="#e51924">
-                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                      </svg>
-                    </div>
-                    <div class="stat-info-col">
-                      <span class="stat-number" data-target="250" data-suffix="+">250+</span>
-                      <span class="stat-label">Expert Team</span>
-                    </div>
-                  </div>
+                <!-- Mobile Centered Building Graphic Box (Between headline and link on small screens) -->
+                <div class="brochure-mobile-building-box">
+                  <img src="assets/NIMIT_Building_mobile.png" alt="Nimit Electronics Vadodara Head Office" class="brochure-mobile-building-img">
                 </div>
-              </div>
 
-              <!-- Right Architecture Visual -->
-              <div class="brochure-hero-building-layer">
-                <img src="assets/nimit_building_centered.png" alt="Nimit Electronics Vadodara Head Office" class="brochure-building-img">
-                <div class="brochure-building-gradient-mask"></div>
-                <div class="brochure-building-hud-pill">
-                  <span class="hud-blink-dot"></span>
-                  <span>NIMIT HEAD OFFICE &bull; VADODARA</span>
+                <!-- Sleek Website Pill Link -->
+                <div class="cover-card-footer">
+                  <a href="https://www.nimitelectronics.com" target="_blank" class="footer-web-pill">
+                    <span class="web-icon-orb">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                        <path d="M2 12h20"></path>
+                      </svg>
+                    </span>
+                    <span class="web-url-text">www.nimitelectronics.com</span>
+                    <span class="pill-arrow-circle">
+                      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="7" y1="17" x2="17" y2="7"></line>
+                        <polyline points="7 7 17 7 17 17"></polyline>
+                      </svg>
+                    </span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -156,6 +131,49 @@ slides_data = [
                     </svg>
                   </div>
                   <h3 class="pillar-heading">National Reach</h3>
+                </div>
+              </div>
+
+              <!-- 3 Executive Stat Badges (Shifted to Last on Page 2) -->
+              <div class="welcome-metrics-row">
+                <div class="welcome-stat-unit">
+                  <div class="welcome-stat-icon-circle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="#e51924">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+                    </svg>
+                  </div>
+                  <div class="welcome-stat-info-col">
+                    <span class="stat-number" data-target="100" data-suffix="+">100+</span>
+                    <span class="stat-label">Cities Nationwide</span>
+                  </div>
+                </div>
+
+                <div class="welcome-stat-divider"></div>
+
+                <div class="welcome-stat-unit">
+                  <div class="welcome-stat-icon-circle">
+                    <svg width="19" height="19" viewBox="0 0 24 24" fill="#e51924">
+                      <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+                    </svg>
+                  </div>
+                  <div class="welcome-stat-info-col">
+                    <span class="stat-number" data-target="4500" data-suffix="+">4500+</span>
+                    <span class="stat-label">Happy Clients</span>
+                  </div>
+                </div>
+
+                <div class="welcome-stat-divider"></div>
+
+                <div class="welcome-stat-unit">
+                  <div class="welcome-stat-icon-circle">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="#e51924">
+                      <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                    </svg>
+                  </div>
+                  <div class="welcome-stat-info-col">
+                    <span class="stat-number" data-target="250" data-suffix="+">250+</span>
+                    <span class="stat-label">Expert Team</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -436,6 +454,14 @@ html_template = '''<!DOCTYPE html>
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      transition: background 0.3s ease;
+    }
+
+    .app-screen-canvas.is-cover-slide {
+      background: #ffffff;
+    }
+
+    .app-screen-canvas.is-content-slide {
       background: radial-gradient(circle at 15% 15%, rgba(229, 25, 36, 0.035) 0%, transparent 45%),
                   radial-gradient(circle at 85% 85%, rgba(15, 23, 42, 0.03) 0%, transparent 45%),
                   #f8fafc;
@@ -451,6 +477,11 @@ html_template = '''<!DOCTYPE html>
       pointer-events: none;
       z-index: 2;
       opacity: 0.12;
+      transition: opacity 0.3s ease;
+    }
+
+    .is-cover-slide #neuralCanvas {
+      opacity: 0.04;
     }
 
     /* Main Foreground Layout */
@@ -463,6 +494,32 @@ html_template = '''<!DOCTYPE html>
       flex-direction: column;
       justify-content: space-between;
       padding: clamp(0.5rem, 1.2vh, 0.9rem) clamp(1.2rem, 3.2vw, 3.5rem) clamp(60px, 7.8vh, 72px) clamp(1.2rem, 3.2vw, 3.5rem);
+    }
+
+    .is-cover-slide .foreground-content {
+      padding: 0;
+    }
+
+    .is-cover-slide .header-row {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: clamp(0.5rem, 1.2vh, 0.9rem) clamp(1.2rem, 3.2vw, 3.5rem);
+      z-index: 20;
+    }
+
+    .is-cover-slide .slide-stage-viewport {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .is-cover-slide .slide-page-container {
+      width: 100%;
+      height: 100%;
+      transform: none;
     }
 
     /* =====================================================
@@ -736,336 +793,178 @@ html_template = '''<!DOCTYPE html>
     }
 
     /* =====================================================
-       SLIDE 1: BROCHURE HERO COVER (CLEAN & PROFESSIONAL)
+       SLIDE 1: BROCHURE HERO COVER (FULL-BLEED SCREENSHOT STYLE)
        ===================================================== */
     .slide-brochure-cover-layout {
-      position: relative;
+      position: absolute;
+      inset: 0;
       width: 100%;
-      max-width: 1240px;
-      height: clamp(450px, 68vh, 550px);
-      background: #ffffff;
-      border-radius: 22px;
-      overflow: hidden;
-      box-shadow: 0 20px 50px rgba(15, 23, 42, 0.06), 0 1px 3px rgba(0, 0, 0, 0.03);
-      border: 1.5px solid #e2e8f0;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      margin: 0 auto;
-      padding-bottom: clamp(14px, 2vh, 20px);
-    }
-
-    /* Top Navigation & Brand Header Inside Card */
-    .brochure-card-topbar {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      padding: clamp(14px, 2vh, 18px) clamp(22px, 2.5vw, 32px);
-      position: relative;
-      z-index: 20;
-    }
-
-    .brochure-brand-tag {
-      display: inline-flex;
-      align-items: center;
-      gap: 7px;
-      background: rgba(229, 25, 36, 0.08);
-      border: 1px solid rgba(229, 25, 36, 0.22);
-      padding: 5px 14px;
-      border-radius: 999px;
-    }
-
-    .brand-tag-dot {
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      background: var(--primary-red);
-      box-shadow: 0 0 8px rgba(229, 25, 36, 0.9);
-      animation: pulseBlink 1.6s infinite ease-in-out;
-    }
-
-    .brand-tag-text {
-      font-family: var(--font-mono);
-      font-size: 0.72rem;
-      font-weight: 800;
-      color: var(--primary-red);
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-    }
-
-    .brochure-url-link {
-      font-family: var(--font-mono);
-      font-size: 0.78rem;
-      font-weight: 700;
-      color: var(--slate-muted);
-      text-decoration: none;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      padding: 5px 14px;
-      background: rgba(255, 255, 255, 0.92);
-      backdrop-filter: blur(8px);
-      -webkit-backdrop-filter: blur(8px);
-      border-radius: 999px;
-      border: 1px solid #e2e8f0;
-      transition: all 0.2s ease;
-      letter-spacing: 0.04em;
-    }
-
-    .brochure-url-link:hover {
-      color: var(--primary-red);
-      border-color: var(--primary-red);
-      background: #ffffff;
-      transform: translateY(-1px);
-    }
-
-    /* Main Card Body Grid */
-    .brochure-card-body {
-      position: relative;
-      width: 100%;
-      flex: 1;
-      display: grid;
-      grid-template-columns: 1.15fr 0.95fr;
-      gap: clamp(1.4rem, 2.4vw, 2.8rem);
-      align-items: stretch;
-      padding: 0 clamp(20px, 2.5vw, 32px) 0 clamp(24px, 3vw, 38px);
-      min-height: 0;
-      overflow: hidden;
-    }
-
-    /* Left Main Content Stage */
-    .brochure-content-stage {
-      position: relative;
-      z-index: 10;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: clamp(14px, 2vh, 20px);
       height: 100%;
-      padding: clamp(4px, 0.8vh, 8px) 0;
-      max-width: 590px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      background: #ffffff;
+    }
+
+    .cover-full-backdrop-img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: right center;
+      z-index: 1;
+      display: block;
+    }
+
+    .cover-legibility-veil {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 58%;
+      height: 100%;
+      background: linear-gradient(90deg, #ffffff 0%, #ffffff 38%, rgba(255, 255, 255, 0.94) 55%, rgba(255, 255, 255, 0.6) 75%, rgba(255, 255, 255, 0) 100%);
+      z-index: 2;
+      pointer-events: none;
+    }
+
+    .slide-brochure-cover-layout .brochure-card-body {
+      position: relative;
+      z-index: 5;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      padding: 0 clamp(1.2rem, 3.2vw, 3.5rem);
+    }
+
+    .slide-brochure-cover-layout .brochure-content-stage {
+      max-width: 580px;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      transform: translateY(-8px);
+      z-index: 6;
     }
 
     .brochure-headline-group {
       display: flex;
       flex-direction: column;
-      gap: clamp(8px, 1.2vh, 12px);
-    }
-
-    .brochure-eyebrow-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 7px;
-      padding: 5px 14px;
-      background: rgba(229, 25, 36, 0.07);
-      border: 1px solid rgba(229, 25, 36, 0.22);
-      border-radius: 999px;
-      width: fit-content;
-      text-decoration: none;
-      color: var(--primary-red);
-      transition: all 0.2s ease;
-    }
-
-    .brochure-eyebrow-badge:hover {
-      background: rgba(229, 25, 36, 0.13);
-      border-color: var(--primary-red);
-      transform: translateY(-1px);
-      box-shadow: 0 4px 12px rgba(229, 25, 36, 0.15);
-    }
-
-    .eyebrow-accent-dot {
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      background: var(--primary-red);
-      box-shadow: 0 0 8px rgba(229, 25, 36, 0.85);
-      animation: pulseBlink 1.6s infinite ease-in-out;
-    }
-
-    .eyebrow-badge-text {
-      font-family: var(--font-mono);
-      font-size: clamp(0.72rem, 0.8vw, 0.78rem);
-      font-weight: 700;
-      color: var(--primary-red);
-      letter-spacing: 0.04em;
+      gap: 0;
     }
 
     .brochure-main-title {
-      font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+      font-family: 'Plus Jakarta Sans', 'Outfit', sans-serif;
       margin: 0;
       display: flex;
       flex-direction: column;
-      gap: 1px;
+      line-height: 1;
     }
 
-    .brochure-main-title .title-line-1 {
-      font-size: clamp(2.2rem, 3.3vw, 3.15rem);
-      font-weight: 800;
-      letter-spacing: -0.025em;
-      color: #0f172a;
-      line-height: 1.05;
-      text-transform: uppercase;
-    }
-
-    .brochure-main-title .title-line-2 {
-      font-size: clamp(2.75rem, 4.3vw, 4.15rem);
+    .title-solution-by,
+    .title-technology {
+      font-size: clamp(2.8rem, 4.8vw, 4.8rem);
       font-weight: 900;
-      letter-spacing: -0.035em;
-      line-height: 0.96;
+      letter-spacing: -0.025em;
       text-transform: uppercase;
-      background: linear-gradient(135deg, #e51924 0%, #dc2626 45%, #991b1b 100%);
+      display: block;
+    }
+
+    .title-solution-by {
+      color: #0f172a;
+      line-height: 1.02;
+    }
+
+    .title-technology {
+      color: var(--primary-red);
+      background: linear-gradient(135deg, #ff2633 0%, #e51924 55%, #b9131c 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      filter: drop-shadow(0 4px 14px rgba(229, 25, 36, 0.18));
-      display: inline-block;
-      margin-top: 1px;
+      line-height: 0.98;
+      margin-top: 2px;
+      filter: drop-shadow(0 4px 16px rgba(229, 25, 36, 0.16));
     }
 
-    .brochure-desc-para {
-      font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
-      font-size: clamp(0.92rem, 1.08vw, 1.04rem);
-      color: #475569;
-      line-height: 1.65;
-      font-weight: 500;
-      max-width: 530px;
-      margin: 0;
-    }
-
-    /* 3 Executive Stat Items */
-    .brochure-metrics-row {
+    .cover-card-footer {
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      gap: clamp(8px, 1.2vw, 16px);
       width: 100%;
-      margin-top: 6px;
-      padding: clamp(10px, 1.4vh, 14px) clamp(14px, 1.6vw, 20px);
-      background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
-      border: 1.5px solid #e2e8f0;
-      border-radius: 16px;
-      box-shadow: 0 4px 16px rgba(15, 23, 42, 0.04);
-      transition: all 0.25s ease;
+      margin-top: clamp(1rem, 2vh, 1.6rem);
     }
 
-    .brochure-metrics-row:hover {
-      border-color: rgba(229, 25, 36, 0.3);
-      box-shadow: 0 8px 24px rgba(229, 25, 36, 0.06);
-    }
-
-    .brochure-stat-unit {
-      display: flex;
+    .footer-web-pill {
+      display: inline-flex;
       align-items: center;
-      gap: clamp(8px, 1vw, 12px);
-      flex: 1;
+      gap: 10px;
+      padding: 0.38rem 0.55rem 0.38rem 0.42rem;
+      background: #ffffff;
+      border: 1.2px solid rgba(226, 232, 240, 0.95);
+      border-radius: 9999px;
+      font-family: var(--font-mono, monospace);
+      font-size: clamp(0.78rem, 0.88vw, 0.86rem);
+      font-weight: 700;
+      color: #1e293b;
+      text-decoration: none;
+      box-shadow: 0 4px 16px rgba(15, 23, 42, 0.06);
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      width: fit-content;
     }
 
-    .stat-icon-circle {
-      width: clamp(36px, 2.6vw, 42px);
-      height: clamp(36px, 2.6vw, 42px);
+    .web-icon-orb {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 26px;
+      height: 26px;
       border-radius: 50%;
-      background: #ffffff;
-      border: 1.5px solid rgba(229, 25, 36, 0.22);
-      box-shadow: 0 2px 8px rgba(229, 25, 36, 0.08);
+      background: rgba(229, 25, 36, 0.08);
+      border: 1px solid rgba(229, 25, 36, 0.18);
+      color: #e51924;
+      transition: all 0.25s ease;
+      flex-shrink: 0;
+    }
+
+    .web-url-text {
+      letter-spacing: -0.01em;
+      padding-right: 2px;
+    }
+
+    .pill-arrow-circle {
       display: flex;
       align-items: center;
       justify-content: center;
-      flex-shrink: 0;
-      transition: all 0.2s ease;
-    }
-
-    .brochure-stat-unit:hover .stat-icon-circle {
-      background: rgba(229, 25, 36, 0.08);
-      transform: scale(1.06);
-    }
-
-    .stat-info-col {
-      display: flex;
-      flex-direction: column;
-      gap: 1px;
-    }
-
-    .stat-number {
-      font-family: var(--font-display);
-      font-size: clamp(1.15rem, 1.4vw, 1.36rem);
-      font-weight: 900;
-      color: #0f172a;
-      line-height: 1.1;
-      letter-spacing: -0.02em;
-      font-variant-numeric: tabular-nums;
-      display: inline-block;
-      min-width: 2.8ch;
-    }
-
-    .stat-label {
-      font-family: var(--font-body);
-      font-size: clamp(0.7rem, 0.82vw, 0.8rem);
-      font-weight: 700;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: #f1f5f9;
       color: #64748b;
-      white-space: nowrap;
-      line-height: 1.2;
-    }
-
-    .stat-divider-line {
-      width: 1px;
-      height: 30px;
-      background: #e2e8f0;
+      transition: all 0.25s ease;
       flex-shrink: 0;
     }
 
-    /* Right Architecture Visual Showcase Frame */
-    .brochure-hero-building-layer {
-      position: relative;
-      width: 100%;
-      height: 100%;
-      min-height: 280px;
-      border-radius: 20px;
-      overflow: hidden;
-      border: 1.5px solid #e2e8f0;
-      box-shadow: 0 16px 36px rgba(15, 23, 42, 0.07), 0 2px 6px rgba(0, 0, 0, 0.03);
-      background: #0f172a;
+    .footer-web-pill:hover {
+      color: var(--primary-red);
+      border-color: rgba(229, 25, 36, 0.35);
+      box-shadow: 0 6px 22px rgba(229, 25, 36, 0.15);
+      transform: translateY(-2px);
     }
 
-    .brochure-building-img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center 48%;
-      display: block;
-      transition: transform 0.5s ease;
-    }
-
-    .brochure-hero-building-layer:hover .brochure-building-img {
-      transform: scale(1.02);
-    }
-
-    .brochure-building-gradient-mask {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(180deg, rgba(15,23,42,0) 62%, rgba(15,23,42,0.65) 100%);
-      pointer-events: none;
-    }
-
-    .brochure-building-hud-pill {
-      position: absolute;
-      bottom: 14px;
-      right: 14px;
-      background: rgba(15, 23, 42, 0.88);
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px);
-      border: 1px solid rgba(255, 255, 255, 0.22);
-      border-radius: 999px;
-      padding: 5px 14px;
-      display: flex;
-      align-items: center;
-      gap: 7px;
-      font-family: var(--font-mono);
-      font-size: 0.65rem;
-      font-weight: 800;
+    .footer-web-pill:hover .web-icon-orb {
+      background: #e51924;
+      border-color: #e51924;
       color: #ffffff;
-      letter-spacing: 0.07em;
-      z-index: 5;
-      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+      box-shadow: 0 2px 8px rgba(229, 25, 36, 0.35);
+    }
+
+    .footer-web-pill:hover .pill-arrow-circle {
+      background: #fee2e2;
+      color: #e51924;
+      transform: translate(2px, -2px);
+    }
+
+    .brochure-mobile-building-box {
+      display: none;
     }
 
     /* =====================================================
@@ -1165,21 +1064,98 @@ html_template = '''<!DOCTYPE html>
       color: var(--slate-muted);
     }
 
+    /* 3 Executive Stat Items on Page 2 */
+    .welcome-metrics-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: clamp(8px, 1.2vw, 16px);
+      width: 100%;
+      padding: clamp(8px, 1vh, 12px) clamp(12px, 1.5vw, 18px);
+      background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+      border: 1.2px solid #e2e8f0;
+      border-radius: 14px;
+      box-shadow: 0 2px 8px rgba(15, 23, 42, 0.03);
+      margin-top: 0.2rem;
+      transition: all 0.25s ease;
+    }
+
+    .welcome-metrics-row:hover {
+      border-color: rgba(229, 25, 36, 0.25);
+      box-shadow: 0 6px 18px rgba(229, 25, 36, 0.05);
+    }
+
+    .welcome-stat-unit {
+      display: flex;
+      align-items: center;
+      gap: clamp(8px, 1vw, 12px);
+      flex: 1;
+    }
+
+    .welcome-stat-icon-circle {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: #fee2e2;
+      border: 1.2px solid rgba(229, 25, 36, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      transition: all 0.2s ease;
+    }
+
+    .welcome-stat-unit:hover .welcome-stat-icon-circle {
+      background: rgba(229, 25, 36, 0.12);
+      transform: scale(1.06);
+    }
+
+    .welcome-stat-info-col {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+    }
+
+    .welcome-stat-info-col .stat-number {
+      font-family: var(--font-display, 'Outfit', sans-serif);
+      font-size: clamp(1.15rem, 1.45vw, 1.42rem);
+      font-weight: 900;
+      color: #0f172a;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+    }
+
+    .welcome-stat-info-col .stat-label {
+      font-family: var(--font-body, 'Plus Jakarta Sans', sans-serif);
+      font-size: clamp(0.72rem, 0.85vw, 0.82rem);
+      font-weight: 700;
+      color: #64748b;
+      white-space: nowrap;
+      line-height: 1.2;
+    }
+
+    .welcome-stat-divider {
+      width: 1px;
+      height: 28px;
+      background: #e2e8f0;
+      flex-shrink: 0;
+    }
+
     .welcome-pillars-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 0.75rem 0.95rem;
-      margin-top: 0.4rem;
+      gap: 0.65rem 0.85rem;
+      margin-top: 0.3rem;
     }
 
     .welcome-pillar-card {
       background: #ffffff;
       border: 1px solid #e2e8f0;
       border-radius: 12px;
-      padding: 0.8rem 1rem;
+      padding: 0.65rem 0.85rem;
       display: flex;
       align-items: center;
-      gap: 0.8rem;
+      gap: 0.75rem;
       transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
     }
@@ -2197,7 +2173,8 @@ html_template = '''<!DOCTYPE html>
         display: flex !important;
         flex-direction: column !important;
       }
-      .foreground-content {
+      .foreground-content,
+      .is-cover-slide .foreground-content {
         min-height: 100dvh !important;
         height: auto !important;
         padding: 0.35rem 0.65rem 6.5rem 0.65rem !important;
@@ -2208,8 +2185,16 @@ html_template = '''<!DOCTYPE html>
         overflow: visible !important;
         box-sizing: border-box !important;
         width: 100% !important;
+        position: relative !important;
       }
-      .slide-stage-viewport {
+      .is-cover-slide .header-row {
+        position: sticky !important;
+        top: 0 !important;
+        padding: 0.15rem 0 !important;
+        z-index: 50 !important;
+      }
+      .slide-stage-viewport,
+      .is-cover-slide .slide-stage-viewport {
         flex: 1 0 auto !important;
         display: flex !important;
         flex-direction: column !important;
@@ -2220,8 +2205,11 @@ html_template = '''<!DOCTYPE html>
         overflow: visible !important;
         margin: 0.25rem 0 0 0 !important;
         width: 100% !important;
+        position: relative !important;
+        inset: auto !important;
       }
-      .slide-page-container {
+      .slide-page-container,
+      .is-cover-slide .slide-page-container {
         height: auto !important;
         min-height: 0 !important;
         width: 100% !important;
@@ -2229,6 +2217,7 @@ html_template = '''<!DOCTYPE html>
         flex-direction: column !important;
         justify-content: flex-start !important;
         align-items: stretch !important;
+        position: relative !important;
       }
 
       /* 1. Top Header Bar Mobile */
@@ -2340,139 +2329,88 @@ html_template = '''<!DOCTYPE html>
 
       /* Slide 1: Brochure Cover Mobile */
       .slide-brochure-cover-layout {
+        position: relative !important;
+        width: 100% !important;
         height: auto !important;
-        min-height: unset !important;
-        border-radius: 16px !important;
-        padding: 0 !important;
-        background: #ffffff !important;
-        border: 1.2px solid rgba(226, 232, 240, 0.95) !important;
-        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04) !important;
-        overflow: hidden !important;
-        width: 100% !important;
-      }
-      .brochure-card-topbar {
-        padding: 0.65rem 0.8rem !important;
+        min-height: calc(100dvh - 125px) !important;
         display: flex !important;
-        flex-direction: row !important;
-        justify-content: flex-end !important;
+        flex-direction: column !important;
+        justify-content: center !important;
         align-items: center !important;
-        border-bottom: 1px solid #f1f5f9 !important;
+        background: transparent !important;
+        padding: 0.2rem 0 2rem 0 !important;
+        border: none !important;
+        box-shadow: none !important;
       }
-      .brochure-url-link {
-        font-size: 0.72rem !important;
-        font-weight: 700 !important;
-        padding: 0.2rem 0.55rem !important;
+      .cover-full-backdrop-img {
+        display: none !important;
       }
-      .brochure-card-body {
+      .cover-legibility-veil {
+        display: none !important;
+      }
+      .slide-brochure-cover-layout .brochure-card-body {
+        padding: 0 0.5rem !important;
         display: flex !important;
         flex-direction: column !important;
-        gap: 0.75rem !important;
-        padding: 0.85rem !important;
+        align-items: center !important;
+        width: 100% !important;
+        height: auto !important;
+      }
+      .slide-brochure-cover-layout .brochure-content-stage {
+        transform: none !important;
+        max-width: 100% !important;
+        align-items: center !important;
+        text-align: center !important;
+        gap: clamp(8px, 1.8vh, 14px) !important;
+        padding: 0.2rem 0 !important;
         width: 100% !important;
       }
-      .brochure-content-stage {
-        padding: 0 !important;
-        display: flex !important;
-        flex-direction: column !important;
-        gap: 0.65rem !important;
-        width: 100% !important;
-      }
-      .brochure-eyebrow-badge {
-        font-size: 0.72rem !important;
-        padding: 0.22rem 0.65rem !important;
-      }
-      .eyebrow-badge-text {
-        font-size: 0.72rem !important;
+      .brochure-headline-group {
+        align-items: center !important;
+        text-align: center !important;
       }
       .brochure-main-title {
-        font-size: clamp(1.75rem, 6.8vw, 2.25rem) !important;
-        font-weight: 900 !important;
-        line-height: 1.12 !important;
-        letter-spacing: -0.02em !important;
-        margin: 0.1rem 0 !important;
-      }
-      .brochure-main-title .title-line-1 {
-        font-size: clamp(1.65rem, 6.4vw, 2.05rem) !important;
-      }
-      .brochure-main-title .title-line-2 {
-        font-size: clamp(2.05rem, 8vw, 2.6rem) !important;
-      }
-      .brochure-desc-para {
-        font-size: clamp(0.82rem, 3.4vw, 0.92rem) !important;
-        line-height: 1.5 !important;
-        color: #475569 !important;
-      }
-      .brochure-metrics-row {
         display: flex !important;
-        flex-direction: row !important;
-        justify-content: space-between !important;
-        gap: 4px !important;
-        padding: 0.6rem 0.65rem !important;
-        border-radius: 12px !important;
-        background: #f8fafc !important;
-        border: 1.2px solid rgba(226, 232, 240, 0.95) !important;
-        width: 100% !important;
-      }
-      .brochure-stat-unit {
-        display: flex !important;
+        flex-direction: column !important;
         align-items: center !important;
-        gap: 6px !important;
-        flex: 1 !important;
+        text-align: center !important;
+        margin: 0 !important;
       }
-      .stat-icon-circle {
-        width: 30px !important;
-        height: 30px !important;
+      .title-solution-by,
+      .title-technology {
+        font-size: clamp(24px, 6.8vw, 34px) !important;
+        text-align: center !important;
       }
-      .stat-icon-circle svg {
-        width: 15px !important;
-        height: 15px !important;
-      }
-      .stat-number {
-        font-size: 1.02rem !important;
-        font-weight: 900 !important;
-        color: #0f172a !important;
-        line-height: 1.1 !important;
-      }
-      .stat-label {
-        font-size: 0.62rem !important;
-        font-weight: 700 !important;
-        color: #64748b !important;
-      }
-      .stat-divider-line {
-        height: 22px !important;
-      }
-      .brochure-hero-building-layer {
+      .brochure-mobile-building-box {
         display: block !important;
         width: 100% !important;
-        height: 170px !important;
-        border-radius: 12px !important;
+        margin: 0.25rem 0 !important;
+        border-radius: 14px !important;
         overflow: hidden !important;
-        position: relative !important;
-        margin-top: 0.15rem !important;
+        box-shadow: 0 4px 18px rgba(15, 23, 42, 0.08) !important;
         border: 1.2px solid rgba(226, 232, 240, 0.95) !important;
-        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05) !important;
+        box-sizing: border-box !important;
       }
-      .brochure-building-img {
+      .brochure-mobile-building-img {
         width: 100% !important;
-        height: 100% !important;
+        height: auto !important;
+        aspect-ratio: 16 / 9.5 !important;
+        border-radius: 14px !important;
         object-fit: cover !important;
         object-position: center center !important;
         display: block !important;
       }
-      .brochure-building-hud-pill {
-        position: absolute !important;
-        bottom: 6px !important;
-        right: 6px !important;
-        background: rgba(15, 23, 42, 0.88) !important;
-        backdrop-filter: blur(8px) !important;
-        -webkit-backdrop-filter: blur(8px) !important;
-        color: #ffffff !important;
-        font-size: 0.52rem !important;
-        font-weight: 800 !important;
-        padding: 0.2rem 0.5rem !important;
-        border-radius: 9999px !important;
-        border: 1px solid rgba(255, 255, 255, 0.15) !important;
-        letter-spacing: 0.05em !important;
+      .cover-card-footer {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        width: 100% !important;
+        padding-top: 4px !important;
+        margin-top: 2px !important;
+      }
+      .footer-web-pill {
+        font-size: 0.74rem !important;
+        padding: 0.35rem 0.85rem !important;
       }
 
       /* Slide 2: About Nimit Mobile */
@@ -2549,6 +2487,50 @@ html_template = '''<!DOCTYPE html>
         line-height: 1.52 !important;
         color: #334155 !important;
         margin: 0.08rem 0 !important;
+      }
+      .welcome-metrics-row {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+        align-items: center !important;
+        gap: 4px !important;
+        padding: 8px 6px !important;
+        border-radius: 12px !important;
+        background: #ffffff !important;
+        border: 1.2px solid rgba(226, 232, 240, 0.95) !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+        margin-top: 0.15rem !important;
+      }
+      .welcome-stat-unit {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 5px !important;
+        min-width: 0 !important;
+      }
+      .welcome-stat-icon-circle {
+        width: 26px !important;
+        height: 26px !important;
+        min-width: 26px !important;
+      }
+      .welcome-stat-icon-circle svg {
+        width: 13px !important;
+        height: 13px !important;
+      }
+      .welcome-stat-divider {
+        height: 20px !important;
+      }
+      .stat-number {
+        font-size: clamp(13px, 3.6vw, 16px) !important;
+        font-weight: 900 !important;
+        color: #0f172a !important;
+        line-height: 1.1 !important;
+      }
+      .stat-label {
+        font-size: clamp(9px, 2.3vw, 10.5px) !important;
+        font-weight: 700 !important;
+        color: #64748b !important;
+        text-align: center !important;
       }
       .welcome-pillars-grid {
         display: grid !important;
@@ -3044,7 +3026,7 @@ html_template = '''<!DOCTYPE html>
     <div class="slide-progress-fill" id="progressFill"></div>
   </div>
 
-  <div class="app-screen-canvas">
+  <div class="app-screen-canvas is-cover-slide" id="mainCanvasContainer">
     <canvas id="neuralCanvas"></canvas>
 
     <div class="foreground-content">
@@ -3052,7 +3034,7 @@ html_template = '''<!DOCTYPE html>
       <header class="header-row">
         <!-- Logo Block linking to index.html -->
         <a href="index.html" class="brand-logo-block" title="Back to Nimit Home">
-          <img src="assets/nimit_logo_transparent.png" alt="NIMIT" class="logo-img" onerror="this.src='assets/nimit_logo.png'" />
+          <img src="assets/nimitlogo.png" alt="NIMIT" class="logo-img" onerror="this.src='assets/nimit_logo.png'" />
         </a>
 
         <!-- Portal Navigation Bar (Matching Solutions & Modules) -->
@@ -3213,6 +3195,15 @@ html_template = '''<!DOCTYPE html>
         currentIndex = idx;
         const cur = slides[currentIndex];
         slideStage.innerHTML = cur.html;
+
+        const canvasContainer = document.getElementById('mainCanvasContainer');
+        if (canvasContainer) {
+          if (currentIndex === 0) {
+            canvasContainer.className = 'app-screen-canvas is-cover-slide';
+          } else {
+            canvasContainer.className = 'app-screen-canvas is-content-slide';
+          }
+        }
 
         slideIndicator.textContent = String(cur.num).padStart(2, '0');
         progressFill.style.width = ((currentIndex + 1) / slides.length * 100) + '%';

@@ -1139,7 +1139,7 @@ slides_data = [
           <div class="slide-clients-showcase-layout">
             <!-- Clean Header (Only Heading) -->
             <div class="clients-header-block">
-              <h1 class="slide-main-heading">Our Few <span class="highlight-red-text">Prestigious Clients</span></h1>
+              <h1 class="slide-main-heading">Our Few Prestigious Clients</h1>
             </div>
 
             <!-- Single Unified Showcase Stage with Responsive Logo Grid -->
@@ -1162,7 +1162,7 @@ slides_data = [
           <div class="slide-sectors-ecosystem-layout">
             <!-- Header Section with OUR ECO SYSTEM Heading -->
             <div class="sectors-header-block">
-              <h1 class="slide-main-heading">OUR <span class="highlight-red-text">ECO SYSTEM</span></h1>
+              <h1 class="slide-main-heading">OUR ECO SYSTEM</h1>
             </div>
 
             <!-- 9 Sectors Matrix in 2 Balanced Rows (4 on Top, 5 on Bottom) matching PPT Slide 36 -->
@@ -1275,7 +1275,7 @@ slides_data = [
           <div class="slide-core-team-layout">
             <!-- Header Section with Heading CORE TEAM -->
             <div class="core-team-header-block">
-              <h1 class="slide-main-heading">CORE <span class="highlight-red-text">TEAM</span></h1>
+              <h1 class="slide-main-heading">CORE TEAM</h1>
             </div>
 
             <!-- Central Showcase Stage with Team Photo -->
