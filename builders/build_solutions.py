@@ -1155,14 +1155,14 @@ slides_data = [
     },
     {
         'num': 16,
-        'tag': '16 NIMIT ECO SYSTEM',
-        'title': 'NIMIT Eco System',
+        'tag': '16 OUR ECO SYSTEM',
+        'title': 'OUR ECO SYSTEM',
         'type': 'content',
         'html': '''
           <div class="slide-sectors-ecosystem-layout">
-            <!-- Header Section with NIMIT Eco System Heading -->
+            <!-- Header Section with OUR ECO SYSTEM Heading -->
             <div class="sectors-header-block">
-              <h1 class="slide-main-heading">NIMIT <span class="highlight-red-text">Eco System</span></h1>
+              <h1 class="slide-main-heading">OUR <span class="highlight-red-text">ECO SYSTEM</span></h1>
             </div>
 
             <!-- 9 Sectors Matrix in 2 Balanced Rows (4 on Top, 5 on Bottom) matching PPT Slide 36 -->

@@ -234,7 +234,7 @@ slides_data = [
                 </div>
                 <div class="premise-card-content">
                   <h3 class="premise-card-title">Real-Time Proactive Alerts</h3>
-                  <p class="premise-card-desc">Instant automated alert logs sent via SMS, WhatsApp, Email, and webhook dashboards.</p>
+                  <p class="premise-card-desc">Instant automated alert logs sent via SMS, Email, and webhook dashboards.</p>
                 </div>
               </div>
 
@@ -430,7 +430,7 @@ slides_data = [
             <!-- Left Column: Header + 3 Capability Cards -->
             <div class="analytics-left-column">
               <div class="analytics-header-block">
-                <h1 class="slide-main-heading">Fire &amp; Smoke <span class="highlight-red-text">Early Detection</span></h1>
+                <h1 class="slide-main-heading">Fire &amp; Smoke <span class="highlight-red-text">Detection</span></h1>
                 <p class="analytics-desc-lead">
                   Early hazard detection identifies visual flame and smoke patterns in real time, delivering instant alarms to plant response teams to mitigate critical fire risks.
                 </p>
@@ -489,14 +489,14 @@ slides_data = [
     {
         'num': 9,
         'tag': '09 MODULE 04',
-        'title': 'Vehicle Speed Detection',
+        'title': 'Speed Detection',
         'type': 'split',
         'html': '''
           <div class="slide-analytics-split-layout">
             <!-- Left Column: Header + 3 Capability Cards -->
             <div class="analytics-left-column">
               <div class="analytics-header-block">
-                <h1 class="slide-main-heading">Vehicle Speed <span class="highlight-red-text">Detection &amp; Analytics</span></h1>
+                <h1 class="slide-main-heading">Speed <span class="highlight-red-text">Detection</span></h1>
                 <p class="analytics-desc-lead">
                   Real-time velocity tracking monitors campus and highway traffic to identify speeding violations instantly with timestamped vehicle plate logs.
                 </p>
@@ -548,14 +548,14 @@ slides_data = [
     {
         'num': 10,
         'tag': '10 MODULE 05',
-        'title': 'Product & Conveyor Counting',
+        'title': 'Product Counting',
         'type': 'split',
         'html': '''
           <div class="slide-analytics-split-layout">
             <!-- Left Column: Header + 3 Capability Cards -->
             <div class="analytics-left-column">
               <div class="analytics-header-block">
-                <h1 class="slide-main-heading">Product &amp; Conveyor <span class="highlight-red-text">Counting System</span></h1>
+                <h1 class="slide-main-heading">Product <span class="highlight-red-text">Counting</span></h1>
                 <p class="analytics-desc-lead">
                   Automated optical tracking counts and categorizes products moving along factory assembly lines, eliminating manual counting errors and providing live inventory metrics.
                 </p>
@@ -610,14 +610,14 @@ slides_data = [
     {
         'num': 11,
         'tag': '11 MODULE 06',
-        'title': 'People Counting & Footfall Analytics',
+        'title': 'Head/ People Counting',
         'type': 'split',
         'html': '''
           <div class="slide-analytics-split-layout">
             <!-- Left Column: Header + 3 Capability Cards -->
             <div class="analytics-left-column">
               <div class="analytics-header-block">
-                <h1 class="slide-main-heading">People Counting &amp; <span class="highlight-red-text">Footfall Analytics</span></h1>
+                <h1 class="slide-main-heading">Head/ People <span class="highlight-red-text">Counting</span></h1>
                 <p class="analytics-desc-lead">
                   Bi-directional footfall tracking measures visitor entries and exits in real time, providing accurate occupancy numbers, flow patterns, and density heatmaps.
                 </p>
@@ -671,14 +671,14 @@ slides_data = [
     {
         'num': 12,
         'tag': '12 MODULE 07',
-        'title': 'Face Recognition Access',
+        'title': 'Face Recognition',
         'type': 'split',
         'html': '''
           <div class="slide-analytics-split-layout">
             <!-- Left Column: Header + 3 Capability Cards -->
             <div class="analytics-left-column">
               <div class="analytics-header-block">
-                <h1 class="slide-main-heading">Face Recognition <span class="highlight-red-text">Access Control</span></h1>
+                <h1 class="slide-main-heading">Face <span class="highlight-red-text">Recognition</span></h1>
                 <p class="analytics-desc-lead">
                   Contactless biometric recognition matches faces against authorized employee profiles in milliseconds, enabling seamless entry and immediate blacklist alerts.
                 </p>
@@ -732,14 +732,14 @@ slides_data = [
     {
         'num': 13,
         'tag': '13 MODULE 08',
-        'title': 'Forklift Safety & Proximity Detection',
+        'title': 'Forklift Automation',
         'type': 'split',
         'html': '''
           <div class="slide-analytics-split-layout">
             <!-- Left Column: Header + 3 Capability Cards -->
             <div class="analytics-left-column">
               <div class="analytics-header-block">
-                <h1 class="slide-main-heading">Forklift Safety &amp; <span class="highlight-red-text">Proximity Detection</span></h1>
+                <h1 class="slide-main-heading">Forklift <span class="highlight-red-text">Automation</span></h1>
                 <p class="analytics-desc-lead">
                   Proximity hazard detection monitors moving forklift blindspots in real time, triggering instant operator cab alarms to prevent warehouse collisions.
                 </p>
@@ -793,14 +793,14 @@ slides_data = [
     {
         'num': 14,
         'tag': '14 MODULE 09',
-        'title': 'Worker Fall Detection',
+        'title': 'Fall Detection',
         'type': 'split',
         'html': '''
           <div class="slide-analytics-split-layout">
             <!-- Left Column: Header + 3 Capability Cards -->
             <div class="analytics-left-column">
               <div class="analytics-header-block">
-                <h1 class="slide-main-heading">Worker Fall <span class="highlight-red-text">Detection System</span></h1>
+                <h1 class="slide-main-heading">Fall <span class="highlight-red-text">Detection</span></h1>
                 <p class="analytics-desc-lead">
                   Human pose estimation detects slips, trips, and sudden posture collapse in real time, alerting floor supervisors and safety personnel for rapid emergency response.
                 </p>
@@ -833,7 +833,7 @@ slides_data = [
                       <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
                     </svg>
                   </div>
-                  <h3 class="analytics-card-title">Worker Safety Monitoring</h3>
+                  <h3 class="analytics-card-title">Safety Monitoring</h3>
                 </div>
               </div>
             </div>
@@ -911,14 +911,14 @@ slides_data = [
     {
         'num': 16,
         'tag': '16 MODULE 11',
-        'title': 'Animal Behavioural',
+        'title': 'Animal Behavioural Detection',
         'type': 'split',
         'html': '''
           <div class="slide-analytics-split-layout">
             <!-- Left Column: Header + 3 Capability Cards -->
             <div class="analytics-left-column">
               <div class="analytics-header-block">
-                <h1 class="slide-main-heading">Animal Behavioral <span class="highlight-red-text">Tracking System</span></h1>
+                <h1 class="slide-main-heading">Animal Behavioural <span class="highlight-red-text">Detection</span></h1>
                 <p class="analytics-desc-lead">
                   Wildlife telemetry detects large animals approaching roadways, industrial corridors, and forest perimeters, dispatching early alerts to prevent collisions and ensure public safety.
                 </p>
