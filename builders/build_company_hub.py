@@ -167,12 +167,12 @@ slides_data = [
                 <div class="welcome-stat-unit">
                   <div class="welcome-stat-icon-circle">
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="#e51924">
-                      <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                      <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                     </svg>
                   </div>
                   <div class="welcome-stat-info-col">
-                    <span class="stat-number" data-target="250" data-suffix="+">250+</span>
-                    <span class="stat-label">Expert Team</span>
+                    <span class="stat-number" data-target="9.7" data-suffix="/10">9.7/10</span>
+                    <span class="stat-label">Client Reviews</span>
                   </div>
                 </div>
               </div>
@@ -3229,16 +3229,23 @@ html_template = '''<!DOCTYPE html>
         const rawTarget = counter.getAttribute('data-target');
         let target = 0;
         let suffix = '+';
+        let decimals = 0;
 
         if (rawTarget) {
-          target = parseInt(rawTarget, 10);
-          suffix = counter.getAttribute('data-suffix') || '+';
+          target = parseFloat(rawTarget);
+          suffix = counter.getAttribute('data-suffix') || '';
+          if (rawTarget.includes('.')) {
+            decimals = rawTarget.split('.')[1].length;
+          }
         } else {
           const text = counter.textContent.trim();
-          const match = text.match(/([0-9]+)/);
+          const match = text.match(/([0-9]+(\\.[0-9]+)?)/);
           if (match) {
-            target = parseInt(match[1], 10);
+            target = parseFloat(match[1]);
             suffix = text.replace(match[1], '');
+            if (match[1].includes('.')) {
+              decimals = match[1].split('.')[1].length;
+            }
           }
         }
 
@@ -3254,18 +3261,20 @@ html_template = '''<!DOCTYPE html>
         function step(timestamp) {
           if (!startTimestamp) startTimestamp = timestamp;
           const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-          const currentCount = Math.floor(easeOutQuart(progress) * target);
+          const currentCount = decimals > 0 
+            ? (easeOutQuart(progress) * target).toFixed(decimals)
+            : Math.floor(easeOutQuart(progress) * target);
           
           counter.textContent = currentCount + suffix;
 
           if (progress < 1) {
             requestAnimationFrame(step);
           } else {
-            counter.textContent = target + suffix;
+            counter.textContent = (decimals > 0 ? target.toFixed(decimals) : target) + suffix;
           }
         }
 
-        counter.textContent = '0' + suffix;
+        counter.textContent = (decimals > 0 ? (0).toFixed(decimals) : '0') + suffix;
         requestAnimationFrame(step);
       });
     }

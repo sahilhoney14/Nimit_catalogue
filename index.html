@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>NIMIT Electronics & Equipments — Company Hub & Strategy</title>
-  <meta name="description" content="Nimit Electronics & Equipments — Solution by Technology. AI-driven computer vision solutions for smart safety, surveillance and industrial automation." />
+  <meta name="description"
+    content="Nimit Electronics & Equipments — Solution by Technology. AI-driven computer vision solutions for smart safety, surveillance and industrial automation." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
   <style>
     :root {
       --primary-red: #e51924;
@@ -23,13 +27,16 @@
       --font-body: 'Inter', sans-serif;
     }
 
-    *, *::before, *::after {
+    *,
+    *::before,
+    *::after {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
 
-    html, body {
+    html,
+    body {
       width: 100vw;
       height: 100vh;
       height: 100dvh;
@@ -80,8 +87,8 @@
 
     .app-screen-canvas.is-content-slide {
       background: radial-gradient(circle at 15% 15%, rgba(229, 25, 36, 0.035) 0%, transparent 45%),
-                  radial-gradient(circle at 85% 85%, rgba(15, 23, 42, 0.03) 0%, transparent 45%),
-                  #f8fafc;
+        radial-gradient(circle at 85% 85%, rgba(15, 23, 42, 0.03) 0%, transparent 45%),
+        #f8fafc;
     }
 
     /* Neural Particle Canvas */
@@ -864,8 +871,17 @@
     }
 
     @keyframes pulseBlink {
-      0%, 100% { transform: scale(1); opacity: 1; }
-      50% { transform: scale(1.4); opacity: 0.5; }
+
+      0%,
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+
+      50% {
+        transform: scale(1.4);
+        opacity: 0.5;
+      }
     }
 
     .hud-sub-caption {
@@ -1396,7 +1412,9 @@
     }
 
     @keyframes rayDash {
-      to { stroke-dashoffset: -200; }
+      to {
+        stroke-dashoffset: -200;
+      }
     }
 
     .sol-central-core-orb {
@@ -1428,9 +1446,20 @@
     }
 
     @keyframes orbPulse {
-      0% { transform: scale(0.96); opacity: 0.8; }
-      50% { transform: scale(1.08); opacity: 0.3; }
-      100% { transform: scale(0.96); opacity: 0.8; }
+      0% {
+        transform: scale(0.96);
+        opacity: 0.8;
+      }
+
+      50% {
+        transform: scale(1.08);
+        opacity: 0.3;
+      }
+
+      100% {
+        transform: scale(0.96);
+        opacity: 0.8;
+      }
     }
 
     .sol-orb-disc {
@@ -1658,8 +1687,15 @@
     }
 
     @keyframes modalPop {
-      from { transform: scale(0.95); opacity: 0; }
-      to { transform: scale(1); opacity: 1; }
+      from {
+        transform: scale(0.95);
+        opacity: 0;
+      }
+
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
     }
 
     .toc-modal-header {
@@ -1726,9 +1762,11 @@
         height: auto;
         min-height: 480px;
       }
+
       .brochure-card-body {
         grid-template-columns: 1fr;
       }
+
       .brochure-hero-building-layer {
         display: block;
         width: 100%;
@@ -1736,52 +1774,66 @@
         order: 2;
         margin-top: 1rem;
       }
+
       .slide-welcome-layout {
         grid-template-columns: 1.15fr 0.85fr;
         gap: 1.5rem;
         max-height: calc(100vh - 120px);
       }
+
       .welcome-main-heading {
         font-size: 2.1rem;
       }
+
       .welcome-body-paragraph {
         font-size: 0.8rem;
         line-height: 1.48;
       }
+
       .welcome-pillar-card {
         padding: 0.65rem 0.8rem;
       }
+
       .pillar-heading {
         font-size: 0.8rem;
       }
+
       .welcome-photo-container {
         height: clamp(240px, 38vh, 320px);
       }
+
       .cert-cards-grid {
         grid-template-columns: 1fr 1fr;
       }
+
       .cert-lightbox-body {
         grid-template-columns: 1fr;
       }
+
       .cert-lightbox-img-pane {
         padding: 1.2rem;
       }
+
       .cert-lightbox-full-img {
         max-height: 42vh;
       }
+
       .cert-lightbox-info-pane {
         padding: 1.4rem;
       }
     }
 
     @media (max-width: 900px) {
-      html, body {
+
+      html,
+      body {
         overflow-x: hidden !important;
         overflow-y: auto !important;
         height: auto !important;
         min-height: 100% !important;
         -webkit-overflow-scrolling: touch !important;
       }
+
       .app-screen-canvas {
         height: auto !important;
         min-height: 100dvh !important;
@@ -1790,6 +1842,7 @@
         display: flex !important;
         flex-direction: column !important;
       }
+
       .foreground-content,
       .is-cover-slide .foreground-content {
         min-height: 100dvh !important;
@@ -1804,12 +1857,14 @@
         width: 100% !important;
         position: relative !important;
       }
+
       .is-cover-slide .header-row {
         position: sticky !important;
         top: 0 !important;
         padding: 0.15rem 0 !important;
         z-index: 50 !important;
       }
+
       .slide-stage-viewport,
       .is-cover-slide .slide-stage-viewport {
         flex: 1 0 auto !important;
@@ -1825,6 +1880,7 @@
         position: relative !important;
         inset: auto !important;
       }
+
       .slide-page-container,
       .is-cover-slide .slide-page-container {
         height: auto !important;
@@ -1855,14 +1911,17 @@
         backdrop-filter: blur(12px) !important;
         -webkit-backdrop-filter: blur(12px) !important;
       }
+
       .brand-logo-block .logo-img {
         width: 100px !important;
         max-height: 24px !important;
         object-fit: contain !important;
       }
+
       .brand-tagline {
         display: none !important;
       }
+
       .portal-nav-bar {
         display: inline-flex !important;
         padding: 0.18rem 0.28rem !important;
@@ -1872,6 +1931,7 @@
         border-radius: 9999px !important;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
       }
+
       .portal-nav-link {
         font-size: 0.74rem !important;
         font-weight: 800 !important;
@@ -1880,18 +1940,22 @@
         color: #334155 !important;
         white-space: nowrap !important;
       }
+
       .portal-nav-link .nav-icon-badge {
         width: 20px !important;
         height: 20px !important;
       }
+
       .portal-nav-link .nav-icon-badge svg {
         width: 12px !important;
         height: 12px !important;
       }
+
       .portal-nav-link.active {
         background: var(--primary-red) !important;
         color: #ffffff !important;
       }
+
       .btn-toc-drawer {
         padding: 0.32rem 0.6rem !important;
         font-size: 0.76rem !important;
@@ -1900,6 +1964,7 @@
         border: 1px solid #cbd5e1 !important;
         flex-shrink: 0 !important;
       }
+
       .btn-toc-drawer span {
         display: none !important;
       }
@@ -1923,6 +1988,7 @@
         align-items: center !important;
         gap: 0.45rem !important;
       }
+
       .btn-float-nav {
         padding: 0.42rem 0.88rem !important;
         font-size: 0.8rem !important;
@@ -1930,11 +1996,13 @@
         border-radius: 9999px !important;
         gap: 0.35rem !important;
       }
+
       .btn-float-nav.btn-float-next {
         background: #e51924 !important;
         color: #ffffff !important;
         box-shadow: 0 4px 14px rgba(229, 25, 36, 0.45) !important;
       }
+
       .float-page-indicator {
         font-family: var(--font-mono) !important;
         font-size: 0.82rem !important;
@@ -1959,12 +2027,15 @@
         border: none !important;
         box-shadow: none !important;
       }
+
       .cover-full-backdrop-img {
         display: none !important;
       }
+
       .cover-legibility-veil {
         display: none !important;
       }
+
       .slide-brochure-cover-layout .brochure-card-body {
         padding: 0 0.5rem !important;
         display: flex !important;
@@ -1973,6 +2044,7 @@
         width: 100% !important;
         height: auto !important;
       }
+
       .slide-brochure-cover-layout .brochure-content-stage {
         transform: none !important;
         max-width: 100% !important;
@@ -1982,10 +2054,12 @@
         padding: 0.2rem 0 !important;
         width: 100% !important;
       }
+
       .brochure-headline-group {
         align-items: center !important;
         text-align: center !important;
       }
+
       .brochure-main-title {
         display: flex !important;
         flex-direction: column !important;
@@ -1993,11 +2067,13 @@
         text-align: center !important;
         margin: 0 !important;
       }
+
       .title-solution-by,
       .title-technology {
         font-size: clamp(24px, 6.8vw, 34px) !important;
         text-align: center !important;
       }
+
       .brochure-mobile-building-box {
         display: block !important;
         width: 100% !important;
@@ -2008,6 +2084,7 @@
         border: 1.2px solid rgba(226, 232, 240, 0.95) !important;
         box-sizing: border-box !important;
       }
+
       .brochure-mobile-building-img {
         width: 100% !important;
         height: auto !important;
@@ -2017,6 +2094,7 @@
         object-position: center center !important;
         display: block !important;
       }
+
       .cover-card-footer {
         display: flex !important;
         justify-content: center !important;
@@ -2025,6 +2103,7 @@
         padding-top: 4px !important;
         margin-top: 2px !important;
       }
+
       .footer-web-pill {
         font-size: 0.74rem !important;
         padding: 0.35rem 0.85rem !important;
@@ -2040,18 +2119,21 @@
         padding-top: 0.1rem !important;
         padding-bottom: 1.5rem !important;
       }
+
       .welcome-left-content {
         display: flex !important;
         flex-direction: column !important;
         gap: 0.38rem !important;
         width: 100% !important;
       }
+
       .welcome-badge-row {
         display: flex !important;
         flex-wrap: wrap !important;
         align-items: center !important;
         gap: 0.35rem !important;
       }
+
       .welcome-section-pill {
         font-size: 0.6rem !important;
         padding: 0.18rem 0.5rem !important;
@@ -2061,16 +2143,19 @@
         align-items: center !important;
         gap: 0.35rem !important;
       }
+
       .welcome-iso-tag {
         font-size: 0.6rem !important;
         font-weight: 700 !important;
         color: #64748b !important;
       }
+
       .welcome-titles-group {
         display: flex !important;
         flex-direction: column !important;
         gap: 0.1rem !important;
       }
+
       .welcome-main-heading {
         font-size: clamp(1.6rem, 6.5vw, 2.05rem) !important;
         font-weight: 900 !important;
@@ -2079,12 +2164,14 @@
         margin: 0 !important;
         letter-spacing: -0.02em !important;
       }
+
       .welcome-sub-strip {
         display: flex !important;
         align-items: center !important;
         gap: 0.35rem !important;
         margin-top: 0.08rem !important;
       }
+
       .sub-accent-bar {
         width: 3px !important;
         height: 14px !important;
@@ -2092,6 +2179,7 @@
         border-radius: 2px !important;
         flex-shrink: 0 !important;
       }
+
       .welcome-sub-heading {
         font-size: clamp(0.72rem, 2.9vw, 0.82rem) !important;
         font-weight: 800 !important;
@@ -2099,12 +2187,14 @@
         line-height: 1.28 !important;
         letter-spacing: 0.03em !important;
       }
+
       .welcome-body-paragraph {
         font-size: clamp(0.82rem, 3.4vw, 0.92rem) !important;
         line-height: 1.52 !important;
         color: #334155 !important;
         margin: 0.08rem 0 !important;
       }
+
       .welcome-metrics-row {
         display: grid !important;
         grid-template-columns: repeat(3, 1fr) !important;
@@ -2118,6 +2208,7 @@
         box-sizing: border-box !important;
         margin-top: 0.15rem !important;
       }
+
       .welcome-stat-unit {
         display: flex !important;
         align-items: center !important;
@@ -2125,30 +2216,36 @@
         gap: 5px !important;
         min-width: 0 !important;
       }
+
       .welcome-stat-icon-circle {
         width: 26px !important;
         height: 26px !important;
         min-width: 26px !important;
       }
+
       .welcome-stat-icon-circle svg {
         width: 13px !important;
         height: 13px !important;
       }
+
       .welcome-stat-divider {
         height: 20px !important;
       }
+
       .stat-number {
         font-size: clamp(13px, 3.6vw, 16px) !important;
         font-weight: 900 !important;
         color: #0f172a !important;
         line-height: 1.1 !important;
       }
+
       .stat-label {
         font-size: clamp(9px, 2.3vw, 10.5px) !important;
         font-weight: 700 !important;
         color: #64748b !important;
         text-align: center !important;
       }
+
       .welcome-pillars-grid {
         display: grid !important;
         grid-template-columns: repeat(2, 1fr) !important;
@@ -2156,6 +2253,7 @@
         width: 100% !important;
         margin-top: 0.2rem !important;
       }
+
       .welcome-pillar-card {
         padding: 0.55rem 0.65rem !important;
         border-radius: 10px !important;
@@ -2167,16 +2265,19 @@
         gap: 0.5rem !important;
         min-height: 44px !important;
       }
+
       .pillar-icon-box {
         width: 28px !important;
         height: 28px !important;
         min-width: 28px !important;
         border-radius: 8px !important;
       }
+
       .pillar-icon-box svg {
         width: 14px !important;
         height: 14px !important;
       }
+
       .pillar-heading {
         font-size: clamp(0.74rem, 2.8vw, 0.84rem) !important;
         font-weight: 800 !important;
@@ -2184,12 +2285,14 @@
         margin: 0 !important;
         line-height: 1.2 !important;
       }
+
       .welcome-right-image {
         display: block !important;
         width: 100% !important;
         margin-top: 0.45rem !important;
         margin-bottom: 2rem !important;
       }
+
       .welcome-photo-container {
         width: 100% !important;
         border-radius: 14px !important;
@@ -2202,6 +2305,7 @@
         height: auto !important;
         max-height: 210px !important;
       }
+
       .welcome-photo-container img {
         width: 100% !important;
         height: 100% !important;
@@ -2209,6 +2313,7 @@
         object-position: center 25% !important;
         display: block !important;
       }
+
       .photo-glass-hud-bar {
         position: absolute !important;
         bottom: 6px !important;
@@ -2225,102 +2330,123 @@
         color: #ffffff !important;
         border: 1px solid rgba(255, 255, 255, 0.12) !important;
       }
+
       .photo-glass-hud-bar .hud-live-pill {
         font-size: 0.58rem !important;
         font-weight: 800 !important;
         letter-spacing: 0.05em !important;
       }
+
       .photo-glass-hud-bar .hud-sub-caption {
         font-size: 0.52rem !important;
         color: #94a3b8 !important;
       }
 
-    @media (max-width: 380px) {
-      .welcome-main-heading {
-        font-size: 1.45rem !important;
-      }
-      .welcome-sub-heading {
-        font-size: 0.68rem !important;
-      }
-      .welcome-body-paragraph {
-        font-size: 0.78rem !important;
-        line-height: 1.46 !important;
-      }
-      .welcome-pillars-grid {
-        gap: 0.38rem !important;
-      }
-      .welcome-pillar-card {
-        padding: 0.42rem 0.52rem !important;
-        gap: 0.42rem !important;
-      }
-      .pillar-icon-box {
-        width: 24px !important;
-        height: 24px !important;
-        min-width: 24px !important;
-      }
-      .pillar-icon-box svg {
-        width: 12px !important;
-        height: 12px !important;
-      }
-      .pillar-heading {
-        font-size: 0.72rem !important;
-      }
-      .welcome-photo-container {
-        aspect-ratio: 16 / 9 !important;
-        max-height: 175px !important;
-      }
+      @media (max-width: 380px) {
+        .welcome-main-heading {
+          font-size: 1.45rem !important;
+        }
 
-      /* Slide 3 Compact */
-      .cert-main-title {
-        font-size: 1.45rem !important;
-      }
-      .cert-cards-grid {
-        gap: 0.42rem !important;
-      }
-      .cert-card-item {
-        padding: 0.5rem 0.4rem !important;
-        gap: 0.25rem !important;
-      }
-      .cert-stage-box {
-        height: 115px !important;
-        padding: 0.28rem !important;
-      }
-      .cert-card-heading {
-        font-size: 0.76rem !important;
-      }
-      .cert-card-desc {
-        font-size: 0.62rem !important;
-        line-height: 1.25 !important;
-      }
+        .welcome-sub-heading {
+          font-size: 0.68rem !important;
+        }
 
-      /* Slide 4 Compact */
-      .sol-central-hub-stage {
-        max-width: 320px !important;
-        gap: 0.75rem !important;
+        .welcome-body-paragraph {
+          font-size: 0.78rem !important;
+          line-height: 1.46 !important;
+        }
+
+        .welcome-pillars-grid {
+          gap: 0.38rem !important;
+        }
+
+        .welcome-pillar-card {
+          padding: 0.42rem 0.52rem !important;
+          gap: 0.42rem !important;
+        }
+
+        .pillar-icon-box {
+          width: 24px !important;
+          height: 24px !important;
+          min-width: 24px !important;
+        }
+
+        .pillar-icon-box svg {
+          width: 12px !important;
+          height: 12px !important;
+        }
+
+        .pillar-heading {
+          font-size: 0.72rem !important;
+        }
+
+        .welcome-photo-container {
+          aspect-ratio: 16 / 9 !important;
+          max-height: 175px !important;
+        }
+
+        /* Slide 3 Compact */
+        .cert-main-title {
+          font-size: 1.45rem !important;
+        }
+
+        .cert-cards-grid {
+          gap: 0.42rem !important;
+        }
+
+        .cert-card-item {
+          padding: 0.5rem 0.4rem !important;
+          gap: 0.25rem !important;
+        }
+
+        .cert-stage-box {
+          height: 115px !important;
+          padding: 0.28rem !important;
+        }
+
+        .cert-card-heading {
+          font-size: 0.76rem !important;
+        }
+
+        .cert-card-desc {
+          font-size: 0.62rem !important;
+          line-height: 1.25 !important;
+        }
+
+        /* Slide 4 Compact */
+        .sol-central-hub-stage {
+          max-width: 320px !important;
+          gap: 0.75rem !important;
+        }
+
+        .sol-executive-card {
+          padding: 1rem 1.1rem !important;
+          gap: 8px !important;
+        }
+
+        .sol-icon-box {
+          width: 46px !important;
+          height: 46px !important;
+        }
+
+        .sol-icon-box svg {
+          width: 24px !important;
+          height: 24px !important;
+        }
+
+        .sol-card-title {
+          font-size: 1.22rem !important;
+        }
+
+        .sol-central-core-orb {
+          width: 80px !important;
+          height: 80px !important;
+        }
+
+        .sol-orb-logo-img {
+          width: 52px !important;
+        }
       }
-      .sol-executive-card {
-        padding: 1rem 1.1rem !important;
-        gap: 8px !important;
-      }
-      .sol-icon-box {
-        width: 46px !important;
-        height: 46px !important;
-      }
-      .sol-icon-box svg {
-        width: 24px !important;
-        height: 24px !important;
-      }
-      .sol-card-title {
-        font-size: 1.22rem !important;
-      }
-      .sol-central-core-orb {
-        width: 80px !important;
-        height: 80px !important;
-      }
-      .sol-orb-logo-img {
-        width: 52px !important;
-      }
-    }
 
       /* Slide 3: Enterprise Certifications Mobile */
       .slide-certifications-layout {
@@ -2333,22 +2459,26 @@
         padding-top: 0.1rem !important;
         padding-bottom: 2rem !important;
       }
+
       .slide-cert-header {
         margin-bottom: 0.1rem !important;
         text-align: center !important;
       }
+
       .cert-main-title {
         font-size: clamp(1.6rem, 6.5vw, 2.05rem) !important;
         font-weight: 900 !important;
         line-height: 1.15 !important;
         letter-spacing: -0.02em !important;
       }
+
       .cert-cards-grid {
         display: grid !important;
         grid-template-columns: repeat(2, 1fr) !important;
         gap: 0.55rem !important;
         width: 100% !important;
       }
+
       .cert-card-item {
         padding: 0.75rem 0.6rem !important;
         border-radius: 12px !important;
@@ -2364,6 +2494,7 @@
         position: relative !important;
         overflow: hidden !important;
       }
+
       .cert-stage-box {
         width: 100% !important;
         height: clamp(125px, 20vh, 155px) !important;
@@ -2378,6 +2509,7 @@
         position: relative !important;
         margin-bottom: 0.15rem !important;
       }
+
       .cert-plaque-img {
         max-height: 100% !important;
         max-width: 100% !important;
@@ -2386,6 +2518,7 @@
         border-radius: 4px !important;
         box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08) !important;
       }
+
       .cert-card-info {
         width: 100% !important;
         display: flex !important;
@@ -2394,6 +2527,7 @@
         text-align: center !important;
         padding: 0 !important;
       }
+
       .cert-card-heading {
         font-size: clamp(0.82rem, 3.2vw, 0.92rem) !important;
         font-weight: 800 !important;
@@ -2402,6 +2536,7 @@
         margin-bottom: 0.1rem !important;
         text-align: center !important;
       }
+
       .cert-card-desc {
         font-size: clamp(0.66rem, 2.6vw, 0.74rem) !important;
         color: #64748b !important;
@@ -2428,6 +2563,7 @@
         max-height: none !important;
         flex: 1 0 auto !important;
       }
+
       .sol-central-hub-stage {
         display: flex !important;
         flex-direction: column !important;
@@ -2438,9 +2574,11 @@
         max-width: 360px !important;
         margin: auto !important;
       }
+
       .sol-executive-card.card-left {
         order: 1 !important;
       }
+
       .sol-center-core-anchor {
         order: 2 !important;
         display: flex !important;
@@ -2450,24 +2588,30 @@
         height: auto !important;
         position: relative !important;
       }
+
       .sol-executive-card.card-right {
         order: 3 !important;
       }
+
       .sol-connector-rays {
         display: none !important;
       }
+
       .sol-central-core-orb {
         width: 92px !important;
         height: 92px !important;
         margin: 0 auto !important;
       }
+
       .sol-orb-glow {
         inset: -10px !important;
         filter: blur(10px) !important;
       }
+
       .sol-orb-pulse {
         inset: -4px !important;
       }
+
       .sol-orb-disc {
         width: 100% !important;
         height: 100% !important;
@@ -2478,11 +2622,13 @@
         border-radius: 50% !important;
         box-shadow: 0 8px 28px rgba(229, 25, 36, 0.4), 0 2px 8px rgba(0, 0, 0, 0.08) !important;
       }
+
       .sol-orb-logo-img {
         width: 60px !important;
         height: auto !important;
         object-fit: contain !important;
       }
+
       .sol-executive-card {
         padding: clamp(1.15rem, 2.8vh, 1.55rem) 1.35rem !important;
         border-radius: 18px !important;
@@ -2503,19 +2649,23 @@
         -webkit-tap-highlight-color: transparent !important;
         transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease !important;
       }
+
       .sol-executive-card:active {
         transform: scale(0.98) !important;
         border-color: #e51924 !important;
       }
+
       .sol-icon-box {
         width: 52px !important;
         height: 52px !important;
         border-radius: 14px !important;
       }
+
       .sol-icon-box svg {
         width: 26px !important;
         height: 26px !important;
       }
+
       .sol-card-title {
         font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif !important;
         font-size: clamp(1.3rem, 4.6vw, 1.55rem) !important;
@@ -2541,22 +2691,26 @@
         max-height: none !important;
         flex: 1 0 auto !important;
       }
+
       .clean-contact-header {
         margin-bottom: 0.15rem !important;
         gap: 0.1rem !important;
         text-align: center !important;
       }
+
       .clean-contact-header .slide-main-heading {
         font-size: clamp(1.6rem, 6.5vw, 2.05rem) !important;
         font-weight: 900 !important;
         letter-spacing: -0.02em !important;
       }
+
       .clean-contact-header .slide-sub-heading {
         font-size: 0.82rem !important;
         color: #64748b !important;
         line-height: 1.35 !important;
         max-width: 340px !important;
       }
+
       .clean-contact-grid {
         display: flex !important;
         flex-direction: column !important;
@@ -2565,6 +2719,7 @@
         max-width: 360px !important;
         margin: 0 auto !important;
       }
+
       .clean-contact-card {
         display: flex !important;
         align-items: center !important;
@@ -2576,6 +2731,7 @@
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02) !important;
         text-decoration: none !important;
       }
+
       .clean-contact-icon-circle {
         width: 42px !important;
         height: 42px !important;
@@ -2586,25 +2742,30 @@
         justify-content: center !important;
         flex-shrink: 0 !important;
       }
+
       .clean-contact-icon-circle svg {
         width: 20px !important;
         height: 20px !important;
       }
+
       .clean-contact-label {
         font-size: 0.68rem !important;
         font-weight: 800 !important;
         letter-spacing: 0.05em !important;
         margin-bottom: 0.1rem !important;
       }
+
       .clean-contact-val {
         font-size: 0.95rem !important;
         font-weight: 800 !important;
         color: #0f172a !important;
         line-height: 1.3 !important;
       }
+
       .clean-contact-val.hq-addr-val {
         font-size: 0.88rem !important;
       }
+
       .clean-contact-sub {
         font-size: 0.74rem !important;
         color: #64748b !important;
@@ -2614,29 +2775,34 @@
       .cert-lightbox-modal {
         padding: 0.5rem !important;
       }
+
       .cert-lightbox-card {
         max-height: 94vh !important;
         border-radius: 16px !important;
       }
+
       .cert-lightbox-body {
         grid-template-columns: 1fr !important;
         max-height: calc(94vh - 55px) !important;
         overflow-y: auto !important;
       }
+
       .cert-lightbox-img-pane {
         padding: 0.65rem !important;
       }
+
       .cert-lightbox-full-img {
         max-height: 32vh !important;
       }
+
       .cert-lightbox-info-pane {
         padding: 0.8rem 1rem !important;
         gap: 0.5rem !important;
       }
     }
-
   </style>
 </head>
+
 <body>
 
   <div class="slide-progress-tracker">
@@ -2658,7 +2824,8 @@
         <nav class="portal-nav-bar">
           <a href="solutions.html" class="portal-nav-link" title="Explore Solutions Ecosystem">
             <span class="nav-icon-badge">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                stroke-linecap="round" stroke-linejoin="round">
                 <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
                 <polyline points="2 17 12 22 22 17"></polyline>
                 <polyline points="2 12 12 17 22 12"></polyline>
@@ -2668,7 +2835,8 @@
           </a>
           <a href="modules.html" class="portal-nav-link" title="Explore AI Modules Catalog">
             <span class="nav-icon-badge">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                stroke-linecap="round" stroke-linejoin="round">
                 <rect x="4" y="4" width="16" height="16" rx="2"></rect>
                 <rect x="9" y="9" width="6" height="6"></rect>
                 <line x1="9" y1="1" x2="9" y2="4"></line>
@@ -2687,7 +2855,11 @@
 
         <div class="header-right-tools">
           <button class="btn-toc-drawer" id="btnTocOpen">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <line x1="3" y1="12" x2="21" y2="12" />
+              <line x1="3" y1="6" x2="21" y2="6" />
+              <line x1="3" y1="18" x2="21" y2="18" />
+            </svg>
             <span>All Slides</span>
           </button>
         </div>
@@ -2705,7 +2877,9 @@
     <!-- Floating Bottom Controller -->
     <div class="floating-bottom-bar">
       <button class="btn-float-nav btn-float-prev" id="btnPrev" disabled>
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <polyline points="15 18 9 12 15 6" />
+        </svg>
         <span>Prev</span>
       </button>
 
@@ -2715,7 +2889,9 @@
 
       <button class="btn-float-nav btn-float-next" id="btnNext">
         <span>Next</span>
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <polyline points="9 18 15 12 9 6" />
+        </svg>
       </button>
     </div>
 
@@ -2739,12 +2915,15 @@
     <div class="cert-lightbox-backdrop" onclick="closeCertLightbox()"></div>
     <div class="cert-lightbox-card">
       <button class="btn-cert-lightbox-close" onclick="closeCertLightbox()" aria-label="Close Preview">&times;</button>
-      
+
       <div class="cert-lightbox-body">
         <div class="cert-lightbox-img-pane">
-          <button class="cert-lightbox-nav prev" onclick="navigateCertLightbox(-1)" aria-label="Previous Certificate">&#8249;</button>
-          <img id="certLightboxImg" src="assets/cert_cmmi.png" alt="Certificate Preview" class="cert-lightbox-full-img" />
-          <button class="cert-lightbox-nav next" onclick="navigateCertLightbox(1)" aria-label="Next Certificate">&#8250;</button>
+          <button class="cert-lightbox-nav prev" onclick="navigateCertLightbox(-1)"
+            aria-label="Previous Certificate">&#8249;</button>
+          <img id="certLightboxImg" src="assets/cert_cmmi.png" alt="Certificate Preview"
+            class="cert-lightbox-full-img" />
+          <button class="cert-lightbox-nav next" onclick="navigateCertLightbox(1)"
+            aria-label="Next Certificate">&#8250;</button>
         </div>
 
         <div class="cert-lightbox-info-pane">
@@ -2755,7 +2934,7 @@
             </div>
             <h2 id="certInfoTitle" class="cert-info-title">CMMI Maturity Level 3</h2>
             <h4 id="certInfoStandard" class="cert-info-standard">Process &amp; Software Integration Maturity</h4>
-            
+
             <div class="cert-info-divider"></div>
 
             <div class="cert-info-details-list">
@@ -2765,7 +2944,8 @@
               </div>
               <div class="cert-detail-item">
                 <span class="cert-detail-k">Accreditation Authority:</span>
-                <strong id="certDetailAccred" class="cert-detail-v">UASL (United Accreditation Services Ltd) &amp; ABIS</strong>
+                <strong id="certDetailAccred" class="cert-detail-v">UASL (United Accreditation Services Ltd) &amp;
+                  ABIS</strong>
               </div>
               <div class="cert-detail-item">
                 <span class="cert-detail-k">Certified Entity:</span>
@@ -2773,13 +2953,17 @@
               </div>
               <div class="cert-detail-item">
                 <span class="cert-detail-k">Scope of Certification:</span>
-                <p id="certDetailScope" class="cert-detail-p">Integration of Building Management System, Sales &amp; Services of Electronic Security Products &amp; Low Voltage System.</p>
+                <p id="certDetailScope" class="cert-detail-p">Integration of Building Management System, Sales &amp;
+                  Services of Electronic Security Products &amp; Low Voltage System.</p>
               </div>
             </div>
           </div>
 
           <div class="cert-verified-stamp">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2.5">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              <polyline points="9 12 11 14 15 10" />
+            </svg>
             <span>Verified &amp; Accredited Global Certification</span>
           </div>
         </div>
@@ -2788,7 +2972,7 @@
   </div>
 
   <script>
-    const slides = [{"num": 1, "tag": "01 OVERVIEW", "title": "Solution by Technology", "type": "cover", "html": "\n          <div class=\"slide-brochure-cover-layout\">\n            <img src=\"assets/NIMIT_Building.png\" alt=\"Nimit Electronics Vadodara Head Office\" class=\"cover-full-backdrop-img\">\n            <div class=\"cover-legibility-veil\"></div>\n\n            <div class=\"brochure-card-body\">\n              <div class=\"brochure-content-stage\">\n                <div class=\"brochure-headline-group\">\n                  <h1 class=\"brochure-main-title\">\n                    <span class=\"title-solution-by\">SOLUTION BY</span>\n                    <span class=\"title-technology\">TECHNOLOGY</span>\n                  </h1>\n                </div>\n\n                <!-- Mobile Centered Building Graphic Box (Between headline and link on small screens) -->\n                <div class=\"brochure-mobile-building-box\">\n                  <img src=\"assets/NIMIT_Building_mobile.png\" alt=\"Nimit Electronics Vadodara Head Office\" class=\"brochure-mobile-building-img\">\n                </div>\n\n                <!-- Sleek Website Pill Link -->\n                <div class=\"cover-card-footer\">\n                  <a href=\"https://www.nimitelectronics.com\" target=\"_blank\" class=\"footer-web-pill\">\n                    <span class=\"web-icon-orb\">\n                      <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <circle cx=\"12\" cy=\"12\" r=\"10\"></circle>\n                        <path d=\"M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20\"></path>\n                        <path d=\"M2 12h20\"></path>\n                      </svg>\n                    </span>\n                    <span class=\"web-url-text\">www.nimitelectronics.com</span>\n                    <span class=\"pill-arrow-circle\">\n                      <svg width=\"11\" height=\"11\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <line x1=\"7\" y1=\"17\" x2=\"17\" y2=\"7\"></line>\n                        <polyline points=\"7 7 17 7 17 17\"></polyline>\n                      </svg>\n                    </span>\n                  </a>\n                </div>\n              </div>\n            </div>\n          </div>\n        "}, {"num": 2, "tag": "02 ABOUT NIMIT", "title": "Welcome to NIMIT", "type": "welcome", "html": "\n          <div class=\"slide-welcome-layout\">\n            <div class=\"welcome-left-content\">\n              <div class=\"welcome-titles-group\">\n                <h1 class=\"welcome-main-heading\">Welcome to <span class=\"highlight-red-text\">NIMIT</span></h1>\n                <div class=\"welcome-sub-strip\">\n                  <span class=\"sub-accent-bar\"></span>\n                  <h2 class=\"welcome-sub-heading\">THINK LOCAL, ACT GLOBAL &mdash; INTELLIGENT SAFETY LEADERS</h2>\n                </div>\n              </div>\n\n              <p class=\"welcome-body-paragraph\">\n                Since 2003, Nimit has been a pioneer in advanced safety and security solutions across India. Certified under <strong>ISO 9001:2015, ISO 14001:2015, ISO 45001:2018</strong>, and <strong>CMMI Level 3</strong>, we deliver smart, scalable protection systems trusted by <strong>4,000+ clients nationwide</strong>. With <strong>nearly 300+ experts</strong>, we blend innovation, integrity, and impact to provide reliable, real-time security solutions. With the evolution of intelligent cameras, we have further enhanced our systems by integrating advanced computer vision capabilities&mdash;building not just systems, but comprehensive safety ecosystems that redefine protection.\n              </p>\n\n              <!-- 4 Strategic Value Pillars (2x2 Grid) -->\n              <div class=\"welcome-pillars-grid\">\n                <div class=\"welcome-pillar-card\">\n                  <div class=\"pillar-icon-box\">\n                    <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                      <path d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"/>\n                      <polyline points=\"22 4 12 14.01 9 11.01\"/>\n                    </svg>\n                  </div>\n                  <h3 class=\"pillar-heading\">Proven Expertise</h3>\n                </div>\n\n                <div class=\"welcome-pillar-card\">\n                  <div class=\"pillar-icon-box\">\n                    <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                      <path d=\"M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24A2.5 2.5 0 0 1 9.5 2Z\"/>\n                      <path d=\"M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24A2.5 2.5 0 0 0 14.5 2Z\"/>\n                    </svg>\n                  </div>\n                  <h3 class=\"pillar-heading\">AI Powered Innovation</h3>\n                </div>\n\n                <div class=\"welcome-pillar-card\">\n                  <div class=\"pillar-icon-box\">\n                    <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                      <circle cx=\"18\" cy=\"5\" r=\"3\"/>\n                      <circle cx=\"6\" cy=\"12\" r=\"3\"/>\n                      <circle cx=\"18\" cy=\"19\" r=\"3\"/>\n                      <line x1=\"8.59\" y1=\"13.51\" x2=\"15.42\" y2=\"17.49\"/>\n                      <line x1=\"15.41\" y1=\"6.51\" x2=\"8.59\" y2=\"10.49\"/>\n                    </svg>\n                  </div>\n                  <h3 class=\"pillar-heading\">Tailored End-to-End Integration</h3>\n                </div>\n\n                <div class=\"welcome-pillar-card\">\n                  <div class=\"pillar-icon-box\">\n                    <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                      <polygon points=\"1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6\"/>\n                      <line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"18\"/>\n                      <line x1=\"16\" y1=\"6\" x2=\"16\" y2=\"22\"/>\n                    </svg>\n                  </div>\n                  <h3 class=\"pillar-heading\">National Reach</h3>\n                </div>\n              </div>\n\n              <!-- 3 Executive Stat Badges (Shifted to Last on Page 2) -->\n              <div class=\"welcome-metrics-row\">\n                <div class=\"welcome-stat-unit\">\n                  <div class=\"welcome-stat-icon-circle\">\n                    <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"#e51924\">\n                      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z\"/>\n                    </svg>\n                  </div>\n                  <div class=\"welcome-stat-info-col\">\n                    <span class=\"stat-number\" data-target=\"100\" data-suffix=\"+\">100+</span>\n                    <span class=\"stat-label\">Cities Nationwide</span>\n                  </div>\n                </div>\n\n                <div class=\"welcome-stat-divider\"></div>\n\n                <div class=\"welcome-stat-unit\">\n                  <div class=\"welcome-stat-icon-circle\">\n                    <svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"#e51924\">\n                      <path d=\"M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z\"/>\n                    </svg>\n                  </div>\n                  <div class=\"welcome-stat-info-col\">\n                    <span class=\"stat-number\" data-target=\"4500\" data-suffix=\"+\">4500+</span>\n                    <span class=\"stat-label\">Happy Clients</span>\n                  </div>\n                </div>\n\n                <div class=\"welcome-stat-divider\"></div>\n\n                <div class=\"welcome-stat-unit\">\n                  <div class=\"welcome-stat-icon-circle\">\n                    <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"#e51924\">\n                      <path d=\"M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\"/>\n                    </svg>\n                  </div>\n                  <div class=\"welcome-stat-info-col\">\n                    <span class=\"stat-number\" data-target=\"250\" data-suffix=\"+\">250+</span>\n                    <span class=\"stat-label\">Expert Team</span>\n                  </div>\n                </div>\n              </div>\n            </div>\n\n            <!-- Right Visual: Framed AI Command Center -->\n            <div class=\"welcome-right-image\">\n              <div class=\"welcome-photo-container\">\n                <img src=\"assets/nimit_ai_safety_leader.jpg\" alt=\"Nimit Intelligent Safety &amp; Command Center\">\n              </div>\n            </div>\n          </div>\n        "}, {"num": 3, "tag": "03 QUALITY & COMPLIANCES", "title": "Quality and Compliances", "type": "certifications", "html": "\n          <div class=\"slide-certifications-layout\">\n            <!-- Executive Section Header -->\n            <div class=\"slide-cert-header\">\n              <h1 class=\"cert-main-title\">Quality and <span class=\"highlight-red-text\">Compliances</span></h1>\n            </div>\n\n            <!-- 4 Executive Showcase Cards -->\n            <div class=\"cert-cards-grid\">\n              <!-- Card 1: QMS ISO 9001:2015 -->\n              <div class=\"cert-card-item\">\n                <div class=\"card-accent-bar\"></div>\n                \n                <div class=\"cert-stage-box\">\n                  <img src=\"assets/cert_qms.png\" alt=\"ISO 9001:2015 Quality Management Certificate - Nimit Electronics\" class=\"cert-plaque-img\">\n                </div>\n\n                <div class=\"cert-card-info\">\n                  <h3 class=\"cert-card-heading\">QMS Standard</h3>\n                  <p class=\"cert-card-desc\">Quality Management System</p>\n                </div>\n              </div>\n\n              <!-- Card 2: EMS ISO 14001:2015 -->\n              <div class=\"cert-card-item\">\n                <div class=\"card-accent-bar\"></div>\n                \n                <div class=\"cert-stage-box\">\n                  <img src=\"assets/cert_ems.png\" alt=\"ISO 14001:2015 Environmental Management Certificate - Nimit Electronics\" class=\"cert-plaque-img\">\n                </div>\n\n                <div class=\"cert-card-info\">\n                  <h3 class=\"cert-card-heading\">EMS Standard</h3>\n                  <p class=\"cert-card-desc\">Environmental Management System</p>\n                </div>\n              </div>\n\n              <!-- Card 3: OHSAS ISO 45001:2018 -->\n              <div class=\"cert-card-item\">\n                <div class=\"card-accent-bar\"></div>\n                \n                <div class=\"cert-stage-box\">\n                  <img src=\"assets/cert_ohsas.png\" alt=\"ISO 45001:2018 Occupational Health &amp; Safety Certificate - Nimit Electronics\" class=\"cert-plaque-img\">\n                </div>\n\n                <div class=\"cert-card-info\">\n                  <h3 class=\"cert-card-heading\">OHSAS Standard</h3>\n                  <p class=\"cert-card-desc\">Occupational Health &amp; Safety</p>\n                </div>\n              </div>\n\n              <!-- Card 4: CMMI Level 3 -->\n              <div class=\"cert-card-item\">\n                <div class=\"card-accent-bar\"></div>\n                \n                <div class=\"cert-stage-box\">\n                  <img src=\"assets/cert_cmmi.png\" alt=\"CMMI Maturity Level 3 Certificate - Nimit Electronics\" class=\"cert-plaque-img\">\n                </div>\n\n                <div class=\"cert-card-info\">\n                  <h3 class=\"cert-card-heading\">CMMI Level 3</h3>\n                  <p class=\"cert-card-desc\">Process &amp; Software Integration Maturity</p>\n                </div>\n              </div>\n            </div>\n          </div>\n        "}, {"num": 4, "tag": "04 SOLUTIONS", "title": "Explore Solutions & Modules", "type": "solutions_map", "html": "\n          <div class=\"slide-solutions-diagram-layout\">\n            <!-- Central Symmetrical Hub Stage -->\n            <div class=\"sol-central-hub-stage\">\n              <!-- Left Card: AI Modules (Centered) -->\n              <a href=\"modules.html\" class=\"sol-executive-card card-left\">\n                <div class=\"sol-icon-box box-red\">\n                  <svg width=\"34\" height=\"34\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/><polyline points=\"9 12 11 14 15 10\"/></svg>\n                </div>\n                <h2 class=\"sol-card-title\">Explore AI Modules</h2>\n              </a>\n\n              <!-- Center Luminous Core Hub: Showing NIMIT Logo in Center -->\n              <div class=\"sol-center-core-anchor\">\n                <svg class=\"sol-connector-rays\" viewBox=\"0 0 220 140\" preserveAspectRatio=\"none\">\n                  <line x1=\"0\" y1=\"70\" x2=\"110\" y2=\"70\" class=\"sol-ray-connector\" />\n                  <line x1=\"110\" y1=\"70\" x2=\"220\" y2=\"70\" class=\"sol-ray-connector\" />\n                </svg>\n\n                <div class=\"sol-central-core-orb\">\n                  <div class=\"sol-orb-glow\"></div>\n                  <div class=\"sol-orb-pulse\"></div>\n                  <div class=\"sol-orb-disc\">\n                    <img src=\"assets/nimit_symbol.png\" alt=\"NIMIT Logo\" class=\"sol-orb-logo-img\">\n                  </div>\n                </div>\n              </div>\n\n              <!-- Right Card: Industry Solutions (Centered) -->\n              <a href=\"solutions.html\" class=\"sol-executive-card card-right\">\n                <div class=\"sol-icon-box box-red\">\n                  <svg width=\"34\" height=\"34\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"><rect x=\"2\" y=\"7\" width=\"20\" height=\"14\" rx=\"2\"/><path d=\"M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16\"/></svg>\n                </div>\n                <h2 class=\"sol-card-title\">Explore Solutions</h2>\n              </a>\n            </div>\n          </div>\n        "}, {"num": 5, "tag": "05 CONTACT", "title": "Contact Us & Headquarters", "type": "content", "html": "\n          <div class=\"slide-contact-clean-layout\">\n            <!-- Clean Header Block -->\n            <div class=\"clean-contact-header\">\n              <h1 class=\"slide-main-heading\">CONTACT US</h1>\n              <p class=\"slide-sub-heading\">Partner with Nimit AI for intelligent, scalable vision surveillance solutions</p>\n            </div>\n\n            <!-- 4 Clean, Large, Spacious Cards -->\n            <div class=\"clean-contact-grid\">\n              <!-- Card 1: Head Office -->\n              <a href=\"https://www.google.com/maps/place/Nimit+Electronics+And+Equipment/@22.2541064,73.1770643,17z/data=!4m14!1m7!3m6!1s0x395fc58df93df51b:0x8156a02152f176f2!2sNimit+Electronics+And+Equipment!8m2!3d22.2541015!4d73.1796392!16s%2Fg%2F11h2mcb2qr!3m5!1s0x395fc58df93df51b:0x8156a02152f176f2!8m2!3d22.2541015!4d73.1796392!16s%2Fg%2F11h2mcb2qr?entry=ttu&amp;g_ep=EgoyMDI2MDkxNS4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"clean-contact-card\">\n                <div class=\"clean-contact-icon-circle icon-circle-red\">\n                  <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"><path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/></svg>\n                </div>\n                <div class=\"clean-contact-info\">\n                  <span class=\"clean-contact-label\">HEAD OFFICE</span>\n                  <span class=\"clean-contact-val hq-addr-val\">457, GIDC Makarpura, Vadodara</span>\n                  <span class=\"clean-contact-sub\">Gujarat-390010, India (View on Map \u2197)</span>\n                </div>\n              </a>\n\n              <!-- Card 2: Our Presence (Pan-India) -->\n              <div class=\"clean-contact-card\" style=\"cursor:default;\">\n                <div class=\"clean-contact-icon-circle icon-circle-blue\">\n                  <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <circle cx=\"12\" cy=\"12\" r=\"10\"/>\n                    <path d=\"M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20\"/>\n                    <path d=\"M2 12h20\"/>\n                  </svg>\n                </div>\n                <div class=\"clean-contact-info\">\n                  <span class=\"clean-contact-label\" style=\"color:var(--primary-red); font-weight:800;\">OUR PRESENCE</span>\n                  <span class=\"clean-contact-val\" style=\"font-size:clamp(0.8rem, 0.98vw, 1.02rem); font-weight:700; line-height:1.4; color:var(--slate-dark);\">\n                    Surat, Ahmedabad, Jamnagar, Kutch, Indore, Delhi, Mumbai, Bangalore, Patna, Hyderabad, Dehradun, Kanpur\n                  </span>\n                  <span class=\"clean-contact-sub\">Pan-India Deployment & Technical Support</span>\n                </div>\n              </div>\n\n              <!-- Card 3: Direct Phone / WhatsApp -->\n              <a href=\"https://wa.me/919824093685\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"clean-contact-card\">\n                <div class=\"clean-contact-icon-circle icon-circle-green\">\n                  <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"/></svg>\n                </div>\n                <div class=\"clean-contact-info\">\n                  <span class=\"clean-contact-label\">PHONE & WHATSAPP</span>\n                  <span class=\"clean-contact-val\" style=\"font-size:clamp(1rem, 1.3vw, 1.4rem);\">+91 98240 93685</span>\n                  <span class=\"clean-contact-sub\">+91 99242 98685 &nbsp;|&nbsp; +91 99251 48685</span>\n                </div>\n              </a>\n\n              <!-- Card 4: Email & Official Portal -->\n              <a href=\"https://www.nimitelectronics.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"clean-contact-card\">\n                <div class=\"clean-contact-icon-circle icon-circle-red\">\n                  <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <rect width=\"20\" height=\"16\" x=\"2\" y=\"4\" rx=\"2\"/>\n                    <path d=\"m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7\"/>\n                  </svg>\n                </div>\n                <div class=\"clean-contact-info\">\n                  <span class=\"clean-contact-label\">EMAIL & OFFICIAL PORTAL</span>\n                  <span class=\"clean-contact-val\" style=\"font-size:clamp(0.92rem, 1.2vw, 1.28rem);\">info@nimitelectronics.com</span>\n                  <span class=\"clean-contact-sub\">www.nimitelectronics.com \u2197</span>\n                </div>\n              </a>\n            </div>\n          </div>\n        "}];
+    const slides = [{ "num": 1, "tag": "01 OVERVIEW", "title": "Solution by Technology", "type": "cover", "html": "\n          <div class=\"slide-brochure-cover-layout\">\n            <img src=\"assets/NIMIT_Building.png\" alt=\"Nimit Electronics Vadodara Head Office\" class=\"cover-full-backdrop-img\">\n            <div class=\"cover-legibility-veil\"></div>\n\n            <div class=\"brochure-card-body\">\n              <div class=\"brochure-content-stage\">\n                <div class=\"brochure-headline-group\">\n                  <h1 class=\"brochure-main-title\">\n                    <span class=\"title-solution-by\">SOLUTION BY</span>\n                    <span class=\"title-technology\">TECHNOLOGY</span>\n                  </h1>\n                </div>\n\n                <!-- Mobile Centered Building Graphic Box (Between headline and link on small screens) -->\n                <div class=\"brochure-mobile-building-box\">\n                  <img src=\"assets/NIMIT_Building_mobile.png\" alt=\"Nimit Electronics Vadodara Head Office\" class=\"brochure-mobile-building-img\">\n                </div>\n\n                <!-- Sleek Website Pill Link -->\n                <div class=\"cover-card-footer\">\n                  <a href=\"https://www.nimitelectronics.com\" target=\"_blank\" class=\"footer-web-pill\">\n                    <span class=\"web-icon-orb\">\n                      <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <circle cx=\"12\" cy=\"12\" r=\"10\"></circle>\n                        <path d=\"M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20\"></path>\n                        <path d=\"M2 12h20\"></path>\n                      </svg>\n                    </span>\n                    <span class=\"web-url-text\">www.nimitelectronics.com</span>\n                    <span class=\"pill-arrow-circle\">\n                      <svg width=\"11\" height=\"11\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                        <line x1=\"7\" y1=\"17\" x2=\"17\" y2=\"7\"></line>\n                        <polyline points=\"7 7 17 7 17 17\"></polyline>\n                      </svg>\n                    </span>\n                  </a>\n                </div>\n              </div>\n            </div>\n          </div>\n         "},  {"num": 2, "tag": "02 ABOUT NIMIT", "title": "Welcome to NIMIT", "type": "welcome", "html": "\n          <div class=\"slide-welcome-layout\">\n            <div class=\"welcome-left-content\">\n              <div class=\"welcome-titles-group\">\n                <h1 class=\"welcome-main-heading\">Welcome to <span class=\"highlight-red-text\">NIMIT</span></h1>\n                <div class=\"welcome-sub-strip\">\n                  <span class=\"sub-accent-bar\"></span>\n                  <h2 class=\"welcome-sub-heading\">THINK LOCAL, ACT GLOBAL &mdash; INTELLIGENT SAFETY LEADERS</h2>\n                </div>\n              </div>\n\n              <p class=\"welcome-body-paragraph\">\n                Since 2003, Nimit has been a pioneer in advanced safety and security solutions across India. Certified under <strong>ISO 9001:2015, ISO 14001:2015, ISO 45001:2018</strong>, and <strong>CMMI Level 3</strong>, we deliver smart, scalable protection systems trusted by <strong>4,000+ clients nationwide</strong>. With <strong>nearly 300 experts</strong>, we blend innovation, integrity, and impact to provide reliable, real-time security solutions. With the evolution of intelligent cameras, we have further enhanced our systems by integrating advanced computer vision capabilities&mdash;building not just systems, but comprehensive safety ecosystems that redefine protection.\n              </p>\n\n              <!-- 4 Strategic Value Pillars (2x2 Grid) -->\n              <div class=\"welcome-pillars-grid\">\n                <div class=\"welcome-pillar-card\">\n                  <div class=\"pillar-icon-box\">\n                    <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                      <path d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"/>\n                      <polyline points=\"22 4 12 14.01 9 11.01\"/>\n                    </svg>\n                  </div>\n                  <h3 class=\"pillar-heading\">Proven Expertise</h3>\n                </div>\n\n                <div class=\"welcome-pillar-card\">\n                  <div class=\"pillar-icon-box\">\n                    <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                      <path d=\"M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44 2.5 2.5 0 0 1-2.96-3.08 3 3 0 0 1-.34-5.58 2.5 2.5 0 0 1 1.32-4.24A2.5 2.5 0 0 1 9.5 2Z\"/>\n                      <path d=\"M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44 2.5 2.5 0 0 0 2.96-3.08 3 3 0 0 0 .34-5.58 2.5 2.5 0 0 0-1.32-4.24A2.5 2.5 0 0 0 14.5 2Z\"/>\n                    </svg>\n                  </div>\n                  <h3 class=\"pillar-heading\">AI Powered Innovation</h3>\n                </div>\n\n                <div class=\"welcome-pillar-card\">\n                  <div class=\"pillar-icon-box\">\n                    <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                      <circle cx=\"18\" cy=\"5\" r=\"3\"/>\n                      <circle cx=\"6\" cy=\"12\" r=\"3\"/>\n                      <circle cx=\"18\" cy=\"19\" r=\"3\"/>\n                      <line x1=\"8.59\" y1=\"13.51\" x2=\"15.42\" y2=\"17.49\"/>\n                      <line x1=\"15.41\" y1=\"6.51\" x2=\"8.59\" y2=\"10.49\"/>\n                    </svg>\n                  </div>\n                  <h3 class=\"pillar-heading\">Tailored End-to-End Integration</h3>\n                </div>\n\n                <div class=\"welcome-pillar-card\">\n                  <div class=\"pillar-icon-box\">\n                    <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                      <polygon points=\"1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6\"/>\n                      <line x1=\"8\" y1=\"2\" x2=\"8\" y2=\"18\"/>\n                      <line x1=\"16\" y1=\"6\" x2=\"16\" y2=\"22\"/>\n                    </svg>\n                  </div>\n                  <h3 class=\"pillar-heading\">National Reach</h3>\n                </div>\n              </div>\n\n              <!-- 3 Executive Stat Badges (Shifted to Last on Page 2) -->\n              <div class=\"welcome-metrics-row\">\n                <div class=\"welcome-stat-unit\">\n                  <div class=\"welcome-stat-icon-circle\">\n                    <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"#e51924\">\n                      <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z\"/>\n                    </svg>\n                  </div>\n                  <div class=\"welcome-stat-info-col\">\n                    <span class=\"stat-number\" data-target=\"100\" data-suffix=\"+\">100+</span>\n                    <span class=\"stat-label\">Cities Nationwide</span>\n                  </div>\n                </div>\n\n                <div class=\"welcome-stat-divider\"></div>\n\n                <div class=\"welcome-stat-unit\">\n                  <div class=\"welcome-stat-icon-circle\">\n                    <svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"#e51924\">\n                      <path d=\"M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z\"/>\n                    </svg>\n                  </div>\n                  <div class=\"welcome-stat-info-col\">\n                    <span class=\"stat-number\" data-target=\"4500\" data-suffix=\"+\">4500+</span>\n                    <span class=\"stat-label\">Happy Clients</span>\n                  </div>\n                </div>\n\n                <div class=\"welcome-stat-divider\"></div>\n\n                <div class=\"welcome-stat-unit\">\n                  <div class=\"welcome-stat-icon-circle\">\n                    <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"#e51924\">\n                      <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n                    </svg>\n                  </div>\n                  <div class=\"welcome-stat-info-col\">\n                    <span class=\"stat-number\" data-target=\"9.7\" data-suffix=\"/10\">9.7/10</span>\n                    <span class=\"stat-label\">Client Reviews</span>\n                  </div>\n                </div>\n              </div>\n            </div>\n\n            <!-- Right Visual: Framed AI Command Center -->\n            <div class=\"welcome-right-image\">\n              <div class=\"welcome-photo-container\">\n                <img src=\"assets/nimit_ai_safety_leader.jpg\" alt=\"Nimit Intelligent Safety &amp; Command Center\">\n              </div>\n            </div>\n          </div>\n         "},  {"num": 3, "tag": "03 QUALITY & COMPLIANCES", "title": "Quality and Compliances", "type": "certifications", "html": "\n          <div class=\"slide-certifications-layout\">\n            <!-- Executive Section Header -->\n            <div class=\"slide-cert-header\">\n              <h1 class=\"cert-main-title\">Quality and <span class=\"highlight-red-text\">Compliances</span></h1>\n            </div>\n\n            <!-- 4 Executive Showcase Cards -->\n            <div class=\"cert-cards-grid\">\n              <!-- Card 1: QMS ISO 9001:2015 -->\n              <div class=\"cert-card-item\">\n                <div class=\"card-accent-bar\"></div>\n                \n                <div class=\"cert-stage-box\">\n                  <img src=\"assets/cert_qms.png\" alt=\"ISO 9001:2015 Quality Management Certificate - Nimit Electronics\" class=\"cert-plaque-img\">\n                </div>\n\n                <div class=\"cert-card-info\">\n                  <h3 class=\"cert-card-heading\">QMS Standard</h3>\n                  <p class=\"cert-card-desc\">Quality Management System</p>\n                </div>\n              </div>\n\n              <!-- Card 2: EMS ISO 14001:2015 -->\n              <div class=\"cert-card-item\">\n                <div class=\"card-accent-bar\"></div>\n                \n                <div class=\"cert-stage-box\">\n                  <img src=\"assets/cert_ems.png\" alt=\"ISO 14001:2015 Environmental Management Certificate - Nimit Electronics\" class=\"cert-plaque-img\">\n                </div>\n\n                <div class=\"cert-card-info\">\n                  <h3 class=\"cert-card-heading\">EMS Standard</h3>\n                  <p class=\"cert-card-desc\">Environmental Management System</p>\n                </div>\n              </div>\n\n              <!-- Card 3: OHSAS ISO 45001:2018 -->\n              <div class=\"cert-card-item\">\n                <div class=\"card-accent-bar\"></div>\n                \n                <div class=\"cert-stage-box\">\n                  <img src=\"assets/cert_ohsas.png\" alt=\"ISO 45001:2018 Occupational Health &amp; Safety Certificate - Nimit Electronics\" class=\"cert-plaque-img\">\n                </div>\n\n                <div class=\"cert-card-info\">\n                  <h3 class=\"cert-card-heading\">OHSAS Standard</h3>\n                  <p class=\"cert-card-desc\">Occupational Health &amp; Safety</p>\n                </div>\n              </div>\n\n              <!-- Card 4: CMMI Level 3 -->\n              <div class=\"cert-card-item\">\n                <div class=\"card-accent-bar\"></div>\n                \n                <div class=\"cert-stage-box\">\n                  <img src=\"assets/cert_cmmi.png\" alt=\"CMMI Maturity Level 3 Certificate - Nimit Electronics\" class=\"cert-plaque-img\">\n                </div>\n\n                <div class=\"cert-card-info\">\n                  <h3 class=\"cert-card-heading\">CMMI Level 3</h3>\n                  <p class=\"cert-card-desc\">Process &amp; Software Integration Maturity</p>\n                </div>\n              </div>\n            </div>\n          </div>\n         "},  {"num": 4, "tag": "04 SOLUTIONS", "title": "Explore Solutions & Modules", "type": "solutions_map", "html": "\n          <div class=\"slide-solutions-diagram-layout\">\n            <!-- Central Symmetrical Hub Stage -->\n            <div class=\"sol-central-hub-stage\">\n              <!-- Left Card: AI Modules (Centered) -->\n              <a href=\"modules.html\" class=\"sol-executive-card card-left\">\n                <div class=\"sol-icon-box box-red\">\n                  <svg width=\"34\" height=\"34\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/><polyline points=\"9 12 11 14 15 10\"/></svg>\n                </div>\n                <h2 class=\"sol-card-title\">Explore AI Modules</h2>\n              </a>\n\n              <!-- Center Luminous Core Hub: Showing NIMIT Logo in Center -->\n              <div class=\"sol-center-core-anchor\">\n                <svg class=\"sol-connector-rays\" viewBox=\"0 0 220 140\" preserveAspectRatio=\"none\">\n                  <line x1=\"0\" y1=\"70\" x2=\"110\" y2=\"70\" class=\"sol-ray-connector\" />\n                  <line x1=\"110\" y1=\"70\" x2=\"220\" y2=\"70\" class=\"sol-ray-connector\" />\n                </svg>\n\n                <div class=\"sol-central-core-orb\">\n                  <div class=\"sol-orb-glow\"></div>\n                  <div class=\"sol-orb-pulse\"></div>\n                  <div class=\"sol-orb-disc\">\n                    <img src=\"assets/nimit_symbol.png\" alt=\"NIMIT Logo\" class=\"sol-orb-logo-img\">\n                  </div>\n                </div>\n              </div>\n\n              <!-- Right Card: Industry Solutions (Centered) -->\n              <a href=\"solutions.html\" class=\"sol-executive-card card-right\">\n                <div class=\"sol-icon-box box-red\">\n                  <svg width=\"34\" height=\"34\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"><rect x=\"2\" y=\"7\" width=\"20\" height=\"14\" rx=\"2\"/><path d=\"M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16\"/></svg>\n                </div>\n                <h2 class=\"sol-card-title\">Explore Solutions</h2>\n              </a>\n            </div>\n          </div>\n         "},  {"num": 5, "tag": "05 CONTACT", "title": "Contact Us & Headquarters", "type": "content", "html": "\n          <div class=\"slide-contact-clean-layout\">\n            <!-- Clean Header Block -->\n            <div class=\"clean-contact-header\">\n              <h1 class=\"slide-main-heading\">CONTACT US</h1>\n              <p class=\"slide-sub-heading\">Partner with Nimit AI for intelligent, scalable vision surveillance solutions</p>\n            </div>\n\n            <!-- 4 Clean, Large, Spacious Cards -->\n            <div class=\"clean-contact-grid\">\n              <!-- Card 1: Head Office -->\n              <a href=\"https://www.google.com/maps/place/Nimit+Electronics+And+Equipment/@22.2541064,73.1770643,17z/data=!4m14!1m7!3m6!1s0x395fc58df93df51b:0x8156a02152f176f2!2sNimit+Electronics+And+Equipment!8m2!3d22.2541015!4d73.1796392!16s%2Fg%2F11h2mcb2qr!3m5!1s0x395fc58df93df51b:0x8156a02152f176f2!8m2!3d22.2541015!4d73.1796392!16s%2Fg%2F11h2mcb2qr?entry=ttu&amp;g_ep=EgoyMDI2MDkxNS4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"clean-contact-card\">\n                <div class=\"clean-contact-icon-circle icon-circle-red\">\n                  <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"><path d=\"M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z\"/><circle cx=\"12\" cy=\"10\" r=\"3\"/></svg>\n                </div>\n                <div class=\"clean-contact-info\">\n                  <span class=\"clean-contact-label\">HEAD OFFICE</span>\n                  <span class=\"clean-contact-val hq-addr-val\">457, GIDC Makarpura, Vadodara</span>\n                  <span class=\"clean-contact-sub\">Gujarat-390010, India (View on Map \u2197)</span>\n                </div>\n              </a>\n\n              <!-- Card 2: Our Presence (Pan-India) -->\n              <div class=\"clean-contact-card\" style=\"cursor:default;\">\n                <div class=\"clean-contact-icon-circle icon-circle-blue\">\n                  <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <circle cx=\"12\" cy=\"12\" r=\"10\"/>\n                    <path d=\"M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20\"/>\n                    <path d=\"M2 12h20\"/>\n                  </svg>\n                </div>\n                <div class=\"clean-contact-info\">\n                  <span class=\"clean-contact-label\" style=\"color:var(--primary-red); font-weight:800;\">OUR PRESENCE</span>\n                  <span class=\"clean-contact-val\" style=\"font-size:clamp(0.8rem, 0.98vw, 1.02rem); font-weight:700; line-height:1.4; color:var(--slate-dark);\">\n                    Surat, Ahmedabad, Jamnagar, Kutch, Indore, Delhi, Mumbai, Bangalore, Patna, Hyderabad, Dehradun, Kanpur\n                  </span>\n                  <span class=\"clean-contact-sub\">Pan-India Deployment & Technical Support</span>\n                </div>\n              </div>\n\n              <!-- Card 3: Direct Phone / WhatsApp -->\n              <a href=\"https://wa.me/919824093685\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"clean-contact-card\">\n                <div class=\"clean-contact-icon-circle icon-circle-green\">\n                  <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z\"/></svg>\n                </div>\n                <div class=\"clean-contact-info\">\n                  <span class=\"clean-contact-label\">PHONE & WHATSAPP</span>\n                  <span class=\"clean-contact-val\" style=\"font-size:clamp(1rem, 1.3vw, 1.4rem);\">+91 98240 93685</span>\n                  <span class=\"clean-contact-sub\">+91 99242 98685 &nbsp;|&nbsp; +91 99251 48685</span>\n                </div>\n              </a>\n\n              <!-- Card 4: Email & Official Portal -->\n              <a href=\"https://www.nimitelectronics.com\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"clean-contact-card\">\n                <div class=\"clean-contact-icon-circle icon-circle-red\">\n                  <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n                    <rect width=\"20\" height=\"16\" x=\"2\" y=\"4\" rx=\"2\"/>\n                    <path d=\"m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7\"/>\n                  </svg>\n                </div>\n                <div class=\"clean-contact-info\">\n                  <span class=\"clean-contact-label\">EMAIL & OFFICIAL PORTAL</span>\n                  <span class=\"clean-contact-val\" style=\"font-size:clamp(0.92rem, 1.2vw, 1.28rem);\">info@nimitelectronics.com</span>\n                  <span class=\"clean-contact-sub\">www.nimitelectronics.com \u2197</span>\n                </div>\n              </a>\n            </div>\n          </div>\n         "}];
     let currentIndex = 0;
 
     const slideStage = document.getElementById('slideStage');
@@ -2846,16 +3030,23 @@
         const rawTarget = counter.getAttribute('data-target');
         let target = 0;
         let suffix = '+';
+        let decimals = 0;
 
         if (rawTarget) {
-          target = parseInt(rawTarget, 10);
-          suffix = counter.getAttribute('data-suffix') || '+';
+          target = parseFloat(rawTarget);
+          suffix = counter.getAttribute('data-suffix') || '';
+          if (rawTarget.includes('.')) {
+            decimals = rawTarget.split('.')[1].length;
+          }
         } else {
           const text = counter.textContent.trim();
-          const match = text.match(/([0-9]+)/);
+          const match = text.match(/([0-9]+(\.[0-9]+)?)/);
           if (match) {
-            target = parseInt(match[1], 10);
+            target = parseFloat(match[1]);
             suffix = text.replace(match[1], '');
+            if (match[1].includes('.')) {
+              decimals = match[1].split('.')[1].length;
+            }
           }
         }
 
@@ -2871,18 +3062,20 @@
         function step(timestamp) {
           if (!startTimestamp) startTimestamp = timestamp;
           const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-          const currentCount = Math.floor(easeOutQuart(progress) * target);
-          
+          const currentCount = decimals > 0
+            ? (easeOutQuart(progress) * target).toFixed(decimals)
+            : Math.floor(easeOutQuart(progress) * target);
+
           counter.textContent = currentCount + suffix;
 
           if (progress < 1) {
             requestAnimationFrame(step);
           } else {
-            counter.textContent = target + suffix;
+            counter.textContent = (decimals > 0 ? target.toFixed(decimals) : target) + suffix;
           }
         }
 
-        counter.textContent = '0' + suffix;
+        counter.textContent = (decimals > 0 ? (0).toFixed(decimals) : '0') + suffix;
         requestAnimationFrame(step);
       });
     }
@@ -2896,7 +3089,7 @@
       `).join('');
     }
 
-    window.goToSlide = function(i) {
+    window.goToSlide = function (i) {
       tocModal.classList.remove('open');
       renderSlide(i);
     };
@@ -2966,19 +3159,19 @@
     const certDetailAccred = document.getElementById('certDetailAccred');
     const certDetailScope = document.getElementById('certDetailScope');
 
-    window.openCertLightbox = function(idx) {
+    window.openCertLightbox = function (idx) {
       currentCertIdx = idx;
       updateCertLightbox();
       certLightboxModal.classList.add('open');
       certLightboxModal.setAttribute('aria-hidden', 'false');
     };
 
-    window.closeCertLightbox = function() {
+    window.closeCertLightbox = function () {
       certLightboxModal.classList.remove('open');
       certLightboxModal.setAttribute('aria-hidden', 'true');
     };
 
-    window.navigateCertLightbox = function(dir) {
+    window.navigateCertLightbox = function (dir) {
       currentCertIdx = (currentCertIdx + dir + certData.length) % certData.length;
       updateCertLightbox();
     };
@@ -3134,7 +3327,7 @@
       if (window.location.hash === '#solutions' || window.location.hash === '#solution') {
         try {
           history.replaceState(null, '', window.location.pathname);
-        } catch (e) {}
+        } catch (e) { }
         return 0;
       }
 
@@ -3160,4 +3353,5 @@
     renderSlide(getInitialSlide());
   </script>
 </body>
+
 </html>
