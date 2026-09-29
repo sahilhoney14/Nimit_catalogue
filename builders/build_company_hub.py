@@ -1,6 +1,10 @@
 import json
 import os
-from PIL import Image
+try:
+    from PIL import Image
+    HAS_PIL = True
+except ImportError:
+    HAS_PIL = False
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 ROOT_DIR = os.path.dirname(SCRIPT_DIR) if os.path.basename(SCRIPT_DIR) == 'builders' else SCRIPT_DIR
@@ -8,7 +12,7 @@ ROOT_DIR = os.path.dirname(SCRIPT_DIR) if os.path.basename(SCRIPT_DIR) == 'build
 # Ensure 35% left-cropped mobile building image exists
 orig_bld_path = os.path.join(ROOT_DIR, 'assets', 'NIMIT_Building.png')
 mob_bld_path = os.path.join(ROOT_DIR, 'assets', 'NIMIT_Building_mobile.png')
-if os.path.exists(orig_bld_path):
+if HAS_PIL and os.path.exists(orig_bld_path) and not os.path.exists(mob_bld_path):
     try:
         with Image.open(orig_bld_path) as im:
             w, h = im.size
@@ -458,7 +462,7 @@ html_template = '''<!DOCTYPE html>
     }
 
     .app-screen-canvas.is-cover-slide {
-      background: #ffffff;
+      background: #e9f0f6;
     }
 
     .app-screen-canvas.is-content-slide {
@@ -803,7 +807,7 @@ html_template = '''<!DOCTYPE html>
       overflow: hidden;
       display: flex;
       align-items: center;
-      background: #ffffff;
+      background: linear-gradient(135deg, #e4edf4 0%, #e9f0f6 45%, #eff5fa 100%);
     }
 
     .cover-full-backdrop-img {
@@ -816,15 +820,27 @@ html_template = '''<!DOCTYPE html>
       object-position: right center;
       z-index: 1;
       display: block;
+      filter: brightness(0.85) contrast(0.96) saturate(1.03);
     }
 
     .cover-legibility-veil {
       position: absolute;
       top: 0;
       left: 0;
-      width: 58%;
+      width: 66%;
       height: 100%;
-      background: linear-gradient(90deg, #ffffff 0%, #ffffff 38%, rgba(255, 255, 255, 0.94) 55%, rgba(255, 255, 255, 0.6) 75%, rgba(255, 255, 255, 0) 100%);
+      background:
+        radial-gradient(ellipse at 52% 28%, rgba(135, 172, 208, 0.32) 0%, rgba(170, 202, 230, 0.16) 45%, transparent 72%),
+        linear-gradient(
+          90deg,
+          #e9f0f6 0%,
+          #e9f0f6 24%,
+          rgba(233, 240, 246, 0.96) 38%,
+          rgba(233, 240, 246, 0.84) 52%,
+          rgba(233, 240, 246, 0.55) 70%,
+          rgba(233, 240, 246, 0.22) 86%,
+          rgba(233, 240, 246, 0) 100%
+        );
       z-index: 2;
       pointer-events: none;
     }
@@ -2399,6 +2415,7 @@ html_template = '''<!DOCTYPE html>
         object-fit: cover !important;
         object-position: center center !important;
         display: block !important;
+        filter: brightness(0.85) contrast(0.96) saturate(1.03) !important;
       }
       .cover-card-footer {
         display: flex !important;

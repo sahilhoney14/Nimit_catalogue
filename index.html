@@ -82,7 +82,7 @@
     }
 
     .app-screen-canvas.is-cover-slide {
-      background: #ffffff;
+      background: #e9f0f6;
     }
 
     .app-screen-canvas.is-content-slide {
@@ -427,7 +427,7 @@
       overflow: hidden;
       display: flex;
       align-items: center;
-      background: #ffffff;
+      background: linear-gradient(135deg, #e4edf4 0%, #e9f0f6 45%, #eff5fa 100%);
     }
 
     .cover-full-backdrop-img {
@@ -440,15 +440,27 @@
       object-position: right center;
       z-index: 1;
       display: block;
+      filter: brightness(0.85) contrast(0.96) saturate(1.03);
     }
 
     .cover-legibility-veil {
       position: absolute;
       top: 0;
       left: 0;
-      width: 58%;
+      width: 66%;
       height: 100%;
-      background: linear-gradient(90deg, #ffffff 0%, #ffffff 38%, rgba(255, 255, 255, 0.94) 55%, rgba(255, 255, 255, 0.6) 75%, rgba(255, 255, 255, 0) 100%);
+      background:
+        radial-gradient(ellipse at 52% 28%, rgba(135, 172, 208, 0.32) 0%, rgba(170, 202, 230, 0.16) 45%, transparent 72%),
+        linear-gradient(
+          90deg,
+          #e9f0f6 0%,
+          #e9f0f6 24%,
+          rgba(233, 240, 246, 0.96) 38%,
+          rgba(233, 240, 246, 0.84) 52%,
+          rgba(233, 240, 246, 0.55) 70%,
+          rgba(233, 240, 246, 0.22) 86%,
+          rgba(233, 240, 246, 0) 100%
+        );
       z-index: 2;
       pointer-events: none;
     }
@@ -2093,6 +2105,7 @@
         object-fit: cover !important;
         object-position: center center !important;
         display: block !important;
+        filter: brightness(0.85) contrast(0.96) saturate(1.03) !important;
       }
 
       .cover-card-footer {
