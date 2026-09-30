@@ -1,0 +1,9 @@
+# Exclude build scripts and dev tools from Vercel deployment
+*.py
+requirements.txt
+requirements-dev.txt
+builders/
+tools/
+raw_sources/
+scratch/
+.vscode/
