@@ -1,7 +1,7 @@
 import json
 import os
 try:
-    from PIL import Image
+    from PIL import Image  # type: ignore
     HAS_PIL = True
 except ImportError:
     HAS_PIL = False
@@ -88,7 +88,7 @@ slides_data = [
               </div>
 
               <p class="welcome-body-paragraph">
-                Since 2003, Nimit has been a pioneer in advanced safety and security solutions across India. Certified under <strong>ISO 9001:2015, ISO 14001:2015, ISO 45001:2018</strong>, and <strong>CMMI Level 3</strong>, we deliver smart, scalable protection systems trusted by <strong>4,000+ clients nationwide</strong>. With <strong>nearly 300+ experts</strong>, we blend innovation, integrity, and impact to provide reliable, real-time security solutions. With the evolution of intelligent cameras, we have further enhanced our systems by integrating advanced computer vision capabilities&mdash;building not just systems, but comprehensive safety ecosystems that redefine protection.
+                Since 2003, Nimit has been a pioneer in advanced safety and security solutions across India. Certified under <strong>ISO 9001:2015, ISO 14001:2015, ISO 45001:2018</strong>, and <strong>CMMI Level 3</strong>, we deliver smart, scalable protection systems trusted by <strong>4,000+ clients nationwide</strong>. With <strong>nearly 300 experts</strong>, we blend innovation, integrity, and impact to provide reliable, real-time security solutions. With the evolution of intelligent cameras, we have further enhanced our systems by integrating advanced computer vision capabilities&mdash;building not just systems, but comprehensive safety ecosystems that redefine protection.
               </p>
 
               <!-- 4 Strategic Value Pillars (2x2 Grid) -->
@@ -156,20 +156,6 @@ slides_data = [
 
                 <div class="welcome-stat-unit">
                   <div class="welcome-stat-icon-circle">
-                    <svg width="19" height="19" viewBox="0 0 24 24" fill="#e51924">
-                      <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
-                    </svg>
-                  </div>
-                  <div class="welcome-stat-info-col">
-                    <span class="stat-number" data-target="4500" data-suffix="+">4500+</span>
-                    <span class="stat-label">Happy Clients</span>
-                  </div>
-                </div>
-
-                <div class="welcome-stat-divider"></div>
-
-                <div class="welcome-stat-unit">
-                  <div class="welcome-stat-icon-circle">
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="#e51924">
                       <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                     </svg>
@@ -177,6 +163,20 @@ slides_data = [
                   <div class="welcome-stat-info-col">
                     <span class="stat-number" data-target="9.7" data-suffix="/10">9.7/10</span>
                     <span class="stat-label">Client Reviews</span>
+                  </div>
+                </div>
+
+                <div class="welcome-stat-divider"></div>
+
+                <div class="welcome-stat-unit">
+                  <div class="welcome-stat-icon-circle">
+                    <svg width="19" height="19" viewBox="0 0 24 24" fill="#e51924">
+                      <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+                    </svg>
+                  </div>
+                  <div class="welcome-stat-info-col">
+                    <span class="stat-number" data-target="4500" data-suffix="+">4500+</span>
+                    <span class="stat-label">Happy Clients</span>
                   </div>
                 </div>
               </div>
@@ -2506,10 +2506,11 @@ html_template = '''<!DOCTYPE html>
         margin: 0.08rem 0 !important;
       }
       .welcome-metrics-row {
-        display: grid !important;
-        grid-template-columns: repeat(3, 1fr) !important;
+        display: flex !important;
+        flex-direction: row !important;
         align-items: center !important;
-        gap: 4px !important;
+        justify-content: space-between !important;
+        gap: 3px !important;
         padding: 8px 6px !important;
         border-radius: 12px !important;
         background: #ffffff !important;
@@ -2520,34 +2521,63 @@ html_template = '''<!DOCTYPE html>
       }
       .welcome-stat-unit {
         display: flex !important;
+        flex-direction: row !important;
         align-items: center !important;
         justify-content: center !important;
         gap: 5px !important;
+        flex: 1 1 0 !important;
         min-width: 0 !important;
       }
       .welcome-stat-icon-circle {
         width: 26px !important;
         height: 26px !important;
         min-width: 26px !important;
+        border-radius: 50% !important;
+        background: #fee2e2 !important;
+        border: 1.2px solid rgba(229, 25, 36, 0.2) !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-shrink: 0 !important;
       }
       .welcome-stat-icon-circle svg {
         width: 13px !important;
         height: 13px !important;
+        display: block !important;
+      }
+      .welcome-stat-info-col {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        justify-content: center !important;
+        min-width: 0 !important;
+        gap: 1px !important;
       }
       .welcome-stat-divider {
-        height: 20px !important;
+        width: 1px !important;
+        height: 22px !important;
+        background: #e2e8f0 !important;
+        flex-shrink: 0 !important;
+        margin: 0 1px !important;
       }
       .stat-number {
-        font-size: clamp(13px, 3.6vw, 16px) !important;
+        font-family: var(--font-display, 'Outfit', sans-serif) !important;
+        font-size: clamp(12.5px, 3.4vw, 15px) !important;
         font-weight: 900 !important;
         color: #0f172a !important;
         line-height: 1.1 !important;
+        text-align: left !important;
+        letter-spacing: -0.01em !important;
+        white-space: nowrap !important;
       }
       .stat-label {
-        font-size: clamp(9px, 2.3vw, 10.5px) !important;
+        font-family: var(--font-body, 'Plus Jakarta Sans', sans-serif) !important;
+        font-size: clamp(8px, 2.1vw, 9.8px) !important;
         font-weight: 700 !important;
         color: #64748b !important;
-        text-align: center !important;
+        line-height: 1.15 !important;
+        text-align: left !important;
+        white-space: nowrap !important;
       }
       .welcome-pillars-grid {
         display: grid !important;
@@ -2668,6 +2698,28 @@ html_template = '''<!DOCTYPE html>
       .welcome-photo-container {
         aspect-ratio: 16 / 9 !important;
         max-height: 175px !important;
+      }
+      .welcome-metrics-row {
+        padding: 6px 4px !important;
+        gap: 2px !important;
+      }
+      .welcome-stat-unit {
+        gap: 3.5px !important;
+      }
+      .welcome-stat-icon-circle {
+        width: 22px !important;
+        height: 22px !important;
+        min-width: 22px !important;
+      }
+      .welcome-stat-icon-circle svg {
+        width: 11px !important;
+        height: 11px !important;
+      }
+      .stat-number {
+        font-size: 11.5px !important;
+      }
+      .stat-label {
+        font-size: 8px !important;
       }
 
       /* Slide 3 Compact */

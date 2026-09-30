@@ -3273,25 +3273,48 @@ html_template = f'''<!DOCTYPE html>
         margin: 0 auto !important;
       }}
       .clean-contact-card {{
+        display: flex !important;
+        align-items: center !important;
+        gap: 0.75rem !important;
         padding: 0.75rem 0.9rem !important;
         border-radius: 12px !important;
+        background: #ffffff !important;
+        border: 1.2px solid rgba(226, 232, 240, 0.95) !important;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02) !important;
+        text-decoration: none !important;
       }}
       .clean-contact-icon-circle {{
         width: 42px !important;
         height: 42px !important;
         min-width: 42px !important;
         border-radius: 10px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-shrink: 0 !important;
+      }}
+      .clean-contact-icon-circle svg {{
+        width: 20px !important;
+        height: 20px !important;
       }}
       .clean-contact-label {{
         font-size: 0.68rem !important;
         font-weight: 800 !important;
+        letter-spacing: 0.05em !important;
+        margin-bottom: 0.1rem !important;
       }}
       .clean-contact-val {{
-        font-size: 0.96rem !important;
+        font-size: 0.95rem !important;
         font-weight: 800 !important;
+        color: #0f172a !important;
+        line-height: 1.3 !important;
+      }}
+      .clean-contact-val.hq-addr-val {{
+        font-size: 0.88rem !important;
       }}
       .clean-contact-sub {{
         font-size: 0.74rem !important;
+        color: #64748b !important;
       }}
     }}
 

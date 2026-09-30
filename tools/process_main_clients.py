@@ -9,7 +9,7 @@ sorts alphabetically A-to-Z, and saves to assets/client_logos/ and data/logo_man
 import os
 import sys
 import json
-from PIL import Image
+from PIL import Image  # type: ignore
 
 ROOT_DIR = r"c:\nimit"
 MAIN_DIR = os.path.join(ROOT_DIR, "assets", "client_logos", "main_clients")
