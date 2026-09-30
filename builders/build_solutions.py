@@ -3787,6 +3787,18 @@ html_template = f'''<!DOCTYPE html>
 
   <!-- Presentation Script -->
   <script>
+    // If page is refreshed/reloaded, redirect to Company Hub Cover Page (Slide 1)
+    (function checkRefreshRedirect() {{
+      try {{
+        const navEntries = performance.getEntriesByType ? performance.getEntriesByType('navigation') : [];
+        const isReload = (navEntries.length > 0 && navEntries[0].type === 'reload') ||
+                         (window.performance && window.performance.navigation && window.performance.navigation.type === 1);
+        if (isReload) {{
+          window.location.replace('index.html');
+        }}
+      }} catch (e) {{}}
+    }})();
+
     const slidesData = {slides_json_str};
     let currentSlide = 1;
     const totalSlides = slidesData.length;
@@ -3841,7 +3853,7 @@ html_template = f'''<!DOCTYPE html>
         window.scrollTo(0, 0);
 
         document.getElementById('currentSlideDisplay').innerText = `PAGE ${{String(pageNum).padStart(2, '0')}}`;
-        document.getElementById('btnPrev').disabled = (pageNum === 1);
+        document.getElementById('btnPrev').disabled = false;
         document.getElementById('btnNext').disabled = (pageNum === totalSlides);
 
         const progress = (pageNum / totalSlides) * 100;
@@ -3867,6 +3879,8 @@ html_template = f'''<!DOCTYPE html>
     function prevSlide() {{
       if (currentSlide > 1) {{
         goToSlide(currentSlide - 1);
+      }} else if (currentSlide === 1) {{
+        window.location.href = 'index.html#slide-4';
       }}
     }}
 

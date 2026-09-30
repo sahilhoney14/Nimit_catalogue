@@ -3591,6 +3591,19 @@ html_template = '''<!DOCTYPE html>
     animate();
 
     function getInitialSlide() {
+      // Check if page was refreshed/reloaded -> always redirect to Cover Slide 1
+      try {
+        const navEntries = performance.getEntriesByType ? performance.getEntriesByType('navigation') : [];
+        const isReload = (navEntries.length > 0 && navEntries[0].type === 'reload') ||
+                         (window.performance && window.performance.navigation && window.performance.navigation.type === 1);
+        if (isReload) {
+          try {
+            history.replaceState(null, '', window.location.pathname);
+          } catch (e) {}
+          return 0;
+        }
+      } catch (e) {}
+
       // If legacy #solutions hash is in URL, clean it so refresh stays on Cover Slide 1
       if (window.location.hash === '#solutions' || window.location.hash === '#solution') {
         try {
@@ -3605,11 +3618,21 @@ html_template = '''<!DOCTYPE html>
 
       if (hash.startsWith('#slide-')) {
         const num = parseInt(hash.replace('#slide-', ''), 10);
-        if (!isNaN(num) && num >= 1 && num <= slides.length) return num - 1;
+        if (!isNaN(num) && num >= 1 && num <= slides.length) {
+          try {
+            history.replaceState(null, '', window.location.pathname);
+          } catch (e) {}
+          return num - 1;
+        }
       }
       if (slideParam) {
         const num = parseInt(slideParam, 10);
-        if (!isNaN(num) && num >= 1 && num <= slides.length) return num - 1;
+        if (!isNaN(num) && num >= 1 && num <= slides.length) {
+          try {
+            history.replaceState(null, '', window.location.pathname);
+          } catch (e) {}
+          return num - 1;
+        }
       }
       return 0;
     }
