@@ -3730,12 +3730,14 @@ html_template = '''<!DOCTYPE html>
     }
 
     window.addEventListener('hashchange', () => {
-      renderSlide(getInitialSlide());
-    preloadAdjacentImages(getInitialSlide());
+      const hSlide = getInitialSlide();
+      renderSlide(hSlide);
+      preloadAdjacentImages(hSlide);
     });
 
-    renderSlide(getInitialSlide());
-    preloadAdjacentImages(getInitialSlide());
+    const startSlide = getInitialSlide();
+    renderSlide(startSlide);
+    preloadAdjacentImages(startSlide);
   </script>
 </body>
 </html>

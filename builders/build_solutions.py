@@ -2864,15 +2864,17 @@ html_template = f'''<!DOCTYPE html>
     .btn-float-prev,
     .btn-prev {{
       background: transparent !important;
-      color: #94a3b8 !important;
+      color: #e2e8f0 !important;
       border-color: transparent !important;
+      opacity: 1 !important;
+      cursor: pointer !important;
     }}
 
-    .btn-float-prev:hover:not(:disabled),
-    .btn-prev:hover:not(:disabled) {{
+    .btn-float-prev:hover,
+    .btn-prev:hover {{
       color: #ffffff !important;
-      background: rgba(255, 255, 255, 0.12) !important;
-      border-color: rgba(255, 255, 255, 0.15) !important;
+      background: rgba(255, 255, 255, 0.15) !important;
+      border-color: rgba(255, 255, 255, 0.18) !important;
     }}
 
     .btn-float-prev:disabled,
@@ -3856,7 +3858,7 @@ html_template = f'''<!DOCTYPE html>
 
   <!-- Floating Navigation Bar -->
   <div class="floating-book-bar floating-bottom-bar" id="floatingBottomBar">
-    <button class="nav-btn btn-float-nav btn-prev btn-float-prev" id="btnPrev" onclick="prevSlide()" title="Previous Slide (←)" disabled>
+    <button class="nav-btn btn-float-nav btn-prev btn-float-prev" id="btnPrev" onclick="prevSlide()" title="Previous Slide (←)">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
       <span>Prev</span>
     </button>
@@ -3970,7 +3972,8 @@ html_template = f'''<!DOCTYPE html>
         window.scrollTo(0, 0);
 
         document.getElementById('currentSlideDisplay').innerText = String(pageNum).padStart(2, '0');
-        document.getElementById('btnPrev').disabled = (pageNum === 1);
+        document.getElementById('btnPrev').disabled = false;
+        document.getElementById('btnPrev').title = (pageNum === 1) ? 'Go to Company Hub (Page 4)' : 'Previous Slide (←)';
         document.getElementById('btnNext').disabled = (pageNum === totalSlides);
 
         const progress = (pageNum / totalSlides) * 100;
@@ -3998,7 +4001,7 @@ html_template = f'''<!DOCTYPE html>
       if (currentSlide > 1) {{
         goToSlide(currentSlide - 1);
       }} else if (currentSlide === 1) {{
-        window.location.href = 'index.html#slide-4';
+        window.location.href = 'index.html?slide=4#slide-4';
       }}
     }}
 
