@@ -30,7 +30,7 @@ slides_data = [
         'type': 'cover',
         'html': '''
           <div class="slide-brochure-cover-layout">
-            <img src="assets/NIMIT_Building.png" alt="Nimit Electronics Vadodara Head Office" class="cover-full-backdrop-img">
+            <img src="assets/NIMIT_Building.webp" alt="Nimit Electronics Vadodara Head Office" class="cover-full-backdrop-img">
             <div class="cover-legibility-veil"></div>
 
             <div class="brochure-card-body">
@@ -44,7 +44,7 @@ slides_data = [
 
                 <!-- Mobile Centered Building Graphic Box (Between headline and link on small screens) -->
                 <div class="brochure-mobile-building-box">
-                  <img src="assets/NIMIT_Building_mobile.png" alt="Nimit Electronics Vadodara Head Office" class="brochure-mobile-building-img">
+                  <img src="assets/NIMIT_Building_mobile.webp" alt="Nimit Electronics Vadodara Head Office" class="brochure-mobile-building-img">
                 </div>
 
                 <!-- Sleek Website Pill Link -->
@@ -185,7 +185,7 @@ slides_data = [
             <!-- Right Visual: Framed AI Command Center -->
             <div class="welcome-right-image">
               <div class="welcome-photo-container">
-                <img src="assets/nimit_ai_safety_leader.jpg" alt="Nimit Intelligent Safety &amp; Command Center">
+                <img src="assets/nimit_ai_safety_leader.webp" alt="Nimit Intelligent Safety &amp; Command Center">
               </div>
             </div>
           </div>
@@ -210,7 +210,7 @@ slides_data = [
                 <div class="card-accent-bar"></div>
                 
                 <div class="cert-stage-box">
-                  <img src="assets/cert_qms.png" alt="ISO 9001:2015 Quality Management Certificate - Nimit Electronics" class="cert-plaque-img">
+                  <img src="assets/cert_qms.webp" alt="ISO 9001:2015 Quality Management Certificate - Nimit Electronics" class="cert-plaque-img">
                 </div>
 
                 <div class="cert-card-info">
@@ -224,7 +224,7 @@ slides_data = [
                 <div class="card-accent-bar"></div>
                 
                 <div class="cert-stage-box">
-                  <img src="assets/cert_ems.png" alt="ISO 14001:2015 Environmental Management Certificate - Nimit Electronics" class="cert-plaque-img">
+                  <img src="assets/cert_ems.webp" alt="ISO 14001:2015 Environmental Management Certificate - Nimit Electronics" class="cert-plaque-img">
                 </div>
 
                 <div class="cert-card-info">
@@ -238,7 +238,7 @@ slides_data = [
                 <div class="card-accent-bar"></div>
                 
                 <div class="cert-stage-box">
-                  <img src="assets/cert_ohsas.png" alt="ISO 45001:2018 Occupational Health &amp; Safety Certificate - Nimit Electronics" class="cert-plaque-img">
+                  <img src="assets/cert_ohsas.webp" alt="ISO 45001:2018 Occupational Health &amp; Safety Certificate - Nimit Electronics" class="cert-plaque-img">
                 </div>
 
                 <div class="cert-card-info">
@@ -252,7 +252,7 @@ slides_data = [
                 <div class="card-accent-bar"></div>
                 
                 <div class="cert-stage-box">
-                  <img src="assets/cert_cmmi.png" alt="CMMI Maturity Level 3 Certificate - Nimit Electronics" class="cert-plaque-img">
+                  <img src="assets/cert_cmmi.webp" alt="CMMI Maturity Level 3 Certificate - Nimit Electronics" class="cert-plaque-img">
                 </div>
 
                 <div class="cert-card-info">
@@ -292,7 +292,7 @@ slides_data = [
                   <div class="sol-orb-glow"></div>
                   <div class="sol-orb-pulse"></div>
                   <div class="sol-orb-disc">
-                    <img src="assets/nimit_symbol.png" alt="NIMIT Logo" class="sol-orb-logo-img">
+                    <img src="assets/nimit_symbol.webp" alt="NIMIT Logo" class="sol-orb-logo-img">
                   </div>
                 </div>
               </div>
@@ -3103,7 +3103,7 @@ html_template = '''<!DOCTYPE html>
       <header class="header-row">
         <!-- Logo Block linking to index.html -->
         <a href="index.html" class="brand-logo-block" title="Back to Nimit Home">
-          <img src="assets/nimitlogo.png" alt="NIMIT" class="logo-img" onerror="this.src='assets/nimit_logo.png'" />
+          <img src="assets/nimitlogo.webp" alt="NIMIT" class="logo-img" onerror="this.src='assets/nimit_logo.webp'" />
         </a>
 
         <!-- Portal Navigation Bar (Matching Solutions & Modules) -->
@@ -3195,7 +3195,7 @@ html_template = '''<!DOCTYPE html>
       <div class="cert-lightbox-body">
         <div class="cert-lightbox-img-pane">
           <button class="cert-lightbox-nav prev" onclick="navigateCertLightbox(-1)" aria-label="Previous Certificate">&#8249;</button>
-          <img id="certLightboxImg" src="assets/cert_cmmi.png" alt="Certificate Preview" class="cert-lightbox-full-img" />
+          <img id="certLightboxImg" src="assets/cert_cmmi.webp" alt="Certificate Preview" class="cert-lightbox-full-img" />
           <button class="cert-lightbox-nav next" onclick="navigateCertLightbox(1)" aria-label="Next Certificate">&#8250;</button>
         </div>
 
@@ -3385,7 +3385,7 @@ html_template = '''<!DOCTYPE html>
         certNo: 'CMMI3E65/1224',
         accred: 'UASL (United Accreditation Services Ltd) & ABIS',
         scope: 'Integration of Building Management System, Sales & Services of Electronic Security Products & Low Voltage System.',
-        img: 'assets/cert_cmmi.png'
+        img: 'assets/cert_cmmi.webp'
       },
       {
         title: 'ISO 9001:2015 (QMS)',
@@ -3394,7 +3394,7 @@ html_template = '''<!DOCTYPE html>
         certNo: 'QMS/04391/0317',
         accred: 'Quality Control Certification (UK & India) & UASL',
         scope: 'Integration of Building Management System, Sales & Services of Electronic Security Products & Low Voltage System.',
-        img: 'assets/cert_qms.png'
+        img: 'assets/cert_qms.webp'
       },
       {
         title: 'ISO 14001:2015 (EMS)',
@@ -3403,7 +3403,7 @@ html_template = '''<!DOCTYPE html>
         certNo: 'EMS/05782/0118',
         accred: 'Quality Control Certification (UK & India) & UASL',
         scope: 'Integration of Building Management System, Sales & Services of Electronic Security Products & Low Voltage System.',
-        img: 'assets/cert_ems.png'
+        img: 'assets/cert_ems.webp'
       },
       {
         title: 'ISO 45001:2018 (OHSAS)',
@@ -3412,7 +3412,7 @@ html_template = '''<!DOCTYPE html>
         certNo: 'OHSMS/020919/0221',
         accred: 'Quality Control Certification (UK & India) & UASL',
         scope: 'Integration of Building Management System, Sales & Services of Electronic Security Products & Low Voltage System.',
-        img: 'assets/cert_ohsas.png'
+        img: 'assets/cert_ohsas.webp'
       }
     ];
 

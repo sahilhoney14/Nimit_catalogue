@@ -352,7 +352,7 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
-                  <video class="brochure-video-player" src="assets/media1.mp4" controls autoplay loop playsinline></video>
+                  <video preload="metadata" class="brochure-video-player" src="assets/media1.mp4" controls autoplay loop playsinline></video>
                 </div>
               </div>
             </div>
@@ -413,7 +413,7 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
-                  <video class="brochure-video-player" src="assets/media2.mp4" controls autoplay loop playsinline></video>
+                  <video preload="metadata" class="brochure-video-player" src="assets/media2.mp4" controls autoplay loop playsinline></video>
                 </div>
               </div>
             </div>
@@ -479,7 +479,7 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
-                  <video class="brochure-video-player" src="assets/Screen Recording 2026-09-15 163024.mp4" controls autoplay loop playsinline></video>
+                  <video preload="metadata" class="brochure-video-player" src="assets/Screen Recording 2026-09-15 163024.mp4" controls autoplay loop playsinline></video>
                 </div>
               </div>
             </div>
@@ -538,7 +538,7 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
-                  <video class="brochure-video-player" src="assets/Screen Recording 2026-09-15 162207.mp4" controls autoplay loop muted playsinline></video>
+                  <video preload="metadata" class="brochure-video-player" src="assets/Screen Recording 2026-09-15 162207.mp4" controls autoplay loop muted playsinline></video>
                 </div>
               </div>
             </div>
@@ -600,7 +600,7 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
-                  <video class="brochure-video-player" src="assets/media5.mp4" controls autoplay loop playsinline></video>
+                  <video preload="metadata" class="brochure-video-player" src="assets/media5.mp4" controls autoplay loop playsinline></video>
                 </div>
               </div>
             </div>
@@ -661,7 +661,7 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
-                  <video class="brochure-video-player" src="assets/media6.mp4" controls autoplay loop playsinline></video>
+                  <video preload="metadata" class="brochure-video-player" src="assets/media6.mp4" controls autoplay loop playsinline></video>
                 </div>
               </div>
             </div>
@@ -722,7 +722,7 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
-                  <video class="brochure-video-player" src="assets/media7.mp4" controls autoplay loop playsinline></video>
+                  <video preload="metadata" class="brochure-video-player" src="assets/media7.mp4" controls autoplay loop playsinline></video>
                 </div>
               </div>
             </div>
@@ -783,7 +783,7 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
-                  <video class="brochure-video-player" src="assets/media8.mp4" controls autoplay loop playsinline></video>
+                  <video preload="metadata" class="brochure-video-player" src="assets/media8.mp4" controls autoplay loop playsinline></video>
                 </div>
               </div>
             </div>
@@ -841,7 +841,7 @@ slides_data = [
             <!-- Right Column: Skeletal Pose Visual -->
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
-                <img class="usecases-matrix-img" src="assets/image18.png" alt="Skeletal Pose Analysis" />
+                <img class="usecases-matrix-img" src="assets/image18.webp" alt="Skeletal Pose Analysis" />
               </div>
             </div>
           </div>
@@ -901,7 +901,7 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
-                  <video class="brochure-video-player" src="assets/media9.mp4" controls autoplay loop playsinline></video>
+                  <video preload="metadata" class="brochure-video-player" src="assets/media9.mp4" controls autoplay loop playsinline></video>
                 </div>
               </div>
             </div>
@@ -949,7 +949,7 @@ slides_data = [
             <!-- Right Column: Wildlife Corridor Image -->
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
-                <img class="usecases-matrix-img" src="assets/image20.jpg" alt="Wildlife Corridor Analysis" />
+                <img class="usecases-matrix-img" src="assets/image20.webp" alt="Wildlife Corridor Analysis" />
               </div>
             </div>
           </div>
@@ -3360,7 +3360,7 @@ html_template = f'''<!DOCTYPE html>
       <header class="header-row">
         <!-- Logo Block linking to index.html -->
         <a href="index.html" class="brand-logo-block" title="Back to Nimit Home">
-          <img src="assets/nimit_logo_transparent.png" alt="NIMIT" class="logo-img" onerror="this.src='assets/nimit_logo.png'" />
+          <img src="assets/nimit_logo_transparent.webp" alt="NIMIT" class="logo-img" onerror="this.src='assets/nimit_logo.webp'" />
         </a>
 
         <!-- Center Portal Navigation Links -->

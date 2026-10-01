@@ -133,7 +133,7 @@ slides_data = [
             <!-- Right Column: Smart Premises & Drone Telemetry Visual Frame -->
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
-                <img src="assets/smart_premises_visual.jpg" alt="Smart Premises AI Drone & Command Center" class="analytics-matrix-img" onerror="this.src='assets/cover_ai_neural_brain.jpg'" />
+                <img src="assets/smart_premises_visual.webp" alt="Smart Premises AI Drone & Command Center" class="analytics-matrix-img" onerror="this.src='assets/cover_ai_neural_brain.webp'" />
               </div>
             </div>
           </div>
@@ -242,7 +242,7 @@ slides_data = [
             <!-- Right Column: 12-Feed AI Vision Platform Visual -->
             <div class="usecases-right-column">
               <div class="usecases-image-frame">
-                <img src="assets/ai_vision_platform_12_cases.jpg" alt="AI Vision Platform - 12 Use Cases" class="usecases-matrix-img" onerror="this.src='assets/ai_used_cases_grid.jpg'" />
+                <img src="assets/ai_vision_platform_12_cases.webp" alt="AI Vision Platform - 12 Use Cases" class="usecases-matrix-img" onerror="this.src='assets/ai_used_cases_grid.webp'" />
               </div>
             </div>
           </div>
@@ -338,7 +338,7 @@ slides_data = [
             <!-- Right Column: Process Analytics & Thermal AI Visual Frame -->
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
-                <img src="assets/process_analytics_visual.jpg" alt="Industrial Process Analytics & Thermal AI" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.jpg'" />
+                <img src="assets/process_analytics_visual.webp" alt="Industrial Process Analytics & Thermal AI" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.webp'" />
               </div>
             </div>
           </div>
@@ -431,7 +431,7 @@ slides_data = [
             <!-- Right Column: HRMS & Biometric Facility Visual Frame -->
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
-                <img src="assets/hrms_facility_visual.jpg" alt="HRMS & Biometric Speed Gates Facility Automation" class="analytics-matrix-img" onerror="this.src='assets/cover_ai_neural_brain.jpg'" />
+                <img src="assets/hrms_facility_visual.webp" alt="HRMS & Biometric Speed Gates Facility Automation" class="analytics-matrix-img" onerror="this.src='assets/cover_ai_neural_brain.webp'" />
               </div>
             </div>
           </div>
@@ -494,7 +494,7 @@ slides_data = [
             <!-- Right Column: Gate Automation & Perimeter Visual Frame -->
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
-                <img src="assets/gate_automation_visual.jpg" alt="Gate Automation & Electric Perimeter Security" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.jpg'" />
+                <img src="assets/gate_automation_visual.webp" alt="Gate Automation & Electric Perimeter Security" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.webp'" />
               </div>
             </div>
           </div>
@@ -570,7 +570,7 @@ slides_data = [
             <!-- Right Column: Life Saving & Safety Telemetry Visual Frame -->
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
-                <img src="assets/life_saving_visual.jpg" alt="Life Saving Solution, Fire Detection & PPE Telemetry" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.jpg'" />
+                <img src="assets/life_saving_visual.webp" alt="Life Saving Solution, Fire Detection & PPE Telemetry" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.webp'" />
               </div>
             </div>
           </div>
@@ -663,7 +663,7 @@ slides_data = [
             <!-- Right Column: BMS & Smart Building Architecture Visual Frame -->
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
-                <img src="assets/bms_smart_building_visual.jpg" alt="Building Management Solution BMS Smart Building IoT" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.jpg'" />
+                <img src="assets/bms_smart_building_visual.webp" alt="Building Management Solution BMS Smart Building IoT" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.webp'" />
               </div>
             </div>
           </div>
@@ -751,7 +751,7 @@ slides_data = [
             <!-- Right Column: Digital Infrastructure & Cyber Control Visual Frame -->
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
-                <img src="assets/digital_solution_visual.jpg" alt="Integrated IT Infrastructure and Cybersecurity" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.jpg'" />
+                <img src="assets/digital_solution_visual.webp" alt="Integrated IT Infrastructure and Cybersecurity" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.webp'" />
               </div>
             </div>
           </div>
@@ -832,7 +832,7 @@ slides_data = [
             <!-- Right Column: Smart Education Campus Visual Frame -->
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
-                <img src="assets/smart_education_visual.jpg" alt="Smart Education Campus Classroom AI and Telemetry" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.jpg'" />
+                <img src="assets/smart_education_visual.webp" alt="Smart Education Campus Classroom AI and Telemetry" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.webp'" />
               </div>
             </div>
           </div>
@@ -911,7 +911,7 @@ slides_data = [
             <!-- Right Column: Mobile Surveillance & Trailer Visual Frame -->
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
-                <img src="assets/mobile_surveillance_visual.jpg" alt="Mobile Surveillance Solution MSS and Rapid Deployment Unit" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.jpg'" />
+                <img src="assets/mobile_surveillance_visual.webp" alt="Mobile Surveillance Solution MSS and Rapid Deployment Unit" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.webp'" />
               </div>
             </div>
           </div>
@@ -988,7 +988,7 @@ slides_data = [
             <!-- Right Column: Smart Traffic & Vehicle Tracking Visual Frame -->
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
-                <img src="assets/traffic_management_visual.jpg" alt="Smart Traffic and GPS Vehicle Tracking System" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.jpg'" />
+                <img src="assets/traffic_management_visual.webp" alt="Smart Traffic and GPS Vehicle Tracking System" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.webp'" />
               </div>
             </div>
           </div>
@@ -1056,7 +1056,7 @@ slides_data = [
             <!-- Right Column: Parking Structure & ANPR Visual Frame -->
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
-                <img src="assets/parking_management_visual.jpg" alt="Smart Parking Multi-Level Structure and ANPR Camera System" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.jpg'" />
+                <img src="assets/parking_management_visual.webp" alt="Smart Parking Multi-Level Structure and ANPR Camera System" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.webp'" />
               </div>
             </div>
           </div>
@@ -1124,7 +1124,7 @@ slides_data = [
             <!-- Right Column: Hospitality & Smart Facility Visual Frame -->
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
-                <img src="assets/hospitality_solution_visual.jpg" alt="Smart Facility Communication and Access Systems" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.jpg'" />
+                <img src="assets/hospitality_solution_visual.webp" alt="Smart Facility Communication and Access Systems" class="analytics-matrix-img" onerror="this.src='assets/cover_diamond_surveillance.webp'" />
               </div>
             </div>
           </div>
@@ -1281,7 +1281,7 @@ slides_data = [
             <!-- Central Showcase Stage with Team Photo -->
             <div class="core-team-showcase-stage">
               <div class="core-team-img-wrapper">
-                <img src="assets/nimit_core_team.png" alt="NIMIT Core Team" class="core-team-photo" />
+                <img src="assets/nimit_core_team.webp" alt="NIMIT Core Team" class="core-team-photo" />
               </div>
             </div>
           </div>
@@ -3703,7 +3703,7 @@ html_template = f'''<!DOCTYPE html>
       <header class="header-row">
         <!-- Logo Block linking to index.html -->
         <a href="index.html" class="brand-logo-block" title="Back to Nimit Home">
-          <img src="assets/nimit_logo_transparent.png" alt="NIMIT" class="logo-img" onerror="this.src='assets/nimit_logo.png'" />
+          <img src="assets/nimit_logo_transparent.webp" alt="NIMIT" class="logo-img" onerror="this.src='assets/nimit_logo.webp'" />
         </a>
 
         <!-- Center Portal Navigation Links -->
