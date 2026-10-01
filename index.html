@@ -318,11 +318,12 @@
     }
 
     /* =====================================================
-       3. FLOATING BOTTOM CONTROLLER
+       3. FLOATING BOTTOM CONTROLLER (UNIFIED MASTER BAR)
        ===================================================== */
-    .floating-bottom-bar {
+    .floating-bottom-bar,
+    .floating-book-bar {
       position: absolute;
-      bottom: clamp(12px, 1.8vh, 16px);
+      bottom: clamp(12px, 1.8vh, 18px);
       left: 50%;
       transform: translateX(-50%);
       z-index: 50;
@@ -330,72 +331,117 @@
       backdrop-filter: blur(14px);
       -webkit-backdrop-filter: blur(14px);
       border: 1px solid rgba(255, 255, 255, 0.15);
-      border-radius: 999px;
+      border-radius: 9999px;
       padding: 0.32rem 0.48rem;
-      display: flex;
+      display: inline-flex;
       align-items: center;
+      justify-content: center;
       gap: 0.7rem;
-      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.28);
+      white-space: nowrap !important;
+      user-select: none;
+      width: auto !important;
+      max-width: calc(100vw - 20px) !important;
     }
 
-    .btn-float-nav {
-      border: none;
-      outline: none;
-      cursor: pointer;
-      font-family: var(--font-display);
-      font-size: 0.76rem;
-      font-weight: 700;
-      padding: 0.4rem 0.9rem;
-      border-radius: 999px;
-      display: flex;
-      align-items: center;
-      gap: 0.4rem;
-      transition: all 0.2s ease;
+    .btn-float-nav,
+    .nav-btn {
+      border: 1px solid transparent !important;
+      outline: none !important;
+      cursor: pointer !important;
+      font-family: var(--font-display, inherit) !important;
+      font-size: 0.76rem !important;
+      font-weight: 700 !important;
+      padding: 0.4rem 0.9rem !important;
+      border-radius: 9999px !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      gap: 0.38rem !important;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+      white-space: nowrap !important;
+      flex-shrink: 0 !important;
+      line-height: 1 !important;
+      text-decoration: none !important;
     }
 
-    .btn-float-prev {
-      background: transparent;
-      color: #94a3b8;
+    .btn-float-prev,
+    .btn-prev {
+      background: transparent !important;
+      color: #94a3b8 !important;
+      border-color: transparent !important;
     }
 
-    .btn-float-prev:hover:not(:disabled) {
-      color: #ffffff;
-      background: rgba(255, 255, 255, 0.1);
+    .btn-float-prev:hover:not(:disabled),
+    .btn-prev:hover:not(:disabled) {
+      color: #ffffff !important;
+      background: rgba(255, 255, 255, 0.12) !important;
+      border-color: rgba(255, 255, 255, 0.15) !important;
     }
 
-    .btn-float-prev:disabled {
-      opacity: 0.3;
-      cursor: not-allowed;
+    .btn-float-prev:disabled,
+    .btn-prev:disabled {
+      color: #475569 !important;
+      opacity: 0.35 !important;
+      cursor: not-allowed !important;
+      background: transparent !important;
+      border-color: transparent !important;
     }
 
-    .btn-float-next {
-      background: var(--primary-red);
-      color: #ffffff;
-      box-shadow: 0 2px 10px rgba(229, 25, 36, 0.4);
+    .btn-float-next,
+    .btn-next {
+      background: #e51924 !important;
+      color: #ffffff !important;
+      border-color: rgba(255, 255, 255, 0.18) !important;
+      box-shadow: 0 2px 10px rgba(229, 25, 36, 0.4) !important;
     }
 
-    .btn-float-next:hover:not(:disabled) {
-      background: #c8131d;
-      transform: scale(1.02);
+    .btn-float-next:hover:not(:disabled),
+    .btn-next:hover:not(:disabled) {
+      background: #c8131d !important;
+      transform: translateY(-1px) scale(1.02) !important;
+      box-shadow: 0 4px 14px rgba(229, 25, 36, 0.5) !important;
     }
 
-    .btn-float-next:disabled {
-      opacity: 0.4;
-      cursor: not-allowed;
+    .btn-float-next:disabled,
+    .btn-next:disabled {
+      opacity: 0.35 !important;
+      cursor: not-allowed !important;
+      box-shadow: none !important;
+      transform: none !important;
     }
 
-    .float-page-indicator {
-      font-family: var(--font-mono);
-      font-size: 0.78rem;
-      font-weight: 700;
-      color: #94a3b8;
-      letter-spacing: 0.08em;
-      padding: 0 0.35rem;
+    .float-page-indicator,
+    .slide-counter-badge {
+      font-family: var(--font-mono, monospace) !important;
+      font-size: 0.78rem !important;
+      font-weight: 700 !important;
+      color: #94a3b8 !important;
+      letter-spacing: 0.08em !important;
+      padding: 0 0.35rem !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      gap: 0.32rem !important;
+      white-space: nowrap !important;
+      flex-shrink: 0 !important;
+      cursor: pointer !important;
+      user-select: none !important;
+      background: transparent !important;
+      border: none !important;
+      line-height: 1 !important;
+      transition: opacity 0.2s ease !important;
     }
 
-    .float-page-indicator span {
-      color: #ffffff;
-      font-weight: 800;
+    .float-page-indicator:hover,
+    .slide-counter-badge:hover {
+      opacity: 0.85 !important;
+    }
+
+    .float-page-indicator span,
+    .slide-counter-badge span {
+      color: #ffffff !important;
+      font-weight: 800 !important;
     }
 
     /* =====================================================
@@ -1916,44 +1962,64 @@
         display: none !important;
       }
 
-      /* Floating Bottom Controller */
-      .floating-bottom-bar {
+      /* Floating Bottom Controller (Unified Master Bar) */
+      .floating-bottom-bar,
+      .floating-book-bar {
         position: fixed !important;
         bottom: 12px !important;
         left: 50% !important;
         transform: translateX(-50%) !important;
-        padding: 0.32rem 0.65rem !important;
-        max-width: calc(100vw - 24px) !important;
+        padding: 0.28rem 0.45rem !important;
+        max-width: calc(100vw - 20px) !important;
+        width: auto !important;
         border-radius: 9999px !important;
         background: rgba(15, 23, 42, 0.94) !important;
         backdrop-filter: blur(16px) !important;
         -webkit-backdrop-filter: blur(16px) !important;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35) !important;
-        border: 1px solid rgba(255, 255, 255, 0.12) !important;
+        border: 1px solid rgba(255, 255, 255, 0.15) !important;
         z-index: 1000 !important;
-        display: flex !important;
+        display: inline-flex !important;
         align-items: center !important;
+        justify-content: center !important;
         gap: 0.45rem !important;
+        white-space: nowrap !important;
       }
-      .btn-float-nav {
-        padding: 0.42rem 0.88rem !important;
-        font-size: 0.8rem !important;
-        font-weight: 800 !important;
+      .btn-float-nav,
+      .nav-btn {
+        padding: 0.36rem 0.78rem !important;
+        font-size: 0.75rem !important;
+        font-weight: 700 !important;
         border-radius: 9999px !important;
-        gap: 0.35rem !important;
+        gap: 0.32rem !important;
+        white-space: nowrap !important;
+        flex-shrink: 0 !important;
       }
-      .btn-float-nav.btn-float-next {
+      .btn-float-nav.btn-float-next,
+      .btn-next {
         background: #e51924 !important;
         color: #ffffff !important;
-        box-shadow: 0 4px 14px rgba(229, 25, 36, 0.45) !important;
+        padding: 0.36rem 0.88rem !important;
+        box-shadow: 0 2px 10px rgba(229, 25, 36, 0.4) !important;
       }
-      .float-page-indicator {
-        font-family: var(--font-mono) !important;
-        font-size: 0.82rem !important;
-        font-weight: 800 !important;
+      .float-page-indicator,
+      .slide-counter-badge {
+        font-family: var(--font-mono, monospace) !important;
+        font-size: 0.76rem !important;
+        font-weight: 700 !important;
+        color: #94a3b8 !important;
+        letter-spacing: 0.06em !important;
+        padding: 0 0.25rem !important;
+        white-space: nowrap !important;
+        flex-shrink: 0 !important;
+        gap: 0.28rem !important;
+        background: transparent !important;
+        border: none !important;
+      }
+      .float-page-indicator span,
+      .slide-counter-badge span {
         color: #ffffff !important;
-        letter-spacing: 0.05em !important;
-        padding: 0 0.4rem !important;
+        font-weight: 800 !important;
       }
 
       /* Slide 1: Brochure Cover Mobile */
@@ -2768,17 +2834,17 @@
     </div>
 
     <!-- Floating Bottom Controller -->
-    <div class="floating-bottom-bar">
-      <button class="btn-float-nav btn-float-prev" id="btnPrev" disabled>
+    <div class="floating-bottom-bar floating-book-bar" id="floatingBottomBar">
+      <button class="btn-float-nav nav-btn btn-float-prev btn-prev" id="btnPrev" disabled title="Previous Slide (←)">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
         <span>Prev</span>
       </button>
 
-      <div class="float-page-indicator">
+      <div class="float-page-indicator slide-counter-badge" id="slideCounterBadge" onclick="openTocModalFromIndicator()" title="View Table of Contents">
         PAGE <span id="slideIndicator">01</span> / 05
       </div>
 
-      <button class="btn-float-nav btn-float-next" id="btnNext">
+      <button class="btn-float-nav nav-btn btn-float-next btn-next" id="btnNext" title="Next Slide (→)">
         <span>Next</span>
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
       </button>
@@ -2998,6 +3064,11 @@
 
     btnPrev.addEventListener('click', () => renderSlide(currentIndex - 1));
     btnNext.addEventListener('click', () => renderSlide(currentIndex + 1));
+
+    window.openTocModalFromIndicator = function() {
+      renderToc();
+      tocModal.classList.add('open');
+    };
 
     btnTocOpen.addEventListener('click', () => {
       renderToc();

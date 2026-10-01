@@ -2382,75 +2382,130 @@ html_template = f'''<!DOCTYPE html>
     }}
 
     /* =====================================================
-       3. FLOATING BOTTOM BOOK BAR & DRAWER
+       3. FLOATING BOTTOM CONTROLLER (UNIFIED MASTER BAR)
        ===================================================== */
+    .floating-bottom-bar,
     .floating-book-bar {{
-      position: fixed;
-      bottom: clamp(14px, 2.2vh, 22px);
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 100;
-      display: flex;
-      align-items: center;
-      gap: 0.45rem;
-      background: rgba(15, 23, 42, 0.88);
-      backdrop-filter: blur(14px);
-      -webkit-backdrop-filter: blur(14px);
-      padding: 0.35rem 0.5rem;
-      border-radius: 9999px;
-      border: 1px solid rgba(255, 255, 255, 0.16);
-      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25), 0 0 20px rgba(229, 25, 36, 0.15);
+      position: fixed !important;
+      bottom: clamp(12px, 1.8vh, 18px) !important;
+      left: 50% !important;
+      transform: translateX(-50%) !important;
+      z-index: 1000 !important;
+      background: rgba(15, 23, 42, 0.94) !important;
+      backdrop-filter: blur(14px) !important;
+      -webkit-backdrop-filter: blur(14px) !important;
+      border: 1px solid rgba(255, 255, 255, 0.15) !important;
+      border-radius: 9999px !important;
+      padding: 0.32rem 0.48rem !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      gap: 0.7rem !important;
+      box-shadow: 0 12px 35px rgba(0, 0, 0, 0.28) !important;
+      white-space: nowrap !important;
+      user-select: none !important;
+      width: auto !important;
+      max-width: calc(100vw - 20px) !important;
     }}
 
+    .btn-float-nav,
     .nav-btn {{
-      display: inline-flex;
-      align-items: center;
-      gap: 0.45rem;
-      background: rgba(255, 255, 255, 0.08);
-      border: 1px solid rgba(255, 255, 255, 0.14);
-      color: #ffffff;
-      padding: 0.42rem 0.9rem;
-      border-radius: 9999px;
-      font-family: var(--font-display);
-      font-size: 0.78rem;
-      font-weight: 700;
-      cursor: pointer;
-      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      border: 1px solid transparent !important;
+      outline: none !important;
+      cursor: pointer !important;
+      font-family: var(--font-display, inherit) !important;
+      font-size: 0.76rem !important;
+      font-weight: 700 !important;
+      padding: 0.4rem 0.9rem !important;
+      border-radius: 9999px !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      gap: 0.38rem !important;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+      white-space: nowrap !important;
+      flex-shrink: 0 !important;
+      line-height: 1 !important;
+      text-decoration: none !important;
     }}
 
-    .nav-btn:hover:not(:disabled) {{
-      background: var(--primary-red);
-      border-color: var(--primary-red);
-      color: #ffffff;
-      transform: translateY(-1px);
-      box-shadow: 0 4px 14px rgba(229, 25, 36, 0.4);
+    .btn-float-prev,
+    .btn-prev {{
+      background: transparent !important;
+      color: #94a3b8 !important;
+      border-color: transparent !important;
     }}
 
-    .nav-btn:disabled {{
-      opacity: 0.3;
-      cursor: not-allowed;
+    .btn-float-prev:hover:not(:disabled),
+    .btn-prev:hover:not(:disabled) {{
+      color: #ffffff !important;
+      background: rgba(255, 255, 255, 0.12) !important;
+      border-color: rgba(255, 255, 255, 0.15) !important;
     }}
 
+    .btn-float-prev:disabled,
+    .btn-prev:disabled {{
+      color: #475569 !important;
+      opacity: 0.35 !important;
+      cursor: not-allowed !important;
+      background: transparent !important;
+      border-color: transparent !important;
+    }}
+
+    .btn-float-next,
+    .btn-next {{
+      background: #e51924 !important;
+      color: #ffffff !important;
+      border-color: rgba(255, 255, 255, 0.18) !important;
+      box-shadow: 0 2px 10px rgba(229, 25, 36, 0.4) !important;
+    }}
+
+    .btn-float-next:hover:not(:disabled),
+    .btn-next:hover:not(:disabled) {{
+      background: #c8131d !important;
+      transform: translateY(-1px) scale(1.02) !important;
+      box-shadow: 0 4px 14px rgba(229, 25, 36, 0.5) !important;
+    }}
+
+    .btn-float-next:disabled,
+    .btn-next:disabled {{
+      opacity: 0.35 !important;
+      cursor: not-allowed !important;
+      box-shadow: none !important;
+      transform: none !important;
+    }}
+
+    .float-page-indicator,
     .slide-counter-badge {{
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-      padding: 0.32rem 0.85rem;
-      border-radius: 9999px;
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(255, 255, 255, 0.08);
-      color: #ffffff;
-      font-family: var(--font-mono);
-      font-size: 0.78rem;
-      font-weight: 800;
-      letter-spacing: 0.1em;
-      cursor: pointer;
-      transition: all 0.2s ease;
+      font-family: var(--font-mono, monospace) !important;
+      font-size: 0.78rem !important;
+      font-weight: 700 !important;
+      color: #94a3b8 !important;
+      letter-spacing: 0.08em !important;
+      padding: 0 0.35rem !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      gap: 0.32rem !important;
+      white-space: nowrap !important;
+      flex-shrink: 0 !important;
+      cursor: pointer !important;
+      user-select: none !important;
+      background: transparent !important;
+      border: none !important;
+      line-height: 1 !important;
+      transition: opacity 0.2s ease !important;
     }}
 
+    .float-page-indicator:hover,
     .slide-counter-badge:hover {{
-      background: rgba(255, 255, 255, 0.12);
-      border-color: rgba(255, 255, 255, 0.25);
+      opacity: 0.85 !important;
+    }}
+
+    .float-page-indicator span,
+    .slide-counter-badge span {{
+      color: #ffffff !important;
+      font-weight: 800 !important;
     }}
 
     /* Drawer Modal */
@@ -2731,44 +2786,64 @@ html_template = f'''<!DOCTYPE html>
         display: none !important;
       }}
 
-      /* Floating Bottom Controller */
+      /* Floating Bottom Controller (Unified Master Bar) */
+      .floating-bottom-bar,
       .floating-book-bar {{
         position: fixed !important;
         bottom: 12px !important;
         left: 50% !important;
         transform: translateX(-50%) !important;
-        padding: 0.32rem 0.65rem !important;
-        max-width: calc(100vw - 24px) !important;
+        padding: 0.28rem 0.45rem !important;
+        max-width: calc(100vw - 20px) !important;
+        width: auto !important;
         border-radius: 9999px !important;
         background: rgba(15, 23, 42, 0.94) !important;
         backdrop-filter: blur(16px) !important;
         -webkit-backdrop-filter: blur(16px) !important;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35) !important;
-        border: 1px solid rgba(255, 255, 255, 0.12) !important;
+        border: 1px solid rgba(255, 255, 255, 0.15) !important;
         z-index: 1000 !important;
-        display: flex !important;
+        display: inline-flex !important;
         align-items: center !important;
+        justify-content: center !important;
         gap: 0.45rem !important;
+        white-space: nowrap !important;
       }}
+      .btn-float-nav,
       .nav-btn {{
-        padding: 0.42rem 0.88rem !important;
-        font-size: 0.8rem !important;
-        font-weight: 800 !important;
+        padding: 0.36rem 0.78rem !important;
+        font-size: 0.75rem !important;
+        font-weight: 700 !important;
         border-radius: 9999px !important;
-        gap: 0.35rem !important;
+        gap: 0.32rem !important;
+        white-space: nowrap !important;
+        flex-shrink: 0 !important;
       }}
-      .nav-btn.btn-next {{
+      .btn-float-nav.btn-float-next,
+      .btn-next {{
         background: #e51924 !important;
         color: #ffffff !important;
-        box-shadow: 0 4px 14px rgba(229, 25, 36, 0.45) !important;
+        padding: 0.36rem 0.88rem !important;
+        box-shadow: 0 2px 10px rgba(229, 25, 36, 0.4) !important;
       }}
+      .float-page-indicator,
       .slide-counter-badge {{
-        font-family: var(--font-mono) !important;
-        font-size: 0.82rem !important;
-        font-weight: 800 !important;
+        font-family: var(--font-mono, monospace) !important;
+        font-size: 0.76rem !important;
+        font-weight: 700 !important;
+        color: #94a3b8 !important;
+        letter-spacing: 0.06em !important;
+        padding: 0 0.25rem !important;
+        white-space: nowrap !important;
+        flex-shrink: 0 !important;
+        gap: 0.28rem !important;
+        background: transparent !important;
+        border: none !important;
+      }}
+      .float-page-indicator span,
+      .slide-counter-badge span {{
         color: #ffffff !important;
-        letter-spacing: 0.05em !important;
-        padding: 0 0.4rem !important;
+        font-weight: 800 !important;
       }}
 
       /* 2. Slide 1 (Cover Slide) Mobile */
@@ -3408,19 +3483,17 @@ html_template = f'''<!DOCTYPE html>
   </div>
 
   <!-- Floating Navigation Bar -->
-  <div class="floating-book-bar">
-    <button class="nav-btn btn-prev" id="btnPrev" onclick="prevSlide()" title="Previous Slide (←)">
+  <div class="floating-book-bar floating-bottom-bar" id="floatingBottomBar">
+    <button class="nav-btn btn-float-nav btn-prev btn-float-prev" id="btnPrev" onclick="prevSlide()" title="Previous Slide (←)" disabled>
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
       <span>Prev</span>
     </button>
 
-    <div class="slide-counter-badge" id="slideCounterBadge" onclick="toggleSlideDrawer()" title="View Table of Contents">
-      <span id="currentSlideDisplay">PAGE 01</span>
-      <span style="opacity:0.4;">/</span>
-      <span style="opacity:0.8;">{total_count}</span>
+    <div class="slide-counter-badge float-page-indicator" id="slideCounterBadge" onclick="toggleSlideDrawer()" title="View Table of Contents">
+      PAGE <span id="currentSlideDisplay">01</span> / {total_count:02d}
     </div>
 
-    <button class="nav-btn btn-next" id="btnNext" onclick="nextSlide()" title="Next Slide (→)">
+    <button class="nav-btn btn-float-nav btn-next btn-float-next" id="btnNext" onclick="nextSlide()" title="Next Slide (→)">
       <span>Next</span>
       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
     </button>
@@ -3564,8 +3637,8 @@ html_template = f'''<!DOCTYPE html>
           }}
         }}
 
-        document.getElementById('currentSlideDisplay').innerText = `PAGE ${{String(pageNum).padStart(2, '0')}}`;
-        document.getElementById('btnPrev').disabled = false;
+        document.getElementById('currentSlideDisplay').innerText = String(pageNum).padStart(2, '0');
+        document.getElementById('btnPrev').disabled = (pageNum === 1);
         document.getElementById('btnNext').disabled = (pageNum === totalSlides);
 
         const progress = (pageNum / totalSlides) * 100;
