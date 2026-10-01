@@ -14,12 +14,10 @@ slides_data = [
         'html': '''
           <div class="slide-manifesto-layout">
             <div class="manifesto-card-stage">
-              <p class="manifesto-line-1">Presenting AI not as artificial, but as the true</p>
               <div class="manifesto-headline-box">
                 <h1 class="manifesto-line-2">ART OF <span class="highlight-red-text">INTELLIGENCE</span></h1>
                 <div class="manifesto-accent-line"></div>
               </div>
-              <p class="manifesto-line-3">Where precision meets creativity in CCTV innovation</p>
             </div>
           </div>
         '''
@@ -33,7 +31,6 @@ slides_data = [
           <div class="slide-topic-layout">
             <div class="slide-topic-header">
               <h1 class="slide-main-heading">WHY AI IN <span class="highlight-red-text">SURVEILLANCE?</span></h1>
-              <p class="slide-sub-heading">Transforming passive video recording into autonomous, real-time proactive intelligence</p>
             </div>
             <div class="slide-cards-grid-2col">
               <div class="analytics-topic-card">
@@ -85,7 +82,6 @@ slides_data = [
           <div class="slide-topic-layout" style="gap: clamp(0.55rem, 1.2vh, 1.1rem);">
             <div class="slide-topic-header">
               <h1 class="slide-main-heading">HOW DO WE <span class="highlight-red-text">SOLVE IT</span></h1>
-              <p class="slide-sub-heading">Engineered for seamless enterprise adoption with zero infrastructure disruption</p>
             </div>
 
             <!-- 6 Capability Icons Grid -->
@@ -160,7 +156,6 @@ slides_data = [
           <div class="slide-topic-layout">
             <div class="slide-topic-header">
               <h1 class="slide-main-heading">KEY <span class="highlight-red-text">FEATURES</span></h1>
-              <p class="slide-sub-heading">Cutting-edge deep learning capabilities tailored for industrial CCTV environments</p>
             </div>
             <div class="slide-cards-grid-2col">
               <div class="analytics-topic-card">
@@ -267,11 +262,6 @@ slides_data = [
         'html': '''
           <div class="slide-manifesto-layout">
             <div class="manifesto-card-stage">
-              <div class="manifesto-pill-tag">
-                <span class="manifesto-pill-dot"></span>
-                VISION ENGINE
-              </div>
-              <p class="manifesto-line-1">Nimit AI Vision Platform</p>
               <div class="manifesto-headline-box">
                 <h1 class="manifesto-line-2 vision-title-text">TURNING SURVEILLANCE<br><span class="highlight-red-text">INTO INTELLIGENCE</span></h1>
                 <div class="manifesto-accent-line"></div>
