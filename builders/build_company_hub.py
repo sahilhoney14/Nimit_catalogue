@@ -3254,6 +3254,26 @@ html_template = '''<!DOCTYPE html>
     const btnTocClose = document.getElementById('btnTocClose');
     const tocList = document.getElementById('tocList');
 
+    
+    const preloadedImages = new Set();
+    function preloadAdjacentImages(currentIdx) {
+      [currentIdx + 1, currentIdx + 2, currentIdx - 1].forEach(idx => {
+        if (idx >= 0 && idx < slides.length) {
+          const s = slides[idx];
+          if (s && s.html) {
+            const matches = [...s.html.matchAll(/src="(assets\/[^"]+\.webp)"/g)];
+            matches.forEach(m => {
+              if (!preloadedImages.has(m[1])) {
+                preloadedImages.add(m[1]);
+                const img = new Image();
+                img.src = m[1];
+              }
+            });
+          }
+        }
+      });
+    }
+
     function renderSlide(idx) {
       if (idx < 0) idx = 0;
       if (idx >= slides.length) idx = slides.length - 1;
@@ -3287,6 +3307,7 @@ html_template = '''<!DOCTYPE html>
         if (fg) fg.scrollTop = 0;
 
         animateCounters();
+        preloadAdjacentImages(currentIndex);
       }, 150);
     }
 
@@ -3639,9 +3660,11 @@ html_template = '''<!DOCTYPE html>
 
     window.addEventListener('hashchange', () => {
       renderSlide(getInitialSlide());
+    preloadAdjacentImages(getInitialSlide());
     });
 
     renderSlide(getInitialSlide());
+    preloadAdjacentImages(getInitialSlide());
   </script>
 </body>
 </html>

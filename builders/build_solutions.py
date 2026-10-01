@@ -3830,6 +3830,26 @@ html_template = f'''<!DOCTYPE html>
       }}
     }}
 
+    
+    const preloadedImages = new Set();
+    function preloadAdjacentImages(currentNum) {{
+      [currentNum + 1, currentNum + 2, currentNum - 1].forEach(num => {{
+        if (num >= 1 && num <= totalSlides) {{
+          const s = slidesData.find(x => x.num === num);
+          if (s && s.html) {{
+            const matches = [...s.html.matchAll(/src="(assets\/[^"]+\.webp)"/g)];
+            matches.forEach(m => {{
+              if (!preloadedImages.has(m[1])) {{
+                preloadedImages.add(m[1]);
+                const img = new Image();
+                img.src = m[1];
+              }}
+            }});
+          }}
+        }}
+      }});
+    }}
+
     function renderSlide(pageNum) {{
       const container = document.getElementById('slideContent');
       const canvasContainer = document.getElementById('mainCanvasContainer');
@@ -3860,6 +3880,7 @@ html_template = f'''<!DOCTYPE html>
         document.getElementById('slideProgressFill').style.width = progress + '%';
 
         isTransitioning = false;
+        preloadAdjacentImages(pageNum);
       }}, 180);
     }}
 
@@ -3936,9 +3957,15 @@ html_template = f'''<!DOCTYPE html>
       }}
     }}, {{ passive: true }});
 
-    window.addEventListener('DOMContentLoaded', () => {{
+    if (document.readyState === 'loading') {{
+      window.addEventListener('DOMContentLoaded', () => {{
+        renderSlide(1);
+        preloadAdjacentImages(1);
+      }});
+    }} else {{
       renderSlide(1);
-    }});
+      preloadAdjacentImages(1);
+    }}
 
     // 60FPS Light Theme Neural Canvas Particles (Matching AI Modules)
     const canvas = document.getElementById('neuralCanvas');

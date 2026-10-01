@@ -352,7 +352,7 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
-                  <video preload="metadata" class="brochure-video-player" src="assets/media1.mp4" controls autoplay loop playsinline></video>
+                  <video preload="metadata" class="brochure-video-player" src="assets/media1.mp4" poster="assets/poster_media1.webp" controls autoplay loop playsinline></video>
                 </div>
               </div>
             </div>
@@ -413,7 +413,7 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
-                  <video preload="metadata" class="brochure-video-player" src="assets/media2.mp4" controls autoplay loop playsinline></video>
+                  <video preload="metadata" class="brochure-video-player" src="assets/media2.mp4" poster="assets/poster_media2.webp" controls autoplay loop playsinline></video>
                 </div>
               </div>
             </div>
@@ -479,7 +479,7 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
-                  <video preload="metadata" class="brochure-video-player" src="assets/Screen Recording 2026-09-15 163024.mp4" controls autoplay loop playsinline></video>
+                  <video preload="metadata" class="brochure-video-player" src="assets/Screen Recording 2026-09-15 163024.mp4" poster="assets/poster_screen_recording_2026-09-15_163024.webp" controls autoplay loop playsinline></video>
                 </div>
               </div>
             </div>
@@ -538,7 +538,7 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
-                  <video preload="metadata" class="brochure-video-player" src="assets/Screen Recording 2026-09-15 162207.mp4" controls autoplay loop muted playsinline></video>
+                  <video preload="metadata" class="brochure-video-player" src="assets/Screen Recording 2026-09-15 162207.mp4" poster="assets/poster_screen_recording_2026-09-15_162207.webp" controls autoplay loop muted playsinline></video>
                 </div>
               </div>
             </div>
@@ -600,7 +600,7 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
-                  <video preload="metadata" class="brochure-video-player" src="assets/media5.mp4" controls autoplay loop playsinline></video>
+                  <video preload="metadata" class="brochure-video-player" src="assets/media5.mp4" poster="assets/poster_media5.webp" controls autoplay loop playsinline></video>
                 </div>
               </div>
             </div>
@@ -661,7 +661,7 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
-                  <video preload="metadata" class="brochure-video-player" src="assets/media6.mp4" controls autoplay loop playsinline></video>
+                  <video preload="metadata" class="brochure-video-player" src="assets/media6.mp4" poster="assets/poster_media6.webp" controls autoplay loop playsinline></video>
                 </div>
               </div>
             </div>
@@ -722,7 +722,7 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
-                  <video preload="metadata" class="brochure-video-player" src="assets/media7.mp4" controls autoplay loop playsinline></video>
+                  <video preload="metadata" class="brochure-video-player" src="assets/media7.mp4" poster="assets/poster_media7.webp" controls autoplay loop playsinline></video>
                 </div>
               </div>
             </div>
@@ -783,7 +783,7 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
-                  <video preload="metadata" class="brochure-video-player" src="assets/media8.mp4" controls autoplay loop playsinline></video>
+                  <video preload="metadata" class="brochure-video-player" src="assets/media8.mp4" poster="assets/poster_media8.webp" controls autoplay loop playsinline></video>
                 </div>
               </div>
             </div>
@@ -901,7 +901,7 @@ slides_data = [
             <div class="analytics-right-column">
               <div class="analytics-image-frame">
                 <div class="brochure-video-wrapper">
-                  <video preload="metadata" class="brochure-video-player" src="assets/media9.mp4" controls autoplay loop playsinline></video>
+                  <video preload="metadata" class="brochure-video-player" src="assets/media9.mp4" poster="assets/poster_media9.webp" controls autoplay loop playsinline></video>
                 </div>
               </div>
             </div>
@@ -3492,6 +3492,35 @@ html_template = f'''<!DOCTYPE html>
       }}
     }}
 
+    
+    const preloadedMedia = new Set();
+    function preloadAdjacentMedia(currentNum) {{
+      [currentNum + 1, currentNum + 2, currentNum - 1].forEach(num => {{
+        if (num >= 1 && num <= totalSlides) {{
+          const s = slidesData.find(x => x.num === num);
+          if (s && s.html) {{
+            const vMatches = [...s.html.matchAll(/src="(assets\/[^"]+\.mp4)"/g)];
+            vMatches.forEach(m => {{
+              if (!preloadedMedia.has(m[1])) {{
+                preloadedMedia.add(m[1]);
+                const v = document.createElement('video');
+                v.preload = 'auto';
+                v.src = m[1];
+              }}
+            }});
+            const pMatches = [...s.html.matchAll(/(?:poster|src)="(assets\/[^"]+\.webp)"/g)];
+            pMatches.forEach(m => {{
+              if (!preloadedMedia.has(m[1])) {{
+                preloadedMedia.add(m[1]);
+                const img = new Image();
+                img.src = m[1];
+              }}
+            }});
+          }}
+        }}
+      }});
+    }}
+
     function renderSlide(pageNum, direction = 'next') {{
       const container = document.getElementById('slideContent');
       const canvasContainer = document.getElementById('mainCanvasContainer');
@@ -3628,8 +3657,10 @@ html_template = f'''<!DOCTYPE html>
 
     document.addEventListener('DOMContentLoaded', () => {{
       renderSlide(1, 'next');
+    preloadAdjacentMedia(1);
     }});
     renderSlide(1, 'next');
+    preloadAdjacentMedia(1);
   </script>
 
   <!-- Interactive Neural Particle Engine -->

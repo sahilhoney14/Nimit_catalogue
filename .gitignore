@@ -18,14 +18,8 @@ ENV/
 *.swo
 
 # Temporary scratch media output
-scratch/precise_crops/
-scratch/clean_inspection/
-scratch/robust_crops/
-scratch/client_crops/
-scratch/all_client_logos/
-scratch/client_name_check/
-scratch/clean_cards/
-scratch/*.png
+scratch/
+
 
 # OS metadata
 .DS_Store
