@@ -242,7 +242,7 @@ slides_data = [
             <!-- Right Column: 12-Feed AI Vision Platform Visual -->
             <div class="usecases-right-column">
               <div class="usecases-image-frame">
-                <img src="assets/ai_vision_platform_12_cases.webp" alt="AI Vision Platform - 12 Use Cases" class="usecases-matrix-img" onerror="this.src='assets/ai_used_cases_grid.webp'" />
+                <img src="assets/ai_vision_platform_12_cases.webp" alt="AI Vision Platform - 12 Use Cases" class="usecases-matrix-img" />
               </div>
             </div>
           </div>

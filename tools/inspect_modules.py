@@ -11,7 +11,10 @@ for i, (tag, title) in enumerate(zip(tags, titles)):
 
 print(f"Total slides in build_catalog.py: {len(tags)}")
 
-with open('slides_data.json', 'r', encoding='utf-8') as f:
+import os
+
+data_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'data', 'slides_data.json')
+with open(data_path, 'r', encoding='utf-8') as f:
     sd = json.load(f)
 
 print(f"\nTotal slides in slides_data.json: {len(sd)}")
